@@ -10,11 +10,11 @@ c	net/minecraft/unmapped/C_0876962
 		p	2		p_2	
 	m	(Ljava/lang/String;)V	m_9828800	m_9828800	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1128759	net/minecraft/unmapped/C_1128759	
+c	net/minecraft/unmapped/C_1128759	net/minecraft/client/renderer/texture/HttpTexture	
 	f	Ljava/awt/image/BufferedImage;	f_5379823	f_5379823	
 	f	I	f_7533350	f_7533350	
 	f	I	f_2541373	f_2541373	
-	f	Z	f_3694259	f_3694259	
+	f	Z	f_3694259	uploaded	
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_8892483;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -37,7 +37,7 @@ c	net/minecraft/unmapped/C_4316830
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5553933
-	m	(Ljava/util/List;)V	m_0836169	m_0836169	
+	m	(Ljava/util/List;)V	m_0836169	addAllPendingBlockEntities	
 		p	1		p_1	
 	m	(Ljava/util/List;)V	m_3412670	m_3412670	
 		p	1		p_1	
@@ -64,7 +64,7 @@ c	net/minecraft/unmapped/C_8398976
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_3338259	m_3338259	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_8892483	net/minecraft/unmapped/C_8892483	
+c	net/minecraft/unmapped/C_8892483	net/minecraft/client/renderer/MobSkinTextureProcessor	
 	f	[I	f_6669940	f_6669940	
 	f	I	f_8004020	f_8004020	
 	f	I	f_6065467	f_6065467	
@@ -76,7 +76,7 @@ c	net/minecraft/unmapped/C_8892483	net/minecraft/unmapped/C_8892483
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIII)V	m_6157597	m_6157597	
+	m	(IIII)V	m_6157597	setNoAlpha	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

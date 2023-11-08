@@ -182,7 +182,7 @@ c	net/minecraft/unmapped/C_6382621
 c	net/minecraft/unmapped/C_6643108
 	f	I	f_0168187	f_0168187	
 c	net/minecraft/unmapped/C_6675180
-	m	(Lnet/minecraft/unmapped/C_6207273;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/unmapped/C_1678345;	m_7522149	m_7522149	
+	m	(Lnet/minecraft/unmapped/C_6207273;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/unmapped/C_1678345;	m_7522149	findAndCreatePieceFactory	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	

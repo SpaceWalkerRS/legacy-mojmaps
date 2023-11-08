@@ -8,11 +8,11 @@ c	net/minecraft/unmapped/C_1160932
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_1215554
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_9550253;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9550253;	m_2905418	m_2905418	
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_9550253;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9550253;	m_2905418	updateForEntity	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_9550253;Lnet/minecraft/unmapped/C_0539808;I)Lnet/minecraft/unmapped/C_9550253;	m_2905418		m_2905418
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_9550253;Lnet/minecraft/unmapped/C_0539808;I)Lnet/minecraft/unmapped/C_9550253;	m_2905418		updateForEntity
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -34,8 +34,8 @@ c	net/minecraft/unmapped/C_2373767
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3331146
-	f	Lnet/minecraft/unmapped/C_3331146$C_9774073;	f_7085685		f_7085685
-	f	Lnet/minecraft/unmapped/C_3331146$C_9774073;	f_3685245		f_3685245
+	f	Lnet/minecraft/unmapped/C_3331146$C_9774073;	f_7085685		PASSTHROUGH_LOAD_TASK
+	f	Lnet/minecraft/unmapped/C_3331146$C_9774073;	f_3685245		loadingTask
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;ILjava/util/EnumSet;Lnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_6638778;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -52,11 +52,11 @@ c	net/minecraft/unmapped/C_3331146
 		p	5		p_5	
 		p	6		p_6	
 		p	7		p_7	
-	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_3767424;Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_2467279		m_2467279
+	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_3767424;Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_2467279		lightChunk
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;ILjava/util/EnumSet;Lnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_6638778;Lnet/minecraft/unmapped/C_3331146$C_9774073;)Lnet/minecraft/unmapped/C_3331146;	m_4933046		m_4933046
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;ILjava/util/EnumSet;Lnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_6638778;Lnet/minecraft/unmapped/C_3331146$C_9774073;)Lnet/minecraft/unmapped/C_3331146;	m_4933046		register
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -64,7 +64,7 @@ c	net/minecraft/unmapped/C_3331146
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_0636026;)Z	m_2192189		m_2192189
+	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_0636026;)Z	m_2192189		isLighted
 		p	0			p_0
 		p	1			p_1
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;ILjava/util/EnumSet;Lnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_6638778;Lnet/minecraft/unmapped/C_3331146$C_9774073;)V	<init>		<init>
@@ -75,7 +75,7 @@ c	net/minecraft/unmapped/C_3331146
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_3767424;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_4749519		m_4749519
+	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_3767424;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_4749519		load
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -111,7 +111,7 @@ c	net/minecraft/unmapped/C_3331146
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_3331146$C_9774073		C_9774073
+c	net/minecraft/unmapped/C_3331146$C_9774073		LoadingTask
 	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_3767424;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	doWork		doWork
 		p	1			p_1
 		p	2			p_2
@@ -137,17 +137,17 @@ c	net/minecraft/unmapped/C_3674834
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_4273591
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9550253;	m_9861597	m_9861597	
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9550253;	m_9861597	resolve	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0539808;I)Lnet/minecraft/unmapped/C_9550253;	m_9861597		m_9861597
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0539808;I)Lnet/minecraft/unmapped/C_9550253;	m_9861597		resolve
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_6792903
-	m	(Lnet/minecraft/unmapped/C_7141926;)Ljava/util/concurrent/CompletableFuture;	m_2346712		m_2346712
+	m	(Lnet/minecraft/unmapped/C_7141926;)Ljava/util/concurrent/CompletableFuture;	m_2346712		scheduleChunkLoad
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_7808835;Lnet/minecraft/unmapped/C_3331146;)Ljava/util/concurrent/CompletableFuture;	m_1147311		m_1147311
+	m	(Lnet/minecraft/unmapped/C_7808835;Lnet/minecraft/unmapped/C_3331146;)Ljava/util/concurrent/CompletableFuture;	m_1147311		scheduleChunkGeneration
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_3331146;Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_7808835;Lcom/mojang/datafixers/util/Either;)Ljava/util/concurrent/CompletionStage;	m_5299742		m_5299742

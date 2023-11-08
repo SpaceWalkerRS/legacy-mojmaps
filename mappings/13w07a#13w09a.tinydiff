@@ -182,10 +182,10 @@ c	net/minecraft/unmapped/C_0304196
 	m	([Ljava/lang/Object;)Z	m_1869701		m_1869701
 		p	1			p_1
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_1315015		f_1315015
-	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_3827610		m_3827610
+	f	Z	f_1315015		forcedLoading
+	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_3827610		saveAsPassenger
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_6918799		m_6918799
+	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_6918799		isInvisibleTo
 		p	1			p_1
 c	net/minecraft/unmapped/C_0632194
 	m	([Ljava/lang/Object;)Lnet/minecraft/unmapped/C_6263676;	m_4531493		m_4531493
@@ -262,9 +262,9 @@ c	net/minecraft/unmapped/C_0640744
 	m	(Ljava/util/Map;)V	m_1280577	m_1280577	
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_2686552;	m_1973761	m_1973761	
-	m	()I	m_4617735	m_4617735	
+	m	()I	m_4617735	stitch	
 	m	()Lnet/minecraft/unmapped/C_2686552;	m_1280577		m_1280577
-	m	()V	m_4617735		m_4617735
+	m	()V	m_4617735		stitch
 c	net/minecraft/unmapped/C_0876962
 	f	Ljava/nio/ByteBuffer;	f_7798304	f_7798304	
 	f	Z	f_2480802	f_2480802	
@@ -309,9 +309,9 @@ c	net/minecraft/unmapped/C_1129365$1	1
 		p	2		p_2	
 	m	()V	run	run	
 c	net/minecraft/unmapped/C_1331819
-	f	Z	f_7400378	f_7400378	
+	f	Z	f_7400378	ambientOcclusion	
 	f	[Ljava/lang/String;	f_6809790		f_6809790
-	f	I	f_7400378		f_7400378
+	f	I	f_7400378		ambientOcclusion
 c	net/minecraft/unmapped/C_1331819$1	1	
 	f	[I	f_3530304	f_3530304	
 	m	()V	<clinit>	<clinit>	
@@ -481,12 +481,12 @@ c	net/minecraft/unmapped/C_4018501
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_4143404
-	f	Z	f_2915904		f_2915904
+	f	Z	f_2915904		seeFriendlyInvisibles
 	m	()Z	m_1979947		m_1979947
-	m	(Z)V	m_7666382		m_7666382
+	m	(Z)V	m_7666382		setAllowFriendlyFire
 		p	1			p_1
-	m	()I	m_3021576		m_3021576
-	m	(I)V	m_3165529		m_3165529
+	m	()I	m_3021576		packOptions
+	m	(I)V	m_3165529		unpackOptions
 		p	1			p_1
 c	net/minecraft/unmapped/C_4301088
 c	net/minecraft/unmapped/C_4301088$1	1	
@@ -701,9 +701,9 @@ c	net/minecraft/unmapped/C_7681142
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_7681142;	m_8579909		m_8579909
 		p	0			p_0
 c	net/minecraft/unmapped/C_7729027
-	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_9301204	m_9301204	
+	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_9301204	load	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2018497;	m_9301204		m_9301204
+	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2018497;	m_9301204		load
 		p	1			p_1
 c	net/minecraft/unmapped/C_7873567
 c	net/minecraft/unmapped/C_7873567$1	1	
@@ -758,7 +758,7 @@ c	net/minecraft/unmapped/C_8398976$1	1
 	m	()Ljava/lang/Object;	call	call	
 c	net/minecraft/unmapped/C_8475339
 	f	Z	f_0028524	f_0028524	
-	f	I	f_9125141		f_9125141
+	f	I	f_9125141		options
 c	net/minecraft/unmapped/C_8938952
 c	net/minecraft/unmapped/C_8938952$1	1	
 	f	Lnet/minecraft/unmapped/C_0759248;	f_0312439	f_0312439	
@@ -838,9 +838,9 @@ c	net/minecraft/unmapped/C_9713437
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_2686552;	m_0939230		m_0939230
 c	net/minecraft/unmapped/C_9992501
-	m	(Lnet/minecraft/unmapped/C_3292284;)V	m_7169022	m_7169022	
+	m	(Lnet/minecraft/unmapped/C_3292284;)V	m_7169022	load	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3292284;)Lnet/minecraft/unmapped/C_2018497;	m_7169022		m_7169022
+	m	(Lnet/minecraft/unmapped/C_3292284;)Lnet/minecraft/unmapped/C_2018497;	m_7169022		load
 		p	1			p_1
 c	net/minecraft/unmapped/C_0314604		net/minecraft/unmapped/C_0314604
 	f	Lnet/minecraft/unmapped/C_7458519;	f_6669128		f_6669128
@@ -955,7 +955,7 @@ c	net/minecraft/unmapped/C_2815576		net/minecraft/unmapped/C_2815576
 		p	1			p_1
 	m	(Ljava/lang/Object;)Z	m_1114828		m_1114828
 		p	1			p_1
-c	net/minecraft/unmapped/C_3478281		net/minecraft/unmapped/C_3478281
+c	net/minecraft/unmapped/C_3478281		net/minecraft/client/renderer/texture/StitcherException
 	f	Lnet/minecraft/unmapped/C_9713437;	f_1600165		f_1600165
 	m	(Lnet/minecraft/unmapped/C_9713437;)V	<init>		<init>
 		p	1			p_1

@@ -5,7 +5,7 @@ c	net/minecraft/unmapped/C_0008241
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_0634578		m_0634578
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_0634578		checkParrotSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -16,19 +16,19 @@ c	net/minecraft/unmapped/C_0083539
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_0083539$C_6967555;Lnet/minecraft/unmapped/C_5503280$C_6055071;Lnet/minecraft/unmapped/C_0083539$C_2332750;)V	m_0633723		m_0633723
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_0083539$C_6967555;Lnet/minecraft/unmapped/C_5503280$C_6055071;Lnet/minecraft/unmapped/C_0083539$C_2332750;)V	m_0633723		register
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_8832163		m_8832163
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_8832163		checkSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_0083539$C_0214701
-	f	Lnet/minecraft/unmapped/C_0083539$C_2332750;	f_2294897		f_2294897
+	f	Lnet/minecraft/unmapped/C_0083539$C_2332750;	f_2294897		predicate
 	m	(Lnet/minecraft/unmapped/C_5503280$C_6055071;Lnet/minecraft/unmapped/C_0083539$C_6967555;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -39,8 +39,8 @@ c	net/minecraft/unmapped/C_0083539$C_0214701
 	m	(Lnet/minecraft/unmapped/C_0083539$C_0214701;)Lnet/minecraft/unmapped/C_0083539$C_2332750;	m_0108443		m_0108443
 		p	0			p_0
 c	net/minecraft/unmapped/C_0083539$C_6967555
-	f	Lnet/minecraft/unmapped/C_0083539$C_6967555;	f_7952837		f_7952837
-c	net/minecraft/unmapped/C_0083539$C_2332750		C_2332750
+	f	Lnet/minecraft/unmapped/C_0083539$C_6967555;	f_7952837		NO_RESTRICTIONS
+c	net/minecraft/unmapped/C_0083539$C_2332750		SpawnPredicate
 	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	test		test
 		p	1			p_1
 		p	2			p_2
@@ -51,7 +51,7 @@ c	net/minecraft/unmapped/C_0137330
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9897887		m_9897887
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9897887		checkMagmaCubeSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -68,7 +68,7 @@ c	net/minecraft/unmapped/C_0593414
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9416597		m_9416597
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9416597		checkSlimeSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -99,11 +99,11 @@ c	net/minecraft/unmapped/C_0890491
 c	net/minecraft/unmapped/C_1006859
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_1189230	m_1189230	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_8814877;)V	m_2809021		m_2809021
+	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_8814877;)V	m_2809021		tryToGiveBirth
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_3674802;)Z	m_6393265		m_6393265
+	m	(Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_3674802;)Z	m_6393265		canReach
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_3674802;)Z	m_2262269		m_2262269
@@ -112,7 +112,7 @@ c	net/minecraft/unmapped/C_1006859
 c	net/minecraft/unmapped/C_1098427
 	f	Lnet/minecraft/unmapped/C_1098427;	f_0744050	f_0744050	
 	f	I	f_9052221	f_9052221	
-	f	I	f_5526324		f_5526324
+	f	I	f_5526324		decayPerDay
 c	net/minecraft/unmapped/C_1166271
 	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_9338628	f_9338628	
 	f	Lnet/minecraft/unmapped/C_1166271$C_6578587;	f_3474491	f_3474491	
@@ -155,7 +155,7 @@ c	net/minecraft/unmapped/C_1316134
 		p	8		p_8	
 		p	9		p_9	
 		p	10		p_10	
-	m	(II)V	m_5351683	m_5351683	
+	m	(II)V	m_5351683	setViewDistance	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_3865296;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/unmapped/C_0899004;Ljava/util/concurrent/Executor;Lnet/minecraft/unmapped/C_8679709;ILnet/minecraft/unmapped/C_9126287;Ljava/util/function/Supplier;)V	<init>		<init>
@@ -168,16 +168,16 @@ c	net/minecraft/unmapped/C_1316134
 		p	7			p_7
 		p	8			p_8
 		p	9			p_9
-	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_1245526		m_1245526
+	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_1245526		isInAccessibleChunk
 		p	1			p_1
-	m	(I)V	m_5351683		m_5351683
+	m	(I)V	m_5351683		setViewDistance
 		p	1			p_1
 c	net/minecraft/unmapped/C_1753171
 	m	()Z	m_1364793	m_1364793	
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6452397		m_6452397
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6452397		checkSliverfishSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -187,7 +187,7 @@ c	net/minecraft/unmapped/C_1925128
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2137190;)F	m_5492384		m_5492384
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1290915		m_1290915
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1290915		checkMushroomSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -195,7 +195,7 @@ c	net/minecraft/unmapped/C_1925128
 		p	4			p_4
 c	net/minecraft/unmapped/C_2441996
 c	net/minecraft/unmapped/C_2441996$C_1470089
-	f	Lnet/minecraft/unmapped/C_7345216;	f_0781972		f_0781972
+	f	Lnet/minecraft/unmapped/C_7345216;	f_0781972		collisionShape
 	m	(Lnet/minecraft/unmapped/C_7345216;Lnet/minecraft/unmapped/C_3544601$C_7482212;)Z	m_1703554	m_1703554	
 		p	0		p_0	
 		p	1		p_1	
@@ -204,15 +204,15 @@ c	net/minecraft/unmapped/C_2441996$C_1470089
 	m	(Lnet/minecraft/unmapped/C_2441996$C_1470089;)Lnet/minecraft/unmapped/C_7345216;	m_9055578		m_9055578
 		p	0			p_0
 c	net/minecraft/unmapped/C_2810918
-	m	(Lnet/minecraft/unmapped/C_3755722;I)Lnet/minecraft/unmapped/C_2454309;	m_5623488		m_5623488
+	m	(Lnet/minecraft/unmapped/C_3755722;I)Lnet/minecraft/unmapped/C_2454309;	m_5623488		removeItemType
 		p	1			p_1
 		p	2			p_2
 	m	()Ljava/lang/String;	toString		toString
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5881866		m_5881866
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5881866		moveItemToEmptySlots
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5049614		m_5049614
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5049614		moveItemToOccupiedSlotsWithSameType
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)V	m_6989615		m_6989615
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)V	m_6989615		moveItemsBetweenStacks
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_1565330		m_1565330
@@ -250,7 +250,7 @@ c	net/minecraft/unmapped/C_3447311
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_3452078		m_3452078
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_3452078		checkDolphinSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -267,7 +267,7 @@ c	net/minecraft/unmapped/C_3828683
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_5482014		m_5482014
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_5482014		checkRabbitSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -278,14 +278,14 @@ c	net/minecraft/unmapped/C_3865296
 		p	0		p_0	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3881557
-	m	(Lnet/minecraft/unmapped/C_9955562;Lnet/minecraft/unmapped/C_0561170;)Ljava/lang/String;	m_4715521		m_4715521
+	m	(Lnet/minecraft/unmapped/C_9955562;Lnet/minecraft/unmapped/C_0561170;)Ljava/lang/String;	m_4715521		createPath
 		p	0			p_0
 		p	1			p_1
-	m	(Ljava/lang/String;Ljava/net/URL;)Z	m_2460398		m_2460398
+	m	(Ljava/lang/String;Ljava/net/URL;)Z	m_2460398		isResourceUrlValid
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_3905218
-	f	Z	f_3449888		f_3449888
+	f	Z	f_3449888		canRestock
 	m	(ILnet/minecraft/unmapped/C_4674568;IIZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -299,12 +299,12 @@ c	net/minecraft/unmapped/C_3905218
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	()Z	m_7139221		m_7139221
+	m	()Z	m_7139221		canRestock
 c	net/minecraft/unmapped/C_3981729
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7081038		m_7081038
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7081038		checkOcelotSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -316,7 +316,7 @@ c	net/minecraft/unmapped/C_4281786
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_4714342		m_4714342
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_4714342		checkPigZombieSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -337,7 +337,7 @@ c	net/minecraft/unmapped/C_4634225
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9368477		m_9368477
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9368477		checkHuskSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -348,7 +348,7 @@ c	net/minecraft/unmapped/C_4649460
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1422592		m_1422592
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1422592		checkEndermiteSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -357,10 +357,10 @@ c	net/minecraft/unmapped/C_4649460
 c	net/minecraft/unmapped/C_4764327
 c	net/minecraft/unmapped/C_4764327$C_0764660
 	f	Ljava/util/List;	f_8804460	f_8804460	
-	f	Ljava/lang/String;	f_8445590		f_8445590
-	f	Z	f_4476867		f_4476867
-	f	Ljava/util/List;	f_4715834		f_4715834
-	f	Ljava/util/List;	f_5028874		f_5028874
+	f	Ljava/lang/String;	f_8445590		inventory
+	f	Z	f_4476867		wantsGolem
+	f	Ljava/util/List;	f_4715834		memories
+	f	Ljava/util/List;	f_5028874		gossips
 	m	(Ljava/util/UUID;ILjava/lang/String;Ljava/lang/String;ILnet/minecraft/unmapped/C_9373743;Lnet/minecraft/unmapped/C_2306016;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -382,7 +382,7 @@ c	net/minecraft/unmapped/C_4764327$C_0764660
 c	net/minecraft/unmapped/C_5001493
 	m	()V	m_4928105	m_4928105	
 c	net/minecraft/unmapped/C_5405916
-	m	(Lnet/minecraft/unmapped/C_5693434;Ljava/util/function/Consumer;)V	m_7472319		m_7472319
+	m	(Lnet/minecraft/unmapped/C_5693434;Ljava/util/function/Consumer;)V	m_7472319		loadRecipes
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5466985
@@ -397,7 +397,7 @@ c	net/minecraft/unmapped/C_5466985
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_5523643
-	f	Lnet/minecraft/unmapped/C_5523643;	f_4995554		f_4995554
+	f	Lnet/minecraft/unmapped/C_5523643;	f_4995554		GOLEM_LAST_SEEN
 c	net/minecraft/unmapped/C_5854077
 	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_8814877;J)Z	m_8340127		m_8340127
 		p	1			p_1
@@ -424,17 +424,17 @@ c	net/minecraft/unmapped/C_5904422
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_3828117		m_3828117
+	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_3828117		isDarkEnoughToSpawn
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_0041776		m_0041776
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_0041776		checkMonsterSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9077110		m_9077110
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_9077110		checkAnyLightMonsterSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -444,7 +444,7 @@ c	net/minecraft/unmapped/C_6182204
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6046092		m_6046092
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6046092		checkBatSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -454,7 +454,7 @@ c	net/minecraft/unmapped/C_6269816
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7990073		m_7990073
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7990073		checkGhastSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -481,16 +481,16 @@ c	net/minecraft/unmapped/C_6595028
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_7189136		m_7189136
+	m	()V	m_7189136		decay
 c	net/minecraft/unmapped/C_6595028$C_9909401
-	m	()V	m_7366941		m_7366941
-	m	()Z	m_5574233		m_5574233
-	m	(Lnet/minecraft/unmapped/C_1098427;)V	m_1253844		m_1253844
+	m	()V	m_7366941		decay
+	m	()Z	m_5574233		isEmpty
+	m	(Lnet/minecraft/unmapped/C_1098427;)V	m_1253844		makeSureValueIsntTooLowOrTooHigh
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_1098427;)V	m_0619174		m_0619174
+	m	(Lnet/minecraft/unmapped/C_1098427;)V	m_0619174		remove
 		p	1			p_1
 c	net/minecraft/unmapped/C_6631989
-	m	()Z	m_9986568		m_9986568
+	m	()Z	m_9986568		canRestock
 c	net/minecraft/unmapped/C_6792903
 	f	I	f_8865580	f_8865580	
 	m	(Lnet/minecraft/unmapped/C_3865296;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/unmapped/C_0899004;Ljava/util/concurrent/Executor;Lnet/minecraft/unmapped/C_2528621;Lnet/minecraft/unmapped/C_4983465;Lnet/minecraft/unmapped/C_8679709;Lnet/minecraft/unmapped/C_9126287;Ljava/util/function/Supplier;II)V	<init>	<init>	
@@ -506,7 +506,7 @@ c	net/minecraft/unmapped/C_6792903
 		p	10		p_10	
 		p	11		p_11	
 		p	12		p_12	
-	m	(II)V	m_0588788	m_0588788	
+	m	(II)V	m_0588788	setViewDistance	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_3865296;Ljava/io/File;Lcom/mojang/datafixers/DataFixer;Lnet/minecraft/unmapped/C_0899004;Ljava/util/concurrent/Executor;Lnet/minecraft/unmapped/C_2528621;Lnet/minecraft/unmapped/C_4983465;Lnet/minecraft/unmapped/C_8679709;Lnet/minecraft/unmapped/C_9126287;Ljava/util/function/Supplier;I)V	<init>		<init>
@@ -521,31 +521,31 @@ c	net/minecraft/unmapped/C_6792903
 		p	9			p_9
 		p	10			p_10
 		p	11			p_11
-	m	(I)V	m_0588788		m_0588788
+	m	(I)V	m_0588788		setViewDistance
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3292284;)Lnet/minecraft/unmapped/C_9681331;	m_5719069		m_5719069
+	m	(Lnet/minecraft/unmapped/C_3292284;)Lnet/minecraft/unmapped/C_9681331;	m_5719069		updatePlayerPos
 		p	1			p_1
 c	net/minecraft/unmapped/C_6815022
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2750675		m_2750675
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2750675		checkSquidSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_6916756
-	m	(Lnet/minecraft/unmapped/C_0245906;)V	m_3697433	m_3697433	
+	m	(Lnet/minecraft/unmapped/C_0245906;)V	m_3697433	releaseBuffers	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_6916756;Lnet/minecraft/unmapped/C_0245906;)V	m_2317118	m_2317118	
 		p	0		p_0	
 		p	1		p_1	
 	m	()Lorg/apache/logging/log4j/Logger;	m_2905079	m_2905079	
-	m	(Lnet/minecraft/unmapped/C_0245906;Lnet/minecraft/unmapped/C_0245906$C_2347867;)Z	m_3608875		m_3608875
+	m	(Lnet/minecraft/unmapped/C_0245906;Lnet/minecraft/unmapped/C_0245906$C_2347867;)Z	m_3608875		checkState
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_8093177;)V	m_3697433		m_3697433
+	m	(Lnet/minecraft/unmapped/C_8093177;)V	m_3697433		releaseBuffers
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6916756;Lnet/minecraft/unmapped/C_8093177;)V	m_2317118		m_2317118
 		p	0			p_0
@@ -554,7 +554,7 @@ c	net/minecraft/unmapped/C_6916756
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_6916756$1
-	f	Lnet/minecraft/unmapped/C_8093177;	f_1432432		f_1432432
+	f	Lnet/minecraft/unmapped/C_8093177;	f_1432432		val$buffers
 	m	(Lnet/minecraft/unmapped/C_6916756;Lnet/minecraft/unmapped/C_0245906;Lnet/minecraft/unmapped/C_2326439;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -565,7 +565,7 @@ c	net/minecraft/unmapped/C_6916756$1
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_7160989
-	m	(Lnet/minecraft/unmapped/C_5622853;IILnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_2275075		m_2275075
+	m	(Lnet/minecraft/unmapped/C_5622853;IILnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_2275075		getLandPosAvoid
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -602,7 +602,7 @@ c	net/minecraft/unmapped/C_7464728
 c	net/minecraft/unmapped/C_7585705
 	f	I	f_1928932	f_1928932	
 	f	I	f_6285960	f_6285960	
-	f	Lcom/google/gson/Gson;	f_3419715		f_3419715
+	f	Lcom/google/gson/Gson;	f_3419715		GSON
 	m	(Lnet/minecraft/unmapped/C_6577431;)V	m_8394980	m_8394980	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2361607;)V	m_7965780	m_7965780	
@@ -616,7 +616,7 @@ c	net/minecraft/unmapped/C_7585705
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Ljava/lang/Iterable;)V	m_4878090		m_4878090
+	m	(Ljava/lang/Iterable;)V	m_4878090		replaceRecipes
 		p	1			p_1
 	m	(Ljava/lang/Object;Lnet/minecraft/unmapped/C_6577431;Lnet/minecraft/unmapped/C_5142493;)V	m_0692734		m_0692734
 		p	1			p_1
@@ -635,28 +635,28 @@ c	net/minecraft/unmapped/C_7769942
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2045391		m_2045391
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2045391		checkStraySpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_7808835
-	m	()Ljava/util/concurrent/CompletableFuture;	m_2075996		m_2075996
+	m	()Ljava/util/concurrent/CompletableFuture;	m_2075996		getFullChunkFuture
 c	net/minecraft/unmapped/C_7920264
-	f	Ljava/util/List;	f_9691303		f_9691303
+	f	Ljava/util/List;	f_9691303		validFarmlandAroundVillager
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_9297772	m_9297772	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_3674802;)Z	m_0759581	m_0759581	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_3865296;)Lnet/minecraft/unmapped/C_3674802;	m_2753296		m_2753296
+	m	(Lnet/minecraft/unmapped/C_3865296;)Lnet/minecraft/unmapped/C_3674802;	m_2753296		getValidFarmland
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3865296;)Z	m_2209802		m_2209802
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3865296;)Z	m_2209802		validPos
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7931345
-	m	(Lnet/minecraft/unmapped/C_7345216;Lnet/minecraft/unmapped/C_7345216;)Z	m_0958666		m_0958666
+	m	(Lnet/minecraft/unmapped/C_7345216;Lnet/minecraft/unmapped/C_7345216;)Z	m_0958666		faceShapeOccludes
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_8099772
@@ -664,14 +664,14 @@ c	net/minecraft/unmapped/C_8099772
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2372403		m_2372403
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_2372403		checkMobSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_8116862
-	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_6589981	m_6589981	
+	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_6589981	isCloseToEntityThatHurtMe	
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_6607881;)Z	m_3128005	m_3128005	
 		p	0		p_0	
@@ -680,7 +680,7 @@ c	net/minecraft/unmapped/C_8116862
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_8814877;)Z	m_6589981		m_6589981
+	m	(Lnet/minecraft/unmapped/C_8814877;)Z	m_6589981		isCloseToEntityThatHurtMe
 		p	0			p_0
 	m	(Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_6607881;)Z	m_3128005		m_3128005
 		p	0			p_0
@@ -690,7 +690,7 @@ c	net/minecraft/unmapped/C_8253973
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_8490700		m_8490700
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_8490700		checkAnimalSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -705,7 +705,7 @@ c	net/minecraft/unmapped/C_8365102
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_4420983		m_4420983
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_4420983		checkGuardianSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -715,7 +715,7 @@ c	net/minecraft/unmapped/C_8474433
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6386079		m_6386079
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_6386079		checkFishSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -725,7 +725,7 @@ c	net/minecraft/unmapped/C_8528326
 	m	(Lnet/minecraft/unmapped/C_9086953;)V	m_9607822	m_9607822	
 		p	1		p_1	
 	m	()V	m_5219131	m_5219131	
-	m	(Ljava/util/Map;)V	m_8314295		m_8314295
+	m	(Ljava/util/Map;)V	m_8314295		replace
 		p	1			p_1
 	m	(Ljava/util/Map;Lnet/minecraft/unmapped/C_0561170;Lnet/minecraft/unmapped/C_9086953$C_5115864;)V	m_8341386		m_8341386
 		p	0			p_0
@@ -735,8 +735,8 @@ c	net/minecraft/unmapped/C_8528326
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8549158
-	f	I	f_2659701		f_2659701
-	f	I	f_0997441		f_0997441
+	f	I	f_2659701		maxXyDist
+	f	I	f_0997441		maxYDist
 	m	(FII)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -745,7 +745,7 @@ c	net/minecraft/unmapped/C_8740610
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1224599		m_1224599
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_1224599		checkPolarBearSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -754,7 +754,7 @@ c	net/minecraft/unmapped/C_8740610
 c	net/minecraft/unmapped/C_8814877
 	f	Ljava/util/UUID;	f_9184816	f_9184816	
 	f	J	f_1225919	f_1225919	
-	f	J	f_2657497		f_2657497
+	f	J	f_2657497		lastGossipDecayTime
 	m	()V	m_8575550	m_8575550	
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_2947388	m_2947388	
 		p	1		p_1	
@@ -767,21 +767,21 @@ c	net/minecraft/unmapped/C_8814877
 	m	(Lnet/minecraft/unmapped/C_1098427;)Z	m_8524014	m_8524014	
 		p	0		p_0	
 	m	()Z	m_9986568		m_9986568
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_9955450		m_9955450
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_9955450		tellWitnessesThatIWasMurdered
 		p	1			p_1
-	m	()Z	m_8301671		m_8301671
-	m	()V	m_5946931		m_5946931
-	m	()V	m_1391650		m_1391650
-	m	()V	m_4154546		m_4154546
-	m	(JIZ)V	m_6840446		m_6840446
+	m	()Z	m_8301671		hungry
+	m	()V	m_5946931		eatAndDigestFood
+	m	()V	m_1391650		makeBread
+	m	()V	m_4154546		maybeDecayGossip
+	m	(JIZ)V	m_6840446		spawnGolemIfNeeded
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
-	m	(J)V	m_1674032		m_1674032
+	m	(J)V	m_1674032		sawGolem
 		p	1			p_1
-	m	(J)Z	m_1808415		m_1808415
+	m	(J)Z	m_1808415		hasSeenGolemRecently
 		p	1			p_1
-	m	(J)Z	m_9205753		m_9205753
+	m	(J)Z	m_9205753		wantsToSpawnGolem
 		p	1			p_1
 	m	(JLnet/minecraft/unmapped/C_8814877;)V	m_1271981		m_1271981
 		p	0			p_0
@@ -813,29 +813,29 @@ c	net/minecraft/unmapped/C_8938952
 	f	Ljava/lang/String;	f_8693943	f_8693943	
 	f	Ljava/lang/String;	f_1055068	f_1055068	
 	f	Ljava/lang/String;	f_6145330	f_6145330	
-	f	Lnet/minecraft/unmapped/C_8938952$C_7113161;	f_1527794		f_1527794
+	f	Lnet/minecraft/unmapped/C_8938952$C_7113161;	f_1527794		warningMessage
 	m	(Z)V	m_0102275	m_0102275	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_8938952$C_7113161		C_7113161
-	f	I	f_9930014		f_9930014
-	f	I	f_7140024		f_7140024
-	f	I	f_1275459		f_1275459
-	f	I	f_3103344		f_3103344
-	f	I	f_9459196		f_9459196
-	f	Lnet/minecraft/unmapped/C_9550253;	f_0599123		f_0599123
-	f	Lnet/minecraft/unmapped/C_9550253;	f_1243900		f_1243900
-	f	Ljava/lang/String;	f_5128453		f_5128453
+c	net/minecraft/unmapped/C_8938952$C_7113161		WarningMessageWidget
+	f	I	f_9930014		warningClickWidth
+	f	I	f_7140024		warningx0
+	f	I	f_1275459		warningy0
+	f	I	f_3103344		warningx1
+	f	I	f_9459196		warningy1
+	f	Lnet/minecraft/unmapped/C_9550253;	f_0599123		warningMessageTop
+	f	Lnet/minecraft/unmapped/C_9550253;	f_1243900		warningMessageBottom
+	f	Ljava/lang/String;	f_5128453		warningMessageUrl
 	f	Lnet/minecraft/unmapped/C_8938952;	f_0180150		f_0180150
 	m	(Lnet/minecraft/unmapped/C_8938952;Lnet/minecraft/unmapped/C_9550253;Lnet/minecraft/unmapped/C_9550253;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(I)V	m_5246958		m_5246958
+	m	(I)V	m_5246958		updatePosition
 		p	1			p_1
-	m	(I)V	m_0123349		m_0123349
+	m	(I)V	m_0123349		render
 		p	1			p_1
-	m	(DD)Z	m_4781421		m_4781421
+	m	(DD)Z	m_4781421		mouseClicked
 		p	1			p_1
 		p	3			p_3
 	m	(Z)V	m_2061147		m_2061147
@@ -845,10 +845,10 @@ c	net/minecraft/unmapped/C_9086953$C_5115864
 	m	(Ljava/util/Collection;)Lnet/minecraft/unmapped/C_9086953$C_5115864;	m_2392176	m_2392176	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9098768
-	f	Z	f_0176043		f_0176043
-	m	(Z)V	m_0819059		m_0819059
+	f	Z	f_0176043		canRestock
+	m	(Z)V	m_0819059		setCanRestock
 		p	1			p_1
-	m	()Z	m_2134084		m_2134084
+	m	()Z	m_2134084		canRestock
 c	net/minecraft/unmapped/C_9153818
 	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_8814877;Lnet/minecraft/unmapped/C_9009409;Lnet/minecraft/unmapped/C_9000156;)V	m_9018590	m_9018590	
 		p	1		p_1	
@@ -873,33 +873,33 @@ c	net/minecraft/unmapped/C_9344854
 		p	2		p_2	
 		p	3		p_3	
 	m	()Z	m_0230448	m_0230448	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7518489		m_7518489
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_7518489		checkDrownedSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_3674802;)Z	m_0129910		m_0129910
+	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_3674802;)Z	m_0129910		isDeepEnoughToSpawn
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_9378896
 	m	(Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;)Z	m_2364728	m_2364728	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_5952009		m_5952009
+	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_9844932;Lnet/minecraft/unmapped/C_6558498;Lnet/minecraft/unmapped/C_3674802;Ljava/util/Random;)Z	m_5952009		checkTurtleSpawnRules
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_9590849
-	m	(ILnet/minecraft/unmapped/C_4674568;IIZ)V	m_8924991	m_8924991	
+	m	(ILnet/minecraft/unmapped/C_4674568;IIZ)V	m_8924991	sendMerchantOffers	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(ILnet/minecraft/unmapped/C_4674568;IIZZ)V	m_8924991		m_8924991
+	m	(ILnet/minecraft/unmapped/C_4674568;IIZZ)V	m_8924991		sendMerchantOffers
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -907,25 +907,25 @@ c	net/minecraft/unmapped/C_9590849
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_9625670
-	f	Lnet/minecraft/unmapped/C_9625670;	f_2786363		f_2786363
+	f	Lnet/minecraft/unmapped/C_9625670;	f_2786363		GOLEM_LAST_SEEN_TIME
 c	net/minecraft/unmapped/C_9800569
-	m	(JLjava/util/concurrent/atomic/AtomicInteger;)Lnet/minecraft/unmapped/C_7345216;	m_5777066	m_5777066	
+	m	(JLjava/util/concurrent/atomic/AtomicInteger;)Lnet/minecraft/unmapped/C_7345216;	m_5777066	getStateAndOpacity	
 		p	1		p_1	
 		p	3		p_3	
-	m	(JLjava/util/concurrent/atomic/AtomicInteger;)Lnet/minecraft/unmapped/C_2441996;	m_5777066		m_5777066
+	m	(JLjava/util/concurrent/atomic/AtomicInteger;)Lnet/minecraft/unmapped/C_2441996;	m_5777066		getStateAndOpacity
 		p	1			p_1
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_2441996;JLnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_7345216;	m_1284750		m_1284750
+	m	(Lnet/minecraft/unmapped/C_2441996;JLnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_7345216;	m_1284750		getShape
 		p	1			p_1
 		p	2			p_2
 		p	4			p_4
 c	net/minecraft/unmapped/C_9992501
-	m	(II)V	m_2053465	m_2053465	
+	m	(II)V	m_2053465	setViewDistance	
 		p	1		p_1	
 		p	2		p_2	
-	m	(I)V	m_2053465		m_2053465
+	m	(I)V	m_2053465		setViewDistance
 		p	1			p_1
-c	net/minecraft/unmapped/C_1268679		net/minecraft/unmapped/C_1268679
+c	net/minecraft/unmapped/C_1268679		net/minecraft/world/entity/ai/sensing/GolemSensor
 	m	()V	<init>		<init>
 	m	(I)V	<init>		<init>
 		p	1			p_1
@@ -933,16 +933,16 @@ c	net/minecraft/unmapped/C_1268679		net/minecraft/unmapped/C_1268679
 		p	1			p_1
 		p	2			p_2
 	m	()Ljava/util/Set;	m_1475431		m_1475431
-	m	(JLnet/minecraft/unmapped/C_6607881;)V	m_0707921		m_0707921
+	m	(JLnet/minecraft/unmapped/C_6607881;)V	m_0707921		checkForNearbyGolem
 		p	0			p_0
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_9998925		m_9998925
 		p	0			p_0
-c	net/minecraft/unmapped/C_2393756		net/minecraft/unmapped/C_2393756
-	f	Lorg/apache/logging/log4j/Logger;	f_1939476		f_1939476
-	f	I	f_9604635		f_9604635
-	f	Lcom/google/gson/Gson;	f_6602985		f_6602985
-	f	Ljava/lang/String;	f_1204121		f_1204121
+c	net/minecraft/unmapped/C_2393756		net/minecraft/server/packs/resources/SimpleJsonResourceReloadListener
+	f	Lorg/apache/logging/log4j/Logger;	f_1939476		LOGGER
+	f	I	f_9604635		PATH_SUFFIX_LENGTH
+	f	Lcom/google/gson/Gson;	f_6602985		gson
+	f	Ljava/lang/String;	f_1204121		directory
 	m	(Lcom/google/gson/Gson;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2

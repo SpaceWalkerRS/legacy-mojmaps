@@ -23,11 +23,11 @@ c	net/minecraft/unmapped/C_9148840
 	m	()Ljava/util/List;	m_8746735		m_8746735
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_9156763
-	m	(Lnet/minecraft/server/MinecraftServer;[Ljava/lang/String;Lcom/mojang/authlib/ProfileLookupCallback;)V	m_2656441	m_2656441	
+	m	(Lnet/minecraft/server/MinecraftServer;[Ljava/lang/String;Lcom/mojang/authlib/ProfileLookupCallback;)V	m_2656441	lookupPlayers	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/server/MinecraftServer;Ljava/util/Collection;Lcom/mojang/authlib/ProfileLookupCallback;)V	m_2656441		m_2656441
+	m	(Lnet/minecraft/server/MinecraftServer;Ljava/util/Collection;Lcom/mojang/authlib/ProfileLookupCallback;)V	m_2656441		lookupPlayers
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

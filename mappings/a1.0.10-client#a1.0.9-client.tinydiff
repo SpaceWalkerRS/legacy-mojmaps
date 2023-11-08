@@ -1,7 +1,7 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0042939	net/minecraft/unmapped/C_0042939	
-	f	I	f_1161819	f_1161819	
-	f	I	f_1228968	f_1228968	
+c	net/minecraft/unmapped/C_0042939	net/minecraft/network/protocol/game/ClientboundTakeItemEntityPacket	
+	f	I	f_1161819	itemId	
+	f	I	f_1228968	playerId	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/DataInputStream;)V	m_4792371	m_4792371	
 		p	1		p_1	
@@ -9,8 +9,8 @@ c	net/minecraft/unmapped/C_0042939	net/minecraft/unmapped/C_0042939
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666	m_7216666	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_0332750	net/minecraft/unmapped/C_0332750	
-	f	Ljava/lang/String;	f_7210216	f_7210216	
+c	net/minecraft/unmapped/C_0332750	net/minecraft/network/protocol/game/ClientboundChatPacket	
+	f	Ljava/lang/String;	f_7210216	message	
 	m	()V	<init>	<init>	
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
@@ -42,10 +42,10 @@ c	net/minecraft/unmapped/C_3435613
 	f	I	f_6295747	f_6295747	
 c	net/minecraft/unmapped/C_3831727
 	f	Ljava/lang/String;	f_8793838		f_8793838
-c	net/minecraft/unmapped/C_4320303	net/minecraft/unmapped/C_4320303	
-	f	I	f_8128619	f_8128619	
-	f	I	f_9907227	f_9907227	
-	f	I	f_8151759	f_8151759	
+c	net/minecraft/unmapped/C_4320303	net/minecraft/network/protocol/game/ClientboundContainerSetDataPacket	
+	f	I	f_8128619	containerId	
+	f	I	f_9907227	id	
+	f	I	f_8151759	value	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/DataInputStream;)V	m_4792371	m_4792371	
 		p	1		p_1	
@@ -94,7 +94,7 @@ c	net/minecraft/unmapped/C_6013256
 		p	1		p_1	
 c	net/minecraft/unmapped/C_6849228
 	m	()V	m_0132610	m_0132610	
-c	net/minecraft/unmapped/C_7056743	net/minecraft/unmapped/C_7056743	
+c	net/minecraft/unmapped/C_7056743	net/minecraft/client/gui/screens/DirectJoinServerScreen	
 	f	Lnet/minecraft/unmapped/C_3020744;	f_2239583	f_2239583	
 	f	I	f_5282305	f_5282305	
 	f	Ljava/lang/String;	f_4784337	f_4784337	
@@ -121,15 +121,15 @@ c	net/minecraft/unmapped/C_7056743	net/minecraft/unmapped/C_7056743
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_0042939;)V	m_1045207	m_1045207	
+	m	(Lnet/minecraft/unmapped/C_0042939;)V	m_1045207	handleTakeItemEntity	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0332750;)V	m_1958969	m_1958969	
+	m	(Lnet/minecraft/unmapped/C_0332750;)V	m_1958969	handleChat	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_4320303;)V	m_2457836	m_2457836	
+	m	(Lnet/minecraft/unmapped/C_4320303;)V	m_2457836	handleContainerSetData	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_7669754	net/minecraft/unmapped/C_7669754	
-	f	Ljava/lang/String;	f_6072928	f_6072928	
-	f	I	f_9605855	f_9605855	
+c	net/minecraft/unmapped/C_7669754	net/minecraft/client/gui/screens/ChatScreen	
+	f	Ljava/lang/String;	f_6072928	historyBuffer	
+	f	I	f_9605855	historyPos	
 	m	()V	<init>	<init>	
 	m	()V	m_3593494	m_3593494	
 	m	()V	m_8984281	m_8984281	

@@ -11,7 +11,7 @@ c	net/minecraft/unmapped/C_0124899	net/minecraft/unmapped/C_0124899
 	m	(Lnet/minecraft/unmapped/C_0795795;)V	m_0761210	m_0761210	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_0137330	net/minecraft/unmapped/C_0137330	
+c	net/minecraft/unmapped/C_0137330	net/minecraft/world/entity/monster/MagmaCube	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_8724935	m_8724935	
@@ -38,7 +38,7 @@ c	net/minecraft/unmapped/C_0239894	net/minecraft/unmapped/C_0239894
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_0254692	net/minecraft/unmapped/C_0254692	
+c	net/minecraft/unmapped/C_0254692	net/minecraft/world/entity/projectile/SmallFireball	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_6607881;DDD)V	<init>	<init>	
@@ -76,16 +76,16 @@ c	net/minecraft/unmapped/C_0487112
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_8072181	m_8072181	
+	m	()Z	m_8072181	fireImmune	
 c	net/minecraft/unmapped/C_0593414
-	f	F	f_3070472	f_3070472	
-	m	()Ljava/lang/String;	m_5454970	m_5454970	
-	m	()Ljava/lang/String;	m_3851990	m_3851990	
-	m	()V	m_7035400	m_7035400	
-	m	()I	m_9252891	m_9252891	
+	f	F	f_3070472	targetSquish	
+	m	()Ljava/lang/String;	m_5454970	getParticleType	
+	m	()Ljava/lang/String;	m_3851990	getSquishSound	
+	m	()V	m_7035400	decreaseSquish	
+	m	()I	m_9252891	getJumpDelay	
 	m	()Lnet/minecraft/unmapped/C_0593414;	m_6449166	m_6449166	
-	m	()Z	m_6838608	m_6838608	
-	m	()I	m_3194368	m_3194368	
+	m	()Z	m_6838608	isDealsDamage	
+	m	()I	m_3194368	getAttackDamage	
 	m	()I	m_9040937	m_9040937	
 c	net/minecraft/unmapped/C_0783999	net/minecraft/unmapped/C_0783999	
 	f	Lnet/minecraft/unmapped/C_7141926;	f_6211407	f_6211407	
@@ -95,7 +95,7 @@ c	net/minecraft/unmapped/C_0783999	net/minecraft/unmapped/C_0783999
 		p	2		p_2	
 c	net/minecraft/unmapped/C_0795795	net/minecraft/unmapped/C_0795795	
 	m	()Z	m_4993113	m_4993113	
-c	net/minecraft/unmapped/C_0815568	net/minecraft/unmapped/C_0815568	
+c	net/minecraft/unmapped/C_0815568	net/minecraft/world/level/newbiome/layer/AddIslandLayer	
 	m	(JLnet/minecraft/unmapped/C_5540234;)V	<init>	<init>	
 		p	1		p_1	
 		p	3		p_3	
@@ -182,7 +182,7 @@ c	net/minecraft/unmapped/C_1712153
 	m	(II)F	m_2271398	m_2271398	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_1925128	net/minecraft/unmapped/C_1925128	
+c	net/minecraft/unmapped/C_1925128	net/minecraft/world/entity/animal/MushroomCow	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_4185556	m_4185556	
@@ -193,8 +193,8 @@ c	net/minecraft/unmapped/C_2435239
 c	net/minecraft/unmapped/C_2454309
 	m	()I	m_0890297		m_0890297
 c	net/minecraft/unmapped/C_2706017
-	m	()Ljava/util/LinkedList;	m_3942000	m_3942000	
-	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;II)V	m_6329090	m_6329090	
+	m	()Ljava/util/LinkedList;	m_3942000	getPieces	
+	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;II)V	m_6329090	moveInsideHeights	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -238,7 +238,7 @@ c	net/minecraft/unmapped/C_3338851
 		p	2			p_2
 c	net/minecraft/unmapped/C_3366538
 	f	I	f_6065900		f_6065900
-	m	(Lnet/minecraft/unmapped/C_7794883;)V	m_6334540	m_6334540	
+	m	(Lnet/minecraft/unmapped/C_7794883;)V	m_6334540	onHit	
 		p	1		p_1	
 	m	(F)F	m_9376546	m_9376546	
 		p	1		p_1	
@@ -256,7 +256,7 @@ c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_6113022	f_6113022	
 	f	Lnet/minecraft/unmapped/C_3755722;	f_2274170	f_2274170	
 	f	Lnet/minecraft/unmapped/C_3755722;	f_1714698	f_1714698	
-c	net/minecraft/unmapped/C_3955113	net/minecraft/unmapped/C_3955113	
+c	net/minecraft/unmapped/C_3955113	net/minecraft/world/level/newbiome/layer/ShoreLayer	
 	m	(JLnet/minecraft/unmapped/C_5540234;)V	<init>	<init>	
 		p	1		p_1	
 		p	3		p_3	
@@ -265,10 +265,10 @@ c	net/minecraft/unmapped/C_3955113	net/minecraft/unmapped/C_3955113
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_4015822	net/minecraft/unmapped/C_4015822	
-	f	F	f_6316624	f_6316624	
+c	net/minecraft/unmapped/C_4015822	net/minecraft/world/entity/monster/Blaze	
+	f	F	f_6316624	allowedHeightOffset	
 	f	I	f_3276102	f_3276102	
-	f	I	f_8153039	f_8153039	
+	f	I	f_8153039	nextHeightOffsetChangeTick	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_1700770	m_1700770	
@@ -295,7 +295,7 @@ c	net/minecraft/unmapped/C_4015822	net/minecraft/unmapped/C_4015822
 	m	()I	m_0469364	m_0469364	
 	m	(Z)V	m_9519027	m_9519027	
 		p	1		p_1	
-	m	(Z)V	m_1772134	m_1772134	
+	m	(Z)V	m_1772134	setCharged	
 		p	1		p_1	
 	m	()Z	m_1364793	m_1364793	
 c	net/minecraft/unmapped/C_4100759	net/minecraft/unmapped/C_4100759	
@@ -360,8 +360,8 @@ c	net/minecraft/unmapped/C_4378535
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_4387363	net/minecraft/unmapped/C_4387363	
-	f	Ljava/util/List;	f_8090788	f_8090788	
+c	net/minecraft/unmapped/C_4387363	net/minecraft/world/level/levelgen/feature/NetherFortressFeature	
+	f	Ljava/util/List;	f_8090788	FORTRESS_ENEMIES	
 	m	()V	<init>	<init>	
 	m	()Ljava/util/List;	m_7477355	m_7477355	
 	m	(II)Z	m_3595212	m_3595212	
@@ -372,11 +372,11 @@ c	net/minecraft/unmapped/C_4387363	net/minecraft/unmapped/C_4387363
 		p	2		p_2	
 c	net/minecraft/unmapped/C_4517657
 	m	()Z	m_8702053	m_8702053	
-c	net/minecraft/unmapped/C_4525887	net/minecraft/unmapped/C_4525887	
-	f	[Lnet/minecraft/unmapped/C_8746815;	f_3706577	f_3706577	
-	f	[Lnet/minecraft/unmapped/C_8746815;	f_3019633	f_3019633	
+c	net/minecraft/unmapped/C_4525887	net/minecraft/world/level/levelgen/structure/NetherBridgePieces	
+	f	[Lnet/minecraft/unmapped/C_8746815;	f_3706577	BRIDGE_PIECE_WEIGHTS	
+	f	[Lnet/minecraft/unmapped/C_8746815;	f_3019633	CASTLE_PIECE_WEIGHTS	
 	m	()V	<init>	<init>	
-	m	(Lnet/minecraft/unmapped/C_8746815;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/unmapped/C_4988758;	m_6987413	m_6987413	
+	m	(Lnet/minecraft/unmapped/C_8746815;Ljava/util/List;Ljava/util/Random;IIIII)Lnet/minecraft/unmapped/C_4988758;	m_6987413	findAndCreateBridgePieceFactory	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -592,7 +592,7 @@ c	net/minecraft/unmapped/C_6227914	net/minecraft/unmapped/C_6227914
 c	net/minecraft/unmapped/C_6269816
 	m	(Z)V	m_9519027	m_9519027	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_6370208	net/minecraft/unmapped/C_6370208	
+c	net/minecraft/unmapped/C_6370208	net/minecraft/world/level/newbiome/layer/RemoveTooMuchOceanLayer	
 	m	(JLnet/minecraft/unmapped/C_5540234;)V	<init>	<init>	
 		p	1		p_1	
 		p	3		p_3	
@@ -604,13 +604,13 @@ c	net/minecraft/unmapped/C_6370208	net/minecraft/unmapped/C_6370208
 c	net/minecraft/unmapped/C_6607881
 	f	I	f_1592651	f_1592651	
 	f	Z	f_4766713	f_4766713	
-	m	()I	m_2352236	m_2352236	
+	m	()I	m_2352236	getArmorValue	
 	m	(I)V	m_8993607	m_8993607	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1161898;I)I	m_4816423	m_4816423	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_6610659	net/minecraft/unmapped/C_6610659	
+c	net/minecraft/unmapped/C_6610659	net/minecraft/world/level/biome/MushroomFieldsBiome	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_6679761	net/minecraft/unmapped/C_6679761	
@@ -705,7 +705,7 @@ c	net/minecraft/unmapped/C_7291679	net/minecraft/unmapped/C_7291679
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-c	net/minecraft/unmapped/C_7358631	net/minecraft/unmapped/C_7358631	
+c	net/minecraft/unmapped/C_7358631	net/minecraft/world/entity/npc/Npc	
 c	net/minecraft/unmapped/C_7522998
 	m	(I)I	m_5642727	m_5642727	
 		p	1		p_1	
@@ -779,7 +779,7 @@ c	net/minecraft/unmapped/C_8746815	net/minecraft/unmapped/C_8746815
 	m	(I)Z	m_2870207	m_2870207	
 		p	1		p_1	
 	m	()Z	m_2818086	m_2818086	
-c	net/minecraft/unmapped/C_8814877	net/minecraft/unmapped/C_8814877	
+c	net/minecraft/unmapped/C_8814877	net/minecraft/world/entity/npc/Villager	
 	f	I	f_8075173	f_8075173	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
@@ -796,7 +796,7 @@ c	net/minecraft/unmapped/C_8814877	net/minecraft/unmapped/C_8814877
 	m	()Ljava/lang/String;	m_4151868	m_4151868	
 	m	()Ljava/lang/String;	m_5045007	m_5045007	
 	m	()Ljava/lang/String;	m_1699770	m_1699770	
-c	net/minecraft/unmapped/C_8883923	net/minecraft/unmapped/C_8883923	
+c	net/minecraft/unmapped/C_8883923	net/minecraft/world/entity/animal/SnowGolem	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_0095412	m_0095412	
@@ -815,7 +815,7 @@ c	net/minecraft/unmapped/C_8883923	net/minecraft/unmapped/C_8883923
 	m	()I	m_0469364	m_0469364	
 	m	(Z)V	m_9519027	m_9519027	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9148840	net/minecraft/unmapped/C_9148840	
+c	net/minecraft/unmapped/C_9148840	net/minecraft/world/level/block/NetherWartBlock	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(I)Z	m_3184046	m_3184046	
@@ -841,7 +841,7 @@ c	net/minecraft/unmapped/C_9148840	net/minecraft/unmapped/C_9148840
 		p	2		p_2	
 	m	(Ljava/util/Random;)I	m_2862578	m_2862578	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9375022	net/minecraft/unmapped/C_9375022	
+c	net/minecraft/unmapped/C_9375022	net/minecraft/world/level/block/WaterlilyBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -872,7 +872,7 @@ c	net/minecraft/unmapped/C_9407506	net/minecraft/unmapped/C_9407506
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-c	net/minecraft/unmapped/C_9429829	net/minecraft/unmapped/C_9429829	
+c	net/minecraft/unmapped/C_9429829	net/minecraft/world/level/levelgen/feature/WaterlilyFeature	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;III)Z	m_5378046	m_5378046	
 		p	1		p_1	
@@ -907,7 +907,7 @@ c	net/minecraft/unmapped/C_9494583	net/minecraft/unmapped/C_9494583
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-c	net/minecraft/unmapped/C_9539123	net/minecraft/unmapped/C_9539123	
+c	net/minecraft/unmapped/C_9539123	net/minecraft/world/level/block/MyceliumBlock	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(II)I	m_8325719	m_8325719	
@@ -933,6 +933,6 @@ c	net/minecraft/unmapped/C_9848147
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_9917583	net/minecraft/unmapped/C_9917583	
+c	net/minecraft/unmapped/C_9917583	net/minecraft/world/level/biome/MountainBiome	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	

@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	(I)V	m_6921888	m_6921888	
+	m	(I)V	m_6921888	burn	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1241852
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)Z	m_2728530	m_2728530	
@@ -77,11 +77,11 @@ c	net/minecraft/unmapped/C_7585705
 c	net/minecraft/unmapped/C_8300121
 	m	(I)V	m_6921888	m_6921888	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9399468	net/minecraft/unmapped/C_9399468	
-	f	I	f_2947126	f_2947126	
-	f	I	f_2101207	f_2101207	
-	f	[I	f_0697598	f_0697598	
-	f	Lnet/minecraft/unmapped/C_2454309;	f_0790780	f_0790780	
+c	net/minecraft/unmapped/C_9399468	net/minecraft/world/item/crafting/ShapedRecipe	
+	f	I	f_2947126	width	
+	f	I	f_2101207	height	
+	f	[I	f_0697598	recipeItems	
+	f	Lnet/minecraft/unmapped/C_2454309;	f_0790780	result	
 	m	(II[ILnet/minecraft/unmapped/C_2454309;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

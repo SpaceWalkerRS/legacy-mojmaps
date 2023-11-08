@@ -1,12 +1,12 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0197802
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0247997	f_0247997	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3543788	f_3543788	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1401516	f_1401516	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0247997	ERROR_UNKNOWN_ID	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3543788	ERROR_UNKNOWN_ADVANCEMENT	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1401516	ERROR_UNKNOWN_RECIPE	
 	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_9083823	f_9083823	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0247997		f_0247997
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3543788		f_3543788
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1401516		f_1401516
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0247997		ERROR_UNKNOWN_ID
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3543788		ERROR_UNKNOWN_ADVANCEMENT
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1401516		ERROR_UNKNOWN_RECIPE
 	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9083823		f_9083823
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_5722474		m_5722474
 		p	0			p_0
@@ -17,10 +17,10 @@ c	net/minecraft/unmapped/C_0197802
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1353103		m_1353103
 		p	0			p_0
 c	net/minecraft/unmapped/C_0273219
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5480672	f_5480672	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6206771	f_6206771	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;	f_5480672		f_5480672
-	f	Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;	f_6206771		f_6206771
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5480672	ERROR_FAILED_TO_SPREAD_TEAMS	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6206771	ERROR_FAILED_TO_SPREAD_ENTITIES	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;	f_5480672		ERROR_FAILED_TO_SPREAD_TEAMS
+	f	Lcom/mojang/brigadier/exceptions/Dynamic4CommandExceptionType;	f_6206771		ERROR_FAILED_TO_SPREAD_ENTITIES
 	m	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1162873		m_1162873
 		p	0			p_0
 		p	1			p_1
@@ -32,9 +32,9 @@ c	net/minecraft/unmapped/C_0273219
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_0539808
-	m	(Lnet/minecraft/unmapped/C_3469856;)Z	m_0217121	m_0217121	
+	m	(Lnet/minecraft/unmapped/C_3469856;)Z	m_0217121	isUnderLiquid	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_9086953;)Z	m_0217121		m_0217121
+	m	(Lnet/minecraft/unmapped/C_9086953;)Z	m_0217121		isUnderLiquid
 		p	1			p_1
 c	net/minecraft/unmapped/C_0627712
 	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_7907596	f_7907596	
@@ -49,28 +49,28 @@ c	net/minecraft/unmapped/C_0841880
 	f	I	f_7220868	f_7220868	
 	f	I	f_7220797	f_7220797	
 c	net/minecraft/unmapped/C_0952982
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5162548	f_5162548	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5162548		f_5162548
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5162548	ERROR_AREA_TOO_LARGE	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5162548		ERROR_AREA_TOO_LARGE
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_4260453		m_4260453
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_0992231
-	f	[Lnet/minecraft/unmapped/C_5647103;	f_7059900		f_7059900
-	f	Ljava/util/Set;	f_3569309		f_3569309
-	m	(Lnet/minecraft/unmapped/C_6849228;Lnet/minecraft/unmapped/C_9848147;)V	m_7102816	m_7102816	
+	f	[Lnet/minecraft/unmapped/C_5647103;	f_7059900		DIRECTIONS
+	f	Ljava/util/Set;	f_3569309		CHUNKY_FIXERS
+	m	(Lnet/minecraft/unmapped/C_6849228;Lnet/minecraft/unmapped/C_9848147;)V	m_7102816	upgrade	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_6849228;)V	m_7102816		m_7102816
+	m	(Lnet/minecraft/unmapped/C_6849228;)V	m_7102816		upgrade
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0992231$C_6236124;)V	m_8223387		m_8223387
 		p	0			p_0
 		p	1			p_1
 	m	()Ljava/util/Set;	m_6777136		m_6777136
 c	net/minecraft/unmapped/C_0992231$C_6236124
-	m	(Lnet/minecraft/unmapped/C_9844932;)V	m_5288005		m_5288005
+	m	(Lnet/minecraft/unmapped/C_9844932;)V	m_5288005		processChunk
 		p	1			p_1
 c	net/minecraft/unmapped/C_0992231$C_9618570
-	f	[Lnet/minecraft/unmapped/C_3544601;	f_0296247		f_0296247
+	f	[Lnet/minecraft/unmapped/C_3544601;	f_0296247		DIRECTIONS
 	m	(Ljava/lang/String;IZ[Lnet/minecraft/unmapped/C_1241852;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -83,7 +83,7 @@ c	net/minecraft/unmapped/C_0992231$C_9618570
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_0992231$C_9618570$4
-	f	Ljava/util/List;	f_1262280		f_1262280
+	f	Ljava/util/List;	f_1262280		queue
 	m	(Ljava/lang/String;I[Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -99,36 +99,36 @@ c	net/minecraft/unmapped/C_1241852
 	f	Ljava/util/Map;	f_9244610	f_9244610	
 	f	Z	f_7974420	f_7974420	
 	f	F	f_5027923	f_5027923	
-	f	Z	f_6535825		f_6535825
+	f	Z	f_6535825		dynamicShape
 	m	(Ljava/util/EnumMap;)V	m_0621090	m_0621090	
 		p	0		p_0	
-	m	(DDDDDD)Lnet/minecraft/unmapped/C_7345216;	m_3603804		m_3603804
+	m	(DDDDDD)Lnet/minecraft/unmapped/C_7345216;	m_3603804		box
 		p	0			p_0
 		p	2			p_2
 		p	4			p_4
 		p	6			p_6
 		p	8			p_8
 		p	10			p_10
-	m	()F	m_7616365		m_7616365
-	m	()Z	m_2098816		m_2098816
+	m	()F	m_7616365		getFriction
+	m	()Z	m_2098816		hasDynamicShape
 	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_9164277		m_9164277
 		p	0			p_0
 c	net/minecraft/unmapped/C_1241852$C_6799794
-	f	Z	f_1708173		f_1708173
-	m	()Lnet/minecraft/unmapped/C_1241852$C_6799794;	m_1307062		m_1307062
+	f	Z	f_1708173		dynamicShape
+	m	()Lnet/minecraft/unmapped/C_1241852$C_6799794;	m_1307062		dynamicShape
 	m	(Lnet/minecraft/unmapped/C_1241852$C_6799794;)Z	m_6327538		m_6327538
 		p	0			p_0
 c	net/minecraft/unmapped/C_1400640
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8347593	f_8347593	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1465560	f_1465560	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2739074	f_2739074	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8629361	f_8629361	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5936505	f_5936505	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8347593		f_8347593
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1465560		f_1465560
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_2739074		f_2739074
-	f	Lcom/mojang/brigadier/exceptions/Dynamic3CommandExceptionType;	f_8629361		f_8629361
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5936505		f_5936505
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8347593	ERROR_UNKNOWN_BLOCK	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1465560	ERROR_UNKNOWN_PROPERTY	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2739074	ERROR_DUPLICATE_PROPERTY	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8629361	ERROR_INVALID_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5936505	ERROR_EXPECTED_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8347593		ERROR_UNKNOWN_BLOCK
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1465560		ERROR_UNKNOWN_PROPERTY
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_2739074		ERROR_DUPLICATE_PROPERTY
+	f	Lcom/mojang/brigadier/exceptions/Dynamic3CommandExceptionType;	f_8629361		ERROR_INVALID_VALUE
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5936505		ERROR_EXPECTED_VALUE
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_3959625		m_3959625
 		p	0			p_0
 		p	1			p_1
@@ -145,14 +145,14 @@ c	net/minecraft/unmapped/C_1400640
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1636950		m_1636950
 		p	0			p_0
 c	net/minecraft/unmapped/C_1615427
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6688571	f_6688571	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_6688571		f_6688571
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6688571	ERROR_AREA_TOO_LARGE	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_6688571		ERROR_AREA_TOO_LARGE
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0680223		m_0680223
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_2392905
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6281486	f_6281486	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6281486		f_6281486
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6281486	ERROR_UNKNOWN_ITEM	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6281486		ERROR_UNKNOWN_ITEM
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_5159496		m_5159496
 		p	0			p_0
 c	net/minecraft/unmapped/C_2441996
@@ -160,21 +160,21 @@ c	net/minecraft/unmapped/C_2441996
 	f	Ljava/lang/ThreadLocal;	f_3955149		f_3955149
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_2845264
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3912163	f_3912163	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6192737	f_6192737	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3912163		f_3912163
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6192737		f_6192737
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3912163	ERROR_GET_NOT_NUMBER	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6192737	ERROR_GET_NON_EXISTENT	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3912163		ERROR_GET_NOT_NUMBER
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6192737		ERROR_GET_NON_EXISTENT
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0804832		m_0804832
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1368521		m_1368521
 		p	0			p_0
 c	net/minecraft/unmapped/C_2921623
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6853600	f_6853600	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6785507	f_6785507	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0567631	f_0567631	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6853600		f_6853600
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6785507		f_6785507
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0567631		f_0567631
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6853600	ERROR_UNKNOWN_PACK	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6785507	ERROR_PACK_ALREADY_ENABLED	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0567631	ERROR_PACK_ALREADY_DISABLED	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6853600		ERROR_UNKNOWN_PACK
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6785507		ERROR_PACK_ALREADY_ENABLED
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0567631		ERROR_PACK_ALREADY_DISABLED
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2282033		m_2282033
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_8292782		m_8292782
@@ -182,41 +182,41 @@ c	net/minecraft/unmapped/C_2921623
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_8885651		m_8885651
 		p	0			p_0
 c	net/minecraft/unmapped/C_2992329
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7016364	f_7016364	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7016364		f_7016364
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7016364	ERROR_ALREADY_DIFFICULT	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7016364		ERROR_ALREADY_DIFFICULT
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2629556		m_2629556
 		p	0			p_0
 c	net/minecraft/unmapped/C_3307010
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8404165	f_8404165	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8404165		f_8404165
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8404165	ERROR_UNKNOWN_TAG	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8404165		ERROR_UNKNOWN_TAG
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0128401		m_0128401
 		p	0			p_0
 c	net/minecraft/unmapped/C_3931403
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6190392	f_6190392	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6251725	f_6251725	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6190392		f_6190392
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6251725		f_6251725
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6190392	ERROR_TEAM_NAME_TOO_LONG	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6251725	ERROR_TEAM_ALREADY_NAME	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6190392		ERROR_TEAM_NAME_TOO_LONG
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6251725		ERROR_TEAM_ALREADY_NAME
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7538031		m_7538031
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_4770164		m_4770164
 		p	0			p_0
 c	net/minecraft/unmapped/C_4192341
 	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6370808	f_6370808	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4089357	f_4089357	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4089357	ERROR_NO_VALUE	
 	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6370808		f_6370808
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4089357		f_4089357
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4089357		ERROR_NO_VALUE
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_6064306		m_6064306
 		p	0			p_0
 		p	1			p_1
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_6122138		m_6122138
 		p	0			p_0
 c	net/minecraft/unmapped/C_4289571
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_9768597	f_9768597	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3595990	f_3595990	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_9680819	f_9680819	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9768597		f_9768597
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3595990		f_3595990
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9680819		f_9680819
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_9768597	ERROR_OBJECTIVE_NOT_FOUND	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3595990	ERROR_OBJECTIVE_READ_ONLY	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_9680819	ERROR_OBJECTIVE_NAME_TOO_LONG	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9768597		ERROR_OBJECTIVE_NOT_FOUND
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3595990		ERROR_OBJECTIVE_READ_ONLY
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9680819		ERROR_OBJECTIVE_NAME_TOO_LONG
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_5427732		m_5427732
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7333333		m_7333333
@@ -224,17 +224,17 @@ c	net/minecraft/unmapped/C_4289571
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_6256976		m_6256976
 		p	0			p_0
 c	net/minecraft/unmapped/C_4415644
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8955790	f_8955790	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8955790		f_8955790
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8955790	ERROR_UNKNOWN_ENCHANTMENT	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8955790		ERROR_UNKNOWN_ENCHANTMENT
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1809990		m_1809990
 		p	0			p_0
 c	net/minecraft/unmapped/C_4711599
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5555713	f_5555713	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1483037	f_1483037	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2911652	f_2911652	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5555713		f_5555713
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1483037		f_1483037
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2911652		f_2911652
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5555713	ERROR_INSERT_MIXED_LIST	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1483037	ERROR_INSERT_MIXED_ARRAY	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2911652	ERROR_INVALID_ARRAY	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_5555713		ERROR_INSERT_MIXED_LIST
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1483037		ERROR_INSERT_MIXED_ARRAY
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2911652		ERROR_INVALID_ARRAY
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0883347		m_0883347
 		p	0			p_0
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_6416643		m_6416643
@@ -244,24 +244,24 @@ c	net/minecraft/unmapped/C_4711599
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_4720748
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8711229	f_8711229	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8711229		f_8711229
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8711229	ERROR_UNKNOWN_TAG	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8711229		ERROR_UNKNOWN_TAG
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0091640		m_0091640
 		p	0			p_0
 c	net/minecraft/unmapped/C_5313722
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4465355	f_4465355	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4465355		f_4465355
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4465355	ERROR_AREA_TOO_LARGE	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4465355		ERROR_AREA_TOO_LARGE
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0727887		m_0727887
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_5436093
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7373261	f_7373261	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7373261		f_7373261
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7373261	ERROR_TEAM_NOT_FOUND	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7373261		ERROR_TEAM_NOT_FOUND
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_9938263		m_9938263
 		p	0			p_0
 c	net/minecraft/unmapped/C_5717106
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0731494	f_0731494	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0731494		f_0731494
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0731494	ERROR_UNKNOWN_PARTICLE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0731494		ERROR_UNKNOWN_PARTICLE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1265602		m_1265602
 		p	0			p_0
 c	net/minecraft/unmapped/C_5740506
@@ -278,52 +278,52 @@ c	net/minecraft/unmapped/C_5740506
 	m	()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	m_9308141		m_9308141
 	m	()Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	m_0542995		m_0542995
 c	net/minecraft/unmapped/C_5938267
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1922134	f_1922134	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0428741	f_0428741	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1922134		f_1922134
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0428741		f_0428741
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1922134	ERROR_UNKNOWN_SELECTOR_TYPE	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0428741	ERROR_EXPECTED_OPTION_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1922134		ERROR_UNKNOWN_SELECTOR_TYPE
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0428741		ERROR_EXPECTED_OPTION_VALUE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0491386		m_0491386
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_9226465		m_9226465
 		p	0			p_0
 c	net/minecraft/unmapped/C_6057653
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8686685	f_8686685	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2837370	f_2837370	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8686685		f_8686685
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2837370		f_2837370
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8686685	ERROR_ALREADY_EXISTS	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2837370	ERROR_DOESNT_EXIST	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8686685		ERROR_ALREADY_EXISTS
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2837370		ERROR_DOESNT_EXIST
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7861301		m_7861301
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_1787808		m_1787808
 		p	0			p_0
 c	net/minecraft/unmapped/C_6140756
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2150439	f_2150439	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2150439		f_2150439
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2150439	ERROR_INVALID_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2150439		ERROR_INVALID_VALUE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_3209383		m_3209383
 		p	0			p_0
 c	net/minecraft/unmapped/C_6618444
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4455856	f_4455856	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_4455856		f_4455856
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4455856	ERROR_INVALID_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_4455856		ERROR_INVALID_VALUE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_0613926		m_0613926
 		p	0			p_0
 c	net/minecraft/unmapped/C_6680357
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2687955	f_2687955	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2687955		f_2687955
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2687955	ERROR_INVALID	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2687955		ERROR_INVALID
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2971920		m_2971920
 		p	0			p_0
 c	net/minecraft/unmapped/C_6694466
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6319700	f_6319700	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6319700		f_6319700
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6319700	ERROR_INVALID_JSON	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6319700		ERROR_INVALID_JSON
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_6254591		m_6254591
 		p	0			p_0
 c	net/minecraft/unmapped/C_7048446
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0335269	f_0335269	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3894441	f_3894441	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1451800	f_1451800	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7766986	f_7766986	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0335269		f_0335269
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3894441		f_3894441
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1451800		f_1451800
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_7766986		f_7766986
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0335269	ERROR_NOT_LIVING_ENTITY	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3894441	ERROR_NO_ITEM	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1451800	ERROR_INCOMPATIBLE	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7766986	ERROR_LEVEL_TOO_HIGH	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0335269		ERROR_NOT_LIVING_ENTITY
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3894441		ERROR_NO_ITEM
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1451800		ERROR_INCOMPATIBLE
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_7766986		ERROR_LEVEL_TOO_HIGH
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_3567255		m_3567255
 		p	0			p_0
 		p	1			p_1
@@ -334,28 +334,28 @@ c	net/minecraft/unmapped/C_7048446
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2937004		m_2937004
 		p	0			p_0
 c	net/minecraft/unmapped/C_7332524
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3570438	f_3570438	
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_3570438		f_3570438
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3570438	ERROR_STACK_TOO_BIG	
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_3570438		ERROR_STACK_TOO_BIG
 	m	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_8933836		m_8933836
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_7566373
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0451077	f_0451077	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0451077		f_0451077
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0451077	ERROR_UNKNOWN_EFFECT	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0451077		ERROR_UNKNOWN_EFFECT
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_8864992		m_8864992
 		p	0			p_0
 c	net/minecraft/unmapped/C_7669754
-	f	Ljava/util/regex/Pattern;	f_0758449		f_0758449
+	f	Ljava/util/regex/Pattern;	f_0758449		WHITESPACE_PATTERN
 	m	(Lnet/minecraft/unmapped/C_7669754;Ljava/lang/String;)Ljava/lang/String;	m_8769932	m_8769932	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Ljava/lang/String;)I	m_7511658		m_7511658
+	m	(Ljava/lang/String;)I	m_7511658		getLastWordIndex
 		p	0			p_0
 	m	()Z	m_2635915		m_2635915
-	m	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	m_5217954		m_5217954
+	m	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	m_5217954		calculateSuggestionSuffix
 		p	0			p_0
 		p	1			p_1
-	m	(Ljava/lang/String;)V	m_4207780		m_4207780
+	m	(Ljava/lang/String;)V	m_4207780		setChatLine
 		p	1			p_1
 	m	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	m_9207950		m_9207950
 		p	0			p_0
@@ -365,8 +365,8 @@ c	net/minecraft/unmapped/C_7669754
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_7669754$C_8429300
-	f	Ljava/lang/String;	f_0958665	f_0958665	
-	f	Lnet/minecraft/unmapped/C_7669754$C_8555704;	f_0958665		f_0958665
+	f	Ljava/lang/String;	f_0958665	originalContents	
+	f	Lnet/minecraft/unmapped/C_7669754$C_8555704;	f_0958665		originalContents
 	m	(Lnet/minecraft/unmapped/C_7669754;IIILcom/mojang/brigadier/suggestion/Suggestions;Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -426,15 +426,15 @@ c	net/minecraft/unmapped/C_7669754$C_8555704		C_8555704
 	m	(Lcom/mojang/brigadier/suggestion/Suggestion;)Ljava/lang/String;	m_5721935		m_5721935
 		p	1			p_1
 c	net/minecraft/unmapped/C_7809460
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5079687	f_5079687	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5079687		f_5079687
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5079687	ERROR_INVALID_VALUE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5079687		ERROR_INVALID_VALUE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_3066919		m_3066919
 		p	0			p_0
 c	net/minecraft/unmapped/C_8765789
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0803731	f_0803731	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8070543	f_8070543	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0803731		f_0803731
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8070543		f_8070543
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0803731	ERROR_SINGLE	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_8070543	ERROR_MULTIPLE	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0803731		ERROR_SINGLE
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8070543		ERROR_MULTIPLE
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_9122588		m_9122588
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_4433568		m_4433568
@@ -445,35 +445,35 @@ c	net/minecraft/unmapped/C_8850962
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7849248		m_7849248
 		p	0			p_0
 c	net/minecraft/unmapped/C_9252894
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4012576	f_4012576	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2691527	f_2691527	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_4012576		f_4012576
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2691527		f_2691527
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_4012576	ERROR_UNKNOWN_TAG	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_2691527	ERROR_UNKNOWN_FUNCTION	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_4012576		ERROR_UNKNOWN_TAG
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_2691527		ERROR_UNKNOWN_FUNCTION
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_8093448		m_8093448
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7679476		m_7679476
 		p	0			p_0
 c	net/minecraft/unmapped/C_9267398
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0107402	f_0107402	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0107402		f_0107402
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0107402	ERROR_ALREADY_PUBLISHED	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0107402		ERROR_ALREADY_PUBLISHED
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_7827383		m_7827383
 		p	0			p_0
 c	net/minecraft/unmapped/C_9445209
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7294285	f_7294285	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7294285		f_7294285
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_7294285	ERROR_UNKNOWN_SLOT	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_7294285		ERROR_UNKNOWN_SLOT
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2340390		m_2340390
 		p	0			p_0
 c	net/minecraft/unmapped/C_9470902
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6212098	f_6212098	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5041770	f_5041770	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3078952	f_3078952	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0141524	f_0141524	
-	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1761549	f_1761549	
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6212098		f_6212098
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5041770		f_5041770
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3078952		f_3078952
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0141524		f_0141524
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1761549		f_1761549
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_6212098	ERROR_UNKNOWN_OPTION	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_5041770	ERROR_INAPPLICABLE_OPTION	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_3078952	ERROR_SORT_UNKNOWN	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_0141524	ERROR_GAME_MODE_INVALID	
+	f	Lcom/mojang/brigadier/exceptions/ParameterizedCommandExceptionType;	f_1761549	ERROR_ENTITY_TYPE_INVALID	
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_6212098		ERROR_UNKNOWN_OPTION
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5041770		ERROR_INAPPLICABLE_OPTION
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_3078952		ERROR_SORT_UNKNOWN
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0141524		ERROR_GAME_MODE_INVALID
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_1761549		ERROR_ENTITY_TYPE_INVALID
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_5115233		m_5115233
 		p	0			p_0
 	m	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	m_2794067		m_2794067
@@ -490,30 +490,30 @@ c	net/minecraft/unmapped/C_9511145
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_0116032		net/minecraft/unmapped/C_0116032
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_0420222		f_0420222
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_7605323		f_7605323
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_6995333		f_6995333
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4977264		f_4977264
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4668340		f_4668340
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_9929006		f_9929006
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0312129		f_0312129
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_5996370		f_5996370
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0821196		f_0821196
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5842225		f_5842225
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0297711		f_0297711
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0968480		f_0968480
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0799288		f_0799288
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8822512		f_8822512
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_9596750		f_9596750
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0978112		f_0978112
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_6308622		f_6308622
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_9684396		f_9684396
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5181430		f_5181430
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_2756633		f_2756633
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_8074624		f_8074624
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0558883		f_0558883
-	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9514335		f_9514335
+c	net/minecraft/unmapped/C_0116032		net/minecraft/commands/BrigadierExceptions
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_0420222		DOUBLE_TOO_SMALL
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_7605323		DOUBLE_TOO_BIG
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_6995333		FLOAT_TOO_SMALL
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4977264		FLOAT_TOO_BIG
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4668340		INTEGER_TOO_SMALL
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_9929006		INTEGER_TOO_BIG
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0312129		LITERAL_INCORRECT
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_5996370		READER_EXPECTED_START_OF_QUOTE
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0821196		READER_EXPECTED_END_OF_QUOTE
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5842225		READER_INVALID_ESCAPE
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0297711		READER_INVALID_BOOL
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0968480		READER_INVALID_INT
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0799288		READER_EXPECTED_INT
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_8822512		READER_INVALID_DOUBLE
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_9596750		READER_EXPECTED_DOUBLE
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_0978112		READER_INVALID_FLOAT
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_6308622		READER_EXPECTED_FLOAT
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_9684396		READER_EXPECTED_BOOL
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_5181430		READER_EXPECTED_SYMBOL
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_2756633		DISPATCHER_UNKNOWN_COMMAND
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_8074624		DISPATCHER_UNKNOWN_ARGUMENT
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_0558883		DISPATCHER_EXPECTED_ARGUMENT_SEPARATOR
+	f	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	f_9514335		DISPATCHER_PARSE_EXCEPTION
 	m	()V	<init>		<init>
 	m	()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	doubleTooLow		doubleTooLow
 	m	()Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	doubleTooHigh		doubleTooHigh

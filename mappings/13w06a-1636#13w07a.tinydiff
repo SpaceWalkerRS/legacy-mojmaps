@@ -191,7 +191,7 @@ c	net/minecraft/unmapped/C_0564609	net/minecraft/unmapped/C_0564609
 	m	()V	<init>	<init>	
 	m	()Lnet/minecraft/unmapped/C_0304196;	m_4169507	m_4169507	
 c	net/minecraft/unmapped/C_0579327
-	f	Lnet/minecraft/unmapped/C_3020744;	f_0853075		f_0853075
+	f	Lnet/minecraft/unmapped/C_3020744;	f_0853075		parent
 	m	(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -371,7 +371,7 @@ c	net/minecraft/unmapped/C_1390609	net/minecraft/unmapped/C_1390609
 		p	1		p_1	
 	m	()V	run	run	
 c	net/minecraft/unmapped/C_1555023
-	f	Lnet/minecraft/unmapped/C_6001689;	f_7526236		f_7526236
+	f	Lnet/minecraft/unmapped/C_6001689;	f_7526236		LOGGER
 	m	()Lnet/minecraft/unmapped/C_6001689;	m_0623619		m_0623619
 c	net/minecraft/unmapped/C_1567607
 	f	Ljava/util/logging/Logger;	f_6517535	f_6517535	
@@ -403,7 +403,7 @@ c	net/minecraft/unmapped/C_1726165$2		2
 		p	2			p_2
 	m	()V	run		run
 c	net/minecraft/unmapped/C_1741573
-	f	Lnet/minecraft/unmapped/C_2018497;	f_4621012		f_4621012
+	f	Lnet/minecraft/unmapped/C_2018497;	f_4621012		blockData
 c	net/minecraft/unmapped/C_1789828
 	f	Ljava/util/logging/Logger;	f_9917689	f_9917689	
 c	net/minecraft/unmapped/C_1810478	net/minecraft/unmapped/C_1810478	
@@ -472,9 +472,9 @@ c	net/minecraft/unmapped/C_2950556	net/minecraft/unmapped/C_2950556
 	m	()V	addNotify	addNotify	
 	m	()V	removeNotify	removeNotify	
 c	net/minecraft/unmapped/C_2975244
-	m	(Ljava/io/File;)Z	m_4644743	m_4644743	
+	m	(Ljava/io/File;)Z	m_4644743	saveToFile	
 		p	1		p_1	
-	m	(Ljava/io/File;Lnet/minecraft/unmapped/C_6001689;)Z	m_4644743		m_4644743
+	m	(Ljava/io/File;Lnet/minecraft/unmapped/C_6001689;)Z	m_4644743		saveToFile
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3236374	net/minecraft/unmapped/C_3236374	
@@ -571,7 +571,7 @@ c	net/minecraft/unmapped/C_4323228	net/minecraft/unmapped/C_4323228
 	m	(Ljava/lang/Object;)Z	m_1114828	m_1114828	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_4505797
-	f	Lnet/minecraft/unmapped/C_3020744;	f_2355071		f_2355071
+	f	Lnet/minecraft/unmapped/C_3020744;	f_2355071		parent
 	m	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/unmapped/C_1533205;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -938,7 +938,7 @@ c	net/minecraft/unmapped/C_7197155	net/minecraft/unmapped/C_7197155
 	m	()Ljava/lang/String;	m_3863477	m_3863477	
 	m	()Ljava/lang/Object;	call	call	
 c	net/minecraft/unmapped/C_7377641
-	f	J	f_7854230		f_7854230
+	f	J	f_7854230		startupTime
 c	net/minecraft/unmapped/C_7458519
 c	net/minecraft/unmapped/C_7458519$1		1
 	f	Lnet/minecraft/unmapped/C_7458519;	f_6669128		f_6669128

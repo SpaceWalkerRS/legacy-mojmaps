@@ -2,16 +2,16 @@ tiny	2	0
 c	net/minecraft/realms/Realms
 	m	()Ljava/lang/String;	getUUID		getUUID
 c	net/minecraft/unmapped/C_0539808
-	f	Lnet/minecraft/unmapped/C_0557736;	f_4559006		f_4559006
-	m	()V	m_9794132	m_9794132	
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_9794132		m_9794132
+	f	Lnet/minecraft/unmapped/C_0557736;	f_4559006		portalEntranceOffset
+	m	()V	m_9794132	handleInsidePortal	
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_9794132		handleInsidePortal
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_0557736;	m_3718736		m_3718736
+	m	()Lnet/minecraft/unmapped/C_0557736;	m_3718736		getPortalEntranceOffset
 c	net/minecraft/unmapped/C_0557736
 	m	(Lnet/minecraft/unmapped/C_2033463;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_1444189
-	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_5584094		m_5584094
+	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_5584094		canDestroy
 		p	0			p_0
 c	net/minecraft/unmapped/C_2165440
 	m	(IIILnet/minecraft/unmapped/C_8869469;)V	<init>	<init>	
@@ -20,17 +20,17 @@ c	net/minecraft/unmapped/C_2165440
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_2322437
-	m	(Lnet/minecraft/unmapped/C_5553933;)Lcom/google/common/cache/LoadingCache;	m_9350631		m_9350631
+	m	(Lnet/minecraft/unmapped/C_5553933;)Lcom/google/common/cache/LoadingCache;	m_9350631		createLevelCache
 		p	0			p_0
 c	net/minecraft/unmapped/C_3250247
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_9432328	m_9432328	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3544601
-	m	(Lnet/minecraft/unmapped/C_9199365;Lnet/minecraft/unmapped/C_8357359;)Lnet/minecraft/unmapped/C_3544601;	m_1840875		m_1840875
+	m	(Lnet/minecraft/unmapped/C_9199365;Lnet/minecraft/unmapped/C_8357359;)Lnet/minecraft/unmapped/C_3544601;	m_1840875		get
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_4052762
-	m	()V	m_7779741		m_7779741
+	m	()V	m_7779741		reset
 c	net/minecraft/unmapped/C_4976084
 	m	(D)D	m_0501731		m_0501731
 		p	0			p_0
@@ -45,11 +45,11 @@ c	net/minecraft/unmapped/C_5376003
 	m	(Lnet/minecraft/unmapped/C_5376003;)Lnet/minecraft/unmapped/C_3674802;	m_8115575		m_8115575
 		p	0			p_0
 c	net/minecraft/unmapped/C_8111072
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_9760414;	m_0696831		m_0696831
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_9760414;	m_0696831		getPortalShape
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8651652
-	m	()V	m_7480257		m_7480257
+	m	()V	m_7480257		onDisconnected
 c	net/minecraft/unmapped/C_9760414
 	f	I	f_8716237		f_8716237
 	f	I	f_6909170		f_6909170
@@ -72,4 +72,4 @@ c	net/minecraft/unmapped/C_9760414
 	m	()I	m_9191582		m_9191582
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/unmapped/C_9992501
-	m	()Ljava/util/List;	m_8800532		m_8800532
+	m	()Ljava/util/List;	m_8800532		getPlayers

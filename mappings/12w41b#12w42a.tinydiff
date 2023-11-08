@@ -1,16 +1,16 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_0182692		m_0182692
+	m	()Z	m_0182692		isIgnoringBlockTriggers
 c	net/minecraft/unmapped/C_1161898
-	f	Lnet/minecraft/unmapped/C_1161898;	f_8856401		f_8856401
+	f	Lnet/minecraft/unmapped/C_1161898;	f_8856401		FALLING_BLOCK
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_0895470	m_0895470	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_0895470	getDirectSignal	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_0895470		m_0895470
+	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_0895470		getDirectSignal
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -24,14 +24,14 @@ c	net/minecraft/unmapped/C_1533205
 	m	(Z)V	m_8773155		m_8773155
 		p	1			p_1
 c	net/minecraft/unmapped/C_1651558
-	f	I	f_0186509		f_0186509
+	f	I	f_0186509		repairItemCountCost
 	m	(Lnet/minecraft/unmapped/C_1651558;)I	m_3894875		m_3894875
 		p	0			p_0
 c	net/minecraft/unmapped/C_1741573
-	f	Z	f_3490000		f_3490000
-	f	I	f_6241235		f_6241235
-	f	F	f_8846901		f_8846901
-	m	(Z)V	m_6987503		m_6987503
+	f	Z	f_3490000		hurtEntities
+	f	I	f_6241235		fallDamageMax
+	f	F	f_8846901		fallDamageAmount
+	m	(Z)V	m_6987503		setHurtsEntities
 		p	1			p_1
 c	net/minecraft/unmapped/C_2485969
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_0895470	m_0895470	
@@ -47,10 +47,10 @@ c	net/minecraft/unmapped/C_2485969
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_2910311
-	m	(Lnet/minecraft/unmapped/C_1741573;)V	m_9871766		m_9871766
+	m	(Lnet/minecraft/unmapped/C_1741573;)V	m_9871766		falling
 		p	1			p_1
 c	net/minecraft/unmapped/C_3755722
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)Z	m_4452348		m_4452348
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)Z	m_4452348		isValidRepairItem
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_4114026

@@ -98,7 +98,7 @@ c	net/minecraft/realms/RealmsVertexFormat		net/minecraft/realms/RealmsVertexForm
 	m	()I	hashCode		hashCode
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/realms/RealmsVertexFormatElement		net/minecraft/realms/RealmsVertexFormatElement
-	f	Lnet/minecraft/unmapped/C_0362364;	f_2764443		f_2764443
+	f	Lnet/minecraft/unmapped/C_0362364;	f_2764443		v
 	m	(Lnet/minecraft/unmapped/C_0362364;)V	<init>		<init>
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_0362364;	getVertexFormatElement		getVertexFormatElement

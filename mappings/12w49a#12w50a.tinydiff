@@ -2,7 +2,7 @@ tiny	2	0
 c	net/minecraft/unmapped/C_0230498
 	f	[Lnet/minecraft/unmapped/C_0230498;	f_3643548		f_3643548
 	f	Lnet/minecraft/unmapped/C_0230498;	f_2523023		f_2523023
-	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_8600323		m_8600323
+	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_8600323		canEnchant
 		p	1			p_1
 c	net/minecraft/unmapped/C_0268929
 	f	I	f_8845088	f_8845088	
@@ -27,16 +27,16 @@ c	net/minecraft/unmapped/C_0940100	net/minecraft/unmapped/C_0940100
 		p	5		p_5	
 	m	()V	m_2404638	m_2404638	
 c	net/minecraft/unmapped/C_1161898
-	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_7360918		m_7360918
+	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_7360918		thorns
 		p	0			p_0
 c	net/minecraft/unmapped/C_1197137
-	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_9214570		m_9214570
+	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_9214570		getFishingSpeedBonus
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_0230498;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_2454309;	m_9541198		m_9541198
+	m	(Lnet/minecraft/unmapped/C_0230498;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_2454309;	m_9541198		getRandomItemWith
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_1331819
-	f	Z	f_4736653		f_4736653
+	f	Z	f_4736653		heldItemTooltips
 c	net/minecraft/unmapped/C_1741573
 	m	(Lnet/minecraft/unmapped/C_6517019;)V	m_9251143		m_9251143
 		p	1			p_1
@@ -97,7 +97,7 @@ c	net/minecraft/unmapped/C_6823239
 c	net/minecraft/unmapped/C_6912915
 	f	Z	f_7339828		f_7339828
 c	net/minecraft/unmapped/C_7195031
-	f	Z	f_4304739		f_4304739
+	f	Z	f_4304739		xmasTextures
 c	net/minecraft/unmapped/C_7203066
 	m	(Lnet/minecraft/unmapped/C_5786166;FFFF)V	m_1425929	m_1425929	
 		p	1		p_1	
@@ -138,12 +138,12 @@ c	net/minecraft/unmapped/C_8300121
 		p	2			p_2
 		p	4			p_4
 		p	6			p_6
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_3120041		m_3120041
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_9526095		m_9526095
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_3120041		getItem
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_9526095		setItem
 		p	1			p_1
 c	net/minecraft/unmapped/C_8651652
-	f	I	f_0154280		f_0154280
-	f	Lnet/minecraft/unmapped/C_2454309;	f_5880267		f_5880267
+	f	I	f_0154280		toolHighlightTimer
+	f	Lnet/minecraft/unmapped/C_2454309;	f_5880267		lastToolHighlight
 c	net/minecraft/unmapped/C_8938952
 	f	Ljava/lang/String;	f_8693943		f_8693943
 	f	I	f_7809074		f_7809074
@@ -157,17 +157,17 @@ c	net/minecraft/unmapped/C_8938952
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_9468736
-	f	Ljava/lang/String;	f_4770197		f_4770197
-	f	Z	f_1896377		f_1896377
+	f	Ljava/lang/String;	f_4770197		url
+	f	Z	f_1896377		showWarning
 	m	()V	m_2404638	m_2404638	
-	m	()V	m_7716491		m_7716491
+	m	()V	m_7716491		copyToClipboard
 	m	()V	m_7566210		m_7566210
 c	net/minecraft/unmapped/C_9590849
-	m	()Lnet/minecraft/unmapped/C_8300121;	m_0699542	m_0699542	
-	m	(Z)Lnet/minecraft/unmapped/C_8300121;	m_0699542		m_0699542
+	m	()Lnet/minecraft/unmapped/C_8300121;	m_0699542	drop	
+	m	(Z)Lnet/minecraft/unmapped/C_8300121;	m_0699542		drop
 		p	1			p_1
 c	net/minecraft/unmapped/C_9992501
-	m	(Ljava/lang/String;)V	m_9531285		m_9531285
+	m	(Ljava/lang/String;)V	m_9531285		broadcastMessage
 		p	1			p_1
 c	net/minecraft/unmapped/C_3958452		net/minecraft/unmapped/C_3958452
 	m	(Lnet/minecraft/unmapped/C_5553933;DDD)V	<init>		<init>
@@ -183,7 +183,7 @@ c	net/minecraft/unmapped/C_3958452		net/minecraft/unmapped/C_3958452
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_9672101		net/minecraft/unmapped/C_9672101
+c	net/minecraft/unmapped/C_9672101		net/minecraft/world/item/enchantment/ThornsEnchantment
 	m	(II)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2

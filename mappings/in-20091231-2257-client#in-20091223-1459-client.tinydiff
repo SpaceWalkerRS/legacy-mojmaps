@@ -25,14 +25,14 @@ c	net/minecraft/unmapped/C_0259655
 	m	(F)V	m_2952549	m_2952549	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_0539808
-	f	Ljava/util/Random;	f_8082920	f_8082920	
+	f	Ljava/util/Random;	f_8082920	random	
 c	net/minecraft/unmapped/C_0826810
 	m	()I	m_7534654	m_7534654	
 c	net/minecraft/unmapped/C_1022696
 	f	Lnet/minecraft/unmapped/C_2454309;	f_8566506	f_8566506	
 	f	Lnet/minecraft/unmapped/C_1241852;	f_8566506		f_8566506
-c	net/minecraft/unmapped/C_1023567	net/minecraft/unmapped/C_1023567	
-	f	Lnet/minecraft/unmapped/C_9113835;	f_3316508	f_3316508	
+c	net/minecraft/unmapped/C_1023567	net/minecraft/client/player/LocalPlayer	
+	f	Lnet/minecraft/unmapped/C_9113835;	f_3316508	input	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_0095412	m_0095412	
@@ -68,11 +68,11 @@ c	net/minecraft/unmapped/C_1640834
 		p	1			p_1
 c	net/minecraft/unmapped/C_2367183
 	m	()I	m_7534654	m_7534654	
-c	net/minecraft/unmapped/C_2454309	net/minecraft/unmapped/C_2454309	
-	f	I	f_1354050	f_1354050	
+c	net/minecraft/unmapped/C_2454309	net/minecraft/world/item/ItemStack	
+	f	I	f_1354050	count	
 	f	I	f_9064670	f_9064670	
-	f	I	f_0637155	f_0637155	
-	f	I	f_4391994	f_4391994	
+	f	I	f_0637155	item	
+	f	I	f_4391994	popTime	
 	m	(Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1241852;I)V	<init>	<init>	
@@ -86,8 +86,8 @@ c	net/minecraft/unmapped/C_2501864
 	m	()I	m_7534654	m_7534654	
 c	net/minecraft/unmapped/C_2590170
 	m	()I	m_7534654	m_7534654	
-c	net/minecraft/unmapped/C_2711798	net/minecraft/unmapped/C_2711798	
-	f	I	f_2827405	f_2827405	
+c	net/minecraft/unmapped/C_2711798	net/minecraft/world/inventory/Slot	
+	f	I	f_2827405	slot	
 	f	I	f_9310430	f_9310430	
 	f	I	f_4898200	f_4898200	
 	f	Lnet/minecraft/unmapped/C_9639106;	f_8525450	f_8525450	
@@ -182,16 +182,16 @@ c	net/minecraft/unmapped/C_7028449
 	m	(Lnet/minecraft/unmapped/C_9590849;)F	m_3039702		m_3039702
 		p	1			p_1
 c	net/minecraft/unmapped/C_7400754
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8201291	f_8201291	
-	f	[I	f_8201291		f_8201291
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8201291	items	
+	f	[I	f_8201291		items
 	f	[I	f_7338809		f_7338809
 	f	[I	f_7226911		f_7226911
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_6205225	m_6205225	
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_6205225	getSelected	
 	m	()I	m_2420174	m_2420174	
 	m	(II)V	m_0873049	m_0873049	
 		p	1		p_1	
 		p	2		p_2	
-	m	()I	m_6205225		m_6205225
+	m	()I	m_6205225		getSelected
 	m	(Lnet/minecraft/unmapped/C_1241852;)V	m_3407988		m_3407988
 		p	1			p_1
 	m	(I)Z	m_8673786		m_8673786
@@ -201,13 +201,13 @@ c	net/minecraft/unmapped/C_7952195
 	m	(Lnet/minecraft/unmapped/C_9590849;I)Z	m_6297649		m_6297649
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_8300121	net/minecraft/unmapped/C_8300121	
+c	net/minecraft/unmapped/C_8300121	net/minecraft/world/entity/item/ItemEntity	
 	f	F	f_7876942	f_7876942	
 	f	F	f_5120121	f_5120121	
 	f	F	f_2029735	f_2029735	
 	f	Lnet/minecraft/unmapped/C_2454309;	f_2717394	f_2717394	
 	f	I	f_6718492	f_6718492	
-	f	I	f_7810242	f_7810242	
+	f	I	f_7810242	age	
 	f	I	f_7969889	f_7969889	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFFLnet/minecraft/unmapped/C_2454309;)V	<init>	<init>	
 		p	1		p_1	
@@ -217,7 +217,7 @@ c	net/minecraft/unmapped/C_8300121	net/minecraft/unmapped/C_8300121
 		p	5		p_5	
 	m	()V	m_7274048	m_7274048	
 c	net/minecraft/unmapped/C_8398976
-	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0669153;F)V	m_4318619	m_4318619	
+	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0669153;F)V	m_4318619	renderEntities	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -229,12 +229,12 @@ c	net/minecraft/unmapped/C_8398976
 c	net/minecraft/unmapped/C_8620458
 	m	()I	m_7534654	m_7534654	
 c	net/minecraft/unmapped/C_8651652
-	m	()V	m_1283885	m_1283885	
-	m	(F)V	m_1283885		m_1283885
+	m	()V	m_1283885	render	
+	m	(F)V	m_1283885		render
 		p	1			p_1
 c	net/minecraft/unmapped/C_8980628
 	f	Lnet/minecraft/unmapped/C_3216249;	f_0998767	f_0998767	
-	f	F	f_2496630	f_2496630	
+	f	F	f_2496630	shadowRadius	
 	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0876962;FFFFF)V	m_1120687	m_1120687	
 		p	1		p_1	
 		p	2		p_2	
@@ -243,11 +243,11 @@ c	net/minecraft/unmapped/C_8980628
 		p	5		p_5	
 		p	6		p_6	
 		p	7		p_7	
-c	net/minecraft/unmapped/C_9304189	net/minecraft/unmapped/C_9304189	
+c	net/minecraft/unmapped/C_9304189	net/minecraft/world/entity/item/PrimedTnt	
 	f	F	f_4229807	f_4229807	
 	f	F	f_0238216	f_0238216	
 	f	F	f_8015653	f_8015653	
-	f	I	f_8879682	f_8879682	
+	f	I	f_8879682	DATA_FUSE_ID	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -259,7 +259,7 @@ c	net/minecraft/unmapped/C_9590849
 	f	Lnet/minecraft/unmapped/C_9113835;	f_7517390		f_7517390
 	f	I	f_1912940		f_1912940
 	f	Ljava/awt/image/BufferedImage;	f_4331959		f_4331959
-	m	(I)V	m_2211846	m_2211846	
+	m	(I)V	m_2211846	drop	
 		p	1		p_1	
 	m	()V	m_7136452		m_7136452
 	m	(IZ)V	m_3078238		m_3078238
@@ -269,7 +269,7 @@ c	net/minecraft/unmapped/C_9590849
 		p	0			p_0
 c	net/minecraft/unmapped/C_9639106
 	f	I	f_8475877	f_8475877	
-	f	Ljava/util/List;	f_1320343	f_1320343	
+	f	Ljava/util/List;	f_1320343	menu	
 	m	(III)V	m_6666177	m_6666177	
 		p	1		p_1	
 		p	2		p_2	

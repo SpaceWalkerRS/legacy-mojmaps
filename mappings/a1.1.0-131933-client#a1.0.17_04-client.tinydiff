@@ -2,10 +2,10 @@ tiny	2	0
 c	net/minecraft/client/Minecraft
 	m	()V	m_5482179	m_5482179	
 c	net/minecraft/unmapped/C_0539808
-	f	D	f_2751176	f_2751176	
+	f	D	f_2751176	viewScale	
 c	net/minecraft/unmapped/C_0987157
 	f	Lnet/minecraft/unmapped/C_7715563;	f_9113741		f_9113741
-c	net/minecraft/unmapped/C_1137800	net/minecraft/unmapped/C_1137800	
+c	net/minecraft/unmapped/C_1137800	net/minecraft/network/protocol/game/ClientboundSetSpawnPositionPacket	
 	f	I	f_8507091	f_8507091	
 	f	I	f_6368137	f_6368137	
 	f	I	f_8692722	f_8692722	
@@ -28,7 +28,7 @@ c	net/minecraft/unmapped/C_1250058
 c	net/minecraft/unmapped/C_1872000
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_2454309
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_4190376	m_4190376	
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_4190376	copy	
 c	net/minecraft/unmapped/C_2999845	net/minecraft/unmapped/C_2999845	
 	f	I	f_0389151	f_0389151	
 	f	I	f_8026297	f_8026297	
@@ -57,12 +57,12 @@ c	net/minecraft/unmapped/C_4257480
 c	net/minecraft/unmapped/C_4808571
 	m	()V	m_6769151		m_6769151
 c	net/minecraft/unmapped/C_5553933
-	m	(IIILnet/minecraft/unmapped/C_3622326;)V	m_0572533	m_0572533	
+	m	(IIILnet/minecraft/unmapped/C_3622326;)V	m_0572533	blockEntityChanged	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(III)V	m_0572533		m_0572533
+	m	(III)V	m_0572533		blockEntityChanged
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -87,11 +87,11 @@ c	net/minecraft/unmapped/C_6013256
 	f	I	f_3664427	f_3664427	
 	f	Lnet/minecraft/unmapped/C_7400754;	f_6076566	f_6076566	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_8100953;)V	m_7381476	m_7381476	
+	m	(Lnet/minecraft/unmapped/C_8100953;)V	m_7381476	handleContainerContent	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2999845;)V	m_7917741	m_7917741	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_1137800;)V	m_0455939	m_0455939	
+	m	(Lnet/minecraft/unmapped/C_1137800;)V	m_0455939	handleSetSpawn	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7400754
 	f	Z	f_4848933	f_4848933	
@@ -113,9 +113,9 @@ c	net/minecraft/unmapped/C_7887747
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_2018497;)[B	m_1104048	m_1104048	
 		p	0		p_0	
-c	net/minecraft/unmapped/C_8100953	net/minecraft/unmapped/C_8100953	
-	f	I	f_5133386	f_5133386	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8823412	f_8823412	
+c	net/minecraft/unmapped/C_8100953	net/minecraft/network/protocol/game/ClientboundContainerSetContentPacket	
+	f	I	f_5133386	containerId	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8823412	items	
 	m	()V	<init>	<init>	
 	m	(I[Lnet/minecraft/unmapped/C_2454309;)V	<init>	<init>	
 		p	1		p_1	

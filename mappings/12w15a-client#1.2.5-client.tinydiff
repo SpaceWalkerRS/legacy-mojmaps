@@ -102,10 +102,10 @@ c	net/minecraft/unmapped/C_1000404	net/minecraft/unmapped/C_1000404
 	m	()Ljava/lang/String;	m_8129470	m_8129470	
 	m	()Ljava/lang/Object;	call	call	
 c	net/minecraft/unmapped/C_1006946
-	f	Ljava/util/List;	f_5974551	f_5974551	
-	f	Ljava/util/List;	f_6669454	f_6669454	
-	f	Ljava/util/ArrayList;	f_5974551		f_5974551
-	f	Ljava/util/ArrayList;	f_6669454		f_6669454
+	f	Ljava/util/List;	f_5974551	seen	
+	f	Ljava/util/List;	f_6669454	unseen	
+	f	Ljava/util/ArrayList;	f_5974551		seen
+	f	Ljava/util/ArrayList;	f_6669454		unseen
 c	net/minecraft/unmapped/C_1011793
 	m	(Lnet/minecraft/unmapped/C_7019121;F)V	m_0737269		m_0737269
 		p	1			p_1
@@ -164,7 +164,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_1896376	m_1896376	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_1896376	getCloneItemStack	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -250,24 +250,24 @@ c	net/minecraft/unmapped/C_2160183
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_2226122
-	m	(Ljava/io/File;Ljava/lang/Iterable;Lnet/minecraft/unmapped/C_7235516;IILnet/minecraft/unmapped/C_3893367;)V	m_3449925	m_3449925	
+	m	(Ljava/io/File;Ljava/lang/Iterable;Lnet/minecraft/unmapped/C_7235516;IILnet/minecraft/unmapped/C_3893367;)V	m_3449925	convertRegions	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Ljava/io/File;Ljava/util/Collection;)V	m_3051800	m_3051800	
+	m	(Ljava/io/File;Ljava/util/Collection;)V	m_3051800	addRegionFiles	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/io/File;Ljava/util/ArrayList;Lnet/minecraft/unmapped/C_7235516;IILnet/minecraft/unmapped/C_3893367;)V	m_3449925		m_3449925
+	m	(Ljava/io/File;Ljava/util/ArrayList;Lnet/minecraft/unmapped/C_7235516;IILnet/minecraft/unmapped/C_3893367;)V	m_3449925		convertRegions
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(Ljava/io/File;Ljava/util/ArrayList;)V	m_3051800		m_3051800
+	m	(Ljava/io/File;Ljava/util/ArrayList;)V	m_3051800		addRegionFiles
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_2363721
@@ -320,14 +320,14 @@ c	net/minecraft/unmapped/C_2788918
 	m	()V	m_3593494		m_3593494
 c	net/minecraft/unmapped/C_2854223
 	m	()V	m_8869960		m_8869960
-c	net/minecraft/unmapped/C_2975244	net/minecraft/unmapped/C_2975244	
-	f	Ljava/lang/String;	f_4377580	f_4377580	
-	f	Ljava/lang/Throwable;	f_5721315	f_5721315	
+c	net/minecraft/unmapped/C_2975244	net/minecraft/CrashReport	
+	f	Ljava/lang/String;	f_4377580	title	
+	f	Ljava/lang/Throwable;	f_5721315	exception	
 	f	Ljava/util/Map;	f_7355020	f_7355020	
 	m	(Ljava/lang/String;Ljava/lang/Throwable;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_2187845	m_2187845	
+	m	()V	m_2187845	initDetails	
 	m	(Ljava/lang/String;Ljava/util/concurrent/Callable;)V	m_7327946	m_7327946	
 		p	1		p_1	
 		p	2		p_2	
@@ -337,25 +337,25 @@ c	net/minecraft/unmapped/C_2975244	net/minecraft/unmapped/C_2975244
 	m	(Ljava/lang/String;Ljava/lang/Throwable;)V	m_0760354	m_0760354	
 		p	1		p_1	
 		p	2		p_2	
-	m	()Ljava/lang/String;	m_2260033	m_2260033	
-	m	()Ljava/lang/Throwable;	m_2916969	m_2916969	
+	m	()Ljava/lang/String;	m_2260033	getTitle	
+	m	()Ljava/lang/Throwable;	m_2916969	getException	
 	m	()Ljava/lang/String;	m_2807213	m_2807213	
-	m	(Ljava/lang/StringBuilder;)V	m_0247455	m_0247455	
+	m	(Ljava/lang/StringBuilder;)V	m_0247455	getDetails	
 		p	1		p_1	
-	m	()Ljava/lang/String;	m_3559470	m_3559470	
-	m	()Ljava/lang/String;	m_1171045	m_1171045	
-	m	(Ljava/io/File;)Z	m_4644743	m_4644743	
+	m	()Ljava/lang/String;	m_3559470	getExceptionMessage	
+	m	()Ljava/lang/String;	m_1171045	getFriendlyReport	
+	m	(Ljava/io/File;)Z	m_4644743	saveToFile	
 		p	1		p_1	
-	m	()Ljava/lang/String;	m_8721520	m_8721520	
+	m	()Ljava/lang/String;	m_8721520	getErrorComment	
 c	net/minecraft/unmapped/C_3078426
 	m	(Lnet/minecraft/unmapped/C_2381425;Ljava/util/List;Ljava/util/Random;)V	m_5961758		m_5961758
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3120382
-	f	Ljava/util/List;	f_1758000	f_1758000	
+	f	Ljava/util/List;	f_1758000	availableGoals	
 	f	Ljava/util/List;	f_6085796	f_6085796	
-	f	Ljava/util/ArrayList;	f_1758000		f_1758000
+	f	Ljava/util/ArrayList;	f_1758000		availableGoals
 	f	Ljava/util/ArrayList;	f_6085796		f_6085796
 c	net/minecraft/unmapped/C_3176678
 	m	(Lnet/minecraft/unmapped/C_2381425;Ljava/util/List;Ljava/util/Random;)V	m_5961758		m_5961758
@@ -551,7 +551,7 @@ c	net/minecraft/unmapped/C_5533224
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_5553933
-	m	(Lnet/minecraft/unmapped/C_2975244;)Lnet/minecraft/unmapped/C_2975244;	m_4870728	m_4870728	
+	m	(Lnet/minecraft/unmapped/C_2975244;)Lnet/minecraft/unmapped/C_2975244;	m_4870728	fillReportDetails	
 		p	1		p_1	
 	m	()V	m_9618059		m_9618059
 c	net/minecraft/unmapped/C_5587144
@@ -646,9 +646,9 @@ c	net/minecraft/unmapped/C_6187096
 		p	1			p_1
 	m	()V	m_7090372		m_7090372
 c	net/minecraft/unmapped/C_6306298
-	m	(Lnet/minecraft/unmapped/C_2711798;)Lnet/minecraft/unmapped/C_2711798;	m_9877532	m_9877532	
+	m	(Lnet/minecraft/unmapped/C_2711798;)Lnet/minecraft/unmapped/C_2711798;	m_9877532	addSlot	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_9877532		m_9877532
+	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_9877532		addSlot
 		p	1			p_1
 	m	(S)V	m_1237578		m_1237578
 		p	1			p_1
@@ -833,7 +833,7 @@ c	net/minecraft/unmapped/C_8283103
 	m	(Lnet/minecraft/client/Minecraft;)V	m_0593473		m_0593473
 		p	1			p_1
 c	net/minecraft/unmapped/C_8300121
-	m	(Lnet/minecraft/unmapped/C_8300121;)Z	m_4401114	m_4401114	
+	m	(Lnet/minecraft/unmapped/C_8300121;)Z	m_4401114	merge	
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_0699887	m_0699887	
 c	net/minecraft/unmapped/C_8398976
@@ -867,7 +867,7 @@ c	net/minecraft/unmapped/C_8720625
 c	net/minecraft/unmapped/C_8814877
 	m	()V	m_0095412		m_0095412
 c	net/minecraft/unmapped/C_8853985
-	f	Lnet/minecraft/unmapped/C_2711798;	f_0296667	f_0296667	
+	f	Lnet/minecraft/unmapped/C_2711798;	f_0296667	ingredientSlot	
 c	net/minecraft/unmapped/C_8883923
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1

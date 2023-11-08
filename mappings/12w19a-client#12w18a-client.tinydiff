@@ -84,7 +84,7 @@ c	net/minecraft/unmapped/C_1263976	net/minecraft/unmapped/C_1263976
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_9661665;	m_2016500	m_2016500	
 c	net/minecraft/unmapped/C_1518925
-	f	Lnet/minecraft/unmapped/C_1518925;	f_0114524	f_0114524	
+	f	Lnet/minecraft/unmapped/C_1518925;	f_0114524	LARGE_BIOMES	
 c	net/minecraft/unmapped/C_1590125	net/minecraft/unmapped/C_1590125	
 	m	()V	<init>	<init>	
 	m	(Ljava/lang/String;)V	<init>	<init>	
@@ -318,7 +318,7 @@ c	net/minecraft/unmapped/C_2849807	net/minecraft/unmapped/C_2849807
 		p	4		p_4	
 	m	()[B	m_2564001	m_2564001	
 	m	()Lnet/minecraft/unmapped/C_0008286;	m_5120148	m_5120148	
-c	net/minecraft/unmapped/C_3106743	net/minecraft/unmapped/C_3106743	
+c	net/minecraft/unmapped/C_3106743	net/minecraft/world/level/block/CocoaBlock	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
@@ -500,7 +500,7 @@ c	net/minecraft/unmapped/C_5265607	net/minecraft/unmapped/C_5265607
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5587144
 	f	Z	f_6273768		f_6273768
-	m	()Z	m_7847313	m_7847313	
+	m	()Z	m_7847313	isCreepy	
 	m	(Z)V	m_0041163	m_0041163	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5764537	net/minecraft/unmapped/C_5764537	
@@ -548,11 +548,11 @@ c	net/minecraft/unmapped/C_7868659	net/minecraft/unmapped/C_7868659
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8398976
-	f	Lnet/minecraft/unmapped/C_7873567;	f_5815929	f_5815929	
-	f	Lnet/minecraft/unmapped/C_5553933;	f_5815929		f_5815929
-	m	(Lnet/minecraft/unmapped/C_7873567;)V	m_2989568	m_2989568	
+	f	Lnet/minecraft/unmapped/C_7873567;	f_5815929	level	
+	f	Lnet/minecraft/unmapped/C_5553933;	f_5815929		level
+	m	(Lnet/minecraft/unmapped/C_7873567;)V	m_2989568	setLevel	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_2989568		m_2989568
+	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_2989568		setLevel
 		p	1			p_1
 c	net/minecraft/unmapped/C_8442065	net/minecraft/unmapped/C_8442065	
 	m	()Lnet/minecraft/unmapped/C_9661665;	m_2016500	m_2016500	

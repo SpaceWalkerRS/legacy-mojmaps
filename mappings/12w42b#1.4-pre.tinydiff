@@ -1,13 +1,13 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0355969
-	f	I	f_6296554		f_6296554
-	m	(I)V	m_1597660		m_1597660
+	f	I	f_6296554		updatedRenderTick
+	m	(I)V	m_1597660		updateTick
 		p	1			p_1
-	m	()I	m_0457225		m_0457225
+	m	()I	m_0457225		getUpdatedRenderTick
 c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_4863209;	f_7009980		f_7009980
 c	net/minecraft/unmapped/C_1651558
-	f	Lnet/minecraft/unmapped/C_9590849;	f_7490975		f_7490975
+	f	Lnet/minecraft/unmapped/C_9590849;	f_7490975		player
 	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_5553933;III)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -22,14 +22,14 @@ c	net/minecraft/unmapped/C_1651558
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_2018497
-	m	(Ljava/lang/String;ILjava/lang/ClassCastException;)Lnet/minecraft/unmapped/C_2975244;	m_5192685		m_5192685
+	m	(Ljava/lang/String;ILjava/lang/ClassCastException;)Lnet/minecraft/unmapped/C_2975244;	m_5192685		createReport
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 	m	(Lnet/minecraft/unmapped/C_2018497;)Ljava/util/Map;	m_9151070		m_9151070
 		p	0			p_0
 c	net/minecraft/unmapped/C_3225627
-	f	[Ljava/lang/String;	f_4363101		f_4363101
+	f	[Ljava/lang/String;	f_4363101		TAG_NAMES
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_3831727
 	m	()Z	m_0834327		m_0834327

@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1241852
-	m	()Z	m_7274359		m_7274359
+	m	()Z	m_7274359		isPossibleToRespawnInThis
 c	net/minecraft/unmapped/C_1281612
 c	net/minecraft/unmapped/C_1281612$1		1
 	f	Lnet/minecraft/unmapped/C_1730529;	f_9881499		f_9881499
@@ -47,7 +47,7 @@ c	net/minecraft/unmapped/C_9399468
 	m	()Lnet/minecraft/unmapped/C_9399468;	m_6745906	m_6745906	
 c	net/minecraft/unmapped/C_9921707
 c	net/minecraft/unmapped/C_9921707$C_5864193
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;IIIIIIZ)V	m_9000105		m_9000105
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;IIIIIIZ)V	m_9000105		generateWaterBox
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3

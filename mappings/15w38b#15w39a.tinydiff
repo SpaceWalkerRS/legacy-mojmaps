@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()Lnet/minecraft/unmapped/C_3544601;	m_6166273		m_6166273
+	m	()Lnet/minecraft/unmapped/C_3544601;	m_6166273		getMotionDirection
 c	net/minecraft/unmapped/C_0607826
 	m	()Lnet/minecraft/unmapped/C_3544601;	m_6166273		m_6166273
 c	net/minecraft/unmapped/C_1119254
@@ -31,7 +31,7 @@ c	net/minecraft/unmapped/C_2528546
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_3292284
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_3594075		m_3594075
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_3594075		cancelRemoveEntity
 		p	1			p_1
 c	net/minecraft/unmapped/C_3325732
 	m	(I)V	m_2911928		m_2911928
@@ -55,9 +55,9 @@ c	net/minecraft/unmapped/C_5438730
 		p	1			p_1
 	m	()V	m_4127420		m_4127420
 c	net/minecraft/unmapped/C_5553933
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_0384893	m_0384893	
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_0384893	sendBlockUpdated	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_0384893		m_0384893
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_0384893		sendBlockUpdated
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -72,23 +72,23 @@ c	net/minecraft/unmapped/C_6886891
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_7028449
-	f	Z	f_1178466		f_1178466
-	m	()V	m_2275788		m_2275788
-	m	()Z	m_7736687		m_7736687
+	f	Z	f_1178466		playerChanged
+	m	()V	m_2275788		setNotDirty
+	m	()Z	m_7736687		isDirtyFromPlayer
 c	net/minecraft/unmapped/C_8398976
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7028449;)Z	m_1345836	m_1345836	
 		p	1		p_1	
 		p	2		p_2	
-	m	(IIIIII)V	m_5495882	m_5495882	
+	m	(IIIIII)V	m_5495882	setSectionDirty	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_2968970	m_2968970	
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_2968970	blockChanged	
 		p	1		p_1	
-	m	(IIIIIIZ)V	m_5495882		m_5495882
+	m	(IIIIIIZ)V	m_5495882		setSectionDirty
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -96,7 +96,7 @@ c	net/minecraft/unmapped/C_8398976
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970		m_2968970
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970		blockChanged
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -104,4 +104,4 @@ c	net/minecraft/unmapped/C_8398976
 c	net/minecraft/unmapped/C_9482745
 	m	()Lnet/minecraft/unmapped/C_3544601;	m_6166273		m_6166273
 c	net/minecraft/unmapped/C_9590849
-	m	()V	m_5833870		m_5833870
+	m	()V	m_5833870		moveCloak

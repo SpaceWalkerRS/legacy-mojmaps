@@ -81,5 +81,5 @@ c	net/minecraft/unmapped/C_7952195
 c	net/minecraft/unmapped/C_8620458
 	f	I	f_2169091	f_2169091	
 	m	()Z	m_1635166	m_1635166	
-	m	(Z)V	m_0640491	m_0640491	
+	m	(Z)V	m_0640491	setFancy	
 		p	1		p_1	

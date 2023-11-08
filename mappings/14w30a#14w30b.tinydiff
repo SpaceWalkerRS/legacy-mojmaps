@@ -1,14 +1,14 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1498011
-	f	I	f_1061700		f_1061700
-	m	()Z	m_5634922		m_5634922
-	m	()V	m_9308444		m_9308444
+	f	I	f_1061700		droppedSkulls
+	m	()Z	m_5634922		canDropMobsSkull
+	m	()V	m_9308444		increaseDroppedSkulls
 c	net/minecraft/unmapped/C_5175372
-	f	[I	f_7542838		f_7542838
+	f	[I	f_7542838		INDEX_OF_EDGES
 	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_0224262
 		p	1		p_1	
 		p	0			p_0
-	m	(III)I	m_8140462		m_8140462
+	m	(III)I	m_8140462		getIndex
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

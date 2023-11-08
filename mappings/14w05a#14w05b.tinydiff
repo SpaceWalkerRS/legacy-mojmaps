@@ -33,7 +33,7 @@ c	net/minecraft/unmapped/C_0247078
 		p	7			p_7
 		p	8			p_8
 c	net/minecraft/unmapped/C_0259655
-	f	Z	f_5299422		f_5299422
+	f	Z	f_5299422		effectActive
 c	net/minecraft/unmapped/C_1011793
 	f	Lnet/minecraft/unmapped/C_4848620;	f_1242481	f_1242481	
 	m	(Lnet/minecraft/unmapped/C_7019121;FFFFFFF)V	m_6034390	m_6034390	
@@ -178,8 +178,8 @@ c	net/minecraft/unmapped/C_3337989
 		p	7			p_7
 		p	8			p_8
 c	net/minecraft/unmapped/C_3544601
-	f	Ljava/util/Map;	f_5317452		f_5317452
-	m	()Ljava/lang/String;	m_4717397		m_4717397
+	f	Ljava/util/Map;	f_5317452		BY_NAME
+	m	()Ljava/lang/String;	m_4717397		getName
 c	net/minecraft/unmapped/C_3680012
 	m	()Z	m_4955147		m_4955147
 	m	(Lnet/minecraft/unmapped/C_6607881;FFFFFFF)V	m_7346986		m_7346986
@@ -396,7 +396,7 @@ c	net/minecraft/unmapped/C_7336537
 		p	8		p_8	
 c	net/minecraft/unmapped/C_7639596
 	f	Lnet/minecraft/unmapped/C_9751000;	f_0894627	f_0894627	
-	f	Ljava/util/List;	f_3510641		f_3510641
+	f	Ljava/util/List;	f_3510641		layers
 	m	(Lnet/minecraft/unmapped/C_6607881;FFFFFFFFFFF)V	m_9457177	m_9457177	
 		p	1		p_1	
 		p	2		p_2	
@@ -413,7 +413,7 @@ c	net/minecraft/unmapped/C_7639596
 	m	(Lnet/minecraft/unmapped/C_6607881;F)V	m_6068770	m_6068770	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8225317;)Z	m_9389393		m_9389393
+	m	(Lnet/minecraft/unmapped/C_8225317;)Z	m_9389393		addLayer
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6607881;FFFFFFFFFFFZ)V	m_9457177		m_9457177
 		p	1			p_1
@@ -646,7 +646,7 @@ c	net/minecraft/unmapped/C_9751000
 		p	7			p_7
 		p	8			p_8
 	m	()Z	m_4955147		m_4955147
-c	net/minecraft/unmapped/C_0799716		net/minecraft/unmapped/C_0799716
+c	net/minecraft/unmapped/C_0799716		net/minecraft/client/renderer/entity/layers/SnowGolemHeadLayer
 	f	Lnet/minecraft/unmapped/C_8020381;	f_8276152		f_8276152
 	m	(Lnet/minecraft/unmapped/C_8020381;)V	<init>		<init>
 		p	1			p_1
@@ -669,7 +669,7 @@ c	net/minecraft/unmapped/C_0799716		net/minecraft/unmapped/C_0799716
 		p	6			p_6
 		p	7			p_7
 		p	8			p_8
-c	net/minecraft/unmapped/C_2303486		net/minecraft/unmapped/C_2303486
+c	net/minecraft/unmapped/C_2303486		net/minecraft/client/renderer/entity/layers/MushroomCowMushroomLayer
 	f	Lnet/minecraft/unmapped/C_2608308;	f_3419797		f_3419797
 	m	(Lnet/minecraft/unmapped/C_2608308;)V	<init>		<init>
 		p	1			p_1
@@ -692,7 +692,7 @@ c	net/minecraft/unmapped/C_2303486		net/minecraft/unmapped/C_2303486
 		p	6			p_6
 		p	7			p_7
 		p	8			p_8
-c	net/minecraft/unmapped/C_5033897		net/minecraft/unmapped/C_5033897
+c	net/minecraft/unmapped/C_5033897		net/minecraft/client/renderer/entity/layers/IronGolemFlowerLayer
 	f	Lnet/minecraft/unmapped/C_5794653;	f_4344698		f_4344698
 	m	(Lnet/minecraft/unmapped/C_5794653;)V	<init>		<init>
 		p	1			p_1
@@ -715,7 +715,7 @@ c	net/minecraft/unmapped/C_5033897		net/minecraft/unmapped/C_5033897
 		p	6			p_6
 		p	7			p_7
 		p	8			p_8
-c	net/minecraft/unmapped/C_5741596		net/minecraft/unmapped/C_5741596
+c	net/minecraft/unmapped/C_5741596		net/minecraft/client/renderer/entity/layers/ArrowLayer
 	f	Lnet/minecraft/unmapped/C_7639596;	f_7905208		f_7905208
 	m	(Lnet/minecraft/unmapped/C_7639596;)V	<init>		<init>
 		p	1			p_1
@@ -740,7 +740,7 @@ c	net/minecraft/unmapped/C_8225317		net/minecraft/unmapped/C_8225317
 		p	7			p_7
 		p	8			p_8
 	m	()Z	m_4955147		m_4955147
-c	net/minecraft/unmapped/C_8942743		net/minecraft/unmapped/C_8942743
+c	net/minecraft/unmapped/C_8942743		net/minecraft/client/renderer/entity/layers/WitchItemLayer
 	f	Lnet/minecraft/unmapped/C_1877953;	f_4480494		f_4480494
 	m	(Lnet/minecraft/unmapped/C_1877953;)V	<init>		<init>
 		p	1			p_1

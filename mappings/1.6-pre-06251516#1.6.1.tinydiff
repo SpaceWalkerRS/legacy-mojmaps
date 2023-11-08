@@ -118,7 +118,7 @@ c	net/minecraft/unmapped/C_9876986
 	m	(ZI)V	m_7743236		m_7743236
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_2764761		net/minecraft/unmapped/C_2764761
+c	net/minecraft/unmapped/C_2764761		net/minecraft/server/commands/PlaySoundCommand
 	m	()V	<init>		<init>
 	m	()Ljava/lang/String;	m_2274818		m_2274818
 	m	()I	m_5251718		m_5251718

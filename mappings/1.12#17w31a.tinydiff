@@ -9,7 +9,7 @@ c	net/minecraft/unmapped/C_3342272
 c	net/minecraft/unmapped/C_5242898
 	f	Lorg/apache/logging/log4j/Logger;	f_1747437	f_1747437	
 	f	Lnet/minecraft/unmapped/C_6306298;	f_6722717	f_6722717	
-	m	(IILnet/minecraft/unmapped/C_8105098;ZLnet/minecraft/unmapped/C_6306298;Lnet/minecraft/unmapped/C_5217418;)V	m_2828653	m_2828653	
+	m	(IILnet/minecraft/unmapped/C_8105098;ZLnet/minecraft/unmapped/C_6306298;Lnet/minecraft/unmapped/C_5217418;)V	m_2828653	init	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -40,7 +40,7 @@ c	net/minecraft/unmapped/C_5242898
 		p	2		p_2	
 		p	3		p_3	
 	m	()Z	m_3444083	m_3444083	
-	m	(IILnet/minecraft/unmapped/C_8105098;ZLnet/minecraft/unmapped/C_5217418;)V	m_2828653		m_2828653
+	m	(IILnet/minecraft/unmapped/C_8105098;ZLnet/minecraft/unmapped/C_5217418;)V	m_2828653		init
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -50,12 +50,12 @@ c	net/minecraft/unmapped/C_5722573
 	m	(Lnet/minecraft/unmapped/C_7702158;)V	m_2888193		m_2888193
 		p	1			p_1
 c	net/minecraft/unmapped/C_5956487
-	m	(ILjava/util/List;Ljava/util/List;Lnet/minecraft/unmapped/C_9590849;)V	m_1074314	m_1074314	
+	m	(ILjava/util/List;Ljava/util/List;Lnet/minecraft/unmapped/C_9590849;)V	m_1074314	handlePlaceRecipe	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(ILnet/minecraft/unmapped/C_2361607;ZLnet/minecraft/unmapped/C_9590849;)V	m_1074314		m_1074314
+	m	(ILnet/minecraft/unmapped/C_2361607;ZLnet/minecraft/unmapped/C_9590849;)V	m_1074314		handlePlaceRecipe
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -64,8 +64,8 @@ c	net/minecraft/unmapped/C_6187210
 	f	S	f_9464042	f_9464042	
 	f	Ljava/util/List;	f_4842873	f_4842873	
 	f	Ljava/util/List;	f_5272705	f_5272705	
-	f	Lnet/minecraft/unmapped/C_2361607;	f_8370253		f_8370253
-	f	Z	f_8377436		f_8377436
+	f	Lnet/minecraft/unmapped/C_2361607;	f_8370253		recipe
+	f	Z	f_8377436		shiftDown
 	m	(ILjava/util/List;Ljava/util/List;S)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -83,8 +83,8 @@ c	net/minecraft/unmapped/C_6187210
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()Lnet/minecraft/unmapped/C_2361607;	m_3388949		m_3388949
-	m	()Z	m_9003910		m_9003910
+	m	()Lnet/minecraft/unmapped/C_2361607;	m_3388949		getRecipe
+	m	()Z	m_9003910		isShiftDown
 c	net/minecraft/unmapped/C_6187210$C_2959218	C_2959218	
 	f	Lnet/minecraft/unmapped/C_2454309;	f_1884527	f_1884527	
 	f	I	f_9789431	f_9789431	
@@ -98,15 +98,15 @@ c	net/minecraft/unmapped/C_6306298
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_7702158;)V	m_2888193		m_2888193
+	m	(Lnet/minecraft/unmapped/C_7702158;)V	m_2888193		handlePlaceRecipe
 		p	1			p_1
 c	net/minecraft/unmapped/C_9441491
 	m	()Lnet/minecraft/unmapped/C_5242898;	m_9452247		m_9452247
 c	net/minecraft/unmapped/C_9731172
-	m	()Lnet/minecraft/unmapped/C_5242898;	m_9452247		m_9452247
-c	net/minecraft/unmapped/C_1544625		net/minecraft/unmapped/C_1544625
-	f	Lorg/apache/logging/log4j/Logger;	f_0968983		f_0968983
-	f	Lnet/minecraft/unmapped/C_8814194;	f_8172727		f_8172727
+	m	()Lnet/minecraft/unmapped/C_5242898;	m_9452247		getRecipeBookComponent
+c	net/minecraft/unmapped/C_1544625		net/minecraft/recipebook/ServerPlaceRecipe
+	f	Lorg/apache/logging/log4j/Logger;	f_0968983		LOGGER
+	f	Lnet/minecraft/unmapped/C_8814194;	f_8172727		stackedContents
 	f	Lnet/minecraft/unmapped/C_3292284;	f_7401045		f_7401045
 	f	Lnet/minecraft/unmapped/C_2361607;	f_8904138		f_8904138
 	f	Z	f_4027146		f_4027146
@@ -114,31 +114,31 @@ c	net/minecraft/unmapped/C_1544625		net/minecraft/unmapped/C_1544625
 	f	Lnet/minecraft/unmapped/C_5217418;	f_3101989		f_3101989
 	f	Ljava/util/List;	f_5189901		f_5189901
 	m	()V	<init>		<init>
-	m	(Lnet/minecraft/unmapped/C_3292284;Lnet/minecraft/unmapped/C_2361607;Z)V	m_1260733		m_1260733
+	m	(Lnet/minecraft/unmapped/C_3292284;Lnet/minecraft/unmapped/C_2361607;Z)V	m_1260733		recipeClicked
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 	m	()V	m_1977315		m_1977315
-	m	()V	m_0962979		m_0962979
-	m	(IZ)I	m_5773480		m_5773480
+	m	()V	m_0962979		handleRecipeClicked
+	m	(IZ)I	m_5773480		getStackSize
 		p	1			p_1
 		p	2			p_2
 	m	(ILit/unimi/dsi/fastutil/ints/IntList;)V	m_3696788		m_3696788
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_2454309;)V	m_9451142		m_9451142
+	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_2454309;)V	m_9451142		moveItemToGrid
 		p	1			p_1
 		p	2			p_2
-	m	()Z	m_8844744		m_8844744
-c	net/minecraft/unmapped/C_7702158		net/minecraft/unmapped/C_7702158
-	f	I	f_7333014		f_7333014
-	f	Lnet/minecraft/unmapped/C_2361607;	f_0228859		f_0228859
+	m	()Z	m_8844744		testClearGrid
+c	net/minecraft/unmapped/C_7702158		net/minecraft/network/protocol/game/ClientboundPlaceGhostRecipePacket
+	f	I	f_7333014		containerId
+	f	Lnet/minecraft/unmapped/C_2361607;	f_0228859		recipe
 	m	()V	<init>		<init>
 	m	(ILnet/minecraft/unmapped/C_2361607;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_2361607;	m_0885808		m_0885808
-	m	()I	m_0511162		m_0511162
+	m	()Lnet/minecraft/unmapped/C_2361607;	m_0885808		getRecipe
+	m	()I	m_0511162		getContainerId
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_4792371		m_4792371
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_6110406		m_6110406

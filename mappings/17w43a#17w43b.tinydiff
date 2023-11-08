@@ -1,10 +1,10 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1832899
-	m	()V	m_3340032		m_3340032
+	m	()V	m_3340032		sortAvailable
 	m	(Ljava/util/Map$Entry;)V	m_2281954		m_2281954
 		p	1			p_1
 c	net/minecraft/unmapped/C_2191309
-	m	(Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/unmapped/C_2191309$C_0933267;)Lnet/minecraft/unmapped/C_2191309;	m_2600140	m_2600140	
+	m	(Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/unmapped/C_2191309$C_0933267;)Lnet/minecraft/unmapped/C_2191309;	m_2600140	create	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -15,7 +15,7 @@ c	net/minecraft/unmapped/C_2191309
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/unmapped/C_2191309$C_0933267;Lnet/minecraft/unmapped/C_2191309$C_4728915;)Lnet/minecraft/unmapped/C_2191309;	m_2600140		m_2600140
+	m	(Ljava/lang/String;ZLjava/util/function/Supplier;Lnet/minecraft/unmapped/C_2191309$C_0933267;Lnet/minecraft/unmapped/C_2191309$C_4728915;)Lnet/minecraft/unmapped/C_2191309;	m_2600140		create
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

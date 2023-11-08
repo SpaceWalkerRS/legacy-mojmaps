@@ -43,7 +43,7 @@ c	net/minecraft/unmapped/C_0175717
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_0539808
-	m	()Lnet/minecraft/unmapped/C_0557736;	m_5275640		m_5275640
+	m	()Lnet/minecraft/unmapped/C_0557736;	m_5275640		getCommandSenderWorldPosition
 c	net/minecraft/unmapped/C_0560185
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)Ljava/util/List;	m_0376737	m_0376737	
 		p	1		p_1	
@@ -205,8 +205,8 @@ c	net/minecraft/unmapped/C_3273171
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3438842
-	m	()V	m_8005809		m_8005809
-	m	(F)V	m_8170638		m_8170638
+	m	()V	m_8005809		showBreakingParticles
+	m	(F)V	m_8170638		causeDamage
 		p	1			p_1
 c	net/minecraft/unmapped/C_3553359
 	f	Ljava/lang/String;	f_0336592	f_0336592	
@@ -320,7 +320,7 @@ c	net/minecraft/unmapped/C_5948807
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_6152184
-	m	(Z)V	m_1396929		m_1396929
+	m	(Z)V	m_1396929		setHardcore
 		p	1			p_1
 c	net/minecraft/unmapped/C_6255335
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)Ljava/util/List;	m_0376737	m_0376737	
@@ -479,13 +479,13 @@ c	net/minecraft/unmapped/C_9761743
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_9913447
-	f	Ljava/io/PrintStream;	f_9941825		f_9941825
-	m	()V	m_9851853		m_9851853
-	m	(Ljava/lang/String;)V	m_1951091		m_1951091
+	f	Ljava/io/PrintStream;	f_9941825		STDOUT
+	m	()V	m_9851853		wrapStreams
+	m	(Ljava/lang/String;)V	m_1951091		realStdoutPrintln
 		p	0			p_0
-c	net/minecraft/unmapped/C_1248595		net/minecraft/unmapped/C_1248595
-	f	Lorg/apache/logging/log4j/Logger;	f_0854193		f_0854193
-	f	Ljava/lang/String;	f_8515391		f_8515391
+c	net/minecraft/unmapped/C_1248595		net/minecraft/server/LoggedPrintStream
+	f	Lorg/apache/logging/log4j/Logger;	f_0854193		LOGGER
+	f	Ljava/lang/String;	f_8515391		name
 	m	(Ljava/lang/String;Ljava/io/OutputStream;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -493,7 +493,7 @@ c	net/minecraft/unmapped/C_1248595		net/minecraft/unmapped/C_1248595
 		p	1			p_1
 	m	(Ljava/lang/Object;)V	println		println
 		p	1			p_1
-	m	(Ljava/lang/String;)V	m_6234984		m_6234984
+	m	(Ljava/lang/String;)V	m_6234984		logLine
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_7119818		net/minecraft/unmapped/C_7119818

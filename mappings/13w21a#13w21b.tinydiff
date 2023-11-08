@@ -29,6 +29,6 @@ c	net/minecraft/unmapped/C_1872000
 	m	(Ljava/lang/String;)V	m_9949884		m_9949884
 		p	1			p_1
 c	net/minecraft/unmapped/C_6122773
-	f	Ljava/util/Map;	f_6157698		f_6157698
+	f	Ljava/util/Map;	f_6157698		attributesByLegacy
 c	net/minecraft/unmapped/C_9590849
 	m	()F	m_0732788		m_0732788

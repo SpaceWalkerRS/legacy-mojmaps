@@ -83,21 +83,21 @@ c	net/minecraft/unmapped/C_0490004
 c	net/minecraft/unmapped/C_0539808
 	f	Lnet/minecraft/unmapped/C_0539808;	f_9464375	f_9464375	
 	f	Lnet/minecraft/unmapped/C_0539808;	f_2237342	f_2237342	
-	m	()V	m_3247694	m_3247694	
-	m	()V	m_4446411	m_4446411	
-	m	()Lnet/minecraft/unmapped/C_5577922;	m_7008873	m_7008873	
-	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_5577922;	m_0588937	m_0588937	
+	m	()V	m_3247694	remove	
+	m	()V	m_4446411	baseTick	
+	m	()Lnet/minecraft/unmapped/C_5577922;	m_7008873	getCollideBox	
+	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_5577922;	m_0588937	getCollideAgainstBox	
 		p	1		p_1	
-	m	()V	m_1849804	m_1849804	
+	m	()V	m_1849804	rideTick	
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_6033607		m_6033607
 		p	1			p_1
 c	net/minecraft/unmapped/C_0774916
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_3183220	m_3183220	
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_3183220	isValidFireLocation	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_3183220		m_3183220
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_3183220		isValidFireLocation
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -179,7 +179,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_8030141;III)V	m_5507773	m_5507773	
+	m	(Lnet/minecraft/unmapped/C_8030141;III)V	m_5507773	getShape	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -201,7 +201,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773		m_5507773
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773		getShape
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -247,14 +247,14 @@ c	net/minecraft/unmapped/C_1895985	net/minecraft/unmapped/C_1895985
 	m	()V	m_7313513	m_7313513	
 c	net/minecraft/unmapped/C_2144954
 	f	Ljava/util/Random;	f_7485346		f_7485346
-	m	(Lnet/minecraft/unmapped/C_5553933;II)Lnet/minecraft/unmapped/C_1842758;	m_2544799	m_2544799	
+	m	(Lnet/minecraft/unmapped/C_5553933;II)Lnet/minecraft/unmapped/C_1842758;	m_2544799	getRandomPosWithin	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0539808;)I	m_7552313	m_7552313	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0539808;)I	m_7552313	spawnCategoryForChunk	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5902900;)I	m_7552313		m_7552313
+	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5902900;)I	m_7552313		spawnCategoryForChunk
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -347,7 +347,7 @@ c	net/minecraft/unmapped/C_3747079
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_9453095	m_9453095	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_9453095	fizz	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -444,10 +444,10 @@ c	net/minecraft/unmapped/C_4311389
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_4976084
-	m	(DD)D	m_0372672	m_0372672	
+	m	(DD)D	m_0372672	absMax	
 		p	0		p_0	
 		p	2		p_2	
-	m	(II)I	m_0160389	m_0160389	
+	m	(II)I	m_0160389	intFloorDiv	
 		p	0		p_0	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5553933
@@ -653,11 +653,11 @@ c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-c	net/minecraft/unmapped/C_8275823	net/minecraft/unmapped/C_8275823	
-	f	I	f_8192154	f_8192154	
-	f	I	f_4527434	f_4527434	
-	f	[[Lnet/minecraft/unmapped/C_6849228;	f_6307464	f_6307464	
-	f	Lnet/minecraft/unmapped/C_5553933;	f_8371121	f_8371121	
+c	net/minecraft/unmapped/C_8275823	net/minecraft/world/level/PathNavigationRegion	
+	f	I	f_8192154	centerX	
+	f	I	f_4527434	centerZ	
+	f	[[Lnet/minecraft/unmapped/C_6849228;	f_6307464	chunks	
+	f	Lnet/minecraft/unmapped/C_5553933;	f_8371121	level	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -698,8 +698,8 @@ c	net/minecraft/unmapped/C_8398976
 	f	[Lnet/minecraft/unmapped/C_1895985;	f_2276984	f_2276984	
 	f	I	f_0853478	f_0853478	
 	f	Ljava/nio/FloatBuffer;	f_1273947		f_1273947
-	m	()V	m_4672684	m_4672684	
-	m	()V	m_6023214	m_6023214	
+	m	()V	m_4672684	drawStars	
+	m	()V	m_6023214	renderSameAsLast	
 	m	(ID)V	m_0907931		m_0907931
 		p	1			p_1
 		p	2			p_2
@@ -723,7 +723,7 @@ c	net/minecraft/unmapped/C_8593406
 	m	(Z)V	m_2192709		m_2192709
 		p	1			p_1
 c	net/minecraft/unmapped/C_8651652
-	f	F	f_5401651	f_5401651	
+	f	F	f_5401651	vignetteBrightness	
 c	net/minecraft/unmapped/C_8973030	net/minecraft/unmapped/C_8973030	
 	f	Ljava/nio/ByteOrder;	f_9483113	f_9483113	
 	f	Ljava/io/File;	f_6177776	f_6177776	

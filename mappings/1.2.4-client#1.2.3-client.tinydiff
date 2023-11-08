@@ -29,8 +29,8 @@ c	net/minecraft/unmapped/C_1441789
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_1857222
-	m	()Z	m_2530792	m_2530792	
-	m	(Z)V	m_5727244	m_5727244	
+	m	()Z	m_2530792	isEditable	
+	m	(Z)V	m_5727244	setEditable	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2018497
 	m	()I	hashCode	hashCode	
@@ -42,12 +42,12 @@ c	net/minecraft/unmapped/C_2691939
 		p	5			p_5
 c	net/minecraft/unmapped/C_2925725
 	f	Z	f_9552700	f_9552700	
-	f	Z	f_4890970	f_4890970	
-	f	I	f_6183025	f_6183025	
-	f	I	f_8267433	f_8267433	
-	f	I	f_5916742	f_5916742	
-	f	I	f_3529875	f_3529875	
-	f	I	f_1211638	f_1211638	
+	f	Z	f_4890970	canLoseFocus	
+	f	I	f_6183025	displayPos	
+	f	I	f_8267433	cursorPos	
+	f	I	f_5916742	highlightPos	
+	f	I	f_3529875	textColor	
+	f	I	f_1211638	textColorUneditable	
 	f	Lnet/minecraft/unmapped/C_3020744;	f_2151358		f_2151358
 	m	(Lnet/minecraft/unmapped/C_3831727;IIII)V	<init>	<init>	
 		p	1		p_1	
@@ -55,43 +55,43 @@ c	net/minecraft/unmapped/C_2925725
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	()Ljava/lang/String;	m_5951521	m_5951521	
-	m	(Ljava/lang/String;)V	m_8767892	m_8767892	
+	m	()Ljava/lang/String;	m_5951521	getHighlighted	
+	m	(Ljava/lang/String;)V	m_8767892	insertText	
 		p	1		p_1	
-	m	(I)V	m_6819346	m_6819346	
+	m	(I)V	m_6819346	deleteWords	
 		p	1		p_1	
-	m	(I)V	m_7421689	m_7421689	
+	m	(I)V	m_7421689	deleteChars	
 		p	1		p_1	
-	m	(I)I	m_4566222	m_4566222	
+	m	(I)I	m_4566222	getWordPosition	
 		p	1		p_1	
-	m	(II)I	m_7878089	m_7878089	
+	m	(II)I	m_7878089	getWordPosition	
 		p	1		p_1	
 		p	2		p_2	
-	m	(I)V	m_7715357	m_7715357	
+	m	(I)V	m_7715357	moveCursor	
 		p	1		p_1	
-	m	(I)V	m_4212714	m_4212714	
+	m	(I)V	m_4212714	moveCursorTo	
 		p	1		p_1	
-	m	()V	m_8214583	m_8214583	
-	m	()V	m_4827178	m_4827178	
+	m	()V	m_8214583	moveCursorToStart	
+	m	()V	m_4827178	moveCursorToEnd	
 	m	(CI)Z	m_1973329	m_1973329	
 		p	1		p_1	
 		p	2		p_2	
-	m	(IIII)V	m_1864397	m_1864397	
+	m	(IIII)V	m_1864397	renderHighlight	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	()I	m_4858059	m_4858059	
-	m	()I	m_4585932	m_4585932	
-	m	()Z	m_1500881	m_1500881	
-	m	(Z)V	m_7697542	m_7697542	
+	m	()I	m_4858059	getMaxLength	
+	m	()I	m_4585932	getCursorPosition	
+	m	()Z	m_1500881	isBordered	
+	m	(Z)V	m_7697542	setBordered	
 		p	1		p_1	
 	m	()Z	m_6304921	m_6304921	
 	m	()I	m_9932443	m_9932443	
-	m	()I	m_7730064	m_7730064	
-	m	(I)V	m_7720390	m_7720390	
+	m	()I	m_7730064	getInnerWidth	
+	m	(I)V	m_7720390	setHighlightPos	
 		p	1		p_1	
-	m	(Z)V	m_6713448	m_6713448	
+	m	(Z)V	m_6713448	setCanLoseFocus	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_3020744;Lnet/minecraft/unmapped/C_3831727;IIIILjava/lang/String;)V	<init>		<init>
 		p	1			p_1
@@ -212,8 +212,8 @@ c	net/minecraft/unmapped/C_4955046	net/minecraft/unmapped/C_4955046
 	m	()Ljava/net/URI;	m_0808040	m_0808040	
 	m	()Ljava/lang/String;	m_6378681	m_6378681	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_5005702	net/minecraft/unmapped/C_5005702	
-	f	Lnet/minecraft/unmapped/C_1549236;	f_0216107	f_0216107	
+c	net/minecraft/unmapped/C_5005702	net/minecraft/world/entity/ai/goal/CatSitOnBlockGoal	
+	f	Lnet/minecraft/unmapped/C_1549236;	f_0216107	cat	
 	f	F	f_3761050	f_3761050	
 	f	I	f_6799460	f_6799460	
 	f	I	f_0244193	f_0244193	
@@ -292,12 +292,12 @@ c	net/minecraft/unmapped/C_7133828
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_7997606;)V	m_1833653	m_1833653	
+	m	(Lnet/minecraft/unmapped/C_7997606;)V	m_1833653	handlePlayerAbilities	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7450921
 	m	()V	m_9533182		m_9533182
 c	net/minecraft/unmapped/C_7650729
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_5393782	m_5393782	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_5393782	isCatSittingOnChest	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -309,7 +309,7 @@ c	net/minecraft/unmapped/C_7669754
 	f	I	f_5767708	f_5767708	
 	f	Ljava/util/List;	f_2529534	f_2529534	
 	f	Ljava/net/URI;	f_7387884	f_7387884	
-	f	Lnet/minecraft/unmapped/C_2925725;	f_6097131	f_6097131	
+	f	Lnet/minecraft/unmapped/C_2925725;	f_6097131	input	
 	f	Ljava/lang/String;	f_6856129	f_6856129	
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
@@ -318,13 +318,13 @@ c	net/minecraft/unmapped/C_7669754
 		p	1		p_1	
 		p	2		p_2	
 	m	()V	m_8255702	m_8255702	
-	m	(I)V	m_4062986	m_4062986	
+	m	(I)V	m_4062986	moveInHistory	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_7997606	net/minecraft/unmapped/C_7997606	
-	f	Z	f_1733566	f_1733566	
-	f	Z	f_8399907	f_8399907	
-	f	Z	f_9422585	f_9422585	
-	f	Z	f_3875154	f_3875154	
+c	net/minecraft/unmapped/C_7997606	net/minecraft/network/protocol/game/ClientboundPlayerAbilitiesPacket	
+	f	Z	f_1733566	invulnerable	
+	f	Z	f_8399907	isFlying	
+	f	Z	f_9422585	canFly	
+	f	Z	f_3875154	instabuild	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_1851782;)V	<init>	<init>	
 		p	1		p_1	
@@ -374,10 +374,10 @@ c	net/minecraft/unmapped/C_9083739
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_9184792
-	m	()Lnet/minecraft/unmapped/C_3193702;	m_4712080	m_4712080	
-c	net/minecraft/unmapped/C_9468736	net/minecraft/unmapped/C_9468736	
-	f	Ljava/lang/String;	f_4700516	f_4700516	
-	f	Ljava/lang/String;	f_6051490	f_6051490	
+	m	()Lnet/minecraft/unmapped/C_3193702;	m_4712080	getSitGoal	
+c	net/minecraft/unmapped/C_9468736	net/minecraft/client/gui/screens/ConfirmLinkScreen	
+	f	Ljava/lang/String;	f_4700516	warning	
+	f	Ljava/lang/String;	f_6051490	copyButton	
 	m	(Lnet/minecraft/unmapped/C_3020744;Ljava/lang/String;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -391,6 +391,6 @@ c	net/minecraft/unmapped/C_9468736	net/minecraft/unmapped/C_9468736
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_9590849
-	m	()V	m_3538363	m_3538363	
+	m	()V	m_3538363	onUpdateAbilities	
 c	net/minecraft/unmapped/C_9785392
 	m	()I	hashCode	hashCode	

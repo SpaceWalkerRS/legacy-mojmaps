@@ -5,7 +5,7 @@ c	net/minecraft/unmapped/C_3496129
 	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6303815		m_6303815
 		p	1			p_1
 c	net/minecraft/unmapped/C_3832296
-	f	I	f_5762956		f_5762956
+	f	I	f_5762956		gallopSoundCounter
 	m	()V	m_4327039	m_4327039	
 	m	(Lnet/minecraft/unmapped/C_3832296;Lnet/minecraft/unmapped/C_5553933;)V	m_0904052	m_0904052	
 		p	1		p_1	
@@ -22,7 +22,7 @@ c	net/minecraft/unmapped/C_5794148
 	f	I	f_9055167		f_9055167
 	f	I	f_4195132		f_4195132
 c	net/minecraft/unmapped/C_6631989
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6303815		m_6303815
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6303815		notifyTradeUpdated
 		p	1			p_1
 c	net/minecraft/unmapped/C_6756013
 	m	(IIII)V	<init>	<init>	

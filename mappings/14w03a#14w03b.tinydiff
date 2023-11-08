@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1331819
-	m	()Ljava/util/Set;	m_4891393		m_4891393
-	m	(Lnet/minecraft/unmapped/C_9664988;)V	m_2962681		m_2962681
+	m	()Ljava/util/Set;	m_4891393		getModelParts
+	m	(Lnet/minecraft/unmapped/C_9664988;)V	m_2962681		toggleModelPart
 		p	1			p_1
 c	net/minecraft/unmapped/C_3481595
 	m	()Lnet/minecraft/unmapped/C_3333682;	m_8049265		m_8049265
@@ -13,7 +13,7 @@ c	net/minecraft/unmapped/C_7135514
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9664988
 	m	()I	m_2526385		m_2526385
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_5507572		m_5507572
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_5507572		getName
 c	net/minecraft/unmapped/C_9890847
 	m	()Lnet/minecraft/unmapped/C_3333682;	m_8049265		m_8049265
 c	net/minecraft/unmapped/C_9932820
@@ -51,8 +51,8 @@ c	net/minecraft/unmapped/C_1083761		net/minecraft/unmapped/C_1083761
 	m	()V	m_8511582		m_8511582
 	m	()Ljava/lang/String;	m_1712938		m_1712938
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_1958760		net/minecraft/unmapped/C_1958760
-	f	Lnet/minecraft/unmapped/C_3020744;	f_1154730		f_1154730
+c	net/minecraft/unmapped/C_1958760		net/minecraft/client/gui/screens/SkinCustomizationScreen
+	f	Lnet/minecraft/unmapped/C_3020744;	f_1154730		lastScreen
 	f	Ljava/lang/String;	f_1532800		f_1532800
 	m	(Lnet/minecraft/unmapped/C_3020744;)V	<init>		<init>
 		p	1			p_1
@@ -63,7 +63,7 @@ c	net/minecraft/unmapped/C_1958760		net/minecraft/unmapped/C_1958760
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_9664988;)Ljava/lang/String;	m_4366416		m_4366416
+	m	(Lnet/minecraft/unmapped/C_9664988;)Ljava/lang/String;	m_4366416		getMessage
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_1958760;Lnet/minecraft/unmapped/C_9664988;)Ljava/lang/String;	m_6620453		m_6620453
 		p	0			p_0
@@ -75,8 +75,8 @@ c	net/minecraft/unmapped/C_6978368		net/minecraft/unmapped/C_6978368
 		p	1			p_1
 	m	()Ljava/lang/String;	m_9950964		m_9950964
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9374608		net/minecraft/unmapped/C_9374608
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1905145		f_1905145
+c	net/minecraft/unmapped/C_9374608		net/minecraft/client/model/HumanoidHeadModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1905145		hat
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
 		p	1			p_1

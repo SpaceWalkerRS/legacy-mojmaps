@@ -1,9 +1,9 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_3292284
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_4474814		m_4474814
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_4474814		sendRemoveEntity
 		p	1			p_1
 c	net/minecraft/unmapped/C_5828592
-	f	Z	f_3435349		f_3435349
+	f	Z	f_3435349		isChickenJockey
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759		m_7694759
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_9590849;)I	m_0760854		m_0760854
@@ -11,8 +11,8 @@ c	net/minecraft/unmapped/C_5828592
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1
 	m	()Z	m_6457059		m_6457059
-	m	()Z	m_1688884		m_1688884
-	m	(Z)V	m_5816041		m_5816041
+	m	()Z	m_1688884		isChickenJockey
+	m	(Z)V	m_5816041		setChickenJockey
 		p	1			p_1
 c	net/minecraft/unmapped/C_7799337
 	m	(Lnet/minecraft/unmapped/C_1331819;II)V	<init>	<init>	
@@ -34,7 +34,7 @@ c	net/minecraft/unmapped/C_8105098
 c	net/minecraft/unmapped/C_8286907
 	f	Lnet/minecraft/unmapped/C_8286907;	f_2113590		f_2113590
 c	net/minecraft/unmapped/C_8730536
-	f	Lnet/minecraft/unmapped/C_9565955;	f_3908725		f_3908725
+	f	Lnet/minecraft/unmapped/C_9565955;	f_3908725		type
 	m	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -49,7 +49,7 @@ c	net/minecraft/unmapped/C_8858101
 	m	(Lnet/minecraft/unmapped/C_0561170;)Ljava/io/InputStream;	m_9650713		m_9650713
 		p	1			p_1
 c	net/minecraft/unmapped/C_8878495
-	f	Lnet/minecraft/unmapped/C_8878495;	f_3570583		f_3570583
+	f	Lnet/minecraft/unmapped/C_8878495;	f_3570583		ENTITY_NOT_BEING_RIDDEN
 c	net/minecraft/unmapped/C_4665214		net/minecraft/unmapped/C_4665214
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_1473293		m_1473293

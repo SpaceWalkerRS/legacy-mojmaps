@@ -22,7 +22,7 @@ c	net/minecraft/unmapped/C_0759248
 		p	1		p_1	
 		p	2		p_2	
 	m	()V	<init>		<init>
-	m	(Ljava/util/Map;)V	m_8177165		m_8177165
+	m	(Ljava/util/Map;)V	m_8177165		forceData
 		p	0			p_0
 	m	()V	m_3579348		m_3579348
 c	net/minecraft/unmapped/C_2144954
@@ -32,18 +32,18 @@ c	net/minecraft/unmapped/C_2144954
 	m	()V	<clinit>	<clinit>	
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_2454309
-	m	()V	m_6606581		m_6606581
+	m	()V	m_6606581		resetHoverName
 c	net/minecraft/unmapped/C_3292284
 	f	Lnet/minecraft/unmapped/C_0759248;	f_1837564	f_1837564	
-	f	Ljava/lang/String;	f_0656555		f_0656555
+	f	Ljava/lang/String;	f_0656555		language
 	m	()Lnet/minecraft/unmapped/C_0759248;	m_7248813	m_7248813	
 c	net/minecraft/unmapped/C_3390001
-	f	Lnet/minecraft/unmapped/C_0759248;	f_7140292	f_7140292	
-	f	Lnet/minecraft/unmapped/C_8639317;	f_7140292		f_7140292
+	f	Lnet/minecraft/unmapped/C_0759248;	f_7140292	locale	
+	f	Lnet/minecraft/unmapped/C_8639317;	f_7140292		locale
 	m	(Ljava/lang/String;)Z	m_9084832	m_9084832	
 		p	0		p_0	
 	m	()V	<clinit>	<clinit>	
-	m	(Lnet/minecraft/unmapped/C_8639317;)V	m_9035475		m_9035475
+	m	(Lnet/minecraft/unmapped/C_8639317;)V	m_9035475		setLocale
 		p	0			p_0
 c	net/minecraft/unmapped/C_3432058
 	m	(Lnet/minecraft/unmapped/C_1296613;)Lnet/minecraft/unmapped/C_9632344;	m_7748239	m_7748239	
@@ -93,7 +93,7 @@ c	net/minecraft/unmapped/C_4764902
 		p	14			p_14
 		p	15			p_15
 c	net/minecraft/unmapped/C_6022032
-	f	Lnet/minecraft/unmapped/C_6176478;	f_0109502		f_0109502
+	f	Lnet/minecraft/unmapped/C_6176478;	f_0109502		languageManager
 	m	(Lnet/minecraft/unmapped/C_3020744;Lnet/minecraft/unmapped/C_1331819;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -108,11 +108,11 @@ c	net/minecraft/unmapped/C_6498111
 	m	(Lnet/minecraft/unmapped/C_0561170;)Ljava/util/List;	m_9574163		m_9574163
 		p	1			p_1
 c	net/minecraft/unmapped/C_6577431
-	m	()Ljava/util/Set;	m_5627630		m_5627630
-	m	(Lnet/minecraft/unmapped/C_0561170;)Ljava/util/List;	m_9574163		m_9574163
+	m	()Ljava/util/Set;	m_5627630		getNamespaces
+	m	(Lnet/minecraft/unmapped/C_0561170;)Ljava/util/List;	m_9574163		getResources
 		p	1			p_1
 c	net/minecraft/unmapped/C_6642420
-	f	Ljava/util/Set;	f_7366811		f_7366811
+	f	Ljava/util/Set;	f_7366811		namespaces
 	m	()Ljava/util/Set;	m_5627630		m_5627630
 	m	(Lnet/minecraft/unmapped/C_0561170;)Ljava/util/List;	m_9574163		m_9574163
 		p	1			p_1
@@ -127,11 +127,11 @@ c	net/minecraft/unmapped/C_7532262
 c	net/minecraft/unmapped/C_7853185
 	m	()V	m_4494344		m_4494344
 c	net/minecraft/unmapped/C_8105098
-	f	Lnet/minecraft/unmapped/C_6176478;	f_3809222		f_3809222
+	f	Lnet/minecraft/unmapped/C_6176478;	f_3809222		languageManager
 	m	()V	m_2219615	m_2219615	
 	m	(Ljava/io/File;)V	m_1922003	m_1922003	
 		p	1		p_1	
-	m	()Lnet/minecraft/unmapped/C_6176478;	m_3854375		m_3854375
+	m	()Lnet/minecraft/unmapped/C_6176478;	m_3854375		getLanguageManager
 c	net/minecraft/unmapped/C_8858101
 	m	(Lnet/minecraft/unmapped/C_1296613;)Lnet/minecraft/unmapped/C_9632344;	m_7748239	m_7748239	
 		p	1		p_1	
@@ -140,18 +140,18 @@ c	net/minecraft/unmapped/C_8858101
 		p	2			p_2
 c	net/minecraft/unmapped/C_9590849
 	m	()Lnet/minecraft/unmapped/C_0759248;	m_7248813	m_7248813	
-c	net/minecraft/unmapped/C_0486542		net/minecraft/unmapped/C_0486542
-	f	Ljava/lang/String;	f_4007094		f_4007094
-	f	Ljava/lang/String;	f_0030302		f_0030302
-	f	Ljava/lang/String;	f_0257842		f_0257842
-	f	Z	f_2616694		f_2616694
+c	net/minecraft/unmapped/C_0486542		net/minecraft/client/resources/language/Language
+	f	Ljava/lang/String;	f_4007094		code
+	f	Ljava/lang/String;	f_0030302		region
+	f	Ljava/lang/String;	f_0257842		name
+	f	Z	f_2616694		bidirectional
 	m	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Z)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 	m	()Ljava/lang/String;	m_7594436		m_7594436
-	m	()Z	m_3578587		m_3578587
+	m	()Z	m_3578587		isBidirectional
 	m	()Ljava/lang/String;	toString		toString
 	m	(Ljava/lang/Object;)Z	equals		equals
 		p	1			p_1
@@ -170,26 +170,26 @@ c	net/minecraft/unmapped/C_4576025		net/minecraft/unmapped/C_4576025
 	m	(Ljava/lang/String;)Z	m_6652218		m_6652218
 		p	0			p_0
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6176478		net/minecraft/unmapped/C_6176478
+c	net/minecraft/unmapped/C_6176478		net/minecraft/client/resources/language/LanguageManager
 	f	Lnet/minecraft/unmapped/C_1296613;	f_2966562		f_2966562
-	f	Ljava/lang/String;	f_1329850		f_1329850
-	f	Lnet/minecraft/unmapped/C_8639317;	f_5378916		f_5378916
-	f	Ljava/util/Map;	f_5082285		f_5082285
+	f	Ljava/lang/String;	f_1329850		currentCode
+	f	Lnet/minecraft/unmapped/C_8639317;	f_5378916		LOCALE
+	f	Ljava/util/Map;	f_5082285		languages
 	m	(Lnet/minecraft/unmapped/C_1296613;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/util/List;)V	m_6955773		m_6955773
+	m	(Ljava/util/List;)V	m_6955773		reload
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6577431;)V	m_8394980		m_8394980
 		p	1			p_1
 	m	()Z	m_6735911		m_6735911
-	m	()Z	m_1527719		m_1527719
-	m	(Lnet/minecraft/unmapped/C_0486542;)V	m_4994679		m_4994679
+	m	()Z	m_1527719		isBidirectional
+	m	(Lnet/minecraft/unmapped/C_0486542;)V	m_4994679		setSelected
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_0486542;	m_4233081		m_4233081
-	m	()Ljava/util/SortedSet;	m_8053034		m_8053034
+	m	()Lnet/minecraft/unmapped/C_0486542;	m_4233081		getSelected
+	m	()Ljava/util/SortedSet;	m_8053034		getLanguages
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6414867		net/minecraft/unmapped/C_6414867
+c	net/minecraft/unmapped/C_6414867		net/minecraft/client/resources/metadata/language/LanguageMetadataSectionSerializer
 	m	()V	<init>		<init>
 	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/unmapped/C_8239170;	m_6212245		m_6212245
 		p	1			p_1
@@ -200,35 +200,35 @@ c	net/minecraft/unmapped/C_6414867		net/minecraft/unmapped/C_6414867
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_8239170		net/minecraft/unmapped/C_8239170
-	f	Ljava/util/Collection;	f_4928946		f_4928946
+c	net/minecraft/unmapped/C_8239170		net/minecraft/client/resources/metadata/language/LanguageMetadataSection
+	f	Ljava/util/Collection;	f_4928946		languages
 	m	(Ljava/util/Collection;)V	<init>		<init>
 		p	1			p_1
-	m	()Ljava/util/Collection;	m_9264295		m_9264295
-c	net/minecraft/unmapped/C_8639317		net/minecraft/unmapped/C_8639317
+	m	()Ljava/util/Collection;	m_9264295		getLanguages
+c	net/minecraft/unmapped/C_8639317		net/minecraft/client/resources/language/Locale
 	f	Lcom/google/common/base/Splitter;	f_0097888		f_0097888
-	f	Ljava/util/regex/Pattern;	f_6793942		f_6793942
-	f	Ljava/util/Map;	f_5267515		f_5267515
+	f	Ljava/util/regex/Pattern;	f_6793942		UNSUPPORTED_FORMAT_PATTERN
+	f	Ljava/util/Map;	f_5267515		storage
 	f	Z	f_8763890		f_8763890
 	m	()V	<init>		<init>
-	m	(Lnet/minecraft/unmapped/C_6577431;Ljava/util/List;)V	m_5824058		m_5824058
+	m	(Lnet/minecraft/unmapped/C_6577431;Ljava/util/List;)V	m_5824058		loadFrom
 		p	1			p_1
 		p	2			p_2
 	m	()Z	m_3450718		m_3450718
 	m	()V	m_9564684		m_9564684
-	m	(Ljava/util/List;)V	m_6960592		m_6960592
+	m	(Ljava/util/List;)V	m_6960592		appendFrom
 		p	1			p_1
-	m	(Ljava/io/InputStream;)V	m_2999162		m_2999162
+	m	(Ljava/io/InputStream;)V	m_2999162		appendFrom
 		p	1			p_1
-	m	(Ljava/lang/String;)Ljava/lang/String;	m_7114739		m_7114739
+	m	(Ljava/lang/String;)Ljava/lang/String;	m_7114739		getOrDefault
 		p	1			p_1
 	m	(Ljava/lang/String;)Ljava/lang/String;	m_5121899		m_5121899
 		p	1			p_1
-	m	(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	m_0890207		m_0890207
+	m	(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;	m_0890207		get
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_9553685		net/minecraft/unmapped/C_9553685
+c	net/minecraft/unmapped/C_9553685		net/minecraft/world/effect/HealthBoostMobEffect
 	m	(IZI)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2

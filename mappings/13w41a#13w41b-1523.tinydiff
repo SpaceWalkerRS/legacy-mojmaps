@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0042939
-	m	()I	m_1522158		m_1522158
-	m	()I	m_1697267		m_1697267
+	m	()I	m_1522158		getItemId
+	m	()I	m_1697267		getPlayerId
 c	net/minecraft/unmapped/C_0047895
 	m	(IB)V	<init>	<init>	
 		p	1		p_1	
@@ -9,55 +9,55 @@ c	net/minecraft/unmapped/C_0047895
 	m	(Lnet/minecraft/unmapped/C_0539808;B)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_8490179		m_8490179
+	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_8490179		getEntity
 		p	1			p_1
-	m	()B	m_4313495		m_4313495
+	m	()B	m_4313495		getEventId
 c	net/minecraft/unmapped/C_0089468
-	m	()Ljava/lang/String;	m_1689143		m_1689143
-	m	()Ljava/lang/String;	m_3370684		m_3370684
-	m	()I	m_3876860		m_3876860
-	m	()I	m_9644791		m_9644791
+	m	()Ljava/lang/String;	m_1689143		getOwner
+	m	()Ljava/lang/String;	m_3370684		getObjectiveName
+	m	()I	m_3876860		getScore
+	m	()I	m_9644791		getMethod
 c	net/minecraft/unmapped/C_0332750
-	f	Ljava/lang/String;	f_7210216	f_7210216	
-	f	Lnet/minecraft/unmapped/C_9550253;	f_7210216		f_7210216
+	f	Ljava/lang/String;	f_7210216	message	
+	f	Lnet/minecraft/unmapped/C_9550253;	f_7210216		message
 	m	(Ljava/lang/String;Z)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 	m	()Ljava/lang/String;	m_5210952	m_5210952	
 c	net/minecraft/unmapped/C_1008454
 	f	I	f_5294570	f_5294570	
-	m	()Ljava/lang/String;	m_8728925		m_8728925
-	m	()[B	m_5949504		m_5949504
+	m	()Ljava/lang/String;	m_8728925		getIdentifier
+	m	()[B	m_5949504		getData
 c	net/minecraft/unmapped/C_1024668
-	m	()F	m_4307123		m_4307123
-	m	()I	m_6371432		m_6371432
-	m	()F	m_5744632		m_5744632
+	m	()F	m_4307123		getHealth
+	m	()I	m_6371432		getFood
+	m	()F	m_5744632		getSaturation
 c	net/minecraft/unmapped/C_1063627
 	m	(Lnet/minecraft/unmapped/C_8949651;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Ljava/util/Map;)V	<init>		<init>
 		p	1			p_1
-	m	()Ljava/util/Map;	m_2514966		m_2514966
+	m	()Ljava/util/Map;	m_2514966		getStats
 c	net/minecraft/unmapped/C_1137800
 	m	()I	m_3983049		m_3983049
-	m	()I	m_9877265		m_9877265
+	m	()I	m_9877265		getPos
 	m	()I	m_7667427		m_7667427
 c	net/minecraft/unmapped/C_1234758
-	m	()Ljava/lang/String;	m_9862535		m_9862535
-	m	()Ljava/lang/String;	m_2360624		m_2360624
-	m	()I	m_6034524		m_6034524
+	m	()Ljava/lang/String;	m_9862535		getObjectiveName
+	m	()Ljava/lang/String;	m_2360624		getDisplayName
+	m	()I	m_6034524		getMethod
 c	net/minecraft/unmapped/C_1514880
-	m	()I	m_6204830		m_6204830
-	m	()I	m_1270559		m_1270559
-	m	()I	m_8672450		m_8672450
-	m	()I	m_1820465		m_1820465
-	m	()I	m_1464678		m_1464678
-	m	()I	m_5377714		m_5377714
-	m	()I	m_1154362		m_1154362
-	m	()I	m_8463327		m_8463327
-	m	()B	m_5872081		m_5872081
-	m	()B	m_1768363		m_1768363
-	m	()B	m_4746722		m_4746722
+	m	()I	m_6204830		getId
+	m	()I	m_1270559		getType
+	m	()I	m_8672450		getX
+	m	()I	m_1820465		getY
+	m	()I	m_1464678		getZ
+	m	()I	m_5377714		getXd
+	m	()I	m_1154362		getYd
+	m	()I	m_8463327		getZd
+	m	()B	m_5872081		getyRot
+	m	()B	m_1768363		getxRot
+	m	()B	m_4746722		getyHeadRot
 c	net/minecraft/unmapped/C_1567607
 	m	()J	m_5846259		m_5846259
 c	net/minecraft/unmapped/C_1747432
@@ -71,14 +71,14 @@ c	net/minecraft/unmapped/C_1747432
 		p	7			p_7
 		p	8			p_8
 		p	9			p_9
-	m	()D	m_4778598		m_4778598
-	m	()D	m_9870428		m_9870428
-	m	()D	m_1141736		m_1141736
-	m	()F	m_8696198		m_8696198
-	m	()F	m_7581272		m_7581272
-	m	()Z	m_5072312		m_5072312
+	m	()D	m_4778598		getX
+	m	()D	m_9870428		getY
+	m	()D	m_1141736		getZ
+	m	()F	m_8696198		getYRot
+	m	()F	m_7581272		getXRot
+	m	()Z	m_5072312		getRelativeArguments
 c	net/minecraft/unmapped/C_2049773
-	m	()I	m_9955975		m_9955975
+	m	()I	m_9955975		getSlot
 c	net/minecraft/unmapped/C_2167183
 	f	I	f_9175774	f_9175774	
 	f	Lnet/minecraft/unmapped/C_1518925;	f_3213198	f_3213198	
@@ -92,36 +92,36 @@ c	net/minecraft/unmapped/C_2167183
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()I	m_0277191		m_0277191
+	m	()I	m_0277191		getDimension
 	m	()Lnet/minecraft/unmapped/C_9550096;	m_9342684		m_9342684
-	m	()Lnet/minecraft/unmapped/C_4223822;	m_9637459		m_9637459
+	m	()Lnet/minecraft/unmapped/C_4223822;	m_9637459		getPlayerGameType
 c	net/minecraft/unmapped/C_2183633
-	m	()I	m_4340297		m_4340297
-	m	()S	m_6241078		m_6241078
-	m	()Z	m_2065466		m_2065466
+	m	()I	m_4340297		getContainerId
+	m	()S	m_6241078		getUid
+	m	()Z	m_2065466		isAccepted
 c	net/minecraft/unmapped/C_2293508
-	m	()I	m_7616502		m_7616502
-	m	()I	m_6510703		m_6510703
+	m	()I	m_7616502		getType
+	m	()I	m_6510703		getData
 	m	()I	m_0758571		m_0758571
 	m	()I	m_9949864		m_9949864
 	m	()I	m_4076256		m_4076256
 c	net/minecraft/unmapped/C_2973148
-	m	()F	m_7862307		m_7862307
-	m	()I	m_7827373		m_7827373
-	m	()I	m_3526376		m_3526376
+	m	()F	m_7862307		getExperienceProgress
+	m	()I	m_7827373		getTotalExperience
+	m	()I	m_3526376		getExperienceLevel
 c	net/minecraft/unmapped/C_2999845
 	m	()I	m_9014956		m_9014956
 	m	()I	m_8536337		m_8536337
 	m	()I	m_9789141		m_9789141
 	m	()[Ljava/lang/String;	m_5208619		m_5208619
 c	net/minecraft/unmapped/C_3027966
-	m	()I	m_0568994		m_0568994
-	m	()Lcom/mojang/authlib/GameProfile;	m_3894595		m_3894595
-	m	()I	m_9832885		m_9832885
-	m	()I	m_2930867		m_2930867
-	m	()I	m_4938445		m_4938445
-	m	()B	m_0969940		m_0969940
-	m	()B	m_0277560		m_0277560
+	m	()I	m_0568994		getEntityId
+	m	()Lcom/mojang/authlib/GameProfile;	m_3894595		getPlayerId
+	m	()I	m_9832885		getX
+	m	()I	m_2930867		getY
+	m	()I	m_4938445		getZ
+	m	()B	m_0969940		getyRot
+	m	()B	m_0277560		getxRot
 	m	()I	m_3645800		m_3645800
 c	net/minecraft/unmapped/C_3294178
 	f	I	f_1848356	f_1848356	
@@ -142,12 +142,12 @@ c	net/minecraft/unmapped/C_3294178
 	m	()I	m_9729919		m_9729919
 	m	()I	m_6897691		m_6897691
 c	net/minecraft/unmapped/C_3295885
-	m	()I	m_1312840		m_1312840
+	m	()I	m_1312840		getId
 	m	()I	m_0947998		m_0947998
 	m	()I	m_4697040		m_4697040
 	m	()I	m_7798161		m_7798161
 	m	()I	m_3383955		m_3383955
-	m	()Ljava/lang/String;	m_0534949		m_0534949
+	m	()Ljava/lang/String;	m_0534949		getMotive
 c	net/minecraft/unmapped/C_3392835
 	m	(IB)V	<init>	<init>	
 		p	1		p_1	
@@ -155,32 +155,32 @@ c	net/minecraft/unmapped/C_3392835
 	m	(Lnet/minecraft/unmapped/C_0539808;B)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_9907391		m_9907391
+	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_9907391		getEntity
 		p	1			p_1
-	m	()B	m_9621883		m_9621883
+	m	()B	m_9621883		getYHeadRot
 c	net/minecraft/unmapped/C_3628668
 	f	Lnet/minecraft/unmapped/C_1241852;	f_3714076	f_3714076	
 c	net/minecraft/unmapped/C_3698875
-	m	()I	m_2391775		m_2391775
-	m	()I	m_4543200		m_4543200
+	m	()I	m_2391775		getContainerId
+	m	()I	m_4543200		getButtonId
 c	net/minecraft/unmapped/C_3843922
-	m	()D	m_6130777		m_6130777
-	m	()D	m_9554262		m_9554262
-	m	()D	m_9315047		m_9315047
-	m	()F	m_0495123		m_0495123
-	m	()Ljava/util/List;	m_2736424		m_2736424
+	m	()D	m_6130777		getX
+	m	()D	m_9554262		getY
+	m	()D	m_9315047		getZ
+	m	()F	m_0495123		getPower
+	m	()Ljava/util/List;	m_2736424		getToBlow
 c	net/minecraft/unmapped/C_3930157
-	m	()I	m_5507742		m_5507742
-	m	()I	m_6657000		m_6657000
-	m	()I	m_5337123		m_5337123
-	m	()I	m_5697469		m_5697469
-	m	()I	m_1349674		m_1349674
-	m	()I	m_2291019		m_2291019
-	m	()I	m_1511505		m_1511505
-	m	()I	m_9765958		m_9765958
-	m	()I	m_3457182		m_3457182
-	m	()I	m_0022225		m_0022225
-	m	()I	m_7950902		m_7950902
+	m	()I	m_5507742		getId
+	m	()I	m_6657000		getX
+	m	()I	m_5337123		getY
+	m	()I	m_5697469		getZ
+	m	()I	m_1349674		getXa
+	m	()I	m_2291019		getYa
+	m	()I	m_1511505		getZa
+	m	()I	m_9765958		getxRot
+	m	()I	m_3457182		getyRot
+	m	()I	m_0022225		getType
+	m	()I	m_7950902		getData
 	m	(I)V	m_4444325		m_4444325
 		p	1			p_1
 	m	(I)V	m_9923438		m_9923438
@@ -196,76 +196,76 @@ c	net/minecraft/unmapped/C_3930157
 	m	(I)V	m_2791357		m_2791357
 		p	1			p_1
 c	net/minecraft/unmapped/C_4052742
-	m	()[I	m_6667595		m_6667595
+	m	()[I	m_6667595		getEntityIds
 c	net/minecraft/unmapped/C_4242413
-	m	()I	m_9248223		m_9248223
-	m	()I	m_9963062		m_9963062
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_9033198		m_9033198
+	m	()I	m_9248223		getContainerId
+	m	()I	m_9963062		getSlot
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_9033198		getItem
 c	net/minecraft/unmapped/C_4320303
-	m	()I	m_0034296		m_0034296
-	m	()I	m_7779849		m_7779849
-	m	()I	m_7370128		m_7370128
+	m	()I	m_0034296		getContainerId
+	m	()I	m_7779849		getId
+	m	()I	m_7370128		getValue
 c	net/minecraft/unmapped/C_4348169
-	m	()I	m_7210780		m_7210780
-	m	()S	m_6243874		m_6243874
+	m	()I	m_7210780		getContainerId
+	m	()S	m_6243874		getUid
 c	net/minecraft/unmapped/C_4469972
 	m	()I	m_1101090		m_1101090
 	m	()I	m_5980367		m_5980367
 	m	()I	m_3162094		m_3162094
-	m	()I	m_2581932		m_2581932
-	m	()I	m_1668203		m_1668203
+	m	()I	m_2581932		getDirection
+	m	()I	m_1668203		getAction
 c	net/minecraft/unmapped/C_4652455
 	m	()I	m_4642930		m_4642930
-	m	()I	m_5946199		m_5946199
-	m	()I	m_7127672		m_7127672
-	m	()I	m_2677920		m_2677920
+	m	()I	m_5946199		getZ
+	m	()I	m_7127672		getX
+	m	()I	m_2677920		getAvailableSections
 	m	()I	m_2002059		m_2002059
-	m	()Z	m_4933342		m_4933342
+	m	()Z	m_4933342		isFullChunk
 c	net/minecraft/unmapped/C_4804187
-	m	()I	m_4144887		m_4144887
-	m	()I	m_2555759		m_2555759
-	m	()I	m_1938210		m_1938210
-	m	()I	m_8962135		m_8962135
-	m	()B	m_0924321		m_0924321
-	m	()B	m_4399220		m_4399220
+	m	()I	m_4144887		getId
+	m	()I	m_2555759		getX
+	m	()I	m_1938210		getY
+	m	()I	m_8962135		getZ
+	m	()B	m_0924321		getyRot
+	m	()B	m_4399220		getxRot
 c	net/minecraft/unmapped/C_5257938
 	m	()I	m_5982566		m_5982566
-	m	()I	m_9787152		m_9787152
+	m	()I	m_9787152		getPos
 	m	()I	m_9389714		m_9389714
 	m	()I	m_0176665		m_0176665
 c	net/minecraft/unmapped/C_5360996
 	m	()I	m_6603423		m_6603423
-	m	()I	m_3535043		m_3535043
+	m	()I	m_3535043		getPos
 	m	()I	m_9215310		m_9215310
-	m	()I	m_4423683		m_4423683
-	m	()Lnet/minecraft/unmapped/C_2018497;	m_8689805		m_8689805
+	m	()I	m_4423683		getType
+	m	()Lnet/minecraft/unmapped/C_2018497;	m_8689805		getTag
 c	net/minecraft/unmapped/C_5509210
-	m	()I	m_9246671		m_9246671
-	m	()I	m_5458495		m_5458495
+	m	()I	m_9246671		getEntity
+	m	()I	m_5458495		getSlot
 c	net/minecraft/unmapped/C_5616692
-	m	()I	m_7325228		m_7325228
-	m	()B	m_2605762		m_2605762
-	m	()B	m_7169633		m_7169633
-	m	()S	m_9466516		m_9466516
+	m	()I	m_7325228		getEntityId
+	m	()B	m_2605762		getEffectId
+	m	()B	m_7169633		getEffectAmplifier
+	m	()S	m_9466516		getEffectDurationTicks
 c	net/minecraft/unmapped/C_5681128
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_5904161		m_5904161
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_5904161		getReason
 c	net/minecraft/unmapped/C_5722573
 	m	(I)Lnet/minecraft/unmapped/C_0539808;	m_9603740	m_9603740	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5977019
-	m	()I	m_8023022		m_8023022
-	m	()I	m_7661410		m_7661410
-	m	()I	m_1134722		m_1134722
-	m	()I	m_9162336		m_9162336
+	m	()I	m_8023022		getId
+	m	()I	m_7661410		getXa
+	m	()I	m_1134722		getYa
+	m	()I	m_9162336		getZa
 c	net/minecraft/unmapped/C_5981136
-	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_2791560		m_2791560
+	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_2791560		getEntity
 		p	1			p_1
-	m	()B	m_4381598		m_4381598
-	m	()B	m_9983336		m_9983336
-	m	()B	m_9839864		m_9839864
-	m	()B	m_4385730		m_4385730
-	m	()B	m_9738204		m_9738204
-	m	()Z	m_2528580		m_2528580
+	m	()B	m_4381598		getXa
+	m	()B	m_9983336		getYa
+	m	()B	m_9839864		getZa
+	m	()B	m_4385730		getyRot
+	m	()B	m_9738204		getxRot
+	m	()Z	m_2528580		hasRotation
 c	net/minecraft/unmapped/C_6350627
 	f	Ljava/lang/String;	f_8122452	f_8122452	
 	f	[Ljava/lang/String;	f_7728987		f_7728987
@@ -279,10 +279,10 @@ c	net/minecraft/unmapped/C_6403501
 	m	()I	m_7059372		m_7059372
 	m	()I	m_6155972		m_6155972
 	m	()I	m_2978583		m_2978583
-	m	()[Ljava/lang/String;	m_0398840		m_0398840
+	m	()[Ljava/lang/String;	m_0398840		getLines
 c	net/minecraft/unmapped/C_6465203
-	m	()I	m_5660781		m_5660781
-	m	()I	m_7113811		m_7113811
+	m	()I	m_5660781		getId
+	m	()I	m_7113811		getAction
 c	net/minecraft/unmapped/C_6530806
 	f	Lnet/minecraft/unmapped/C_9550253;	f_4088389	f_4088389	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_9198106	f_9198106	
@@ -297,29 +297,29 @@ c	net/minecraft/unmapped/C_6530806
 c	net/minecraft/unmapped/C_6583725
 	m	()I	m_9382166		m_9382166
 c	net/minecraft/unmapped/C_6794980
-	m	()I	m_7990539		m_7990539
-	m	()F	m_5193808		m_5193808
+	m	()I	m_7990539		getEvent
+	m	()F	m_5193808		getParam
 c	net/minecraft/unmapped/C_6912915
 	m	()I	m_0168883		m_0168883
 	m	()[I	m_9280429		m_9280429
 	m	()[I	m_4867471		m_4867471
 c	net/minecraft/unmapped/C_7037764
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_1810981		m_1810981
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_1810981		getReason
 c	net/minecraft/unmapped/C_7197771
-	m	()I	m_8037492		m_8037492
+	m	()I	m_8037492		getSourceId
 	m	()I	m_2552946		m_2552946
-	m	()I	m_5834650		m_5834650
+	m	()I	m_5834650		getDestId
 c	net/minecraft/unmapped/C_7345897
-	f	B	f_4906465	f_4906465	
-	f	I	f_4906465		f_4906465
+	f	B	f_4906465	effect	
+	f	I	f_4906465		effect
 	m	()I	m_4272603		m_4272603
-	m	()I	m_5484021		m_5484021
+	m	()I	m_5484021		getEffect
 c	net/minecraft/unmapped/C_7588380
-	m	()I	m_3025819		m_3025819
-	m	()I	m_5398628		m_5398628
-	m	()I	m_0911982		m_0911982
-	m	()I	m_0733420		m_0733420
-	m	()I	m_1553726		m_1553726
+	m	()I	m_3025819		getId
+	m	()I	m_5398628		getX
+	m	()I	m_0911982		getY
+	m	()I	m_0733420		getZ
+	m	()I	m_1553726		getValue
 c	net/minecraft/unmapped/C_7759616
 	m	(SLnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_8307016;	m_4651756	m_4651756	
 		p	0		p_0	
@@ -344,13 +344,13 @@ c	net/minecraft/unmapped/C_7784888	net/minecraft/unmapped/C_7784888
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666	m_7216666	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8100953
-	m	()I	m_8299457		m_8299457
-	m	()[Lnet/minecraft/unmapped/C_2454309;	m_0424709		m_0424709
+	m	()I	m_8299457		getContainerId
+	m	()[Lnet/minecraft/unmapped/C_2454309;	m_0424709		getItems
 c	net/minecraft/unmapped/C_8105098
-	m	()Z	m_7685041		m_7685041
+	m	()Z	m_7685041		checkIs64Bit
 c	net/minecraft/unmapped/C_8120996
-	m	()I	m_4835053		m_4835053
-	m	()I	m_8157139		m_8157139
+	m	()I	m_4835053		getAction
+	m	()I	m_8157139		getData
 c	net/minecraft/unmapped/C_8135083	net/minecraft/unmapped/C_8135083	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_4792371	m_4792371	
@@ -360,11 +360,11 @@ c	net/minecraft/unmapped/C_8135083	net/minecraft/unmapped/C_8135083
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666	m_7216666	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8280540
-	m	()I	m_7589228		m_7589228
-	m	()I	m_1908206		m_1908206
-	m	()I	m_7077295		m_7077295
-	m	()I	m_2794662		m_2794662
-	m	()I	m_0698176		m_0698176
+	m	()I	m_7589228		getId
+	m	()I	m_1908206		getX
+	m	()I	m_7077295		getY
+	m	()I	m_2794662		getZ
+	m	()I	m_0698176		getType
 c	net/minecraft/unmapped/C_8385625
 	m	()Ljava/lang/String;	m_9444730		m_9444730
 	m	()Z	m_9312938		m_9312938
@@ -378,25 +378,25 @@ c	net/minecraft/unmapped/C_8434849	net/minecraft/unmapped/C_8434849
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666	m_7216666	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8442234
-	m	()J	m_4997146		m_4997146
-	m	()J	m_3080859		m_3080859
+	m	()J	m_4997146		getGameTime
+	m	()J	m_3080859		getDayTime
 c	net/minecraft/unmapped/C_8475339
-	m	()Ljava/lang/String;	m_8460962		m_8460962
-	m	()Ljava/lang/String;	m_5365751		m_5365751
+	m	()Ljava/lang/String;	m_8460962		getName
+	m	()Ljava/lang/String;	m_5365751		getDisplayName
 	m	()Ljava/lang/String;	m_9720655		m_9720655
 	m	()Ljava/lang/String;	m_1637633		m_1637633
-	m	()Ljava/util/Collection;	m_6053471		m_6053471
-	m	()I	m_7530483		m_7530483
-	m	()I	m_8108335		m_8108335
+	m	()Ljava/util/Collection;	m_6053471		getPlayers
+	m	()I	m_7530483		getMethod
+	m	()I	m_8108335		getOptions
 c	net/minecraft/unmapped/C_8731920
-	m	()I	m_4180984		m_4180984
+	m	()I	m_4180984		getContainerId
 	m	()I	m_8968139		m_8968139
 	m	()Ljava/lang/String;	m_1016015		m_1016015
-	m	()I	m_8695506		m_8695506
+	m	()I	m_8695506		getSize
 	m	()Z	m_6090543		m_6090543
-	m	()I	m_3128706		m_3128706
+	m	()I	m_3128706		getEntityId
 c	net/minecraft/unmapped/C_8915528
-	m	()I	m_7474125		m_7474125
+	m	()I	m_7474125		getSlot
 c	net/minecraft/unmapped/C_9086718
 	f	Lnet/minecraft/unmapped/C_0332750;	f_0696860	f_0696860	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_0426376	f_0426376	
@@ -409,13 +409,13 @@ c	net/minecraft/unmapped/C_9086718
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_9166080
-	m	()I	m_1080469		m_1080469
-	m	()Ljava/lang/String;	m_3019243		m_3019243
+	m	()I	m_1080469		getSlot
+	m	()Ljava/lang/String;	m_3019243		getObjectiveName
 c	net/minecraft/unmapped/C_9232485
 	f	Lnet/minecraft/unmapped/C_1518925;	f_9455824	f_9455824	
 	f	B	f_2564764	f_2564764	
-	f	B	f_3407255	f_3407255	
-	f	I	f_3407255		f_3407255
+	f	B	f_3407255	maxPlayers	
+	f	I	f_3407255		maxPlayers
 	m	(ILnet/minecraft/unmapped/C_1518925;Lnet/minecraft/unmapped/C_4223822;ZILnet/minecraft/unmapped/C_9550096;II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -432,10 +432,10 @@ c	net/minecraft/unmapped/C_9232485
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	()I	m_6391422		m_6391422
-	m	()Z	m_4739610		m_4739610
-	m	()Lnet/minecraft/unmapped/C_4223822;	m_7254962		m_7254962
-	m	()I	m_8554610		m_8554610
+	m	()I	m_6391422		getPlayerId
+	m	()Z	m_4739610		isHardcore
+	m	()Lnet/minecraft/unmapped/C_4223822;	m_7254962		getGameType
+	m	()I	m_8554610		getDimension
 	m	()Lnet/minecraft/unmapped/C_9550096;	m_3668053		m_3668053
 	m	()I	m_8776777		m_8776777
 c	net/minecraft/unmapped/C_9297634
@@ -456,7 +456,7 @@ c	net/minecraft/unmapped/C_9358458
 	f	I	f_6427972	f_6427972	
 	f	I	f_9302469	f_9302469	
 	f	[B	f_2148422	f_2148422	
-	f	Lnet/minecraft/unmapped/C_7141926;	f_4419256		f_4419256
+	f	Lnet/minecraft/unmapped/C_7141926;	f_4419256		chunkPos
 	m	(II[SILnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -469,14 +469,14 @@ c	net/minecraft/unmapped/C_9358458
 		p	3			p_3
 	m	()Lnet/minecraft/unmapped/C_7141926;	m_9225472		m_9225472
 	m	()[B	m_6915937		m_6915937
-	m	()I	m_7207091		m_7207091
+	m	()I	m_7207091		getUpdates
 c	net/minecraft/unmapped/C_9540883
 	m	()Ljava/lang/String;	m_4293110		m_4293110
 	m	()[B	m_4271914		m_4271914
 c	net/minecraft/unmapped/C_9560633
 	f	S	f_4910748	f_4910748	
-	f	S	f_2297077	f_2297077	
-	f	I	f_2297077		f_2297077
+	f	S	f_2297077	mapId	
+	f	I	f_2297077		mapId
 	m	(SS[B)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -484,38 +484,38 @@ c	net/minecraft/unmapped/C_9560633
 	m	(I[B)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	()I	m_4716429		m_4716429
+	m	()I	m_4716429		getMapId
 	m	()[B	m_7000354		m_7000354
 c	net/minecraft/unmapped/C_9594057
-	m	()I	m_4532974		m_4532974
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_1625028		m_1625028
+	m	()I	m_4532974		getSlotNum
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_1625028		getItem
 c	net/minecraft/unmapped/C_9615057
-	m	()D	m_7441248		m_7441248
-	m	()D	m_8055298		m_8055298
-	m	()D	m_3236511		m_3236511
+	m	()D	m_7441248		getX
+	m	()D	m_8055298		getY
+	m	()D	m_3236511		getZ
 	m	()D	m_9821216		m_9821216
-	m	()F	m_1631409		m_1631409
-	m	()F	m_2245923		m_2245923
-	m	()Z	m_5162219		m_5162219
+	m	()F	m_1631409		getYRot
+	m	()F	m_2245923		getXRot
+	m	()Z	m_5162219		isOnGround
 	m	()Z	m_0081483		m_0081483
 	m	()Z	m_2389693		m_2389693
 	m	(Z)V	m_7800438		m_7800438
 		p	1			p_1
 c	net/minecraft/unmapped/C_9663005
-	m	()I	m_0927276		m_0927276
-	m	()I	m_1279457		m_1279457
-	m	()I	m_6888963		m_6888963
-	m	()S	m_5403604		m_5403604
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_2968944		m_2968944
-	m	()I	m_9225732		m_9225732
+	m	()I	m_0927276		getContainerId
+	m	()I	m_1279457		getSlotNum
+	m	()I	m_6888963		getButtonNum
+	m	()S	m_5403604		getUid
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_2968944		getItem
+	m	()I	m_9225732		getClickType
 c	net/minecraft/unmapped/C_9959562
 	m	()I	m_2844091		m_2844091
 	m	()I	m_0715451		m_0715451
 	m	()I	m_4654349		m_4654349
-	m	()I	m_8028542		m_8028542
-	m	()I	m_6081548		m_6081548
+	m	()I	m_8028542		getB0
+	m	()I	m_6081548		getB1
 c	net/minecraft/unmapped/C_9985439
-	m	()I	m_7734823		m_7734823
+	m	()I	m_7734823		getId
 c	net/minecraft/unmapped/C_1773920		net/minecraft/unmapped/C_1773920
 	f	[[I	f_7203578		f_7203578
 	f	Lnet/minecraft/unmapped/C_4257480;	f_6520502		f_6520502

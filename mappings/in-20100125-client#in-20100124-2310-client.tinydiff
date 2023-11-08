@@ -4,9 +4,9 @@ c	net/minecraft/client/C_5664496
 c	net/minecraft/client/C_8730536
 	f	Ljava/lang/String;	f_7752653		f_7752653
 c	net/minecraft/unmapped/C_0539808
-	m	(F)F	m_9376546	m_9376546	
+	m	(F)F	m_9376546	getBrightness	
 		p	1		p_1	
-	m	()F	m_9376546		m_9376546
+	m	()F	m_9376546		getBrightness
 c	net/minecraft/unmapped/C_0774916
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_2802479	m_2802479	
 		p	1		p_1	
@@ -14,7 +14,7 @@ c	net/minecraft/unmapped/C_0774916
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_0792283	net/minecraft/unmapped/C_0792283	
+c	net/minecraft/unmapped/C_0792283	net/minecraft/client/particle/FlameParticle	
 	f	F	f_6463934	f_6463934	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)V	<init>	<init>	
 		p	1		p_1	
@@ -39,7 +39,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_1861457	net/minecraft/unmapped/C_1861457	
+c	net/minecraft/unmapped/C_1861457	net/minecraft/client/particle/LavaParticle	
 	f	F	f_9012499	f_9012499	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)V	<init>	<init>	
 		p	1		p_1	

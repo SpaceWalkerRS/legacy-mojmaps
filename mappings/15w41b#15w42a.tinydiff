@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0230498
-	m	()Z	m_7006641		m_7006641
+	m	()Z	m_7006641		isTreasureOnly
 c	net/minecraft/unmapped/C_0245906
-	f	D	f_1696461		f_1696461
+	f	D	f_1696461		distAtCreation
 	m	(Lnet/minecraft/unmapped/C_7028449;Lnet/minecraft/unmapped/C_0245906$C_7414961;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -12,7 +12,7 @@ c	net/minecraft/unmapped/C_0245906
 		p	3			p_3
 	m	(Lnet/minecraft/unmapped/C_0245906;)I	m_2316566		m_2316566
 		p	1			p_1
-	m	()D	m_0711483		m_0711483
+	m	()D	m_0711483		getDistAtCreation
 	m	(Ljava/lang/Object;)I	compareTo		compareTo
 		p	1			p_1
 c	net/minecraft/unmapped/C_0607826
@@ -63,39 +63,39 @@ c	net/minecraft/unmapped/C_0739399
 c	net/minecraft/unmapped/C_1023567
 	f	[Z	f_2308218	f_2308218	
 c	net/minecraft/unmapped/C_1161898
-	f	Lnet/minecraft/unmapped/C_1161898;	f_3387878		f_3387878
+	f	Lnet/minecraft/unmapped/C_1161898;	f_3387878		FLY_INTO_WALL
 c	net/minecraft/unmapped/C_1197137
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;I)Lnet/minecraft/unmapped/C_2454309;	m_3380905	m_3380905	
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;I)Lnet/minecraft/unmapped/C_2454309;	m_3380905	enchantItem	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;I)Ljava/util/List;	m_0615887	m_0615887	
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;I)Ljava/util/List;	m_0615887	selectEnchantment	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(ILnet/minecraft/unmapped/C_2454309;)Ljava/util/List;	m_3001171	m_3001171	
+	m	(ILnet/minecraft/unmapped/C_2454309;)Ljava/util/List;	m_3001171	getAvailableEnchantmentResults	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;IZ)Lnet/minecraft/unmapped/C_2454309;	m_3380905		m_3380905
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;IZ)Lnet/minecraft/unmapped/C_2454309;	m_3380905		enchantItem
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;IZ)Ljava/util/List;	m_0615887		m_0615887
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_2454309;IZ)Ljava/util/List;	m_0615887		selectEnchantment
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(ILnet/minecraft/unmapped/C_2454309;Z)Ljava/util/List;	m_3001171		m_3001171
+	m	(ILnet/minecraft/unmapped/C_2454309;Z)Ljava/util/List;	m_3001171		getAvailableEnchantmentResults
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1567607
-	f	I	f_4714730		f_4714730
+	f	I	f_4714730		awaitingTeleport
 	m	(Lnet/minecraft/unmapped/C_5059265;)V	m_8445573		m_8445573
 		p	1			p_1
 c	net/minecraft/unmapped/C_1747432
-	f	I	f_4149727		f_4149727
+	f	I	f_4149727		id
 	m	(DDDFFLjava/util/Set;)V	<init>	<init>	
 		p	1		p_1	
 		p	3		p_3	
@@ -111,23 +111,23 @@ c	net/minecraft/unmapped/C_1747432
 		p	8			p_8
 		p	9			p_9
 		p	10			p_10
-	m	()I	m_4332076		m_4332076
+	m	()I	m_4332076		getId
 c	net/minecraft/unmapped/C_2420175
 	m	()I	m_5987891		m_5987891
 c	net/minecraft/unmapped/C_3292284
 	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_1448674		m_1448674
 		p	1			p_1
 c	net/minecraft/unmapped/C_3500307
-	f	Ljava/util/concurrent/BlockingQueue;	f_3526946	f_3526946	
-	f	Ljava/util/concurrent/PriorityBlockingQueue;	f_3526946		f_3526946
-	m	(Lnet/minecraft/unmapped/C_3333682;Lnet/minecraft/unmapped/C_8373595;Lnet/minecraft/unmapped/C_7028449;Lnet/minecraft/unmapped/C_2326439;)Lcom/google/common/util/concurrent/ListenableFuture;	m_9225387	m_9225387	
+	f	Ljava/util/concurrent/BlockingQueue;	f_3526946	chunksToBatch	
+	f	Ljava/util/concurrent/PriorityBlockingQueue;	f_3526946		chunksToBatch
+	m	(Lnet/minecraft/unmapped/C_3333682;Lnet/minecraft/unmapped/C_8373595;Lnet/minecraft/unmapped/C_7028449;Lnet/minecraft/unmapped/C_2326439;)Lcom/google/common/util/concurrent/ListenableFuture;	m_9225387	uploadChunkLayer	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 	m	(Lnet/minecraft/unmapped/C_3500307;)Ljava/util/concurrent/BlockingQueue;	m_1020049	m_1020049	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_3333682;Lnet/minecraft/unmapped/C_8373595;Lnet/minecraft/unmapped/C_7028449;Lnet/minecraft/unmapped/C_2326439;D)Lcom/google/common/util/concurrent/ListenableFuture;	m_9225387		m_9225387
+	m	(Lnet/minecraft/unmapped/C_3333682;Lnet/minecraft/unmapped/C_8373595;Lnet/minecraft/unmapped/C_7028449;Lnet/minecraft/unmapped/C_2326439;D)Lcom/google/common/util/concurrent/ListenableFuture;	m_9225387		uploadChunkLayer
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -150,9 +150,9 @@ c	net/minecraft/unmapped/C_3500307$3
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-c	net/minecraft/unmapped/C_3500307$C_5384401		C_5384401
-	f	Lcom/google/common/util/concurrent/ListenableFutureTask;	f_4194261		f_4194261
-	f	D	f_2796285		f_2796285
+c	net/minecraft/unmapped/C_3500307$C_5384401		PendingUpload
+	f	Lcom/google/common/util/concurrent/ListenableFutureTask;	f_4194261		future
+	f	D	f_2796285		dist
 	f	Lnet/minecraft/unmapped/C_3500307;	f_0738351		f_0738351
 	m	(Lnet/minecraft/unmapped/C_3500307;Lcom/google/common/util/concurrent/ListenableFutureTask;D)V	<init>		<init>
 		p	1			p_1
@@ -165,19 +165,19 @@ c	net/minecraft/unmapped/C_3500307$C_5384401		C_5384401
 	m	(Lnet/minecraft/unmapped/C_3500307$C_5384401;)Lcom/google/common/util/concurrent/ListenableFutureTask;	m_7102837		m_7102837
 		p	0			p_0
 c	net/minecraft/unmapped/C_3556854
-	m	()I	m_5987891		m_5987891
+	m	()I	m_5987891		getSerializedSize
 c	net/minecraft/unmapped/C_3628668
-	f	Lnet/minecraft/unmapped/C_1241852;	f_1362910		f_1362910
+	f	Lnet/minecraft/unmapped/C_1241852;	f_1362910		FROSTED_ICE
 c	net/minecraft/unmapped/C_3809662
-	m	(Lnet/minecraft/unmapped/C_5059265;)V	m_8445573		m_8445573
+	m	(Lnet/minecraft/unmapped/C_5059265;)V	m_8445573		handleAcceptTeleportPacket
 		p	1			p_1
 c	net/minecraft/unmapped/C_4442172
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_8698206		m_8698206
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_8698206		melt
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_4652455
 	f	Lnet/minecraft/unmapped/C_7240405;	f_1595076	f_1595076	
-	f	[B	f_2723249		f_2723249
+	f	[B	f_2723249		buffer
 	m	(II)Lnet/minecraft/unmapped/C_7240405;	m_0387511	m_0387511	
 		p	0		p_0	
 		p	1		p_1	
@@ -186,42 +186,42 @@ c	net/minecraft/unmapped/C_4652455
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_6849228;ZZI)I	m_7234046		m_7234046
+	m	(Lnet/minecraft/unmapped/C_6849228;ZZI)I	m_7234046		calculateChunkSize
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_4764197
-	m	()I	m_6196792		m_6196792
+	m	()I	m_6196792		getSerializedSize
 c	net/minecraft/unmapped/C_5253250
-	m	(I)I	m_1407735		m_1407735
+	m	(I)I	m_1407735		durabilityToXp
 		p	1			p_1
-	m	(I)I	m_1710672		m_1710672
+	m	(I)I	m_1710672		xpToDurability
 		p	1			p_1
 c	net/minecraft/unmapped/C_5542904
-	f	[I	f_0455714		f_0455714
-	f	I	f_7904964		f_7904964
+	f	[I	f_0455714		SLOTS_FOR_SIDES
+	f	I	f_7904964		fuel
 c	net/minecraft/unmapped/C_6026319
 	m	()I	m_5987891		m_5987891
 c	net/minecraft/unmapped/C_6607881
-	f	Lnet/minecraft/unmapped/C_3674802;	f_6437017		f_6437017
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_1448674		m_1448674
+	f	Lnet/minecraft/unmapped/C_3674802;	f_6437017		lastPos
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_1448674		onChangedBlock
 		p	1			p_1
 c	net/minecraft/unmapped/C_6852201
 	m	(Lnet/minecraft/unmapped/C_0230498;)Z	m_0880509		m_0880509
 		p	1			p_1
 c	net/minecraft/unmapped/C_7028449
-	m	()D	m_7915997		m_7915997
+	m	()D	m_7915997		getDistToPlayerSqr
 c	net/minecraft/unmapped/C_7106153
-	f	F	f_0567712		f_0567712
-	f	F	f_1215175		f_1215175
-	f	F	f_9981091		f_9981091
+	f	F	f_0567712		elytraRotX
+	f	F	f_1215175		elytraRotY
+	f	F	f_9981091		elytraRotZ
 c	net/minecraft/unmapped/C_7118457
-	f	Lnet/minecraft/unmapped/C_0230498;	f_8523245		f_8523245
-	f	Lnet/minecraft/unmapped/C_0230498;	f_2962137		f_2962137
+	f	Lnet/minecraft/unmapped/C_0230498;	f_8523245		FROST_WALKER
+	f	Lnet/minecraft/unmapped/C_0230498;	f_2962137		MENDING
 c	net/minecraft/unmapped/C_8853985
 	f	I	f_4589298		f_4589298
-c	net/minecraft/unmapped/C_8853985$C_8614818		C_8614818
+c	net/minecraft/unmapped/C_8853985$C_8614818		FuelSlot
 	m	(Lnet/minecraft/unmapped/C_5818647;III)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -231,10 +231,10 @@ c	net/minecraft/unmapped/C_8853985$C_8614818		C_8614818
 		p	1			p_1
 	m	()I	m_8462429		m_8462429
 c	net/minecraft/unmapped/C_9590849
-	m	()V	m_2271127		m_2271127
+	m	()V	m_2271127		updatePlayerPose
 c	net/minecraft/unmapped/C_9615057
 	m	()Z	m_0081483	m_0081483	
-c	net/minecraft/unmapped/C_4020959		net/minecraft/unmapped/C_4020959
+c	net/minecraft/unmapped/C_4020959		net/minecraft/world/item/enchantment/FrostWalkerEnchantment
 	m	(Lnet/minecraft/unmapped/C_0230498$C_3818076;[Lnet/minecraft/unmapped/C_7278838;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -244,15 +244,15 @@ c	net/minecraft/unmapped/C_4020959		net/minecraft/unmapped/C_4020959
 		p	1			p_1
 	m	()Z	m_7006641		m_7006641
 	m	()I	m_5897549		m_5897549
-	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_0334562		m_0334562
+	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_0334562		onEntityMoved
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 	m	(Lnet/minecraft/unmapped/C_0230498;)Z	m_0880509		m_0880509
 		p	1			p_1
-c	net/minecraft/unmapped/C_5059265		net/minecraft/unmapped/C_5059265
-	f	I	f_9862694		f_9862694
+c	net/minecraft/unmapped/C_5059265		net/minecraft/network/protocol/game/ServerboundAcceptTeleportationPacket
+	f	I	f_9862694		id
 	m	()V	<init>		<init>
 	m	(I)V	<init>		<init>
 		p	1			p_1
@@ -262,10 +262,10 @@ c	net/minecraft/unmapped/C_5059265		net/minecraft/unmapped/C_5059265
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3809662;)V	m_7452686		m_7452686
 		p	1			p_1
-	m	()I	m_9602188		m_9602188
+	m	()I	m_9602188		getId
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
-c	net/minecraft/unmapped/C_7935903		net/minecraft/unmapped/C_7935903
+c	net/minecraft/unmapped/C_7935903		net/minecraft/world/item/enchantment/MendingEnchantment
 	m	(Lnet/minecraft/unmapped/C_0230498$C_3818076;[Lnet/minecraft/unmapped/C_7278838;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -275,8 +275,8 @@ c	net/minecraft/unmapped/C_7935903		net/minecraft/unmapped/C_7935903
 		p	1			p_1
 	m	()Z	m_7006641		m_7006641
 	m	()I	m_5897549		m_5897549
-c	net/minecraft/unmapped/C_9030232		net/minecraft/unmapped/C_9030232
-	f	Lnet/minecraft/unmapped/C_7077852;	f_3040909		f_3040909
+c	net/minecraft/unmapped/C_9030232		net/minecraft/world/level/block/FrostedIceBlock
+	f	Lnet/minecraft/unmapped/C_7077852;	f_3040909		AGE
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_2441996;)I	m_5249160		m_5249160
 		p	1			p_1

@@ -67,7 +67,7 @@ c	net/minecraft/unmapped/C_2910311
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_2998483	net/minecraft/unmapped/C_2998483	
+c	net/minecraft/unmapped/C_2998483	net/minecraft/world/level/block/GravelBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -93,11 +93,11 @@ c	net/minecraft/unmapped/C_3755722
 		p	4			p_4
 c	net/minecraft/unmapped/C_4316830
 	m	()I	m_0469364	m_0469364	
-c	net/minecraft/unmapped/C_4808571	net/minecraft/unmapped/C_4808571	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8615531	f_8615531	
-	f	I	f_9055729	f_9055729	
-	f	I	f_9928665	f_9928665	
-	f	I	f_0929479	f_0929479	
+c	net/minecraft/unmapped/C_4808571	net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8615531	items	
+	f	I	f_9055729	litTime	
+	f	I	f_9928665	litDuration	
+	f	I	f_0929479	cookingProgress	
 	m	()V	<init>	<init>	
 	m	()I	m_2930514	m_2930514	
 	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1816230	m_1816230	
@@ -127,7 +127,7 @@ c	net/minecraft/unmapped/C_4808571	net/minecraft/unmapped/C_4808571
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5553933
 	f	Ljava/util/List;	f_6240257	f_6240257	
-c	net/minecraft/unmapped/C_5615103	net/minecraft/unmapped/C_5615103	
+c	net/minecraft/unmapped/C_5615103	net/minecraft/world/level/block/AbstractFurnaceBlock	
 	f	Z	f_9621589	f_9621589	
 	m	(IZ)V	<init>	<init>	
 		p	1		p_1	
@@ -163,7 +163,7 @@ c	net/minecraft/unmapped/C_5615103	net/minecraft/unmapped/C_5615103
 		p	4		p_4	
 		p	5		p_5	
 	m	()Lnet/minecraft/unmapped/C_3622326;	m_2470522	m_2470522	
-c	net/minecraft/unmapped/C_5903539	net/minecraft/unmapped/C_5903539	
+c	net/minecraft/unmapped/C_5903539	net/minecraft/client/gui/screens/inventory/AbstractFurnaceScreen	
 	f	Lnet/minecraft/unmapped/C_4808571;	f_2900872	f_2900872	
 	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_4808571;)V	<init>	<init>	
 		p	1		p_1	
@@ -193,7 +193,7 @@ c	net/minecraft/unmapped/C_8620458
 	m	(I)I	m_7534654		m_7534654
 		p	1			p_1
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_4097013	m_4097013	
+	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_4097013	canDestroy	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_4808571;)V	m_8252645	m_8252645	
 		p	1		p_1	

@@ -9,8 +9,8 @@ c	net/minecraft/client/C_5664496
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_9890357		m_9890357
 		p	1			p_1
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_2106970	f_2106970	
-	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_4886802	m_4886802	
+	f	Z	f_2106970	blocksBuilding	
+	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_4886802	save	
 		p	1		p_1	
 	m	()V	m_8944389		m_8944389
 	m	()Ljava/lang/String;	m_1061793		m_1061793
@@ -59,7 +59,7 @@ c	net/minecraft/unmapped/C_1498011
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_1061793		m_1061793
-c	net/minecraft/unmapped/C_2144954	net/minecraft/unmapped/C_2144954	
+c	net/minecraft/unmapped/C_2144954	net/minecraft/world/level/NaturalSpawner	
 	f	I	f_9444230	f_9444230	
 	f	Ljava/lang/Class;	f_5193624	f_5193624	
 	f	[Ljava/lang/Class;	f_7760202	f_7760202	
@@ -69,7 +69,7 @@ c	net/minecraft/unmapped/C_2144954	net/minecraft/unmapped/C_2144954
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_0040095	m_0040095	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5902900;)I	m_7552313	m_7552313	
+	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5902900;)I	m_7552313	spawnCategoryForChunk	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -156,11 +156,11 @@ c	net/minecraft/unmapped/C_6607881
 		p	3		p_3	
 	m	()Ljava/lang/String;	m_1061793		m_1061793
 c	net/minecraft/unmapped/C_6849228
-	f	[Ljava/util/List;	f_6611626	f_6611626	
+	f	[Ljava/util/List;	f_6611626	entitySections	
 	f	Z	f_4980706	f_4980706	
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_4806932	m_4806932	
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_4806932	removeEntity	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0539808;I)V	m_5991766	m_5991766	
+	m	(Lnet/minecraft/unmapped/C_0539808;I)V	m_5991766	removeEntity	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5577922;Ljava/util/List;)V	m_8657161	m_8657161	
@@ -170,17 +170,17 @@ c	net/minecraft/unmapped/C_6849228
 	m	()I	m_2020330	m_2020330	
 	m	(Z)Z	m_0432779	m_0432779	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_8252988	net/minecraft/unmapped/C_8252988	
+c	net/minecraft/unmapped/C_8252988	net/minecraft/world/entity/EntityType	
 	f	Ljava/util/Map;	f_5560461	f_5560461	
 	f	Ljava/util/Map;	f_4348479	f_4348479	
 	m	()V	<init>	<init>	
-	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_0930588	m_0930588	
+	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_0930588	register	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_5938147	m_5938147	
+	m	(Lnet/minecraft/unmapped/C_2018497;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_5938147	create	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0539808;)Ljava/lang/String;	m_5554506	m_5554506	
+	m	(Lnet/minecraft/unmapped/C_0539808;)Ljava/lang/String;	m_5554506	getKey	
 		p	0		p_0	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_8253973

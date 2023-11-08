@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0131593
-	f	Ljava/util/UUID;	f_0639251		f_0639251
-	f	Lnet/minecraft/unmapped/C_0394496;	f_4647474		f_4647474
+	f	Ljava/util/UUID;	f_0639251		COVERED_ARMOR_MODIFIER_UUID
+	f	Lnet/minecraft/unmapped/C_0394496;	f_4647474		COVERED_ARMOR_MODIFIER
 	m	()I	m_2352236	m_2352236	
 c	net/minecraft/unmapped/C_0137330
 	m	()I	m_2352236	m_2352236	
@@ -17,10 +17,10 @@ c	net/minecraft/unmapped/C_1591214
 	m	(Ljava/util/UUID;)V	m_2674515		m_2674515
 		p	1			p_1
 c	net/minecraft/unmapped/C_2454309
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)Z	m_0250667		m_0250667
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_2454309;)Z	m_0250667		isSameIgnoreDurability
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_1747409		m_1747409
+	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_1747409		sameItemStackIgnoreDurability
 		p	1			p_1
 c	net/minecraft/unmapped/C_3674802
 c	net/minecraft/unmapped/C_3674802$C_0869341
@@ -34,11 +34,11 @@ c	net/minecraft/unmapped/C_3832296
 c	net/minecraft/unmapped/C_4316830
 	m	()I	m_2352236	m_2352236	
 c	net/minecraft/unmapped/C_5502075
-	f	[Ljava/util/UUID;	f_5133303		f_5133303
+	f	[Ljava/util/UUID;	f_5133303		ARMOR_MODIFIER_UUID_PER_SLOT
 	m	(Lnet/minecraft/unmapped/C_7278838;)Lcom/google/common/collect/Multimap;	m_3717489		m_3717489
 		p	1			p_1
 c	net/minecraft/unmapped/C_5774785
-	f	Lnet/minecraft/unmapped/C_3661275;	f_9312142		f_9312142
+	f	Lnet/minecraft/unmapped/C_3661275;	f_9312142		ARMOR
 c	net/minecraft/unmapped/C_6232047
-	m	(Ljava/util/UUID;)V	m_2674515		m_2674515
+	m	(Ljava/util/UUID;)V	m_2674515		removeModifier
 		p	1			p_1

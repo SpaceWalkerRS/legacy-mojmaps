@@ -9,7 +9,7 @@ c	net/minecraft/unmapped/C_2686552
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_4316830
-	f	Lnet/minecraft/unmapped/C_3661275;	f_3490645		f_3490645
+	f	Lnet/minecraft/unmapped/C_3661275;	f_3490645		SPAWN_REINFORCEMENTS_CHANCE
 	m	(Lnet/minecraft/unmapped/C_1161898;F)Z	m_8726131		m_8726131
 		p	1			p_1
 		p	2			p_2

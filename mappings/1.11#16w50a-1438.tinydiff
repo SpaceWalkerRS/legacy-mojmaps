@@ -1,24 +1,24 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0259655
-	m	(Lnet/minecraft/unmapped/C_8398976;FI)V	m_8394918	m_8394918	
+	m	(Lnet/minecraft/unmapped/C_8398976;FI)V	m_8394918	prepareAndRenderClouds	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_8398976;FIDDD)V	m_8394918		m_8394918
+	m	(Lnet/minecraft/unmapped/C_8398976;FIDDD)V	m_8394918		prepareAndRenderClouds
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	6			p_6
 		p	8			p_8
-	m	(Z)V	m_9598519		m_9598519
+	m	(Z)V	m_9598519		resetFogColor
 		p	1			p_1
 c	net/minecraft/unmapped/C_0349999
 	f	Lnet/minecraft/unmapped/C_2609740;	f_9387974	f_9387974	
 	f	Lnet/minecraft/unmapped/C_2609740;	f_3600328	f_3600328	
 c	net/minecraft/unmapped/C_0539808
-	f	[D	f_6832487		f_6832487
-	f	J	f_2391772		f_2391772
+	f	[D	f_6832487		pistonDeltas
+	f	J	f_2391772		pistonDeltasGameTime
 c	net/minecraft/unmapped/C_0658183
 	m	(Lnet/minecraft/unmapped/C_0230498;)Z	m_0880509		m_0880509
 		p	1			p_1
@@ -39,17 +39,17 @@ c	net/minecraft/unmapped/C_1056918
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_1161898
-	f	Lnet/minecraft/unmapped/C_1161898;	f_8904093		f_8904093
+	f	Lnet/minecraft/unmapped/C_1161898;	f_8904093		FIREWORKS
 c	net/minecraft/unmapped/C_1197137
-	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_2304030	m_2304030	
+	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_2304030	getFishingLuckBonus	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_9214570	m_9214570	
+	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_9214570	getFishingSpeedBonus	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_6607881;)F	m_2109221		m_2109221
+	m	(Lnet/minecraft/unmapped/C_6607881;)F	m_2109221		getSweepingDamageRatio
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2304030		m_2304030
+	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2304030		getFishingLuckBonus
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_9214570		m_9214570
+	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_9214570		getFishingSpeedBonus
 		p	0			p_0
 c	net/minecraft/unmapped/C_1241852
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_5577922;Ljava/util/List;Lnet/minecraft/unmapped/C_0539808;)V	m_6210370	m_6210370	
@@ -101,7 +101,7 @@ c	net/minecraft/unmapped/C_1713479
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_2018497
-	f	Lorg/apache/logging/log4j/Logger;	f_6263939		f_6263939
+	f	Lorg/apache/logging/log4j/Logger;	f_6263939		LOGGER
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_2712203
 	f	Lcom/google/common/base/Splitter;	f_3032463	f_3032463	
@@ -112,8 +112,8 @@ c	net/minecraft/unmapped/C_2938580
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3004499
-	f	Lnet/minecraft/unmapped/C_6101761;	f_1815368		f_1815368
-	f	Lnet/minecraft/unmapped/C_6607881;	f_5852955		f_5852955
+	f	Lnet/minecraft/unmapped/C_6101761;	f_1815368		DATA_ATTACHED_TO_TARGET
+	f	Lnet/minecraft/unmapped/C_6607881;	f_5852955		attachedToEntity
 	m	(DDD)Z	m_9751247		m_9751247
 		p	1			p_1
 		p	3			p_3
@@ -122,8 +122,8 @@ c	net/minecraft/unmapped/C_3004499
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()V	m_1062572		m_1062572
-	m	()Z	m_9626788		m_9626788
+	m	()V	m_1062572		dealExplosionDamage
+	m	()Z	m_9626788		isAttachedToEntity
 c	net/minecraft/unmapped/C_3292284
 	m	(Lnet/minecraft/unmapped/C_9571530;)V	m_6492345		m_6492345
 		p	0			p_0
@@ -134,10 +134,10 @@ c	net/minecraft/unmapped/C_3292284$1		1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3325952
-	f	Lnet/minecraft/unmapped/C_3755722;	f_8577574		f_8577574
+	f	Lnet/minecraft/unmapped/C_3755722;	f_8577574		IRON_NUGGET
 c	net/minecraft/unmapped/C_3422238
-	f	I	f_8439694		f_8439694
-	f	I	f_8829676		f_8829676
+	f	I	f_8439694		luck
+	f	I	f_8829676		lureSpeed
 	m	(I)V	m_1672339		m_1672339
 		p	1			p_1
 	m	(I)V	m_7310283		m_7310283
@@ -159,7 +159,7 @@ c	net/minecraft/unmapped/C_3481595
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_3674802
-	m	(IIIIII)Ljava/lang/Iterable;	m_0120694		m_0120694
+	m	(IIIIII)Ljava/lang/Iterable;	m_0120694		betweenClosed
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -317,11 +317,11 @@ c	net/minecraft/unmapped/C_6028829
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_6057159
-	f	Lnet/minecraft/unmapped/C_6101761;	f_9080175		f_9080175
+	f	Lnet/minecraft/unmapped/C_6101761;	f_9080175		DATA_BOOST_TIME
 	m	(Lnet/minecraft/unmapped/C_6101761;)V	m_8901560		m_8901560
 		p	1			p_1
 c	net/minecraft/unmapped/C_6100478
-	m	(Ljava/util/List;)Lnet/minecraft/unmapped/C_5577922;	m_5003479		m_5003479
+	m	(Ljava/util/List;)Lnet/minecraft/unmapped/C_5577922;	m_5003479		getMinMaxPiecesAABB
 		p	1			p_1
 c	net/minecraft/unmapped/C_6100478$1
 	m	()Ljava/lang/Boolean;	m_8258180	m_8258180	
@@ -343,7 +343,7 @@ c	net/minecraft/unmapped/C_7030522
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_7118457
-	f	Lnet/minecraft/unmapped/C_0230498;	f_4785124		f_4785124
+	f	Lnet/minecraft/unmapped/C_0230498;	f_4785124		SWEEPING_EDGE
 c	net/minecraft/unmapped/C_7753067
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_2420716		m_2420716
 		p	1			p_1
@@ -366,19 +366,19 @@ c	net/minecraft/unmapped/C_8124234
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_8398976
-	m	(FI)V	m_3787690	m_3787690	
+	m	(FI)V	m_3787690	renderClouds	
 		p	1		p_1	
 		p	2		p_2	
-	m	(FI)V	m_3206451	m_3206451	
+	m	(FI)V	m_3206451	buildClouds	
 		p	1		p_1	
 		p	2		p_2	
-	m	(FIDDD)V	m_3787690		m_3787690
+	m	(FIDDD)V	m_3787690		renderClouds
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	5			p_5
 		p	7			p_7
-	m	(FIDDD)V	m_3206451		m_3206451
+	m	(FIDDD)V	m_3206451		buildClouds
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -416,13 +416,13 @@ c	net/minecraft/unmapped/C_9375022
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_1040185		m_1040185
+	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_1040185		addItem
 		p	1			p_1
 c	net/minecraft/unmapped/C_9881691
-	f	Z	f_8465752		f_8465752
-	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2442586		m_2442586
+	f	Z	f_8465752		fixedColor
+	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2442586		getCustomColor
 		p	0			p_0
-	m	(I)V	m_1571671		m_1571671
+	m	(I)V	m_1571671		setFixedColor
 		p	1			p_1
 c	net/minecraft/unmapped/C_9932820
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_5577922;Ljava/util/List;Lnet/minecraft/unmapped/C_0539808;)V	m_6210370	m_6210370	
@@ -456,7 +456,7 @@ c	net/minecraft/unmapped/C_9986135
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_3847413		net/minecraft/unmapped/C_3847413
+c	net/minecraft/unmapped/C_3847413		net/minecraft/world/item/enchantment/SweepingEdgeEnchantment
 	m	(Lnet/minecraft/unmapped/C_0230498$C_3818076;[Lnet/minecraft/unmapped/C_7278838;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -465,7 +465,7 @@ c	net/minecraft/unmapped/C_3847413		net/minecraft/unmapped/C_3847413
 	m	(I)I	m_0564004		m_0564004
 		p	1			p_1
 	m	()I	m_5897549		m_5897549
-	m	(I)F	m_5417336		m_5417336
+	m	(I)F	m_5417336		getSweepingDamageRatio
 		p	0			p_0
 	m	()Ljava/lang/String;	m_8870654		m_8870654
 	m	(Lnet/minecraft/unmapped/C_0230498;)Z	m_0880509		m_0880509

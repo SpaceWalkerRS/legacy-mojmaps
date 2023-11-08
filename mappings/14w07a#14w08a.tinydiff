@@ -4,15 +4,15 @@ c	net/minecraft/server/MinecraftServer
 c	net/minecraft/unmapped/C_0432398
 	m	()Lnet/minecraft/unmapped/C_9327774;	m_8661944		m_8661944
 c	net/minecraft/unmapped/C_1028001
-	m	()Lnet/minecraft/unmapped/C_9327774;	m_8661944		m_8661944
+	m	()Lnet/minecraft/unmapped/C_9327774;	m_8661944		getDefaultRenderType
 c	net/minecraft/unmapped/C_1234758
 	f	Lnet/minecraft/unmapped/C_9327774;	f_9223194		f_9223194
 	m	()Lnet/minecraft/unmapped/C_9327774;	m_4127612		m_4127612
 c	net/minecraft/unmapped/C_1730529
-	m	()Z	m_5360679		m_5360679
+	m	()Z	m_5360679		shouldInformAdmins
 c	net/minecraft/unmapped/C_2373767
-	f	Ljava/lang/String;	f_0326085		f_0326085
-	m	(Ljava/lang/String;)V	m_4862745		m_4862745
+	f	Ljava/lang/String;	f_0326085		value
+	m	(Ljava/lang/String;)V	m_4862745		setValue
 		p	1			p_1
 c	net/minecraft/unmapped/C_2691939
 	m	(FFIIII)V	m_5286305		m_5286305
@@ -34,7 +34,7 @@ c	net/minecraft/unmapped/C_4254816
 c	net/minecraft/unmapped/C_4895885
 	m	()Z	m_5360679		m_5360679
 c	net/minecraft/unmapped/C_6152184
-	f	Lnet/minecraft/unmapped/C_9550096;	f_9426771		f_9426771
+	f	Lnet/minecraft/unmapped/C_9550096;	f_9426771		DEFAULT_DIFFICULTY
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6574817
 	f	I	f_2517466		f_2517466
@@ -52,16 +52,16 @@ c	net/minecraft/unmapped/C_6574817
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_7574603
-	m	(Ljava/lang/String;I)Lnet/minecraft/unmapped/C_6574817;	m_2620975	m_2620975	
+	m	(Ljava/lang/String;I)Lnet/minecraft/unmapped/C_6574817;	m_2620975	getLayerInfoFromString	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Ljava/util/List;	m_2372834	m_2372834	
+	m	(Ljava/lang/String;)Ljava/util/List;	m_2372834	getLayersInfoFromString	
 		p	0		p_0	
-	m	(ILjava/lang/String;I)Lnet/minecraft/unmapped/C_6574817;	m_2620975		m_2620975
+	m	(ILjava/lang/String;I)Lnet/minecraft/unmapped/C_6574817;	m_2620975		getLayerInfoFromString
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-	m	(ILjava/lang/String;)Ljava/util/List;	m_2372834		m_2372834
+	m	(ILjava/lang/String;)Ljava/util/List;	m_2372834		getLayersInfoFromString
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_8651652

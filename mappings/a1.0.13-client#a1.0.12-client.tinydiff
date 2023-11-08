@@ -1,11 +1,11 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0231220	net/minecraft/unmapped/C_0231220	
+c	net/minecraft/unmapped/C_0231220	net/minecraft/world/level/LevelConflictException	
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_0539808
-	f	I	f_8854517	f_8854517	
-	f	I	f_1081116	f_1081116	
-	f	I	f_9207204	f_9207204	
+	f	I	f_8854517	xp	
+	f	I	f_1081116	yp	
+	f	I	f_9207204	zp	
 	m	(Ljava/lang/Object;)Z	equals	equals	
 		p	1		p_1	
 	m	()I	hashCode	hashCode	
@@ -46,7 +46,7 @@ c	net/minecraft/unmapped/C_5722573
 	m	(Lnet/minecraft/unmapped/C_5981136;)V	m_5776126	m_5776126	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5981136
-	f	Z	f_1675164	f_1675164	
+	f	Z	f_1675164	hasRot	
 c	net/minecraft/unmapped/C_6529692	net/minecraft/unmapped/C_6529692	
 	f	Lnet/minecraft/unmapped/C_3499589;	f_4143208	f_4143208	
 	m	(Lnet/minecraft/unmapped/C_3499589;)V	<init>	<init>	
@@ -93,9 +93,9 @@ c	net/minecraft/unmapped/C_8732981
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_9998479
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2565393	f_2565393	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7367301	f_7367301	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_3602040	f_3602040	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2565393	eye0	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7367301	eye1	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_3602040	mouth	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<init>		<init>

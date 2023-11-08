@@ -1,10 +1,10 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0674816
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	f_3026864	
-	f	Ljava/util/Set;	f_3026864		f_3026864
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	DIGGABLES	
+	f	Ljava/util/Set;	f_3026864		DIGGABLES
 c	net/minecraft/unmapped/C_0707753
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	f_1859613	
-	f	Ljava/util/Set;	f_1859613		f_1859613
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	DIGGABLES	
+	f	Ljava/util/Set;	f_1859613		DIGGABLES
 c	net/minecraft/unmapped/C_1184371
 	f	[Lnet/minecraft/unmapped/C_5307437;	f_9036119	f_9036119	
 	f	[Lnet/minecraft/unmapped/C_5307437;	f_9976813	f_9976813	
@@ -33,8 +33,8 @@ c	net/minecraft/unmapped/C_1872000
 	m	(Lnet/minecraft/unmapped/C_1872000;)Lnet/minecraft/unmapped/C_8871607;	m_7376284		m_7376284
 		p	0			p_0
 c	net/minecraft/unmapped/C_2671832
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	f_0027327	
-	f	Ljava/util/Set;	f_0027327		f_0027327
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	DIGGABLES	
+	f	Ljava/util/Set;	f_0027327		DIGGABLES
 c	net/minecraft/unmapped/C_3480712
 	f	Lnet/minecraft/unmapped/C_8620458;	f_6873036		f_6873036
 	m	(Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
@@ -52,8 +52,8 @@ c	net/minecraft/unmapped/C_8388188
 	m	(Lnet/minecraft/unmapped/C_9368128;)V	m_7902238		m_7902238
 		p	1			p_1
 c	net/minecraft/unmapped/C_8456884
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_9177785	f_9177785	
-	f	Ljava/util/Set;	f_9177785		f_9177785
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_9177785	blocks	
+	f	Ljava/util/Set;	f_9177785		blocks
 	m	(FLnet/minecraft/unmapped/C_4580495;[Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -83,7 +83,7 @@ c	net/minecraft/unmapped/C_8620458
 		p	1			p_1
 	m	()[Ljava/lang/String;	m_5155812		m_5155812
 c	net/minecraft/unmapped/C_9621687
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_3755722;)Lnet/minecraft/unmapped/C_2454309;	m_4464624		m_4464624
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_3755722;)Lnet/minecraft/unmapped/C_2454309;	m_4464624		createResultItem
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -94,7 +94,7 @@ c	net/minecraft/unmapped/C_9932820
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7446839		m_7446839
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7446839		setWaterLevel
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -155,7 +155,7 @@ c	net/minecraft/unmapped/C_3273454		net/minecraft/unmapped/C_3273454
 		p	1			p_1
 	m	()[Ljava/lang/String;	m_5155812		m_5155812
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_4869821		net/minecraft/unmapped/C_4869821
+c	net/minecraft/unmapped/C_4869821		net/minecraft/server/commands/SetWorldSpawnCommand
 	m	()V	<init>		<init>
 	m	()Ljava/lang/String;	m_2274818		m_2274818
 	m	()I	m_5251718		m_5251718
@@ -174,7 +174,7 @@ c	net/minecraft/unmapped/C_8414608		net/minecraft/unmapped/C_8414608
 	m	(Lnet/minecraft/unmapped/C_9549188;)V	m_9955335		m_9955335
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_9939341		net/minecraft/unmapped/C_9939341
+c	net/minecraft/unmapped/C_9939341		net/minecraft/world/level/block/LogBlock
 	f	[Lnet/minecraft/unmapped/C_5307437;	f_0408877		f_0408877
 	f	[Lnet/minecraft/unmapped/C_5307437;	f_7927597		f_7927597
 	m	()V	<init>		<init>

@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0460202
-	m	()I	m_9629343		m_9629343
+	m	()I	m_9629343		getSize
 c	net/minecraft/unmapped/C_0975786
-	f	Ljava/util/function/Predicate;	f_2138174		f_2138174
+	f	Ljava/util/function/Predicate;	f_2138174		predicateOnAvoidEntity
 	m	(Lnet/minecraft/unmapped/C_5622853;Ljava/lang/Class;Ljava/util/function/Predicate;FDD)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -30,19 +30,19 @@ c	net/minecraft/unmapped/C_0975786
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_4638084		m_4638084
 		p	0			p_0
 c	net/minecraft/unmapped/C_1023567
-	f	I	f_4574953		f_4574953
-	m	()F	m_6622830		m_6622830
+	f	I	f_4574953		waterVisionTime
+	m	()F	m_6622830		getWaterVision
 c	net/minecraft/unmapped/C_1388995
 	m	()I	m_9629343		m_9629343
 c	net/minecraft/unmapped/C_3325952
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7466262		f_7466262
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7929653		f_7929653
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6459963		f_6459963
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7661216		f_7661216
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4105319		f_4105319
-	f	Lnet/minecraft/unmapped/C_3755722;	f_1456921		f_1456921
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7466262		PUFFERFISH_BUCKET
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7929653		SALMON_BUCKET
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6459963		COD_BUCKET
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7661216		COD_SPAWN_EGG
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4105319		PUFFERFISH_SPAWN_EGG
+	f	Lnet/minecraft/unmapped/C_3755722;	f_1456921		SALMON_SPAWN_EGG
 c	net/minecraft/unmapped/C_4683110
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_6928498;IIIDLnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_7390270	m_7390270	
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_6928498;IIIDLnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_7390270	apply	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -53,7 +53,7 @@ c	net/minecraft/unmapped/C_4683110
 		p	9		p_9	
 		p	10		p_10	
 		p	11		p_11	
-	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_6928498;IIIDLnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_7390270		m_7390270
+	m	(Ljava/util/Random;Lnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_6928498;IIIDLnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_7390270		apply
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -83,7 +83,7 @@ c	net/minecraft/unmapped/C_6928498
 	f	Lnet/minecraft/unmapped/C_2441996;	f_1427991		f_1427991
 	m	()Lnet/minecraft/unmapped/C_2441996;	m_5936381		m_5936381
 c	net/minecraft/unmapped/C_7626890
-	f	Lnet/minecraft/unmapped/C_2441996;	f_3348386		f_3348386
+	f	Lnet/minecraft/unmapped/C_2441996;	f_3348386		underMaterial
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -92,48 +92,48 @@ c	net/minecraft/unmapped/C_7626890
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8252988
-	f	Lnet/minecraft/unmapped/C_8252988;	f_5553807		f_5553807
-	f	Lnet/minecraft/unmapped/C_8252988;	f_2179629		f_2179629
-	f	Lnet/minecraft/unmapped/C_8252988;	f_6188320		f_6188320
+	f	Lnet/minecraft/unmapped/C_8252988;	f_5553807		COD
+	f	Lnet/minecraft/unmapped/C_8252988;	f_2179629		PUFFERFISH
+	f	Lnet/minecraft/unmapped/C_8252988;	f_6188320		SALMON
 c	net/minecraft/unmapped/C_8452767
 	f	Lnet/minecraft/unmapped/C_0561170;	f_2692801		f_2692801
 	f	Lnet/minecraft/unmapped/C_0561170;	f_0654039		f_0654039
 	f	Lnet/minecraft/unmapped/C_0561170;	f_6594296		f_6594296
 c	net/minecraft/unmapped/C_9221482
-	f	Lnet/minecraft/unmapped/C_7721249;	f_3752994		f_3752994
-	f	Lnet/minecraft/unmapped/C_7721249;	f_1796636		f_1796636
-	f	Lnet/minecraft/unmapped/C_7721249;	f_9475772		f_9475772
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2877522		f_2877522
-	f	Lnet/minecraft/unmapped/C_7721249;	f_6656051		f_6656051
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2991150		f_2991150
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0114367		f_0114367
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2168898		f_2168898
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0791000		f_0791000
-	f	Lnet/minecraft/unmapped/C_7721249;	f_6485787		f_6485787
-	f	Lnet/minecraft/unmapped/C_7721249;	f_8484455		f_8484455
-	f	Lnet/minecraft/unmapped/C_7721249;	f_1677692		f_1677692
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2485789		f_2485789
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2193656		f_2193656
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2699343		f_2699343
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0038541		f_0038541
-	f	Lnet/minecraft/unmapped/C_7721249;	f_3817512		f_3817512
-	f	Lnet/minecraft/unmapped/C_7721249;	f_9427143		f_9427143
+	f	Lnet/minecraft/unmapped/C_7721249;	f_3752994		BUCKET_EMPTY_FISH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_1796636		BUCKET_FILL_FISH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_9475772		COD_AMBIENT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2877522		COD_DEATH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_6656051		COD_FLOP
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2991150		COD_HURT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0114367		FISH_SWIM
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2168898		PUFFER_FISH_AMBIENT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0791000		PUFFER_FISH_BLOW_OUT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_6485787		PUFFER_FISH_BLOW_UP
+	f	Lnet/minecraft/unmapped/C_7721249;	f_8484455		PUFFER_FISH_DEATH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_1677692		PUFFER_FISH_FLOP
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2485789		PUFFER_FISH_HURT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2193656		PUFFER_FISH_STING
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2699343		SALMON_AMBIENT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0038541		SALMON_DEATH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_3817512		SALMON_FLOP
+	f	Lnet/minecraft/unmapped/C_7721249;	f_9427143		SALMON_HURT
 c	net/minecraft/unmapped/C_9482064
 	m	()I	m_9629343		m_9629343
 c	net/minecraft/unmapped/C_9621687
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2454309;	m_8445713		m_8445713
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2454309;	m_8445713		getEmptySuccessItem
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3674802;)Z	m_0894656		m_0894656
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_6346899		m_6346899
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3674802;)Z	m_0894656		checkExtraContent
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_0115305		net/minecraft/unmapped/C_0115305
-	f	Lnet/minecraft/unmapped/C_0561170;	f_0175647		f_0175647
+	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_6346899		playEmptySound
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
+c	net/minecraft/unmapped/C_0115305		net/minecraft/client/renderer/entity/CodRenderer
+	f	Lnet/minecraft/unmapped/C_0561170;	f_0175647		COD_LOCATION
 	f	I	f_0455432		f_0455432
 	m	(Lnet/minecraft/unmapped/C_3362006;)V	<init>		<init>
 		p	1			p_1
@@ -180,12 +180,12 @@ c	net/minecraft/unmapped/C_0115305		net/minecraft/unmapped/C_0115305
 		p	8			p_8
 		p	9			p_9
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_0137487		net/minecraft/unmapped/C_0137487
-	f	Lnet/minecraft/unmapped/C_0561170;	f_5692102		f_5692102
-	f	I	f_3038080		f_3038080
-	f	Lnet/minecraft/unmapped/C_5643025;	f_1811544		f_1811544
-	f	Lnet/minecraft/unmapped/C_2283513;	f_7542498		f_7542498
-	f	Lnet/minecraft/unmapped/C_6829070;	f_2890297		f_2890297
+c	net/minecraft/unmapped/C_0137487		net/minecraft/client/renderer/entity/PufferfishRenderer
+	f	Lnet/minecraft/unmapped/C_0561170;	f_5692102		PUFFER_LOCATION
+	f	I	f_3038080		puffStateO
+	f	Lnet/minecraft/unmapped/C_5643025;	f_1811544		small
+	f	Lnet/minecraft/unmapped/C_2283513;	f_7542498		mid
+	f	Lnet/minecraft/unmapped/C_6829070;	f_2890297		big
 	m	(Lnet/minecraft/unmapped/C_3362006;)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_4477776;)Lnet/minecraft/unmapped/C_0561170;	m_4039695		m_4039695
@@ -231,10 +231,10 @@ c	net/minecraft/unmapped/C_0137487		net/minecraft/unmapped/C_0137487
 		p	8			p_8
 		p	9			p_9
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_0870392		net/minecraft/unmapped/C_0870392
-	f	Lnet/minecraft/unmapped/C_8474433;	f_6980210		f_6980210
-	f	Lnet/minecraft/unmapped/C_8474433;	f_5688281		f_5688281
-	f	I	f_8395394		f_8395394
+c	net/minecraft/unmapped/C_0870392		net/minecraft/world/entity/ai/goal/FollowFlockLeaderGoal
+	f	Lnet/minecraft/unmapped/C_8474433;	f_6980210		mob
+	f	Lnet/minecraft/unmapped/C_8474433;	f_5688281		nextStartTick
+	f	I	f_8395394		timeToRecalcPath
 	m	(Lnet/minecraft/unmapped/C_8474433;)V	<init>		<init>
 		p	1			p_1
 	m	()Z	m_9549250		m_9549250
@@ -242,8 +242,8 @@ c	net/minecraft/unmapped/C_0870392		net/minecraft/unmapped/C_0870392
 	m	()V	m_3836415		m_3836415
 	m	()V	m_7242457		m_7242457
 	m	()V	m_3798730		m_3798730
-c	net/minecraft/unmapped/C_2125221		net/minecraft/unmapped/C_2125221
-	f	Lnet/minecraft/unmapped/C_8252988;	f_9392376		f_9392376
+c	net/minecraft/unmapped/C_2125221		net/minecraft/world/item/FishBucketItem
+	f	Lnet/minecraft/unmapped/C_8252988;	f_9392376		type
 	m	(Lnet/minecraft/unmapped/C_8252988;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3755722$C_7918174;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -259,22 +259,22 @@ c	net/minecraft/unmapped/C_2125221		net/minecraft/unmapped/C_2125221
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_0539808;	m_1335941		m_1335941
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_0539808;	m_1335941		spawn
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_2283513		net/minecraft/unmapped/C_2283513
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1989609		f_1989609
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8344099		f_8344099
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0076307		f_0076307
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9279183		f_9279183
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1820216		f_1820216
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2705488		f_2705488
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8301626		f_8301626
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5778538		f_5778538
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1809340		f_1809340
-	f	Lnet/minecraft/unmapped/C_6697291;	f_3956776		f_3956776
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4223264		f_4223264
+c	net/minecraft/unmapped/C_2283513		net/minecraft/client/model/PufferfishMidModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1989609		cube
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8344099		finBlue0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0076307		finBlue1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9279183		finTop0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1820216		finTop1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2705488		finSide0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8301626		finSide1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5778538		finSide2
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1809340		finSide3
+	f	Lnet/minecraft/unmapped/C_6697291;	f_3956776		finBottom0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4223264		finBottom1
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
 		p	1			p_1
@@ -292,15 +292,15 @@ c	net/minecraft/unmapped/C_2283513		net/minecraft/unmapped/C_2283513
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_4477776		net/minecraft/unmapped/C_4477776
-	f	Lnet/minecraft/unmapped/C_6101761;	f_9152536		f_9152536
-	f	I	f_2280671		f_2280671
-	f	I	f_5435314		f_5435314
+c	net/minecraft/unmapped/C_4477776		net/minecraft/world/entity/animal/Pufferfish
+	f	Lnet/minecraft/unmapped/C_6101761;	f_9152536		PUFF_STATE
+	f	I	f_2280671		inflateCounter
+	f	I	f_5435314		deflateTimer
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_1700770		m_1700770
-	m	()I	m_1505777		m_1505777
-	m	(I)V	m_2323154		m_2323154
+	m	()I	m_1505777		getPuffState
+	m	(I)V	m_2323154		setPuffState
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1
@@ -324,22 +324,22 @@ c	net/minecraft/unmapped/C_4477776		net/minecraft/unmapped/C_4477776
 		p	0			p_0
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_4477776$C_7847479		C_7847479
-	f	Lnet/minecraft/unmapped/C_4477776;	f_6021898		f_6021898
+c	net/minecraft/unmapped/C_4477776$C_7847479		PufferfishPuffGoal
+	f	Lnet/minecraft/unmapped/C_4477776;	f_6021898		fish
 	m	(Lnet/minecraft/unmapped/C_4477776;)V	<init>		<init>
 		p	1			p_1
 	m	()Z	m_9549250		m_9549250
 	m	()V	m_3836415		m_3836415
 	m	()V	m_7242457		m_7242457
 	m	()Z	m_4540487		m_4540487
-c	net/minecraft/unmapped/C_4554347		net/minecraft/unmapped/C_4554347
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8022568		f_8022568
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7507528		f_7507528
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2199688		f_2199688
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9868797		f_9868797
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4466897		f_4466897
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6250626		f_6250626
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9275376		f_9275376
+c	net/minecraft/unmapped/C_4554347		net/minecraft/client/model/CodModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8022568		body
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7507528		topFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2199688		head
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9868797		nose
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4466897		sideFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6250626		sideFin1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9275376		tailFin
 	m	()I	m_9790721		m_9790721
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
@@ -358,13 +358,13 @@ c	net/minecraft/unmapped/C_4554347		net/minecraft/unmapped/C_4554347
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_5643025		net/minecraft/unmapped/C_5643025
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4314702		f_4314702
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6400575		f_6400575
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9033576		f_9033576
-	f	Lnet/minecraft/unmapped/C_6697291;	f_3608002		f_3608002
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9707180		f_9707180
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0156680		f_0156680
+c	net/minecraft/unmapped/C_5643025		net/minecraft/client/model/PufferfishSmallModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4314702		cube
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6400575		eye0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9033576		eye1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_3608002		fin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9707180		fin1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0156680		finBack
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
 		p	1			p_1
@@ -382,8 +382,8 @@ c	net/minecraft/unmapped/C_5643025		net/minecraft/unmapped/C_5643025
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_5693256		net/minecraft/unmapped/C_5693256
-	f	Lnet/minecraft/unmapped/C_0561170;	f_2891306		f_2891306
+c	net/minecraft/unmapped/C_5693256		net/minecraft/client/renderer/entity/SalmonRenderer
+	f	Lnet/minecraft/unmapped/C_0561170;	f_2891306		SALMON_LOCATION
 	f	I	f_7435561		f_7435561
 	m	(Lnet/minecraft/unmapped/C_3362006;)V	<init>		<init>
 		p	1			p_1
@@ -430,20 +430,20 @@ c	net/minecraft/unmapped/C_5693256		net/minecraft/unmapped/C_5693256
 		p	8			p_8
 		p	9			p_9
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6829070		net/minecraft/unmapped/C_6829070
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1960218		f_1960218
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1332561		f_1332561
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5912092		f_5912092
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0293392		f_0293392
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0504299		f_0504299
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6619865		f_6619865
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1411683		f_1411683
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8390657		f_8390657
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2920975		f_2920975
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4457640		f_4457640
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6417627		f_6417627
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0516227		f_0516227
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7401630		f_7401630
+c	net/minecraft/unmapped/C_6829070		net/minecraft/client/model/PufferfishBigModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1960218		cube
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1332561		blueFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5912092		blueFin1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0293392		topFrontFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0504299		topMidFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6619865		topBackFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1411683		sideFrontFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8390657		sideFrontFin1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2920975		bottomFrontFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4457640		bottomBackFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6417627		bottomMidFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0516227		sideBackFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7401630		sideBackFin1
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
 		p	1			p_1
@@ -461,7 +461,7 @@ c	net/minecraft/unmapped/C_6829070		net/minecraft/unmapped/C_6829070
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_7219505		net/minecraft/unmapped/C_7219505
+c	net/minecraft/unmapped/C_7219505		net/minecraft/world/entity/animal/Cod
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_6485717		m_6485717
@@ -472,8 +472,8 @@ c	net/minecraft/unmapped/C_7219505		net/minecraft/unmapped/C_7219505
 	m	(Lnet/minecraft/unmapped/C_1161898;)Lnet/minecraft/unmapped/C_7721249;	m_5045007		m_5045007
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_7721249;	m_6251884		m_6251884
-c	net/minecraft/unmapped/C_8474433		net/minecraft/unmapped/C_8474433
-	f	Lnet/minecraft/unmapped/C_6101761;	f_4777844		f_4777844
+c	net/minecraft/unmapped/C_8474433		net/minecraft/world/entity/animal/AbstractFish
+	f	Lnet/minecraft/unmapped/C_6101761;	f_4777844		FROM_BUCKET
 	f	Z	f_3483132		f_3483132
 	f	I	f_9609562		f_9609562
 	f	Z	f_5457143		f_5457143
@@ -488,8 +488,8 @@ c	net/minecraft/unmapped/C_8474433		net/minecraft/unmapped/C_8474433
 		p	1			p_1
 	m	()Z	m_0217613		m_0217613
 	m	()V	m_1700770		m_1700770
-	m	()Z	m_4677404		m_4677404
-	m	(Z)V	m_9390822		m_9390822
+	m	()Z	m_4677404		fromBucket
+	m	(Z)V	m_9390822		setFromBucket
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1
@@ -513,34 +513,34 @@ c	net/minecraft/unmapped/C_8474433		net/minecraft/unmapped/C_8474433
 	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_4360192;)Z	m_5581222		m_5581222
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_6973811		m_6973811
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_6973811		getBucketItemStack
 	m	(Z)V	m_1669731		m_1669731
 		p	1			p_1
 	m	()Z	m_5775401		m_5775401
-	m	()Lnet/minecraft/unmapped/C_7721249;	m_6251884		m_6251884
+	m	()Lnet/minecraft/unmapped/C_7721249;	m_6251884		getFlopSound
 	m	()Lnet/minecraft/unmapped/C_7721249;	m_4681035		m_4681035
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_8474433$C_3455530		C_3455530
-	f	Lnet/minecraft/unmapped/C_8474433;	f_0099790		f_0099790
+c	net/minecraft/unmapped/C_8474433$C_3455530		FishSwimGoal
+	f	Lnet/minecraft/unmapped/C_8474433;	f_0099790		fish
 	m	(Lnet/minecraft/unmapped/C_8474433;)V	<init>		<init>
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_0557736;	m_2448672		m_2448672
 	m	()Z	m_4540487		m_4540487
 	m	()Z	m_9549250		m_9549250
-c	net/minecraft/unmapped/C_8474433$C_7253129		C_7253129
-	f	Lnet/minecraft/unmapped/C_8474433;	f_6911565		f_6911565
+c	net/minecraft/unmapped/C_8474433$C_7253129		FishMoveControl
+	f	Lnet/minecraft/unmapped/C_8474433;	f_6911565		fish
 	m	(Lnet/minecraft/unmapped/C_8474433;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_0741527		m_0741527
-c	net/minecraft/unmapped/C_9224166		net/minecraft/unmapped/C_9224166
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7242311		f_7242311
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1664082		f_1664082
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6288389		f_6288389
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1924294		f_1924294
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0854263		f_0854263
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8749531		f_8749531
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5167560		f_5167560
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0331239		f_0331239
+c	net/minecraft/unmapped/C_9224166		net/minecraft/client/model/SalmonModel
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7242311		bodyFront
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1664082		bodyBack
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6288389		head
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1924294		topFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0854263		topFin1
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8749531		backFin
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5167560		sideFin0
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0331239		sideFin1
 	m	()I	m_9232274		m_9232274
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFFF)V	m_7620620		m_7620620
@@ -559,7 +559,7 @@ c	net/minecraft/unmapped/C_9224166		net/minecraft/unmapped/C_9224166
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_9752420		net/minecraft/unmapped/C_9752420
+c	net/minecraft/unmapped/C_9752420		net/minecraft/world/entity/animal/Salmon
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_6485717		m_6485717

@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/server/MinecraftServer
-	m	()I	m_7690735		m_7690735
+	m	()I	m_7690735		getOperatorUserPermissionLevel
 c	net/minecraft/unmapped/C_0123381
 	f	Ljava/awt/image/BufferedImage;	f_1645461	f_1645461	
 	f	I	f_2696658	f_2696658	
@@ -56,7 +56,7 @@ c	net/minecraft/unmapped/C_0640744
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_9713437;)V	m_8370992	m_8370992	
+	m	(Lnet/minecraft/unmapped/C_9713437;)V	m_8370992	registerSprite	
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_2686552;	m_1280577	m_1280577	
 	m	(IIZ)V	<init>		<init>
@@ -68,9 +68,9 @@ c	net/minecraft/unmapped/C_0640744
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	()I	m_5170074		m_5170074
-	m	()I	m_3925737		m_3925737
-	m	(Lnet/minecraft/unmapped/C_4257480;)V	m_8370992		m_8370992
+	m	()I	m_5170074		getWidth
+	m	()I	m_3925737		getHeight
+	m	(Lnet/minecraft/unmapped/C_4257480;)V	m_8370992		registerSprite
 		p	1			p_1
 c	net/minecraft/unmapped/C_0728223	net/minecraft/unmapped/C_0728223	
 	f	I	f_7068634	f_7068634	
@@ -100,15 +100,15 @@ c	net/minecraft/unmapped/C_0876962
 	f	Ljava/util/Map;	f_9776761	f_9776761	
 	f	Ljava/util/Map;	f_0762048	f_0762048	
 	f	Lnet/minecraft/unmapped/C_1331819;	f_1318293	f_1318293	
-	f	Lnet/minecraft/unmapped/C_7105334;	f_5607366	f_5607366	
+	f	Lnet/minecraft/unmapped/C_7105334;	f_5607366	resourceManager	
 	f	Ljava/awt/image/BufferedImage;	f_1830959	f_1830959	
 	f	Lnet/minecraft/unmapped/C_6088271;	f_4597088	f_4597088	
 	f	Lnet/minecraft/unmapped/C_6088271;	f_7213084	f_7213084	
 	f	I	f_0536124	f_0536124	
-	f	Ljava/util/Map;	f_6158223		f_6158223
-	f	Ljava/util/List;	f_7425935		f_7425935
-	f	Ljava/util/Map;	f_7045356		f_7045356
-	f	Lnet/minecraft/unmapped/C_5949355;	f_5607366		f_5607366
+	f	Ljava/util/Map;	f_6158223		byPath
+	f	Ljava/util/List;	f_7425935		tickableTextures
+	f	Ljava/util/Map;	f_7045356		prefixRegister
+	f	Lnet/minecraft/unmapped/C_5949355;	f_5607366		resourceManager
 	m	(Lnet/minecraft/unmapped/C_7105334;Lnet/minecraft/unmapped/C_1331819;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -126,7 +126,7 @@ c	net/minecraft/unmapped/C_0876962
 	m	()V	m_7738932	m_7738932	
 	m	(Ljava/lang/String;)I	m_9688911	m_9688911	
 		p	1		p_1	
-	m	(Ljava/awt/image/BufferedImage;)I	m_0440500	m_0440500	
+	m	(Ljava/awt/image/BufferedImage;)I	m_0440500	register	
 		p	1		p_1	
 	m	(Ljava/awt/image/BufferedImage;I)V	m_7106890	m_7106890	
 		p	1		p_1	
@@ -169,14 +169,14 @@ c	net/minecraft/unmapped/C_0876962
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_8394980		m_8394980
 		p	1			p_1
-	m	(Ljava/lang/String;)V	m_5325521		m_5325521
+	m	(Ljava/lang/String;)V	m_5325521		bind
 		p	1			p_1
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_4882708;)V	m_0381205		m_0381205
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_4882708;)V	m_0381205		register
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4882708;	m_1605001		m_1605001
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4882708;	m_1605001		getTexture
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3779718;Ljava/lang/String;)Ljava/lang/String;	m_0440500		m_0440500
+	m	(Lnet/minecraft/unmapped/C_3779718;Ljava/lang/String;)Ljava/lang/String;	m_0440500		register
 		p	1			p_1
 		p	2			p_2
 	m	()V	m_1976244		m_1976244
@@ -187,8 +187,8 @@ c	net/minecraft/unmapped/C_1023567
 c	net/minecraft/unmapped/C_1128759
 	f	I	f_7533350	f_7533350	
 	f	I	f_2541373	f_2541373	
-	f	Ljava/lang/String;	f_4642421		f_4642421
-	f	Lnet/minecraft/unmapped/C_0066205;	f_6955657		f_6955657
+	f	Ljava/lang/String;	f_4642421		urlString
+	f	Lnet/minecraft/unmapped/C_0066205;	f_6955657		processor
 	f	Ljava/lang/Thread;	f_2364438		f_2364438
 	f	Lnet/minecraft/unmapped/C_6853732;	f_2884514		f_2884514
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_0066205;)V	<init>	<init>	
@@ -199,7 +199,7 @@ c	net/minecraft/unmapped/C_1128759
 		p	2			p_2
 		p	3			p_3
 	m	()I	m_6799083		m_6799083
-	m	(Ljava/awt/image/BufferedImage;)V	m_6867809		m_6867809
+	m	(Ljava/awt/image/BufferedImage;)V	m_6867809		loadCallback
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		m_4115833
 		p	1			p_1
@@ -378,7 +378,7 @@ c	net/minecraft/unmapped/C_3831727
 	m	()V	m_9630541		m_9630541
 c	net/minecraft/unmapped/C_3832296
 	f	Lnet/minecraft/unmapped/C_6607881;	f_4460037	f_4460037	
-	f	Lnet/minecraft/unmapped/C_8878495;	f_9502698		f_9502698
+	f	Lnet/minecraft/unmapped/C_8878495;	f_9502698		PARENT_HORSE_SELECTOR
 	m	()Z	m_6457059	m_6457059	
 	m	()Ljava/lang/String;	m_3968925	m_3968925	
 	m	()Z	m_1861615	m_1861615	
@@ -390,8 +390,8 @@ c	net/minecraft/unmapped/C_3880032	net/minecraft/unmapped/C_3880032
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3961659
-	m	()V	m_1389123	m_1389123	
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_1389123		m_1389123
+	m	()V	m_1389123	dropItem	
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_1389123		dropItem
 		p	1			p_1
 c	net/minecraft/unmapped/C_4257480
 	f	Lnet/minecraft/unmapped/C_2686552;	f_4882355	f_4882355	
@@ -399,10 +399,10 @@ c	net/minecraft/unmapped/C_4257480
 	f	F	f_6628089	f_6628089	
 	f	F	f_8661390	f_8661390	
 	f	Ljava/lang/String;	f_2225918		f_2225918
-	f	Lnet/minecraft/unmapped/C_6347954;	f_7130761		f_7130761
+	f	Lnet/minecraft/unmapped/C_6347954;	f_7130761		metadata
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4257480;	m_1354364	m_1354364	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_2686552;Ljava/util/List;IIIIZ)V	m_0655370	m_0655370	
+	m	(Lnet/minecraft/unmapped/C_2686552;Ljava/util/List;IIIIZ)V	m_0655370	init	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -417,7 +417,7 @@ c	net/minecraft/unmapped/C_4257480
 	m	(Ljava/lang/String;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(IIIIZ)V	m_0655370		m_0655370
+	m	(IIIIZ)V	m_0655370		init
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -429,7 +429,7 @@ c	net/minecraft/unmapped/C_4257480
 	m	()I	m_6314611		m_6314611
 	m	(I)[I	m_6860639		m_6860639
 		p	1			p_1
-	m	()I	m_8744894		m_8744894
+	m	()I	m_8744894		getFrameCount
 	m	(Lnet/minecraft/unmapped/C_6347954;)V	m_7644134		m_7644134
 		p	1			p_1
 	m	(I)V	m_3632901		m_3632901
@@ -551,7 +551,7 @@ c	net/minecraft/unmapped/C_6088271
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_8596643		m_8596643
 		p	1			p_1
 	m	()V	m_9064962		m_9064962
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4257480;	m_7238066		m_7238066
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4257480;	m_7238066		getTexture
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_4257480;Lnet/minecraft/unmapped/C_5949355;Ljava/lang/String;)Z	m_1818372		m_1818372
 		p	1			p_1
@@ -581,8 +581,8 @@ c	net/minecraft/unmapped/C_7735639
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8105098
 	f	Lnet/minecraft/unmapped/C_0876962;	f_9413506	f_9413506	
-	f	Lnet/minecraft/unmapped/C_0876962;	f_9080958		f_9080958
-	m	()Lnet/minecraft/unmapped/C_0876962;	m_1218956		m_1218956
+	f	Lnet/minecraft/unmapped/C_0876962;	f_9080958		textureManager
+	m	()Lnet/minecraft/unmapped/C_0876962;	m_1218956		getTextureManager
 c	net/minecraft/unmapped/C_8173586
 	f	Lnet/minecraft/unmapped/C_6607881;	f_1820543	f_1820543	
 c	net/minecraft/unmapped/C_8398976
@@ -609,7 +609,7 @@ c	net/minecraft/unmapped/C_9012949
 c	net/minecraft/unmapped/C_9139005
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_0201981	m_0201981	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_9590849;IF)I	m_3660833	m_3660833	
+	m	(Lnet/minecraft/unmapped/C_9590849;IF)I	m_3660833	setModelProperties	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -650,7 +650,7 @@ c	net/minecraft/unmapped/C_9139005
 		p	4		p_4	
 	m	(Lnet/minecraft/unmapped/C_7106153;)V	m_0201981		m_0201981
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_7106153;IF)I	m_3660833		m_3660833
+	m	(Lnet/minecraft/unmapped/C_7106153;IF)I	m_3660833		setModelProperties
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -695,7 +695,7 @@ c	net/minecraft/unmapped/C_9368128
 	m	()V	m_1389123	m_1389123	
 	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_1389123		m_1389123
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6363675		m_6363675
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6363675		removeFramedMap
 		p	1			p_1
 c	net/minecraft/unmapped/C_9382951	net/minecraft/unmapped/C_9382951	
 	m	(I)V	<init>	<init>	
@@ -802,8 +802,8 @@ c	net/minecraft/unmapped/C_3531475		net/minecraft/unmapped/C_3531475
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_1473293		m_1473293
 		p	1			p_1
-c	net/minecraft/unmapped/C_3779718		net/minecraft/unmapped/C_3779718
-	f	[I	f_2862021		f_2862021
+c	net/minecraft/unmapped/C_3779718		net/minecraft/client/renderer/texture/DynamicTexture
+	f	[I	f_2862021		pixels
 	f	I	f_4031444		f_4031444
 	f	I	f_9300604		f_9300604
 	m	(II)V	<init>		<init>
@@ -811,21 +811,21 @@ c	net/minecraft/unmapped/C_3779718		net/minecraft/unmapped/C_3779718
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		m_4115833
 		p	1			p_1
-	m	()V	m_4420833		m_4420833
-	m	()[I	m_1823577		m_1823577
-c	net/minecraft/unmapped/C_4882708		net/minecraft/unmapped/C_4882708
-	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		m_4115833
+	m	()V	m_4420833		upload
+	m	()[I	m_1823577		getPixels
+c	net/minecraft/unmapped/C_4882708		net/minecraft/client/renderer/texture/TextureObject
+	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		load
 		p	1			p_1
-	m	()I	m_6799083		m_6799083
-c	net/minecraft/unmapped/C_5209004		net/minecraft/unmapped/C_5209004
-	f	[Ljava/lang/String;	f_2958134		f_2958134
+	m	()I	m_6799083		getId
+c	net/minecraft/unmapped/C_5209004		net/minecraft/client/renderer/texture/LayeredTexture
+	f	[Ljava/lang/String;	f_2958134		layerPaths
 	m	([Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		m_4115833
 		p	1			p_1
-c	net/minecraft/unmapped/C_6173837		net/minecraft/unmapped/C_6173837
-	f	I	f_2503006		f_2503006
-	f	I	f_5977028		f_5977028
+c	net/minecraft/unmapped/C_6173837		net/minecraft/client/resources/metadata/animation/AnimationFrame
+	f	I	f_2503006		time
+	f	I	f_5977028		index
 	m	(II)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -833,24 +833,24 @@ c	net/minecraft/unmapped/C_6173837		net/minecraft/unmapped/C_6173837
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_9811046		m_9811046
+	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_9811046		getTime
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_3940289		m_3940289
+	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_3940289		getIndex
 		p	0			p_0
-c	net/minecraft/unmapped/C_6347954		net/minecraft/unmapped/C_6347954
+c	net/minecraft/unmapped/C_6347954		net/minecraft/client/resources/metadata/animation/AnimationMetadataSection
 	f	Lcom/google/common/base/Splitter;	f_7681935		f_7681935
 	f	Ljava/util/List;	f_1530370		f_1530370
 	m	()V	<init>		<init>
 	m	(Ljava/io/InputStream;)Lnet/minecraft/unmapped/C_6347954;	m_9346715		m_9346715
 		p	1			p_1
-	m	()I	m_6558782		m_6558782
-	m	(I)I	m_8655623		m_8655623
+	m	()I	m_6558782		getFrameCount
+	m	(I)I	m_8655623		getFrameIndex
 		p	1			p_1
-	m	(I)I	m_0231402		m_0231402
+	m	(I)I	m_0231402		getFrameTime
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6853732		net/minecraft/unmapped/C_6853732
-	f	Ljava/lang/String;	f_3586910		f_3586910
+c	net/minecraft/unmapped/C_6853732		net/minecraft/client/renderer/texture/SimpleTexture
+	f	Ljava/lang/String;	f_3586910		location
 	f	Z	f_5881672		f_5881672
 	f	Z	f_1016440		f_1016440
 	m	(Ljava/lang/String;)V	<init>		<init>
@@ -861,11 +861,11 @@ c	net/minecraft/unmapped/C_6853732		net/minecraft/unmapped/C_6853732
 		p	3			p_3
 	m	(Lnet/minecraft/unmapped/C_5949355;)V	m_4115833		m_4115833
 		p	1			p_1
-c	net/minecraft/unmapped/C_6856664		net/minecraft/unmapped/C_6856664
-	f	I	f_1678452		f_1678452
+c	net/minecraft/unmapped/C_6856664		net/minecraft/client/renderer/texture/AbstractTexture
+	f	I	f_1678452		id
 	m	()V	<init>		<init>
 	m	()I	m_6799083		m_6799083
-c	net/minecraft/unmapped/C_7106153		net/minecraft/unmapped/C_7106153
+c	net/minecraft/unmapped/C_7106153		net/minecraft/client/player/AbstractClientPlayer
 	f	Lnet/minecraft/unmapped/C_1128759;	f_1229150		f_1229150
 	f	Lnet/minecraft/unmapped/C_1128759;	f_1814478		f_1814478
 	f	Ljava/lang/String;	f_5038870		f_5038870
@@ -879,7 +879,7 @@ c	net/minecraft/unmapped/C_7106153		net/minecraft/unmapped/C_7106153
 	m	()Lnet/minecraft/unmapped/C_1128759;	m_7934561		m_7934561
 	m	()Ljava/lang/String;	m_9706998		m_9706998
 	m	()Ljava/lang/String;	m_4899539		m_4899539
-	m	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_4873194		m_4873194
+	m	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_4873194		registerSkinTexture
 		p	0			p_0
 		p	1			p_1
 	m	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_6257789		m_6257789
@@ -894,7 +894,7 @@ c	net/minecraft/unmapped/C_7106153		net/minecraft/unmapped/C_7106153
 		p	0			p_0
 	m	(Ljava/lang/String;)Ljava/lang/String;	m_1542049		m_1542049
 		p	0			p_0
-	m	(Ljava/lang/String;)Ljava/lang/String;	m_5362673		m_5362673
+	m	(Ljava/lang/String;)Ljava/lang/String;	m_5362673		getSkinLocation
 		p	0			p_0
 	m	(Ljava/lang/String;)Ljava/lang/String;	m_6894126		m_6894126
 		p	0			p_0

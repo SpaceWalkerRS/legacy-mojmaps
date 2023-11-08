@@ -57,21 +57,21 @@ c	net/minecraft/unmapped/C_1737519
 	f	Lnet/minecraft/unmapped/C_1737519;	FIRST	FIRST	
 	f	Lnet/minecraft/unmapped/C_1737519;	CAUSED_BY	CAUSED_BY	
 	f	Lnet/minecraft/unmapped/C_1737519;	TRUE	TRUE	
-	f	Lnet/minecraft/unmapped/C_1737519;	f_8227686		f_8227686
-	f	Lnet/minecraft/unmapped/C_1737519;	f_7897880		f_7897880
-	f	Lnet/minecraft/unmapped/C_1737519;	f_2155795		f_2155795
-	f	Lnet/minecraft/unmapped/C_1737519;	f_1682939		f_1682939
-	f	Lnet/minecraft/unmapped/C_1737519;	f_7328709		f_7328709
-	f	Lnet/minecraft/unmapped/C_1737519;	f_2092082		f_2092082
-	f	Lnet/minecraft/unmapped/C_1737519;	f_1604185		f_1604185
-	f	Lnet/minecraft/unmapped/C_1737519;	f_5913831		f_5913831
-	f	Lnet/minecraft/unmapped/C_1737519;	f_6250553		f_6250553
-	f	Lnet/minecraft/unmapped/C_1737519;	f_7011514		f_7011514
-	f	Lnet/minecraft/unmapped/C_1737519;	f_9903181		f_9903181
-	f	Lnet/minecraft/unmapped/C_1737519;	f_0064249		f_0064249
-	f	Lnet/minecraft/unmapped/C_1737519;	f_1894151		f_1894151
-	f	Lnet/minecraft/unmapped/C_1737519;	f_1222135		f_1222135
-	f	Lnet/minecraft/unmapped/C_1737519;	f_9572269		f_9572269
+	f	Lnet/minecraft/unmapped/C_1737519;	f_8227686		FALSE
+	f	Lnet/minecraft/unmapped/C_1737519;	f_7897880		NOT_OR
+	f	Lnet/minecraft/unmapped/C_1737519;	f_2155795		ONLY_SECOND
+	f	Lnet/minecraft/unmapped/C_1737519;	f_1682939		NOT_FIRST
+	f	Lnet/minecraft/unmapped/C_1737519;	f_7328709		ONLY_FIRST
+	f	Lnet/minecraft/unmapped/C_1737519;	f_2092082		NOT_SECOND
+	f	Lnet/minecraft/unmapped/C_1737519;	f_1604185		NOT_SAME
+	f	Lnet/minecraft/unmapped/C_1737519;	f_5913831		NOT_AND
+	f	Lnet/minecraft/unmapped/C_1737519;	f_6250553		AND
+	f	Lnet/minecraft/unmapped/C_1737519;	f_7011514		SAME
+	f	Lnet/minecraft/unmapped/C_1737519;	f_9903181		SECOND
+	f	Lnet/minecraft/unmapped/C_1737519;	f_0064249		CAUSES
+	f	Lnet/minecraft/unmapped/C_1737519;	f_1894151		FIRST
+	f	Lnet/minecraft/unmapped/C_1737519;	f_1222135		CAUSED_BY
+	f	Lnet/minecraft/unmapped/C_1737519;	f_9572269		TRUE
 	m	(ZZ)Z	lambda$static$15	lambda$static$15	
 		p	0		p_0	
 		p	1		p_1	
@@ -367,7 +367,7 @@ c	net/minecraft/unmapped/C_3020744
 		p	3			p_3
 c	net/minecraft/unmapped/C_3089641
 	f	Lnet/minecraft/unmapped/C_3089641;	NOOP	NOOP	
-	f	Lnet/minecraft/unmapped/C_3089641;	f_1993570		f_1993570
+	f	Lnet/minecraft/unmapped/C_3089641;	f_1993570		NOOP
 	m	(Lnet/minecraft/unmapped/C_3335560;Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_2454309;	lambda$static$0	lambda$static$0	
 		p	0		p_0	
 		p	1		p_1	
@@ -384,11 +384,11 @@ c	net/minecraft/unmapped/C_3310179
 	m	()F	getBearingX	getBearingX	
 	m	()F	getBoldOffset	getBoldOffset	
 	m	()F	getShadowOffset	getShadowOffset	
-	m	(Z)F	m_2429720		m_2429720
+	m	(Z)F	m_2429720		getAdvance
 		p	1			p_1
-	m	()F	m_3349520		m_3349520
-	m	()F	m_9711960		m_9711960
-	m	()F	m_7749960		m_7749960
+	m	()F	m_3349520		getBearingX
+	m	()F	m_9711960		getBoldOffset
+	m	()F	m_7749960		getShadowOffset
 c	net/minecraft/unmapped/C_3342272
 	m	(DDI)Z	mouseClicked	mouseClicked	
 		p	1		p_1	
@@ -443,16 +443,16 @@ c	net/minecraft/unmapped/C_3914457
 	f	Lnet/minecraft/unmapped/C_3914457;	LIST	LIST	
 	f	Lnet/minecraft/unmapped/C_3914457;	FEATURE	FEATURE	
 	f	Lnet/minecraft/unmapped/C_3914457;	EMPTY	EMPTY	
-	f	Lnet/minecraft/unmapped/C_3914457;	f_5993236		f_5993236
-	f	Lnet/minecraft/unmapped/C_3914457;	f_8182907		f_8182907
-	f	Lnet/minecraft/unmapped/C_3914457;	f_2959514		f_2959514
-	f	Lnet/minecraft/unmapped/C_3914457;	f_3634746		f_3634746
+	f	Lnet/minecraft/unmapped/C_3914457;	f_5993236		SINGLE
+	f	Lnet/minecraft/unmapped/C_3914457;	f_8182907		LIST
+	f	Lnet/minecraft/unmapped/C_3914457;	f_2959514		FEATURE
+	f	Lnet/minecraft/unmapped/C_3914457;	f_3634746		EMPTY
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3914457;)Lnet/minecraft/unmapped/C_3914457;	register	register	
 		p	0		p_0	
 		p	1		p_1	
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_3694724;	lambda$static$0	lambda$static$0	
 		p	0		p_0	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3914457;)Lnet/minecraft/unmapped/C_3914457;	m_3904966		m_3904966
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3914457;)Lnet/minecraft/unmapped/C_3914457;	m_3904966		register
 		p	0			p_0
 		p	1			p_1
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_3694724;	m_1507969		m_1507969
@@ -469,8 +469,8 @@ c	net/minecraft/unmapped/C_3945422
 c	net/minecraft/unmapped/C_4108241
 	f	Lnet/minecraft/unmapped/C_4108241;	ALWAYS_FALSE	ALWAYS_FALSE	
 	f	Lnet/minecraft/unmapped/C_4108241;	ALWAYS_TRUE	ALWAYS_TRUE	
-	f	Lnet/minecraft/unmapped/C_4108241;	f_6335482		f_6335482
-	f	Lnet/minecraft/unmapped/C_4108241;	f_7108876		f_7108876
+	f	Lnet/minecraft/unmapped/C_4108241;	f_6335482		ALWAYS_FALSE
+	f	Lnet/minecraft/unmapped/C_4108241;	f_7108876		ALWAYS_TRUE
 	m	(Lnet/minecraft/unmapped/C_4108241;)Lnet/minecraft/unmapped/C_4108241;	and	and	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_4108241;Lnet/minecraft/unmapped/C_7630919;Ljava/util/function/Consumer;)Z	lambda$or$3	lambda$or$3	
@@ -487,7 +487,7 @@ c	net/minecraft/unmapped/C_4108241
 	m	(Lnet/minecraft/unmapped/C_7630919;Ljava/util/function/Consumer;)Z	lambda$static$0	lambda$static$0	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_4108241;)Lnet/minecraft/unmapped/C_4108241;	m_8928835		m_8928835
+	m	(Lnet/minecraft/unmapped/C_4108241;)Lnet/minecraft/unmapped/C_4108241;	m_8928835		and
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_4108241;Lnet/minecraft/unmapped/C_7630919;Ljava/util/function/Consumer;)Z	m_3756103		m_3756103
 		p	1			p_1
@@ -689,10 +689,10 @@ c	net/minecraft/unmapped/C_5169260
 	f	Lnet/minecraft/unmapped/C_5169260;	WOODLAND_MANSION_PIECE	WOODLAND_MANSION_PIECE	
 	f	Lnet/minecraft/unmapped/C_5169260;	BURIED_TREASURE_PIECE	BURIED_TREASURE_PIECE	
 	f	Lnet/minecraft/unmapped/C_5169260;	SHIPWRECK_PIECE	SHIPWRECK_PIECE	
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9838524		f_9838524
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0557876		f_0557876
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8545714		f_8545714
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9443340		f_9443340
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9838524		MINE_SHAFT_CORRIDOR
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0557876		MINE_SHAFT_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8545714		MINE_SHAFT_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9443340		MINE_SHAFT_STAIRS
 	f	Lnet/minecraft/unmapped/C_5169260;	f_3342613		f_3342613
 	f	Lnet/minecraft/unmapped/C_5169260;	f_0712803		f_0712803
 	f	Lnet/minecraft/unmapped/C_5169260;	f_8076964		f_8076964
@@ -706,67 +706,67 @@ c	net/minecraft/unmapped/C_5169260
 	f	Lnet/minecraft/unmapped/C_5169260;	f_7300799		f_7300799
 	f	Lnet/minecraft/unmapped/C_5169260;	f_9089962		f_9089962
 	f	Lnet/minecraft/unmapped/C_5169260;	f_6592933		f_6592933
-	f	Lnet/minecraft/unmapped/C_5169260;	f_3448695		f_3448695
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6518443		f_6518443
-	f	Lnet/minecraft/unmapped/C_5169260;	f_4538593		f_4538593
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8999476		f_8999476
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9383571		f_9383571
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6852628		f_6852628
-	f	Lnet/minecraft/unmapped/C_5169260;	f_2788218		f_2788218
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9959387		f_9959387
-	f	Lnet/minecraft/unmapped/C_5169260;	f_2119511		f_2119511
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9612333		f_9612333
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5480857		f_5480857
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9403463		f_9403463
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8527771		f_8527771
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9449616		f_9449616
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0485690		f_0485690
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6181208		f_6181208
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5200687		f_5200687
-	f	Lnet/minecraft/unmapped/C_5169260;	f_7176810		f_7176810
-	f	Lnet/minecraft/unmapped/C_5169260;	f_1330658		f_1330658
-	f	Lnet/minecraft/unmapped/C_5169260;	f_3837044		f_3837044
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6609270		f_6609270
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6999716		f_6999716
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0527053		f_0527053
-	f	Lnet/minecraft/unmapped/C_5169260;	f_2795034		f_2795034
-	f	Lnet/minecraft/unmapped/C_5169260;	f_4422830		f_4422830
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0234081		f_0234081
-	f	Lnet/minecraft/unmapped/C_5169260;	f_6234712		f_6234712
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8634756		f_8634756
-	f	Lnet/minecraft/unmapped/C_5169260;	f_7243079		f_7243079
-	f	Lnet/minecraft/unmapped/C_5169260;	f_2926355		f_2926355
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5693391		f_5693391
-	f	Lnet/minecraft/unmapped/C_5169260;	f_1174156		f_1174156
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5318918		f_5318918
-	f	Lnet/minecraft/unmapped/C_5169260;	f_4194972		f_4194972
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9902894		f_9902894
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9881286		f_9881286
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0374803		f_0374803
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5808526		f_5808526
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5014515		f_5014515
-	f	Lnet/minecraft/unmapped/C_5169260;	f_0894284		f_0894284
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8415280		f_8415280
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8205089		f_8205089
-	f	Lnet/minecraft/unmapped/C_5169260;	f_2830762		f_2830762
-	f	Lnet/minecraft/unmapped/C_5169260;	f_4532576		f_4532576
-	f	Lnet/minecraft/unmapped/C_5169260;	f_9452511		f_9452511
-	f	Lnet/minecraft/unmapped/C_5169260;	f_8048168		f_8048168
-	f	Lnet/minecraft/unmapped/C_5169260;	f_1321482		f_1321482
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5271823		f_5271823
-	f	Lnet/minecraft/unmapped/C_5169260;	f_3748710		f_3748710
-	f	Lnet/minecraft/unmapped/C_5169260;	f_7684624		f_7684624
-	f	Lnet/minecraft/unmapped/C_5169260;	f_5727176		f_5727176
+	f	Lnet/minecraft/unmapped/C_5169260;	f_3448695		PILLAGER_OUTPOST
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6518443		VILLAGE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_4538593		NETHER_FORTRESS_BRIDGE_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8999476		NETHER_FORTRESS_BRIDGE_END_FILLER
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9383571		NETHER_FORTRESS_BRIDGE_STRAIGHT
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6852628		NETHER_FORTRESS_CASTLE_CORRIDOR_STAIRS
+	f	Lnet/minecraft/unmapped/C_5169260;	f_2788218		NETHER_FORTRESS_CASTLE_CORRIDOR_T_BALCONY
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9959387		NETHER_FORTRESS_CASTLE_ENTRANCE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_2119511		NETHER_FORTRESS_CASTLE_SMALL_CORRIDOR_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9612333		NETHER_FORTRESS_CASTLE_SMALL_CORRIDOR_LEFT_TURN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5480857		NETHER_FORTRESS_CASTLE_SMALL_CORRIDOR
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9403463		NETHER_FORTRESS_CASTLE_SMALL_CORRIDOR_RIGHT_TURN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8527771		NETHER_FORTRESS_CASTLE_STALK_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9449616		NETHER_FORTRESS_MONSTER_THRONE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0485690		NETHER_FORTRESS_ROOM_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6181208		NETHER_FORTRESS_STAIRS_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5200687		NETHER_FORTRESS_START
+	f	Lnet/minecraft/unmapped/C_5169260;	f_7176810		STRONGHOLD_CHEST_CORRIDOR
+	f	Lnet/minecraft/unmapped/C_5169260;	f_1330658		STRONGHOLD_FILLER_CORRIDOR
+	f	Lnet/minecraft/unmapped/C_5169260;	f_3837044		STRONGHOLD_FIVE_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6609270		STRONGHOLD_LEFT_TURN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6999716		STRONGHOLD_LIBRARY
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0527053		STRONGHOLD_PORTAL_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_2795034		STRONGHOLD_PRISON_HALL
+	f	Lnet/minecraft/unmapped/C_5169260;	f_4422830		STRONGHOLD_RIGHT_TURN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0234081		STRONGHOLD_ROOM_CROSSING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_6234712		STRONGHOLD_STAIRS_DOWN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8634756		STRONGHOLD_START
+	f	Lnet/minecraft/unmapped/C_5169260;	f_7243079		STRONGHOLD_STRAIGHT
+	f	Lnet/minecraft/unmapped/C_5169260;	f_2926355		STRONGHOLD_STRAIGHT_STAIRS_DOWN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5693391		JUNGLE_PYRAMID_PIECE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_1174156		OCEAN_RUIN
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5318918		IGLOO
+	f	Lnet/minecraft/unmapped/C_5169260;	f_4194972		SWAMPLAND_HUT
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9902894		DESERT_PYRAMID_PIECE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9881286		OCEAN_MONUMENT_BUILDING
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0374803		OCEAN_MONUMENT_CORE_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5808526		OCEAN_MONUMENT_DOUBLE_X_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5014515		OCEAN_MONUMENT_DOUBLE_XY_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_0894284		OCEAN_MONUMENT_DOUBLE_Y_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8415280		OCEAN_MONUMENT_DOUBLE_YZ_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8205089		OCEAN_MONUMENT_DOUBLE_Z_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_2830762		OCEAN_MONUMENT_ENTRY_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_4532576		OCEAN_MONUMENT_PENTHOUSE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_9452511		OCEAN_MONUMENT_SIMPLE_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_8048168		OCEAN_MONUMENT_SIMPLE_TOP_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_1321482		OCEAN_MONUMENT_WING_ROOM
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5271823		END_CITY_PIECE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_3748710		WOODLAND_MANSION_PIECE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_7684624		BURIED_TREASURE_PIECE
+	f	Lnet/minecraft/unmapped/C_5169260;	f_5727176		SHIPWRECK_PIECE
 	m	(Lnet/minecraft/unmapped/C_5169260;Ljava/lang/String;)Lnet/minecraft/unmapped/C_5169260;	setPieceId	setPieceId	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5169260;Ljava/lang/String;)Lnet/minecraft/unmapped/C_5169260;	m_3396298		m_3396298
+	m	(Lnet/minecraft/unmapped/C_5169260;Ljava/lang/String;)Lnet/minecraft/unmapped/C_5169260;	m_3396298		setPieceId
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_5199647
 c	net/minecraft/unmapped/C_5199647$C_4630898
 	m	()Lnet/minecraft/unmapped/C_5199647$C_4630898;	invert	invert	
-	m	()Lnet/minecraft/unmapped/C_5199647$C_4630898;	m_7027678		m_7027678
+	m	()Lnet/minecraft/unmapped/C_5199647$C_4630898;	m_7027678		invert
 c	net/minecraft/unmapped/C_5242898
 	m	(DDI)Z	mouseClicked	mouseClicked	
 		p	1		p_1	
@@ -800,7 +800,7 @@ c	net/minecraft/unmapped/C_5242898
 		p	2			p_2
 c	net/minecraft/unmapped/C_5503733
 	f	Lnet/minecraft/unmapped/C_5503733;	AND	AND	
-	f	Lnet/minecraft/unmapped/C_5503733;	f_4103282		f_4103282
+	f	Lnet/minecraft/unmapped/C_5503733;	f_4103282		AND
 	m	(Ljava/util/Collection;)[[Ljava/lang/String;	lambda$static$1	lambda$static$1	
 		p	0		p_0	
 	m	(Ljava/util/Collection;)[[Ljava/lang/String;	lambda$static$0	lambda$static$0	
@@ -840,18 +840,18 @@ c	net/minecraft/unmapped/C_5703211
 	f	Lnet/minecraft/unmapped/C_5703211;	TAG_TEST	TAG_TEST	
 	f	Lnet/minecraft/unmapped/C_5703211;	RANDOM_BLOCK_TEST	RANDOM_BLOCK_TEST	
 	f	Lnet/minecraft/unmapped/C_5703211;	RANDOM_BLOCKSTATE_TEST	RANDOM_BLOCKSTATE_TEST	
-	f	Lnet/minecraft/unmapped/C_5703211;	f_1581076		f_1581076
-	f	Lnet/minecraft/unmapped/C_5703211;	f_7198217		f_7198217
-	f	Lnet/minecraft/unmapped/C_5703211;	f_2089693		f_2089693
-	f	Lnet/minecraft/unmapped/C_5703211;	f_7529788		f_7529788
-	f	Lnet/minecraft/unmapped/C_5703211;	f_6548503		f_6548503
-	f	Lnet/minecraft/unmapped/C_5703211;	f_1508252		f_1508252
+	f	Lnet/minecraft/unmapped/C_5703211;	f_1581076		ALWAYS_TRUE_TEST
+	f	Lnet/minecraft/unmapped/C_5703211;	f_7198217		BLOCK_TEST
+	f	Lnet/minecraft/unmapped/C_5703211;	f_2089693		BLOCKSTATE_TEST
+	f	Lnet/minecraft/unmapped/C_5703211;	f_7529788		TAG_TEST
+	f	Lnet/minecraft/unmapped/C_5703211;	f_6548503		RANDOM_BLOCK_TEST
+	f	Lnet/minecraft/unmapped/C_5703211;	f_1508252		RANDOM_BLOCKSTATE_TEST
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5703211;)Lnet/minecraft/unmapped/C_5703211;	register	register	
 		p	0		p_0	
 		p	1		p_1	
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_9760061;	lambda$static$0	lambda$static$0	
 		p	0		p_0	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5703211;)Lnet/minecraft/unmapped/C_5703211;	m_6296815		m_6296815
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5703211;)Lnet/minecraft/unmapped/C_5703211;	m_6296815		register
 		p	0			p_0
 		p	1			p_1
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_9760061;	m_7119157		m_7119157
@@ -1196,7 +1196,7 @@ c	net/minecraft/unmapped/C_7283471
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(III)Z	m_7506809		m_7506809
+	m	(III)Z	m_7506809		keyReleased
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -1360,12 +1360,12 @@ c	net/minecraft/unmapped/C_8763705
 	f	Lnet/minecraft/unmapped/C_8763705;	JIGSAW_REPLACEMENT	JIGSAW_REPLACEMENT	
 	f	Lnet/minecraft/unmapped/C_8763705;	RULE	RULE	
 	f	Lnet/minecraft/unmapped/C_8763705;	NOP	NOP	
-	f	Lnet/minecraft/unmapped/C_8763705;	f_4867946		f_4867946
-	f	Lnet/minecraft/unmapped/C_8763705;	f_6111528		f_6111528
-	f	Lnet/minecraft/unmapped/C_8763705;	f_3688866		f_3688866
-	f	Lnet/minecraft/unmapped/C_8763705;	f_5175848		f_5175848
-	f	Lnet/minecraft/unmapped/C_8763705;	f_5336621		f_5336621
-	f	Lnet/minecraft/unmapped/C_8763705;	f_2312531		f_2312531
+	f	Lnet/minecraft/unmapped/C_8763705;	f_4867946		BLOCK_IGNORE
+	f	Lnet/minecraft/unmapped/C_8763705;	f_6111528		BLOCK_ROT
+	f	Lnet/minecraft/unmapped/C_8763705;	f_3688866		GRAVITY
+	f	Lnet/minecraft/unmapped/C_8763705;	f_5175848		JIGSAW_REPLACEMENT
+	f	Lnet/minecraft/unmapped/C_8763705;	f_5336621		RULE
+	f	Lnet/minecraft/unmapped/C_8763705;	f_2312531		NOP
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_8763705;)Lnet/minecraft/unmapped/C_8763705;	register	register	
 		p	0		p_0	
 		p	1		p_1	
@@ -1373,7 +1373,7 @@ c	net/minecraft/unmapped/C_8763705
 		p	0		p_0	
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_5660241;	lambda$static$0	lambda$static$0	
 		p	0		p_0	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_8763705;)Lnet/minecraft/unmapped/C_8763705;	m_9709376		m_9709376
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_8763705;)Lnet/minecraft/unmapped/C_8763705;	m_9709376		register
 		p	0			p_0
 		p	1			p_1
 	m	(Lcom/mojang/datafixers/Dynamic;)Lnet/minecraft/unmapped/C_5660241;	m_8156508		m_8156508
@@ -1386,11 +1386,11 @@ c	net/minecraft/unmapped/C_8847991
 	f	Lnet/minecraft/unmapped/C_8847991;	DIVIDE_BY_TEN	DIVIDE_BY_TEN	
 	f	Lnet/minecraft/unmapped/C_8847991;	DISTANCE	DISTANCE	
 	f	Lnet/minecraft/unmapped/C_8847991;	TIME	TIME	
-	f	Ljava/text/DecimalFormat;	f_7615723		f_7615723
-	f	Lnet/minecraft/unmapped/C_8847991;	f_8810270		f_8810270
-	f	Lnet/minecraft/unmapped/C_8847991;	f_0552066		f_0552066
-	f	Lnet/minecraft/unmapped/C_8847991;	f_4697369		f_4697369
-	f	Lnet/minecraft/unmapped/C_8847991;	f_3974339		f_3974339
+	f	Ljava/text/DecimalFormat;	f_7615723		DECIMAL_FORMAT
+	f	Lnet/minecraft/unmapped/C_8847991;	f_8810270		DEFAULT
+	f	Lnet/minecraft/unmapped/C_8847991;	f_0552066		DIVIDE_BY_TEN
+	f	Lnet/minecraft/unmapped/C_8847991;	f_4697369		DISTANCE
+	f	Lnet/minecraft/unmapped/C_8847991;	f_3974339		TIME
 	m	(I)Ljava/lang/String;	lambda$static$3	lambda$static$3	
 		p	0		p_0	
 	m	(I)Ljava/lang/String;	lambda$static$2	lambda$static$2	
@@ -1410,8 +1410,8 @@ c	net/minecraft/unmapped/C_8847991
 c	net/minecraft/unmapped/C_8889465
 	f	Lnet/minecraft/unmapped/C_8889465;	TRUE	TRUE	
 	f	Lnet/minecraft/unmapped/C_8889465;	FALSE	FALSE	
-	f	Lnet/minecraft/unmapped/C_8889465;	f_2159504		f_2159504
-	f	Lnet/minecraft/unmapped/C_8889465;	f_9816196		f_9816196
+	f	Lnet/minecraft/unmapped/C_8889465;	f_2159504		TRUE
+	f	Lnet/minecraft/unmapped/C_8889465;	f_9816196		FALSE
 	m	(Lnet/minecraft/unmapped/C_9264598;)Ljava/util/function/Predicate;	lambda$static$3	lambda$static$3	
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	lambda$null$2	lambda$null$2	

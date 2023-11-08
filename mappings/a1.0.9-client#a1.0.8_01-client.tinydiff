@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
 	m	()F	m_9401628	m_9401628	
-	m	(DDDFFI)V	m_2943996	m_2943996	
+	m	(DDDFFI)V	m_2943996	lerpTo	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
@@ -40,13 +40,13 @@ c	net/minecraft/unmapped/C_1214754
 c	net/minecraft/unmapped/C_1741573
 	m	()F	m_9401628	m_9401628	
 c	net/minecraft/unmapped/C_3362006
-	m	()Lnet/minecraft/unmapped/C_3831727;	m_5760038	m_5760038	
+	m	()Lnet/minecraft/unmapped/C_3831727;	m_5760038	getFont	
 c	net/minecraft/unmapped/C_3831727
 	f	Ljava/lang/String;	f_8793838	f_8793838	
 c	net/minecraft/unmapped/C_4116648
 	m	()F	m_9401628	m_9401628	
 c	net/minecraft/unmapped/C_4505797
-	f	Z	f_2505243	f_2505243	
+	f	Z	f_2505243	aborted	
 	m	(Lnet/minecraft/unmapped/C_4505797;)Z	m_1002123	m_1002123	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5722573
@@ -82,7 +82,7 @@ c	net/minecraft/unmapped/C_7748732
 c	net/minecraft/unmapped/C_7927468
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_8980628
-	m	()Lnet/minecraft/unmapped/C_3831727;	m_1544268	m_1544268	
+	m	()Lnet/minecraft/unmapped/C_3831727;	m_1544268	getFont	
 c	net/minecraft/unmapped/C_9304189
 	m	()F	m_9401628	m_9401628	
 c	net/minecraft/unmapped/C_9482745

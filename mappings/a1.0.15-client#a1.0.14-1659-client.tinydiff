@@ -151,9 +151,9 @@ c	net/minecraft/unmapped/C_6013256
 	m	()V	m_3456363	m_3456363	
 	m	()V	m_4721426	m_4721426	
 	m	()V	m_4519917	m_4519917	
-c	net/minecraft/unmapped/C_6465203	net/minecraft/unmapped/C_6465203	
-	f	I	f_5174459	f_5174459	
-	f	I	f_3768071	f_3768071	
+c	net/minecraft/unmapped/C_6465203	net/minecraft/network/protocol/game/ClientboundAnimatePacket	
+	f	I	f_5174459	id	
+	f	I	f_3768071	action	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_0539808;I)V	<init>	<init>	
 		p	1		p_1	
@@ -166,9 +166,9 @@ c	net/minecraft/unmapped/C_6465203	net/minecraft/unmapped/C_6465203
 		p	1		p_1	
 	m	()I	m_4040470	m_4040470	
 c	net/minecraft/unmapped/C_6607881
-	f	F	f_8361798	f_8361798	
-	f	F	f_8345922	f_8345922	
-	m	(F)F	m_1541231	m_1541231	
+	f	F	f_8361798	oAttackAnim	
+	f	F	f_8345922	attackAnim	
+	m	(F)F	m_1541231	getAttackAnim	
 		p	1		p_1	
 	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_9939547	m_9939547	
 		p	1		p_1	
@@ -193,14 +193,14 @@ c	net/minecraft/unmapped/C_7203066
 	f	Z	f_9476878		f_9476878
 	m	()V	m_1345017		m_1345017
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_0920991;)V	m_6619500	m_6619500	
+	m	(Lnet/minecraft/unmapped/C_0920991;)V	m_6619500	handleAddEntity	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_6465203;)V	m_8983911	m_8983911	
+	m	(Lnet/minecraft/unmapped/C_6465203;)V	m_8983911	handleAnimate	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7400754
 	f	[Lnet/minecraft/unmapped/C_2454309;	f_7351377	f_7351377	
 c	net/minecraft/unmapped/C_7639596
-	m	(Lnet/minecraft/unmapped/C_6607881;F)F	m_0028892	m_0028892	
+	m	(Lnet/minecraft/unmapped/C_6607881;F)F	m_0028892	getAttackAnim	
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_7662890
@@ -262,9 +262,9 @@ c	net/minecraft/unmapped/C_7952195
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8048208
-	f	Z	f_5974991	f_5974991	
+	f	Z	f_5974991	flammable	
 	m	()Lnet/minecraft/unmapped/C_8048208;	m_8008871	m_8008871	
-	m	()Z	m_2524751	m_2524751	
+	m	()Z	m_2524751	isFlammable	
 c	net/minecraft/unmapped/C_8423495
 	m	()I	m_4040470	m_4040470	
 c	net/minecraft/unmapped/C_9029783
@@ -288,12 +288,12 @@ c	net/minecraft/unmapped/C_9193667	net/minecraft/unmapped/C_9193667
 c	net/minecraft/unmapped/C_9358458
 	m	()I	m_4040470	m_4040470	
 c	net/minecraft/unmapped/C_9482745
-	f	I	f_9778638	f_9778638	
-	f	D	f_1680671	f_1680671	
-	f	D	f_2918901	f_2918901	
-	f	D	f_9872075	f_9872075	
-	f	D	f_5667783	f_5667783	
-	f	D	f_4585731	f_4585731	
+	f	I	f_9778638	lSteps	
+	f	D	f_1680671	lx	
+	f	D	f_2918901	ly	
+	f	D	f_9872075	lz	
+	f	D	f_5667783	lyr	
+	f	D	f_4585731	lxr	
 	m	(DDDFFI)V	m_2943996	m_2943996	
 		p	1		p_1	
 		p	3		p_3	
@@ -306,5 +306,5 @@ c	net/minecraft/unmapped/C_9590849
 	f	I	f_5412755	f_5412755	
 	m	()V	m_4519917	m_4519917	
 c	net/minecraft/unmapped/C_9615057
-	f	D	f_7872765	f_7872765	
+	f	D	f_7872765	z	
 	m	()I	m_4040470	m_4040470	

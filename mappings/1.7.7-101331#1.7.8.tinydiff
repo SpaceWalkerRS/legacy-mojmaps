@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1441789
-	f	Lnet/minecraft/unmapped/C_3020744;	f_1860582	f_1860582	
-	f	Lnet/minecraft/unmapped/C_3949943;	f_1860582		f_1860582
+	f	Lnet/minecraft/unmapped/C_3020744;	f_1860582	callback	
+	f	Lnet/minecraft/unmapped/C_3949943;	f_1860582		callback
 	m	(Lnet/minecraft/unmapped/C_3020744;Ljava/lang/String;Ljava/lang/String;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

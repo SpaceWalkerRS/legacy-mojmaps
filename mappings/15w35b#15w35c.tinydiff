@@ -203,8 +203,8 @@ c	net/minecraft/unmapped/C_1090314
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_1241852
-	f	Lnet/minecraft/unmapped/C_5233418;	f_0770439	f_0770439	
-	f	Lnet/minecraft/unmapped/C_2991535;	f_0770439		f_0770439
+	f	Lnet/minecraft/unmapped/C_5233418;	f_0770439	BLOCK_STATE_REGISTRY	
+	f	Lnet/minecraft/unmapped/C_2991535;	f_0770439		BLOCK_STATE_REGISTRY
 c	net/minecraft/unmapped/C_1281612
 	m	(Lnet/minecraft/unmapped/C_1730529;Lnet/minecraft/unmapped/C_1281612$C_9246923;I)V	m_2558229	m_2558229	
 		p	1		p_1	
@@ -334,7 +334,7 @@ c	net/minecraft/unmapped/C_2320485
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Ljava/lang/String;)V	m_9169755	m_9169755	
+	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Ljava/lang/String;)V	m_9169755	banIp	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -350,7 +350,7 @@ c	net/minecraft/unmapped/C_2320485
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Ljava/lang/String;)V	m_9169755		m_9169755
+	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Ljava/lang/String;)V	m_9169755		banIp
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -420,10 +420,10 @@ c	net/minecraft/unmapped/C_2742332
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_1730529;I)V	m_9034782	m_9034782	
+	m	(Lnet/minecraft/unmapped/C_1730529;I)V	m_9034782	setTime	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1730529;I)V	m_3180396	m_3180396	
+	m	(Lnet/minecraft/unmapped/C_1730529;I)V	m_3180396	addTime	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869		m_2644869
@@ -435,10 +435,10 @@ c	net/minecraft/unmapped/C_2742332
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/server/MinecraftServer;I)V	m_9034782		m_9034782
+	m	(Lnet/minecraft/server/MinecraftServer;I)V	m_9034782		setTime
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/server/MinecraftServer;I)V	m_3180396		m_3180396
+	m	(Lnet/minecraft/server/MinecraftServer;I)V	m_3180396		addTime
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_2764761
@@ -625,7 +625,7 @@ c	net/minecraft/unmapped/C_4192341
 		p	2		p_2	
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4143404;	m_7314586	m_7314586	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;I)V	m_4568441	m_4568441	
+	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;I)V	m_4568441	addObjective	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -657,10 +657,10 @@ c	net/minecraft/unmapped/C_4192341
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;)V	m_8442228	m_8442228	
+	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;)V	m_8442228	removeObjective	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1730529;)V	m_3823245	m_3823245	
+	m	(Lnet/minecraft/unmapped/C_1730529;)V	m_3823245	listObjectives	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;I)V	m_4544648	m_4544648	
 		p	1		p_1	
@@ -718,7 +718,7 @@ c	net/minecraft/unmapped/C_4192341
 	m	(Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)Lnet/minecraft/unmapped/C_4143404;	m_7314586		m_7314586
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V	m_4568441		m_4568441
+	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V	m_4568441		addObjective
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -758,11 +758,11 @@ c	net/minecraft/unmapped/C_4192341
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V	m_8442228		m_8442228
+	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V	m_8442228		removeObjective
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_1730529;Lnet/minecraft/server/MinecraftServer;)V	m_3823245		m_3823245
+	m	(Lnet/minecraft/unmapped/C_1730529;Lnet/minecraft/server/MinecraftServer;)V	m_3823245		listObjectives
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;ILnet/minecraft/server/MinecraftServer;)V	m_4544648		m_4544648
@@ -854,9 +854,9 @@ c	net/minecraft/unmapped/C_4921962
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_5233418
-	m	(Ljava/lang/Object;)I	m_6998174		m_6998174
+	m	(Ljava/lang/Object;)I	m_6998174		add
 		p	1			p_1
-	m	()I	m_9477396		m_9477396
+	m	()I	m_9477396		nextId
 c	net/minecraft/unmapped/C_5255973
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869	m_2644869	
 		p	1		p_1	
@@ -1200,7 +1200,7 @@ c	net/minecraft/unmapped/C_7664459
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8099772
-	m	()V	m_6485717		m_6485717
+	m	()V	m_6485717		registerGoals
 c	net/minecraft/unmapped/C_8365102
 	m	()V	m_6485717		m_6485717
 c	net/minecraft/unmapped/C_8433864
@@ -1268,13 +1268,13 @@ c	net/minecraft/unmapped/C_8822714
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869	m_2644869	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_2670477$C_3802308;)V	m_9659802	m_9659802	
+	m	(Lnet/minecraft/unmapped/C_2670477$C_3802308;)V	m_9659802	setMode	
 		p	1		p_1	
 	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869		m_2644869
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_2670477$C_3802308;Lnet/minecraft/server/MinecraftServer;)V	m_9659802		m_9659802
+	m	(Lnet/minecraft/unmapped/C_2670477$C_3802308;Lnet/minecraft/server/MinecraftServer;)V	m_9659802		setMode
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8883923
@@ -1282,9 +1282,9 @@ c	net/minecraft/unmapped/C_8883923
 c	net/minecraft/unmapped/C_8935931
 	m	()V	m_6485717		m_6485717
 c	net/minecraft/unmapped/C_9008593
-	f	Z	f_3960453		f_3960453
-	m	()Z	m_1427598		m_1427598
-	m	(Z)V	m_8535275		m_8535275
+	f	Z	f_3960453		conditionMet
+	m	()Z	m_1427598		wasConditionMet
+	m	(Z)V	m_8535275		markConditionMet
 		p	1			p_1
 c	net/minecraft/unmapped/C_9082193
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869	m_2644869	
@@ -1365,7 +1365,7 @@ c	net/minecraft/unmapped/C_9519056
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869	m_2644869	
 		p	1		p_1	
 		p	2		p_2	
-	m	(JI)V	m_5146734	m_5146734	
+	m	(JI)V	m_5146734	stop	
 		p	1		p_1	
 		p	3		p_3	
 	m	(JI)Ljava/lang/String;	m_0703326	m_0703326	
@@ -1383,7 +1383,7 @@ c	net/minecraft/unmapped/C_9519056
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(JILnet/minecraft/server/MinecraftServer;)V	m_5146734		m_5146734
+	m	(JILnet/minecraft/server/MinecraftServer;)V	m_5146734		stop
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
@@ -1401,16 +1401,16 @@ c	net/minecraft/unmapped/C_9519056
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_2991535		net/minecraft/unmapped/C_2991535
-	f	Ljava/util/IdentityHashMap;	f_6185874		f_6185874
-	f	Ljava/util/List;	f_6442783		f_6442783
+c	net/minecraft/unmapped/C_2991535		net/minecraft/core/IdMapper
+	f	Ljava/util/IdentityHashMap;	f_6185874		tToId
+	f	Ljava/util/List;	f_6442783		idToT
 	m	()V	<init>		<init>
 	m	(I)V	<init>		<init>
 		p	1			p_1
-	m	(Ljava/lang/Object;I)V	m_6698227		m_6698227
+	m	(Ljava/lang/Object;I)V	m_6698227		addMapping
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/lang/Object;)I	m_6170163		m_6170163
+	m	(Ljava/lang/Object;)I	m_6170163		getId
 		p	1			p_1
 	m	(I)Ljava/lang/Object;	m_4949766		m_4949766
 		p	1			p_1

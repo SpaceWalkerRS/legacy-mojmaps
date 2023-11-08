@@ -4,7 +4,7 @@ c	net/minecraft/realms/DisconnectedRealmsScreen
 c	net/minecraft/server/MinecraftServer
 	m	()Z	m_3383286		m_3383286
 c	net/minecraft/unmapped/C_0080289
-	f	Z	f_1971508		f_1971508
+	f	Z	f_1971508		bypassesPlayerLimit
 	m	(Lcom/mojang/authlib/GameProfile;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -12,9 +12,9 @@ c	net/minecraft/unmapped/C_0080289
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()Z	m_9731074		m_9731074
+	m	()Z	m_9731074		getBypassesPlayerLimit
 c	net/minecraft/unmapped/C_0411092
-	m	(Lcom/mojang/authlib/GameProfile;)Z	m_4631608		m_4631608
+	m	(Lcom/mojang/authlib/GameProfile;)Z	m_4631608		canBypassPlayerLimit
 		p	1			p_1
 c	net/minecraft/unmapped/C_1555023
 	m	()Z	m_3383286		m_3383286
@@ -41,7 +41,7 @@ c	net/minecraft/unmapped/C_3015107$C_3956066	C_3956066
 		p	2		p_2	
 c	net/minecraft/unmapped/C_3404273
 c	net/minecraft/unmapped/C_3404273$1
-	f	Z	f_8627872		f_8627872
+	f	Z	f_8627872		receivedPing
 	m	(Lnet/minecraft/unmapped/C_3404273;Lnet/minecraft/unmapped/C_1533205;Lnet/minecraft/unmapped/C_4354908;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -53,8 +53,8 @@ c	net/minecraft/unmapped/C_3404273$1
 c	net/minecraft/unmapped/C_4301088
 	m	()Z	m_3383286		m_3383286
 c	net/minecraft/unmapped/C_6823239
-	m	(Lnet/minecraft/unmapped/C_8254035;)Z	m_7157793		m_7157793
+	m	(Lnet/minecraft/unmapped/C_8254035;)Z	m_7157793		needsFlip
 		p	1			p_1
 c	net/minecraft/unmapped/C_9992501
-	m	(Lcom/mojang/authlib/GameProfile;)Z	m_4249125		m_4249125
+	m	(Lcom/mojang/authlib/GameProfile;)Z	m_4249125		canBypassPlayerLimit
 		p	1			p_1

@@ -8,6 +8,6 @@ c	net/minecraft/unmapped/C_3865296
 	f	Ljava/util/Set;	f_6522307		f_6522307
 c	net/minecraft/unmapped/C_4808571
 	f	I	f_9479627	f_9479627	
-	f	I	f_4797460		f_4797460
+	f	I	f_4797460		SLOTS_FOR_UP
 c	net/minecraft/unmapped/C_5553933
 	f	Z	f_1604271		f_1604271

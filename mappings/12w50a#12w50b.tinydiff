@@ -3,18 +3,18 @@ c	net/minecraft/unmapped/C_1197137
 	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_8309609	m_8309609	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_1324297
-	f	Z	f_4223924		f_4223924
-	m	()Z	m_6622329		m_6622329
+	f	Z	f_4223924		isEmpty
+	m	()Z	m_6622329		isEmpty
 c	net/minecraft/unmapped/C_3426535
-	m	(Lnet/minecraft/unmapped/C_2454309;ILjava/util/Random;)Z	m_2295146		m_2295146
+	m	(Lnet/minecraft/unmapped/C_2454309;ILjava/util/Random;)Z	m_2295146		shouldIgnoreDurabilityDrop
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5303533
-	m	(Lnet/minecraft/unmapped/C_0539808;I)I	m_1006122		m_1006122
+	m	(Lnet/minecraft/unmapped/C_0539808;I)I	m_1006122		getFireAfterDampener
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_0539808;D)D	m_8778384		m_8778384
+	m	(Lnet/minecraft/unmapped/C_0539808;D)D	m_8778384		getExplosionKnockbackAfterDampener
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_6013256
@@ -49,10 +49,10 @@ c	net/minecraft/unmapped/C_9399468
 	f	Z	f_6743600		f_6743600
 	m	()Lnet/minecraft/unmapped/C_9399468;	m_6745906		m_6745906
 c	net/minecraft/unmapped/C_9672101
-	m	(ILjava/util/Random;)Z	m_8178140		m_8178140
+	m	(ILjava/util/Random;)Z	m_8178140		shouldHit
 		p	0			p_0
 		p	1			p_1
-	m	(ILjava/util/Random;)I	m_5211098		m_5211098
+	m	(ILjava/util/Random;)I	m_5211098		getDamage
 		p	0			p_0
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_6607881;Ljava/util/Random;)V	m_0846447		m_0846447

@@ -1,31 +1,31 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0191817	net/minecraft/unmapped/C_0191817	
-	f	[Lnet/minecraft/unmapped/C_0191817;	f_5611693	f_5611693	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8774379	f_8774379	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8621364	f_8621364	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7464303	f_7464303	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_1329263	f_1329263	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_6515746	f_6515746	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7937700	f_7937700	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_4502463	f_4502463	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7368974	f_7368974	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7879832	f_7879832	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7598051	f_7598051	
+c	net/minecraft/unmapped/C_0191817	net/minecraft/world/item/CreativeModeTab	
+	f	[Lnet/minecraft/unmapped/C_0191817;	f_5611693	TABS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8774379	TAB_BUILDING_BLOCKS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8621364	TAB_DECORATIONS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7464303	TAB_REDSTONE	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_1329263	TAB_TRANSPORTATION	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_6515746	TAB_MISC	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7937700	TAB_SEARCH	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_4502463	TAB_FOOD	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7368974	TAB_TOOLS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7879832	TAB_COMBAT	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7598051	TAB_BREWING	
 	f	Lnet/minecraft/unmapped/C_0191817;	f_8222103	f_8222103	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_3233178	f_3233178	
-	f	I	f_2210046	f_2210046	
-	f	Ljava/lang/String;	f_6066272	f_6066272	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_3233178	TAB_INVENTORY	
+	f	I	f_2210046	id	
+	f	Ljava/lang/String;	f_6066272	langId	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-	m	()I	m_0126674	m_0126674	
-	m	()Ljava/lang/String;	m_0136399	m_0136399	
-	m	()Ljava/lang/String;	m_4564139	m_4564139	
-	m	()Lnet/minecraft/unmapped/C_3755722;	m_6406255	m_6406255	
+	m	()I	m_0126674	getId	
+	m	()Ljava/lang/String;	m_0136399	getLangId	
+	m	()Ljava/lang/String;	m_4564139	getName	
+	m	()Lnet/minecraft/unmapped/C_3755722;	m_6406255	makeIcon	
 	m	()I	m_9874956	m_9874956	
-	m	()I	m_3024250	m_3024250	
-	m	()Z	m_3029998	m_3029998	
-	m	(Ljava/util/List;)V	m_5741142	m_5741142	
+	m	()I	m_3024250	getColumn	
+	m	()Z	m_3029998	isTopRow	
+	m	(Ljava/util/List;)V	m_5741142	fillItemList	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_0826810
@@ -47,7 +47,7 @@ c	net/minecraft/unmapped/C_1184371
 		p	3		p_3	
 c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_0191817;	f_7106387	f_7106387	
-	m	(ILnet/minecraft/unmapped/C_0191817;Ljava/util/List;)V	m_5196965	m_5196965	
+	m	(ILnet/minecraft/unmapped/C_0191817;Ljava/util/List;)V	m_5196965	fillItemCategory	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -84,10 +84,10 @@ c	net/minecraft/unmapped/C_2852598	net/minecraft/unmapped/C_2852598
 	m	()I	m_9874956	m_9874956	
 c	net/minecraft/unmapped/C_2925725
 	f	Z	f_9297190	f_9297190	
-	m	(I)V	m_4670886	m_4670886	
+	m	(I)V	m_4670886	setTextColor	
 		p	1		p_1	
-	m	()Z	m_9788908	m_9788908	
-	m	(Z)V	m_0105173	m_0105173	
+	m	()Z	m_9788908	isVisible	
+	m	(Z)V	m_0105173	setVisible	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3038102	net/minecraft/unmapped/C_3038102	
 	m	(ILjava/lang/String;)V	<init>	<init>	
@@ -115,12 +115,12 @@ c	net/minecraft/unmapped/C_3668474	net/minecraft/unmapped/C_3668474
 		p	2		p_2	
 	m	()I	m_9874956	m_9874956	
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8699915	f_8699915	
-	m	(ILnet/minecraft/unmapped/C_0191817;Ljava/util/List;)V	m_1746706	m_1746706	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8699915	category	
+	m	(ILnet/minecraft/unmapped/C_0191817;Ljava/util/List;)V	m_1746706	fillItemCategory	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	()Lnet/minecraft/unmapped/C_0191817;	m_0373645	m_0373645	
+	m	()Lnet/minecraft/unmapped/C_0191817;	m_0373645	getItemCategory	
 	m	(Lnet/minecraft/unmapped/C_0191817;)Lnet/minecraft/unmapped/C_3755722;	m_3158674	m_3158674	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5012870	net/minecraft/unmapped/C_5012870	
@@ -140,27 +140,27 @@ c	net/minecraft/unmapped/C_6143572	net/minecraft/unmapped/C_6143572
 	m	()I	m_9874956	m_9874956	
 c	net/minecraft/unmapped/C_6260518
 	f	I	f_8587613	f_8587613	
-	f	Lnet/minecraft/unmapped/C_2925725;	f_4649133	f_4649133	
+	f	Lnet/minecraft/unmapped/C_2925725;	f_4649133	searchBox	
 	m	(CI)V	m_6992336	m_6992336	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_2025637	m_2025637	
+	m	()V	m_2025637	refreshSearchResults	
 	m	(III)V	m_7362766	m_7362766	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	()Z	m_8645175	m_8645175	
-	m	(Lnet/minecraft/unmapped/C_0191817;)V	m_7099132	m_7099132	
+	m	()Z	m_8645175	canScroll	
+	m	(Lnet/minecraft/unmapped/C_0191817;)V	m_7099132	selectTab	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0191817;II)Z	m_2917190	m_2917190	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0191817;II)Z	m_2909807	m_2909807	
+	m	(Lnet/minecraft/unmapped/C_0191817;II)Z	m_2917190	checkTabClicked	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0191817;)V	m_9459855	m_9459855	
+	m	(Lnet/minecraft/unmapped/C_0191817;II)Z	m_2909807	checkTabHovering	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(Lnet/minecraft/unmapped/C_0191817;)V	m_9459855	renderTabButton	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_6299435	net/minecraft/unmapped/C_6299435	
 	m	(ILjava/lang/String;)V	<init>	<init>	

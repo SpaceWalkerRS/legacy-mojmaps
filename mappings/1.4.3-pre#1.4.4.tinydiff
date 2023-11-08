@@ -2,18 +2,18 @@ tiny	2	0
 c	net/minecraft/client/Minecraft
 	m	()I	m_5273608		m_5273608
 c	net/minecraft/unmapped/C_0200457
-	m	(I)Lnet/minecraft/unmapped/C_0200457;	m_0121522		m_0121522
+	m	(I)Lnet/minecraft/unmapped/C_0200457;	m_0121522		init
 		p	1			p_1
 c	net/minecraft/unmapped/C_0259655
 	m	(Lnet/minecraft/unmapped/C_0259655;)Lnet/minecraft/client/Minecraft;	m_4610196		m_4610196
 		p	0			p_0
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_5740315		m_5740315
+	m	()Z	m_5740315		displayFireAnimation
 c	net/minecraft/unmapped/C_1197137
-	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_6607881;)I	m_2025048	m_2025048	
+	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_6607881;)I	m_2025048	getFireAspect	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_2025048		m_2025048
+	m	(Lnet/minecraft/unmapped/C_6607881;)I	m_2025048		getFireAspect
 		p	0			p_0
 c	net/minecraft/unmapped/C_1350658
 	m	()Ljava/lang/String;	toString		toString
@@ -59,7 +59,7 @@ c	net/minecraft/unmapped/C_3242141
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5565812;)Lnet/minecraft/unmapped/C_3242141;	m_6152865		m_6152865
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_8253973;Lnet/minecraft/unmapped/C_8253973;)I	m_5888654		m_5888654
+	m	(Lnet/minecraft/unmapped/C_8253973;Lnet/minecraft/unmapped/C_8253973;)I	m_5888654		getOffspringColor
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_8253973;)I	m_9244557		m_9244557
@@ -71,16 +71,16 @@ c	net/minecraft/unmapped/C_4400155
 c	net/minecraft/unmapped/C_4517657
 	m	()V	m_4446411		m_4446411
 c	net/minecraft/unmapped/C_4947234
-	f	Ljava/util/Map;	f_2460674		f_2460674
-	m	()Ljava/lang/String;	m_6171797		m_6171797
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4947234;	m_4832124		m_4832124
+	f	Ljava/util/Map;	f_2460674		BY_NAME
+	m	()Ljava/lang/String;	m_6171797		getDisplayName
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_4947234;	m_4832124		getBySound
 		p	0			p_0
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_5478016
-	m	(Ljava/lang/String;)Z	m_5896361		m_5896361
+	m	(Ljava/lang/String;)Z	m_5896361		levelExists
 		p	1			p_1
 c	net/minecraft/unmapped/C_5565812
-	m	(Lnet/minecraft/unmapped/C_5565812;)Lnet/minecraft/unmapped/C_5565812;	m_1345870		m_1345870
+	m	(Lnet/minecraft/unmapped/C_5565812;)Lnet/minecraft/unmapped/C_5565812;	m_1345870		getBreedOffspring
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_4185556		m_4185556
 		p	1			p_1
@@ -92,7 +92,7 @@ c	net/minecraft/unmapped/C_5660126
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_5714220
-	m	(Lnet/minecraft/unmapped/C_5818647;)Z	m_1131249		m_1131249
+	m	(Lnet/minecraft/unmapped/C_5818647;)Z	m_1131249		contains
 		p	1			p_1
 c	net/minecraft/unmapped/C_5828592
 	m	(Lnet/minecraft/unmapped/C_8253973;)Lnet/minecraft/unmapped/C_8253973;	m_4865538	m_4865538	
@@ -159,7 +159,7 @@ c	net/minecraft/unmapped/C_8814877
 	m	(Lnet/minecraft/unmapped/C_5565812;)Lnet/minecraft/unmapped/C_5565812;	m_1345870		m_1345870
 		p	1			p_1
 c	net/minecraft/unmapped/C_9639106
-	f	Z	f_7232356		f_7232356
+	f	Z	f_7232356		isSplittingStack
 c	net/minecraft/unmapped/C_0251248		net/minecraft/unmapped/C_0251248
 	f	Lnet/minecraft/unmapped/C_7799337;	f_0079649		f_0079649
 	f	Lnet/minecraft/unmapped/C_0259655;	f_2806723		f_2806723

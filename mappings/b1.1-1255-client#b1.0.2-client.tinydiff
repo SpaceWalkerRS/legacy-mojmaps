@@ -8,7 +8,7 @@ c	net/minecraft/unmapped/C_1184371
 c	net/minecraft/unmapped/C_2133983
 	f	Ljava/lang/String;	f_6152086	f_6152086	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_5185137	net/minecraft/unmapped/C_5185137	
+c	net/minecraft/unmapped/C_5185137	net/minecraft/SharedConstants	
 	f	Ljava/lang/String;	f_2752942	f_2752942	
 	m	()V	<init>	<init>	
 	m	()Ljava/lang/String;	m_2792302	m_2792302	

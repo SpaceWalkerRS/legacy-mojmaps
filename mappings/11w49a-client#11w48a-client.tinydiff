@@ -30,10 +30,10 @@ c	net/minecraft/unmapped/C_0759248
 	m	(Ljava/lang/String;)V	m_1454478	m_1454478	
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_2823481	m_2823481	
-c	net/minecraft/unmapped/C_1008454	net/minecraft/unmapped/C_1008454	
-	f	Ljava/lang/String;	f_1880592	f_1880592	
+c	net/minecraft/unmapped/C_1008454	net/minecraft/network/protocol/game/ClientboundCustomPayloadPacket	
+	f	Ljava/lang/String;	f_1880592	identifier	
 	f	I	f_5294570	f_5294570	
-	f	[B	f_0581040	f_0581040	
+	f	[B	f_0581040	data	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/DataInputStream;)V	m_4792371	m_4792371	
 		p	1		p_1	
@@ -47,7 +47,7 @@ c	net/minecraft/unmapped/C_1023567
 c	net/minecraft/unmapped/C_1331819
 	f	Ljava/lang/String;	f_4977087	f_4977087	
 c	net/minecraft/unmapped/C_2523250
-	f	F	f_3106962	f_3106962	
+	f	F	f_3106962	headXRot	
 	m	(Lnet/minecraft/unmapped/C_6607881;FFF)V	m_3922927	m_3922927	
 		p	1		p_1	
 		p	2		p_2	
@@ -63,16 +63,16 @@ c	net/minecraft/unmapped/C_2523250
 c	net/minecraft/unmapped/C_2609740
 	m	()Ljava/lang/String;	m_1797188	m_1797188	
 c	net/minecraft/unmapped/C_3242141
-	f	I	f_1093209	f_1093209	
+	f	I	f_1093209	eatAnimationTick	
 	m	()V	m_0095412	m_0095412	
 	m	()V	m_8252269	m_8252269	
 	m	()V	m_2135259	m_2135259	
 	m	(B)V	m_4909384	m_4909384	
 		p	1		p_1	
 	m	()Z	m_8049752	m_8049752	
-	m	(F)F	m_9281059	m_9281059	
+	m	(F)F	m_9281059	getHeadEatPositionScale	
 		p	1		p_1	
-	m	(F)F	m_4235044	m_4235044	
+	m	(F)F	m_4235044	getHeadEatAngleScale	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3622827	net/minecraft/unmapped/C_3622827	
 	m	(III)V	<init>	<init>	
@@ -113,7 +113,7 @@ c	net/minecraft/unmapped/C_3831727
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_5297983
-	f	F	f_2359618	f_2359618	
+	f	F	f_2359618	headXRot	
 	m	(Lnet/minecraft/unmapped/C_6607881;FFF)V	m_3922927	m_3922927	
 		p	1		p_1	
 		p	2		p_2	
@@ -126,11 +126,11 @@ c	net/minecraft/unmapped/C_5297983
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_6022032	net/minecraft/unmapped/C_6022032	
-	f	Lnet/minecraft/unmapped/C_3020744;	f_0263396	f_0263396	
+c	net/minecraft/unmapped/C_6022032	net/minecraft/client/gui/screens/LanguageSelectScreen	
+	f	Lnet/minecraft/unmapped/C_3020744;	f_0263396	lastScreen	
 	f	I	f_3776593	f_3776593	
-	f	Lnet/minecraft/unmapped/C_0664896;	f_3668373	f_3668373	
-	f	Lnet/minecraft/unmapped/C_1331819;	f_9430888	f_9430888	
+	f	Lnet/minecraft/unmapped/C_0664896;	f_3668373	packSelectionList	
+	f	Lnet/minecraft/unmapped/C_1331819;	f_9430888	options	
 	m	(Lnet/minecraft/unmapped/C_3020744;Lnet/minecraft/unmapped/C_1331819;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -154,11 +154,11 @@ c	net/minecraft/unmapped/C_6022032	net/minecraft/unmapped/C_6022032
 		p	0		p_0	
 c	net/minecraft/unmapped/C_6607881
 	f	Z	f_9300433		f_9300433
-	m	()Z	m_1451667	m_1451667	
+	m	()Z	m_1451667	isEffectiveAi	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_1008454;)V	m_2907799	m_2907799	
+	m	(Lnet/minecraft/unmapped/C_1008454;)V	m_2907799	handleCustomPayload	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_7901749	net/minecraft/unmapped/C_7901749	
+c	net/minecraft/unmapped/C_7901749	net/minecraft/world/item/SpawnEggItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;)Ljava/lang/String;	m_4048340	m_4048340	
@@ -175,14 +175,14 @@ c	net/minecraft/unmapped/C_7901749	net/minecraft/unmapped/C_7901749
 		p	7		p_7	
 c	net/minecraft/unmapped/C_8252988
 	f	Ljava/util/List;	f_7269667	f_7269667	
-	m	(Ljava/lang/Class;Ljava/lang/String;IZ)V	m_0930588	m_0930588	
+	m	(Ljava/lang/Class;Ljava/lang/String;IZ)V	m_0930588	register	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 	m	(I)Ljava/lang/String;	m_9619307	m_9619307	
 		p	0		p_0	
-	m	(Ljava/lang/Class;Ljava/lang/String;I)V	m_0930588		m_0930588
+	m	(Ljava/lang/Class;Ljava/lang/String;I)V	m_0930588		register
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

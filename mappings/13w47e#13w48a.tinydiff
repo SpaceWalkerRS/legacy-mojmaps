@@ -1,17 +1,17 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0230498
-	m	(ILnet/minecraft/unmapped/C_6607881;)F	m_3655478	m_3655478	
+	m	(ILnet/minecraft/unmapped/C_6607881;)F	m_3655478	getDamageBonus	
 		p	1		p_1	
 		p	2		p_2	
-	m	(ILnet/minecraft/unmapped/C_3244069;)F	m_3655478		m_3655478
+	m	(ILnet/minecraft/unmapped/C_3244069;)F	m_3655478		getDamageBonus
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1197137
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3244069;)F	m_3354085		m_3354085
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_3244069;)F	m_3354085		getDamageBonus
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_1331819
-	f	Lnet/minecraft/unmapped/C_7778778;	f_3557335		f_3557335
+	f	Lnet/minecraft/unmapped/C_7778778;	f_3557335		keyFullscreen
 c	net/minecraft/unmapped/C_1919259
 	m	()Lnet/minecraft/unmapped/C_5235460;	m_4192175		m_4192175
 c	net/minecraft/unmapped/C_2920619
@@ -25,7 +25,7 @@ c	net/minecraft/unmapped/C_3059741
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_4966580
-	f	J	f_6932404		f_6932404
+	f	J	f_6932404		lastKeySelection
 c	net/minecraft/unmapped/C_5585855
 	f	I	f_3235926		f_3235926
 	f	I	f_6435946		f_6435946
@@ -168,8 +168,8 @@ c	net/minecraft/unmapped/C_6532238
 	f	Lnet/minecraft/unmapped/C_6607881;	f_9547011	f_9547011	
 	f	Lnet/minecraft/unmapped/C_3244069;	f_4193703		f_4193703
 c	net/minecraft/unmapped/C_7377641
-	f	Ljava/util/Map;	f_7793114		f_7793114
-	m	(Ljava/lang/String;Ljava/lang/Object;)V	m_9806609		m_9806609
+	f	Ljava/util/Map;	f_7793114		fixedData
+	m	(Ljava/lang/String;Ljava/lang/Object;)V	m_9806609		setFixedData
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_7377641;)I	m_9430109		m_9430109

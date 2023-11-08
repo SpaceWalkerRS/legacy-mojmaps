@@ -23,46 +23,46 @@ c	net/minecraft/unmapped/C_0539808
 	f	D	f_9556873	f_9556873	
 	f	D	f_3399559	f_3399559	
 	f	Z	f_5468753	f_5468753	
-	f	Lnet/minecraft/unmapped/C_0557736;	f_5430803		f_5430803
-	m	(Lnet/minecraft/unmapped/C_3988780;DDD)V	m_5827310	m_5827310	
+	f	Lnet/minecraft/unmapped/C_0557736;	f_5430803		deltaMovement
+	m	(Lnet/minecraft/unmapped/C_3988780;DDD)V	m_5827310	move	
 		p	1		p_1	
 		p	2		p_2	
 		p	4		p_4	
 		p	6		p_6	
-	m	(FFFF)V	m_2076799	m_2076799	
+	m	(FFFF)V	m_2076799	moveRelative	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_3988780;Lnet/minecraft/unmapped/C_0557736;)V	m_5827310		m_5827310
+	m	(Lnet/minecraft/unmapped/C_3988780;Lnet/minecraft/unmapped/C_0557736;)V	m_5827310		move
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_3988780;)Lnet/minecraft/unmapped/C_0557736;	m_6629245		m_6629245
+	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_3988780;)Lnet/minecraft/unmapped/C_0557736;	m_6629245		applySneaking
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_8990406		m_8990406
+	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_8990406		limitPistonMovement
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3544601$C_7482212;D)D	m_7050065		m_7050065
-		p	1			p_1
-		p	2			p_2
-	m	(FLnet/minecraft/unmapped/C_0557736;)V	m_2076799		m_2076799
+	m	(Lnet/minecraft/unmapped/C_3544601$C_7482212;D)D	m_7050065		applyPistonMovementRestriction
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0557736;FF)Lnet/minecraft/unmapped/C_0557736;	m_4460124		m_4460124
+	m	(FLnet/minecraft/unmapped/C_0557736;)V	m_2076799		moveRelative
+		p	1			p_1
+		p	2			p_2
+	m	(Lnet/minecraft/unmapped/C_0557736;FF)Lnet/minecraft/unmapped/C_0557736;	m_4460124		getInputVector
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_0557736;	m_9899189		m_9899189
-	m	(Lnet/minecraft/unmapped/C_0557736;)V	m_5189207		m_5189207
+	m	()Lnet/minecraft/unmapped/C_0557736;	m_9899189		getDeltaMovement
+	m	(Lnet/minecraft/unmapped/C_0557736;)V	m_5189207		setDeltaMovement
 		p	1			p_1
-	m	(DDD)V	m_3016726		m_3016726
+	m	(DDD)V	m_3016726		setDeltaMovement
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
 c	net/minecraft/unmapped/C_0557736
-	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_5489562		m_5489562
+	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_5489562		multiply
 		p	1			p_1
-	m	(DDD)Lnet/minecraft/unmapped/C_0557736;	m_7068480		m_7068480
+	m	(DDD)Lnet/minecraft/unmapped/C_0557736;	m_7068480		multiply
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
@@ -76,11 +76,11 @@ c	net/minecraft/unmapped/C_1023567
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1851782
-	f	D	f_6153237	f_6153237	
-	f	F	f_6153237		f_6153237
-	m	(D)V	m_3570801	m_3570801	
+	f	D	f_6153237	flyingSpeed	
+	f	F	f_6153237		flyingSpeed
+	m	(D)V	m_3570801	setFlyingSpeed	
 		p	1		p_1	
-	m	(F)V	m_3570801		m_3570801
+	m	(F)V	m_3570801		setFlyingSpeed
 		p	1			p_1
 c	net/minecraft/unmapped/C_2896536
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_1821693;ILnet/minecraft/unmapped/C_0557736;)V	<init>		<init>
@@ -107,7 +107,7 @@ c	net/minecraft/unmapped/C_3488550
 	f	Z	f_1589902	f_1589902	
 	f	D	f_5551329	f_5551329	
 	f	Z	f_7292411	f_7292411	
-	f	Lnet/minecraft/unmapped/C_3995554;	f_1309858		f_1309858
+	f	Lnet/minecraft/unmapped/C_3995554;	f_1309858		category
 	m	(ZI)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -118,7 +118,7 @@ c	net/minecraft/unmapped/C_3488550
 	m	(Lnet/minecraft/unmapped/C_3995554;I)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_3995554;	m_2211500		m_2211500
+	m	()Lnet/minecraft/unmapped/C_3995554;	m_2211500		getCategory
 c	net/minecraft/unmapped/C_3832296
 	m	(FFF)V	m_7257934	m_7257934	
 		p	1		p_1	
@@ -198,9 +198,9 @@ c	net/minecraft/unmapped/C_5438730
 	f	D	f_0886323	f_0886323	
 	f	D	f_4586419	f_4586419	
 	f	D	f_6893109	f_6893109	
-	f	Lnet/minecraft/unmapped/C_0557736;	f_7833441		f_7833441
+	f	Lnet/minecraft/unmapped/C_0557736;	f_7833441		ap
 c	net/minecraft/unmapped/C_5577922
-	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_5577922;	m_1908384		m_1908384
+	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_5577922;	m_1908384		expandTowards
 		p	1			p_1
 c	net/minecraft/unmapped/C_5977019
 	m	(IDDD)V	<init>	<init>	
@@ -214,7 +214,7 @@ c	net/minecraft/unmapped/C_5977019
 c	net/minecraft/unmapped/C_5999260
 	f	D	f_6113632	f_6113632	
 	f	D	f_0066365	f_0066365	
-	f	Lnet/minecraft/unmapped/C_0557736;	f_0523186		f_0523186
+	f	Lnet/minecraft/unmapped/C_0557736;	f_0523186		rollDelta
 c	net/minecraft/unmapped/C_6057159
 	m	(FFF)V	m_7257934	m_7257934	
 		p	1		p_1	
@@ -224,24 +224,24 @@ c	net/minecraft/unmapped/C_6057159
 		p	1			p_1
 c	net/minecraft/unmapped/C_6269816
 c	net/minecraft/unmapped/C_6269816$C_4305783
-	m	(DDDD)Z	m_7783322	m_7783322	
+	m	(DDDD)Z	m_7783322	canReach	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
 		p	7		p_7	
-	m	(Lnet/minecraft/unmapped/C_0557736;I)Z	m_7783322		m_7783322
+	m	(Lnet/minecraft/unmapped/C_0557736;I)Z	m_7783322		canReach
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6607881
-	m	(FFF)V	m_7257934	m_7257934	
+	m	(FFF)V	m_7257934	travel	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0557736;)V	m_7257934		m_7257934
+	m	(Lnet/minecraft/unmapped/C_0557736;)V	m_7257934		travel
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_9700704		m_9700704
+	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_9700704		handleOnClimbable
 		p	1			p_1
-	m	(F)F	m_1325021		m_1325021
+	m	(F)F	m_1325021		getFrictionInfluencedSpeed
 		p	1			p_1
 c	net/minecraft/unmapped/C_6815022
 	m	(FFF)V	m_7257934	m_7257934	
@@ -297,7 +297,7 @@ c	net/minecraft/unmapped/C_9482745
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_1586020		m_1586020
+	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_1586020		isRedstoneConductor
 		p	1			p_1
 c	net/minecraft/unmapped/C_9553685
 	m	(ZI)V	<init>	<init>	
@@ -313,12 +313,12 @@ c	net/minecraft/unmapped/C_9590849
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_0557736;)V	m_7257934		m_7257934
 		p	1			p_1
-c	net/minecraft/unmapped/C_3995554		net/minecraft/unmapped/C_3995554
-	f	Lnet/minecraft/unmapped/C_3995554;	f_4782797		f_4782797
-	f	Lnet/minecraft/unmapped/C_3995554;	f_4490500		f_4490500
-	f	Lnet/minecraft/unmapped/C_3995554;	f_8715642		f_8715642
-	f	Lnet/minecraft/unmapped/C_1945050;	f_5597385		f_5597385
-	f	[Lnet/minecraft/unmapped/C_3995554;	f_6888741		f_6888741
+c	net/minecraft/unmapped/C_3995554		net/minecraft/world/effect/MobEffectCategory
+	f	Lnet/minecraft/unmapped/C_3995554;	f_4782797		BENEFICIAL
+	f	Lnet/minecraft/unmapped/C_3995554;	f_4490500		HARMFUL
+	f	Lnet/minecraft/unmapped/C_3995554;	f_8715642		NEUTRAL
+	f	Lnet/minecraft/unmapped/C_1945050;	f_5597385		tooltipFormatting
+	f	[Lnet/minecraft/unmapped/C_3995554;	f_6888741		$VALUES
 	m	()[Lnet/minecraft/unmapped/C_3995554;	values		values
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3995554;	valueOf		valueOf
 		p	0			p_0
@@ -326,5 +326,5 @@ c	net/minecraft/unmapped/C_3995554		net/minecraft/unmapped/C_3995554
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()Lnet/minecraft/unmapped/C_1945050;	m_6499093		m_6499093
+	m	()Lnet/minecraft/unmapped/C_1945050;	m_6499093		getTooltipFormatting
 	m	()V	<clinit>		<clinit>

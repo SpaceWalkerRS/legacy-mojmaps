@@ -93,7 +93,7 @@ c	net/minecraft/server/C_9992501
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/server/MinecraftServer
-	m	(Lnet/minecraft/server/C_5270789;)V	m_4905585	m_4905585	
+	m	(Lnet/minecraft/server/C_5270789;)V	m_4905585	addTickable	
 		p	1		p_1	
 	m	([Ljava/lang/String;)V	main	main	
 		p	0		p_0	
@@ -292,17 +292,17 @@ c	net/minecraft/unmapped/C_0658987
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_0674995	net/minecraft/unmapped/C_0674995	
+c	net/minecraft/unmapped/C_0674995	net/minecraft/server/gui/MinecraftServerGui	
 	f	Ljava/util/logging/Logger;	f_3118234	f_3118234	
 	f	Z	f_4741900	f_4741900	
-	f	Lnet/minecraft/unmapped/C_1555023;	f_2883604	f_2883604	
-	m	(Lnet/minecraft/unmapped/C_1555023;)V	m_8927020	m_8927020	
+	f	Lnet/minecraft/unmapped/C_1555023;	f_2883604	server	
+	m	(Lnet/minecraft/unmapped/C_1555023;)V	m_8927020	showFrameFor	
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_1555023;)V	<init>	<init>	
 		p	1		p_1	
-	m	()Ljavax/swing/JComponent;	m_2287095	m_2287095	
-	m	()Ljavax/swing/JComponent;	m_9173896	m_9173896	
-	m	()Ljavax/swing/JComponent;	m_6099995	m_6099995	
+	m	()Ljavax/swing/JComponent;	m_2287095	buildInfoPanel	
+	m	()Ljavax/swing/JComponent;	m_9173896	buildPlayerPanel	
+	m	()Ljavax/swing/JComponent;	m_6099995	buildChatPanel	
 	m	()Z	m_1977312	m_1977312	
 	m	(Lnet/minecraft/unmapped/C_0674995;)Lnet/minecraft/unmapped/C_1555023;	m_4893589	m_4893589	
 		p	0		p_0	
@@ -625,7 +625,7 @@ c	net/minecraft/unmapped/C_1545069
 	m	(Z)V	m_3153896	m_3153896	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1555023
-	m	()V	m_9392137	m_9392137	
+	m	()V	m_9392137	showGui	
 c	net/minecraft/unmapped/C_1567607
 	m	(Lnet/minecraft/unmapped/C_9294382;)V	m_4933632	m_4933632	
 		p	1		p_1	
@@ -664,7 +664,7 @@ c	net/minecraft/unmapped/C_1726165
 		p	0		p_0	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1741573
-	f	Z	f_5549780	f_5549780	
+	f	Z	f_5549780	dropItem	
 c	net/minecraft/unmapped/C_1776368	net/minecraft/unmapped/C_1776368	
 	f	Lnet/minecraft/unmapped/C_0539808;	f_8007506	f_8007506	
 	f	I	f_0482713	f_0482713	
@@ -813,16 +813,16 @@ c	net/minecraft/unmapped/C_2513872	net/minecraft/unmapped/C_2513872
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_2561388	net/minecraft/unmapped/C_2561388	
-	f	Ljava/text/DecimalFormat;	f_3878852	f_3878852	
-	f	[I	f_1089187	f_1089187	
-	f	I	f_0546446	f_0546446	
-	f	[Ljava/lang/String;	f_3517800	f_3517800	
-	f	Lnet/minecraft/server/MinecraftServer;	f_7385580	f_7385580	
+c	net/minecraft/unmapped/C_2561388	net/minecraft/server/gui/StatsComponent	
+	f	Ljava/text/DecimalFormat;	f_3878852	DECIMAL_FORMAT	
+	f	[I	f_1089187	values	
+	f	I	f_0546446	vp	
+	f	[Ljava/lang/String;	f_3517800	msgs	
+	f	Lnet/minecraft/server/MinecraftServer;	f_7385580	server	
 	m	(Lnet/minecraft/server/MinecraftServer;)V	<init>	<init>	
 		p	1		p_1	
-	m	()V	m_1171573	m_1171573	
-	m	([J)D	m_4662706	m_4662706	
+	m	()V	m_1171573	tick	
+	m	([J)D	m_4662706	getAverage	
 		p	1		p_1	
 	m	(Ljava/awt/Graphics;)V	paint	paint	
 		p	1		p_1	
@@ -842,9 +842,9 @@ c	net/minecraft/unmapped/C_2708985
 c	net/minecraft/unmapped/C_2711798
 	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_3964001	m_3964001	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_2774025	net/minecraft/unmapped/C_2774025	
-	f	Lnet/minecraft/server/MinecraftServer;	f_4382006	f_4382006	
-	f	I	f_5199519	f_5199519	
+c	net/minecraft/unmapped/C_2774025	net/minecraft/server/gui/PlayerListComponent	
+	f	Lnet/minecraft/server/MinecraftServer;	f_4382006	server	
+	f	I	f_5199519	tickCount	
 	m	(Lnet/minecraft/server/MinecraftServer;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_1976244	m_1976244	
@@ -1126,7 +1126,7 @@ c	net/minecraft/unmapped/C_3674802
 	m	(Lnet/minecraft/unmapped/C_3674802;)D	m_9137202	m_9137202	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3716663
-	m	(DDDDDD)Z	m_7147932	m_7147932	
+	m	(DDDDDD)Z	m_7147932	cubeInFrustum	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
@@ -2728,7 +2728,7 @@ c	net/minecraft/unmapped/C_9620653
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(DDDDDD)Z	m_8467425	m_8467425	
+	m	(DDDDDD)Z	m_8467425	cubeInFrustum	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	

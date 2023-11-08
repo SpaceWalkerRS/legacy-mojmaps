@@ -28,7 +28,7 @@ c	net/minecraft/unmapped/C_2095190
 c	net/minecraft/unmapped/C_2095190$C_3009888
 	f	Ljava/util/List;	f_4901239	f_4901239	
 c	net/minecraft/unmapped/C_2381425
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;Ljava/util/Random;IIILnet/minecraft/unmapped/C_3544601;Ljava/util/List;I)Z	m_0225095	m_0225095	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;Ljava/util/Random;IIILnet/minecraft/unmapped/C_3544601;Ljava/util/List;I)Z	m_0225095	createDispenser	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -38,7 +38,7 @@ c	net/minecraft/unmapped/C_2381425
 		p	7		p_7	
 		p	8		p_8	
 		p	9		p_9	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;Ljava/util/Random;IIILnet/minecraft/unmapped/C_3544601;Lnet/minecraft/unmapped/C_0561170;)Z	m_0225095		m_0225095
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7492943;Ljava/util/Random;IIILnet/minecraft/unmapped/C_3544601;Lnet/minecraft/unmapped/C_0561170;)Z	m_0225095		createDispenser
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -48,7 +48,7 @@ c	net/minecraft/unmapped/C_2381425
 		p	7			p_7
 		p	8			p_8
 c	net/minecraft/unmapped/C_3721081
-	m	(Lnet/minecraft/unmapped/C_0561170;J)V	m_2124800		m_2124800
+	m	(Lnet/minecraft/unmapped/C_0561170;J)V	m_2124800		setLootTable
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5100287
@@ -74,7 +74,7 @@ c	net/minecraft/unmapped/C_5100287$5
 	m	(Lnet/minecraft/unmapped/C_0557736;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_5502075
-	f	F	f_1091152		f_1091152
+	f	F	f_1091152		toughness
 c	net/minecraft/unmapped/C_5502075$C_0327265
 	f	F	f_9717014		f_9717014
 	m	(Ljava/lang/String;ILjava/lang/String;I[IILnet/minecraft/unmapped/C_7721249;)V	<init>	<init>	
@@ -98,7 +98,7 @@ c	net/minecraft/unmapped/C_5502075$C_0327265
 c	net/minecraft/unmapped/C_5553933
 	m	()Lnet/minecraft/unmapped/C_5863756;	m_9313779	m_9313779	
 c	net/minecraft/unmapped/C_5774785
-	f	Lnet/minecraft/unmapped/C_3661275;	f_8039308		f_8039308
+	f	Lnet/minecraft/unmapped/C_3661275;	f_8039308		ARMOR_TOUGHNESS
 c	net/minecraft/unmapped/C_5863756
 	f	Ljava/lang/Object;	f_8033439	f_8033439	
 	f	Ljava/util/WeakHashMap;	f_4798101	f_4798101	
@@ -106,10 +106,10 @@ c	net/minecraft/unmapped/C_5863756
 	m	(Lnet/minecraft/unmapped/C_9229053;)V	m_4187345		m_4187345
 		p	1			p_1
 c	net/minecraft/unmapped/C_6686615
-	m	(FF)F	m_4944748	m_4944748	
+	m	(FF)F	m_4944748	getDamageAfterAbsorb	
 		p	0		p_0	
 		p	1		p_1	
-	m	(FFF)F	m_4944748		m_4944748
+	m	(FFF)F	m_4944748		getDamageAfterAbsorb
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -125,12 +125,12 @@ c	net/minecraft/unmapped/C_7650729
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8452767
-	f	Lnet/minecraft/unmapped/C_0561170;	f_6754572		f_6754572
+	f	Lnet/minecraft/unmapped/C_0561170;	f_6754572		JUNGLE_TEMPLE_DISPENSER
 c	net/minecraft/unmapped/C_9221482
-	f	Lnet/minecraft/unmapped/C_7721249;	f_8693417		f_8693417
-c	net/minecraft/unmapped/C_1788253		net/minecraft/unmapped/C_1788253
-	f	Lnet/minecraft/unmapped/C_1023567;	f_6528057		f_6528057
-	f	I	f_6909325		f_6909325
+	f	Lnet/minecraft/unmapped/C_7721249;	f_8693417		ELYTRA_FLYING
+c	net/minecraft/unmapped/C_1788253		net/minecraft/client/resources/sounds/ElytraOnPlayerSoundInstance
+	f	Lnet/minecraft/unmapped/C_1023567;	f_6528057		player
+	f	I	f_6909325		time
 	m	(Lnet/minecraft/unmapped/C_1023567;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_1976244		m_1976244

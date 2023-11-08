@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_9597606		m_9597606
+	m	()Z	m_9597606		ignoreExplosion
 c	net/minecraft/unmapped/C_0622567
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_8048103		m_8048103
 		p	1			p_1
@@ -16,16 +16,16 @@ c	net/minecraft/unmapped/C_2046731
 c	net/minecraft/unmapped/C_3438842
 	m	()Z	m_9597606		m_9597606
 c	net/minecraft/unmapped/C_3628668
-	f	Lnet/minecraft/unmapped/C_1241852;	f_6464673		f_6464673
-	f	Lnet/minecraft/unmapped/C_1241852;	f_3491472		f_3491472
-	f	Lnet/minecraft/unmapped/C_1241852;	f_9150847		f_9150847
-	f	Lnet/minecraft/unmapped/C_1241852;	f_9548235		f_9548235
-	f	Lnet/minecraft/unmapped/C_1241852;	f_4997270		f_4997270
-	f	Lnet/minecraft/unmapped/C_1241852;	f_3542197		f_3542197
-	f	Lnet/minecraft/unmapped/C_1241852;	f_4056930		f_4056930
-	f	Lnet/minecraft/unmapped/C_1241852;	f_5592291		f_5592291
-	f	Lnet/minecraft/unmapped/C_1241852;	f_4521933		f_4521933
-	f	Lnet/minecraft/unmapped/C_1241852;	f_2450253		f_2450253
+	f	Lnet/minecraft/unmapped/C_1241852;	f_6464673		SPRUCE_FENCE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_3491472		BIRCH_FENCE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_9150847		JUNGLE_FENCE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_9548235		DARK_OAK_FENCE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_4997270		ACACIA_FENCE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_3542197		SPRUCE_FENCE_GATE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_4056930		BIRCH_FENCE_GATE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_5592291		JUNGLE_FENCE_GATE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_4521933		DARK_OAK_FENCE_GATE
+	f	Lnet/minecraft/unmapped/C_1241852;	f_2450253		ACACIA_FENCE_GATE
 c	net/minecraft/unmapped/C_3754158
 	m	()V	m_2181488		m_2181488
 	m	()V	m_9774474		m_9774474
@@ -50,9 +50,9 @@ c	net/minecraft/unmapped/C_6804573
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_6849228
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_1451349	m_1451349	
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_1451349	getBlockEntity	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3674802;Z)Lnet/minecraft/unmapped/C_3622326;	m_1451349		m_1451349
+	m	(Lnet/minecraft/unmapped/C_3674802;Z)Lnet/minecraft/unmapped/C_3622326;	m_1451349		getBlockEntity
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6989019
@@ -66,16 +66,16 @@ c	net/minecraft/unmapped/C_7159708
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7947657
-	m	([[FI)V	m_4034842	m_4034842	
+	m	([[FI)V	m_4034842	normalizePlane	
 		p	1		p_1	
 		p	2		p_2	
-	m	([F)V	m_4034842		m_4034842
+	m	([F)V	m_4034842		normalizePlane
 		p	1			p_1
 c	net/minecraft/unmapped/C_8651652
-	f	I	f_6123825		f_6123825
-	f	J	f_1240807		f_1240807
+	f	I	f_6123825		lastHealth
+	f	J	f_1240807		healthBlinkTime
 c	net/minecraft/unmapped/C_9620653
-	m	([FDDD)D	m_1131406		m_1131406
+	m	([FDDD)D	m_1131406		discriminant
 		p	1			p_1
 		p	2			p_2
 		p	4			p_4

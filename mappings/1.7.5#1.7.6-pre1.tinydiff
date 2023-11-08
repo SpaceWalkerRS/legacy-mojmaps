@@ -260,7 +260,7 @@ c	net/minecraft/unmapped/C_5794148
 	m	(Lnet/minecraft/unmapped/C_5794148;)V	m_9615704		m_9615704
 		p	0			p_0
 c	net/minecraft/unmapped/C_6004512
-	m	(FFFIFILjava/lang/String;)V	m_1144723	m_1144723	
+	m	(FFFIFILjava/lang/String;)V	m_1144723	renderSkull	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -268,7 +268,7 @@ c	net/minecraft/unmapped/C_6004512
 		p	5		p_5	
 		p	6		p_6	
 		p	7		p_7	
-	m	(FFFIFILcom/mojang/authlib/GameProfile;)V	m_1144723		m_1144723
+	m	(FFFIFILcom/mojang/authlib/GameProfile;)V	m_1144723		renderSkull
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -277,27 +277,27 @@ c	net/minecraft/unmapped/C_6004512
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_6479467
-	f	Ljava/lang/String;	f_8759465	f_8759465	
-	f	Lcom/mojang/authlib/GameProfile;	f_8759465		f_8759465
+	f	Ljava/lang/String;	f_8759465	owner	
+	f	Lcom/mojang/authlib/GameProfile;	f_8759465		owner
 	m	(ILjava/lang/String;)V	m_4559174	m_4559174	
 		p	1		p_1	
 		p	2		p_2	
-	m	()Ljava/lang/String;	m_7478656	m_7478656	
-	m	()Lcom/mojang/authlib/GameProfile;	m_7478656		m_7478656
+	m	()Ljava/lang/String;	m_7478656	getOwnerProfile	
+	m	()Lcom/mojang/authlib/GameProfile;	m_7478656		getOwnerProfile
 	m	(I)V	m_4559174		m_4559174
 		p	1			p_1
 	m	(Lcom/mojang/authlib/GameProfile;)V	m_8994099		m_8994099
 		p	1			p_1
 	m	()V	m_0427577		m_0427577
-c	net/minecraft/unmapped/C_6509480	net/minecraft/unmapped/C_6509480	
-	f	Lorg/apache/logging/log4j/Logger;	f_3886887	f_3886887	
+c	net/minecraft/unmapped/C_6509480	net/minecraft/server/players/StoredUserList	
+	f	Lorg/apache/logging/log4j/Logger;	f_3886887	LOGGER	
 	f	Lnet/minecraft/unmapped/C_4085272;	f_4852258	f_4852258	
-	f	Ljava/io/File;	f_4715358	f_4715358	
-	f	Z	f_7889151	f_7889151	
+	f	Ljava/io/File;	f_4715358	file	
+	f	Z	f_7889151	enabled	
 	m	(Ljava/io/File;)V	<init>	<init>	
 		p	1		p_1	
-	m	()Z	m_8286849	m_8286849	
-	m	(Z)V	m_4245654	m_4245654	
+	m	()Z	m_8286849	isEnabled	
+	m	(Z)V	m_4245654	setEnabled	
 		p	1		p_1	
 	m	()Ljava/util/Map;	m_6993305	m_6993305	
 	m	(Ljava/lang/String;)Z	m_3580578	m_3580578	
@@ -306,7 +306,7 @@ c	net/minecraft/unmapped/C_6509480	net/minecraft/unmapped/C_6509480
 		p	1		p_1	
 	m	(Ljava/lang/String;)V	m_8523270	m_8523270	
 		p	1		p_1	
-	m	()V	m_6999739	m_6999739	
+	m	()V	m_6999739	removeExpired	
 	m	()V	m_6793159	m_6793159	
 	m	()V	m_6357234	m_6357234	
 	m	(Z)V	m_3083004	m_3083004	
@@ -318,7 +318,7 @@ c	net/minecraft/unmapped/C_7106153
 	m	()V	m_7227461	m_7227461	
 	m	()Lnet/minecraft/unmapped/C_1128759;	m_0505925	m_0505925	
 	m	()Lnet/minecraft/unmapped/C_1128759;	m_7934561	m_7934561	
-	m	(Lnet/minecraft/unmapped/C_0561170;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_4873194	m_4873194	
+	m	(Lnet/minecraft/unmapped/C_0561170;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_4873194	registerSkinTexture	
 		p	0		p_0	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_0561170;Ljava/lang/String;)Lnet/minecraft/unmapped/C_1128759;	m_6257789	m_6257789	
@@ -382,59 +382,59 @@ c	net/minecraft/unmapped/C_9876986
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_9992501
-	f	Lnet/minecraft/unmapped/C_6509480;	f_3549956	f_3549956	
-	f	Lnet/minecraft/unmapped/C_6509480;	f_3286089	f_3286089	
-	f	Ljava/util/Set;	f_9374939	f_9374939	
-	f	Ljava/util/Set;	f_2471539	f_2471539	
+	f	Lnet/minecraft/unmapped/C_6509480;	f_3549956	bans	
+	f	Lnet/minecraft/unmapped/C_6509480;	f_3286089	ipBans	
+	f	Ljava/util/Set;	f_9374939	ops	
+	f	Ljava/util/Set;	f_2471539	whitelist	
 	f	Ljava/io/File;	f_1393393		f_1393393
 	f	Ljava/io/File;	f_9684278		f_9684278
 	f	Ljava/io/File;	f_3259818		f_3259818
 	f	Ljava/io/File;	f_1647697		f_1647697
-	f	Lnet/minecraft/unmapped/C_8717445;	f_3549956		f_3549956
-	f	Lnet/minecraft/unmapped/C_9268674;	f_3286089		f_3286089
-	f	Lnet/minecraft/unmapped/C_4166161;	f_9374939		f_9374939
-	f	Lnet/minecraft/unmapped/C_1807830;	f_2471539		f_2471539
+	f	Lnet/minecraft/unmapped/C_8717445;	f_3549956		bans
+	f	Lnet/minecraft/unmapped/C_9268674;	f_3286089		ipBans
+	f	Lnet/minecraft/unmapped/C_4166161;	f_9374939		ops
+	f	Lnet/minecraft/unmapped/C_1807830;	f_2471539		whitelist
 	m	()Ljava/lang/String;	m_4251196	m_4251196	
-	m	()Lnet/minecraft/unmapped/C_6509480;	m_4888675	m_4888675	
-	m	()Lnet/minecraft/unmapped/C_6509480;	m_4394591	m_4394591	
-	m	(Ljava/lang/String;)V	m_0248612	m_0248612	
+	m	()Lnet/minecraft/unmapped/C_6509480;	m_4888675	getBans	
+	m	()Lnet/minecraft/unmapped/C_6509480;	m_4394591	getIpBans	
+	m	(Ljava/lang/String;)V	m_0248612	op	
 		p	1		p_1	
-	m	(Ljava/lang/String;)V	m_9659726	m_9659726	
+	m	(Ljava/lang/String;)V	m_9659726	deop	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Z	m_7221601	m_7221601	
+	m	(Ljava/lang/String;)Z	m_7221601	isWhiteListed	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Z	m_6078293	m_6078293	
+	m	(Ljava/lang/String;)Z	m_6078293	isOp	
 		p	1		p_1	
 	m	(Ljava/lang/String;)V	m_5311516	m_5311516	
 		p	1		p_1	
 	m	(Ljava/lang/String;)V	m_0108649	m_0108649	
 		p	1		p_1	
-	m	()Ljava/util/Set;	m_0995631	m_0995631	
-	m	()Ljava/util/Set;	m_4611177	m_4611177	
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_8949651;	m_6605329	m_6605329	
+	m	()Ljava/util/Set;	m_0995631	getWhiteList	
+	m	()Ljava/util/Set;	m_4611177	getOps	
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_8949651;	m_6605329	getPlayerStats	
 		p	1		p_1	
 	m	(Z)Ljava/lang/String;	m_4251196		m_4251196
 		p	1			p_1
 	m	()[Lcom/mojang/authlib/GameProfile;	m_1521945		m_1521945
-	m	()Lnet/minecraft/unmapped/C_8717445;	m_4888675		m_4888675
-	m	()Lnet/minecraft/unmapped/C_9268674;	m_4394591		m_4394591
-	m	(Lcom/mojang/authlib/GameProfile;)V	m_0248612		m_0248612
+	m	()Lnet/minecraft/unmapped/C_8717445;	m_4888675		getBans
+	m	()Lnet/minecraft/unmapped/C_9268674;	m_4394591		getIpBans
+	m	(Lcom/mojang/authlib/GameProfile;)V	m_0248612		op
 		p	1			p_1
-	m	(Lcom/mojang/authlib/GameProfile;)V	m_9659726		m_9659726
+	m	(Lcom/mojang/authlib/GameProfile;)V	m_9659726		deop
 		p	1			p_1
-	m	(Lcom/mojang/authlib/GameProfile;)Z	m_7221601		m_7221601
+	m	(Lcom/mojang/authlib/GameProfile;)Z	m_7221601		isWhiteListed
 		p	1			p_1
-	m	(Lcom/mojang/authlib/GameProfile;)Z	m_6078293		m_6078293
+	m	(Lcom/mojang/authlib/GameProfile;)Z	m_6078293		isOp
 		p	1			p_1
 	m	(Lcom/mojang/authlib/GameProfile;)V	m_5311516		m_5311516
 		p	1			p_1
 	m	(Lcom/mojang/authlib/GameProfile;)V	m_0108649		m_0108649
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_1807830;	m_0995631		m_0995631
+	m	()Lnet/minecraft/unmapped/C_1807830;	m_0995631		getWhiteList
 	m	()[Ljava/lang/String;	m_9695749		m_9695749
-	m	()Lnet/minecraft/unmapped/C_4166161;	m_4611177		m_4611177
+	m	()Lnet/minecraft/unmapped/C_4166161;	m_4611177		getOps
 	m	()[Ljava/lang/String;	m_1025061		m_1025061
-	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_8949651;	m_6605329		m_6605329
+	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_8949651;	m_6605329		getPlayerStats
 		p	1			p_1
 c	net/minecraft/unmapped/C_0212751		net/minecraft/unmapped/C_0212751
 	f	Lnet/minecraft/unmapped/C_0066205;	f_6994720		f_6994720

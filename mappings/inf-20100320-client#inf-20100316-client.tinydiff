@@ -24,7 +24,7 @@ c	net/minecraft/unmapped/C_0987157
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2420716	m_2420716	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2420716	onPlace	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -43,7 +43,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	5		p_5	
 		p	6		p_6	
 	m	()F	m_6175484	m_6175484	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2698089	m_2698089	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2698089	wasExploded	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -54,8 +54,8 @@ c	net/minecraft/unmapped/C_1241852
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_1582062	net/minecraft/unmapped/C_1582062	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_4196531	f_4196531	
+c	net/minecraft/unmapped/C_1582062	net/minecraft/world/level/block/entity/ChestBlockEntity	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_4196531	items	
 	m	()V	<init>	<init>	
 	m	()I	m_2930514	m_2930514	
 	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1816230	m_1816230	
@@ -145,7 +145,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_0539808;DDDF)V	m_5936587	m_5936587	
+	m	(Lnet/minecraft/unmapped/C_0539808;DDDF)V	m_5936587	explode	
 		p	1		p_1	
 		p	2		p_2	
 		p	4		p_4	
@@ -154,7 +154,7 @@ c	net/minecraft/unmapped/C_5553933
 	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_5577922;)F	m_7968481	m_7968481	
 		p	1		p_1	
 		p	2		p_2	
-	m	(IIII)V	m_3890586	m_3890586	
+	m	(IIII)V	m_3890586	extinguishFire	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -163,7 +163,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIILnet/minecraft/unmapped/C_3622326;)V	m_8905645	m_8905645	
+	m	(IIILnet/minecraft/unmapped/C_3622326;)V	m_8905645	setBlockEntity	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -181,7 +181,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_5577922
-	m	(Lnet/minecraft/unmapped/C_5577922;)Z	m_8247760	m_8247760	
+	m	(Lnet/minecraft/unmapped/C_5577922;)Z	m_8247760	intersects	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5615103
 	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2420716	m_2420716	
@@ -196,14 +196,14 @@ c	net/minecraft/unmapped/C_5615103
 		p	3		p_3	
 	m	()Lnet/minecraft/unmapped/C_3622326;	m_9359758	m_9359758	
 c	net/minecraft/unmapped/C_6849228
-	f	Ljava/util/Map;	f_9853033	f_9853033	
+	f	Ljava/util/Map;	f_9853033	blockEntities	
 	f	Ljava/util/List;	f_1327421	f_1327421	
 	m	(IIII)Z	m_4332228	m_4332228	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(III)Lnet/minecraft/unmapped/C_3622326;	m_1451349	m_1451349	
+	m	(III)Lnet/minecraft/unmapped/C_3622326;	m_1451349	getBlockEntity	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

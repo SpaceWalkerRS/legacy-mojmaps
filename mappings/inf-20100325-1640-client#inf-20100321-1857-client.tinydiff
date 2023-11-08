@@ -25,7 +25,7 @@ c	net/minecraft/unmapped/C_0774916
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIIILjava/util/Random;)V	m_0159758	m_0159758	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIIILjava/util/Random;)V	m_0159758	checkBurnOut	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -71,26 +71,26 @@ c	net/minecraft/unmapped/C_0826810
 		p	5		p_5	
 c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_1241852;	f_8582891	f_8582891	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	tick	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9792685	m_9792685	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9792685	animateTick	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7735018	m_7735018	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7735018	neighborChanged	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	()I	m_0006289	m_0006289	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_4217571	m_4217571	
+	m	()I	m_0006289	getTickDelay	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_4217571	onRemove	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -115,8 +115,8 @@ c	net/minecraft/unmapped/C_2501864
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_2805044	net/minecraft/unmapped/C_2805044	
-	f	I	f_1022309	f_1022309	
+c	net/minecraft/unmapped/C_2805044	net/minecraft/world/level/levelgen/feature/OreConfiguration	
+	f	I	f_1022309	state	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;III)Z	m_5378046	m_5378046	
@@ -155,7 +155,7 @@ c	net/minecraft/unmapped/C_3586288
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_3622326
-	f	Lnet/minecraft/unmapped/C_5553933;	f_1431038	f_1431038	
+	f	Lnet/minecraft/unmapped/C_5553933;	f_1431038	level	
 	f	I	f_4390267	f_4390267	
 	f	I	f_7270670	f_7270670	
 	f	I	f_7068054	f_7068054	
@@ -220,9 +220,9 @@ c	net/minecraft/unmapped/C_4808571
 		p	1		p_1	
 	m	(I)I	m_8770448	m_8770448	
 		p	1		p_1	
-	m	()Z	m_8354076	m_8354076	
+	m	()Z	m_8354076	isLit	
 	m	()V	m_1055699	m_1055699	
-	m	()Z	m_7212228	m_7212228	
+	m	()Z	m_7212228	canBurn	
 	m	(I)I	m_9835956	m_9835956	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5170040
@@ -261,14 +261,14 @@ c	net/minecraft/unmapped/C_5537602	net/minecraft/unmapped/C_5537602
 c	net/minecraft/unmapped/C_5553933
 	f	Ljava/util/List;	f_3610117	f_3610117	
 	f	Ljava/util/List;	f_6204732	f_6204732	
-	f	I	f_5073787	f_5073787	
-	f	I	f_6049590	f_6049590	
-	m	(IIII)V	m_3858067	m_3858067	
+	f	I	f_5073787	randValue	
+	f	I	f_6049590	addend	
+	m	(IIII)V	m_3858067	updateNeighborsAt	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIII)V	m_7610902	m_7610902	
+	m	(IIII)V	m_7610902	neighborChanged	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -277,13 +277,13 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	()Z	m_7253958	m_7253958	
+	m	()Z	m_7253958	isDay	
 	m	(IIII)V	m_2640654	m_2640654	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(III)V	m_0568097	m_0568097	
+	m	(III)V	m_0568097	removeBlockEntity	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -302,12 +302,12 @@ c	net/minecraft/unmapped/C_5615103
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_6466836	net/minecraft/unmapped/C_6466836	
+c	net/minecraft/unmapped/C_6466836	net/minecraft/world/level/TickNextTickData	
 	f	I	f_3919118	f_3919118	
 	f	I	f_9302931	f_9302931	
 	f	I	f_1185883	f_1185883	
-	f	I	f_4619589	f_4619589	
-	f	I	f_5817530	f_5817530	
+	f	I	f_4619589	type	
+	f	I	f_5817530	delay	
 	m	(IIII)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

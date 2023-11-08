@@ -4,7 +4,7 @@ c	net/minecraft/unmapped/C_0256098
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1872000
 	f	Lpaulscode/sound/SoundSystem;	f_7021715	f_7021715	
-	m	()V	m_9496102	m_9496102	
+	m	()V	m_9496102	loadLibrary	
 	m	()V	m_9606243	m_9606243	
 	m	(FFF)V	m_0086779	m_0086779	
 		p	1		p_1	

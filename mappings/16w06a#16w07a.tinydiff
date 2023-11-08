@@ -12,9 +12,9 @@ c	net/minecraft/unmapped/C_1250058
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_3292284
-	m	()V	m_1801809		m_1801809
+	m	()V	m_1801809		startFallFlying
 c	net/minecraft/unmapped/C_3390001
-	m	(Ljava/lang/String;)Z	m_4886719		m_4886719
+	m	(Ljava/lang/String;)Z	m_4886719		exists
 		p	0			p_0
 c	net/minecraft/unmapped/C_3832296
 	m	()Z	m_0208343		m_0208343
@@ -32,7 +32,7 @@ c	net/minecraft/unmapped/C_4830307$1
 	m	(Lnet/minecraft/unmapped/C_8889465;)Lcom/google/common/base/Predicate;	m_2434049		m_2434049
 		p	1			p_1
 c	net/minecraft/unmapped/C_4976084
-	m	(I)I	m_5491186		m_5491186
+	m	(I)I	m_5491186		wrapDegrees
 		p	0			p_0
 c	net/minecraft/unmapped/C_5100287
 	m	(I)I	m_9159429	m_9159429	
@@ -57,10 +57,10 @@ c	net/minecraft/unmapped/C_5100287$13
 c	net/minecraft/unmapped/C_5438730
 	f	I	f_6623401	f_6623401	
 c	net/minecraft/unmapped/C_5660126
-	f	Lnet/minecraft/unmapped/C_5577922;	f_0105546		f_0105546
-	f	Lnet/minecraft/unmapped/C_5577922;	f_2369728		f_2369728
+	f	Lnet/minecraft/unmapped/C_5577922;	f_0105546		Z_SHAPE_LOW
+	f	Lnet/minecraft/unmapped/C_5577922;	f_2369728		X_SHAPE_LOW
 c	net/minecraft/unmapped/C_5722573
-	m	(Ljava/lang/String;Ljava/lang/String;)Z	m_8608150		m_8608150
+	m	(Ljava/lang/String;Ljava/lang/String;)Z	m_8608150		validateResourcePackUrl
 		p	1			p_1
 		p	2			p_2
 	m	(Ljava/lang/String;)Lcom/google/common/util/concurrent/FutureCallback;	m_7069882		m_7069882
@@ -173,16 +173,16 @@ c	net/minecraft/unmapped/C_7948993	net/minecraft/unmapped/C_7948993
 c	net/minecraft/unmapped/C_8120996
 c	net/minecraft/unmapped/C_8120996$C_6726894
 	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_2575069	f_2575069	
-	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_4142768		f_4142768
-	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_8551228		f_8551228
-	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_9889716		f_9889716
+	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_4142768		START_RIDING_JUMP
+	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_8551228		STOP_RIDING_JUMP
+	f	Lnet/minecraft/unmapped/C_8120996$C_6726894;	f_9889716		START_FALL_FLYING
 c	net/minecraft/unmapped/C_8398976
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970	m_2968970	
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970	blockChanged	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970		m_2968970
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;I)V	m_2968970		blockChanged
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -195,7 +195,7 @@ c	net/minecraft/unmapped/C_8620458
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_8639317
-	m	(Ljava/lang/String;)Z	m_1856655		m_1856655
+	m	(Ljava/lang/String;)Z	m_1856655		has
 		p	1			p_1
 c	net/minecraft/unmapped/C_8889465
 c	net/minecraft/unmapped/C_8889465$1
@@ -215,21 +215,21 @@ c	net/minecraft/unmapped/C_8889465$2$1
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_8070373		m_8070373
 		p	1			p_1
 c	net/minecraft/unmapped/C_9221482
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0585198		f_0585198
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0787635		f_0787635
-	f	Lnet/minecraft/unmapped/C_7721249;	f_2404481		f_2404481
-	f	Lnet/minecraft/unmapped/C_7721249;	f_4239288		f_4239288
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0585198		ZOMBIE_VILLAGER_AMBIENT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0787635		ZOMBIE_VILLAGER_DEATH
+	f	Lnet/minecraft/unmapped/C_7721249;	f_2404481		ZOMBIE_VILLAGER_HURT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_4239288		ZOMBIE_VILLAGER_STEP
 c	net/minecraft/unmapped/C_9229053
 	f	I	f_4612436	f_4612436	
 	f	I	f_3488372		f_3488372
-	f	Z	f_4072950		f_4072950
-	f	J	f_8211858		f_8211858
-	m	()Z	m_6227148		m_6227148
+	f	Z	f_4072950		hasDelayedRecomputation
+	f	J	f_8211858		timeLastRecompute
+	m	()Z	m_6227148		hasDelayedRecomputation
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_3423655		net/minecraft/unmapped/C_3423655
-	m	(I)V	m_3546651		m_3546651
+c	net/minecraft/unmapped/C_3423655		net/minecraft/world/entity/PlayerRideableJumping
+	m	(I)V	m_3546651		onPlayerJump
 		p	1			p_1
-	m	()Z	m_0208343		m_0208343
-	m	(I)V	m_7403881		m_7403881
+	m	()Z	m_0208343		canJump
+	m	(I)V	m_7403881		handleStartJump
 		p	1			p_1
-	m	()V	m_6561913		m_6561913
+	m	()V	m_6561913		handleStopJump

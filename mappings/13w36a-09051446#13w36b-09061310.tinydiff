@@ -55,7 +55,7 @@ c	net/minecraft/unmapped/C_0693187
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_0817911
-	m	(JII[BDDDFFFIID)V	m_8708557	m_8708557	
+	m	(JII[BDDDFFFIID)V	m_8708557	genCanyon	
 		p	1		p_1	
 		p	3		p_3	
 		p	4		p_4	
@@ -76,7 +76,7 @@ c	net/minecraft/unmapped/C_0817911
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDDFFFIID)V	m_8708557		m_8708557
+	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDDFFFIID)V	m_8708557		genCanyon
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
@@ -252,7 +252,7 @@ c	net/minecraft/unmapped/C_5722573
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_9550253;	m_0467751		m_0467751
 		p	1			p_1
 c	net/minecraft/unmapped/C_5918120
-	m	(JII[BDDD)V	m_5719748	m_5719748	
+	m	(JII[BDDD)V	m_5719748	genRoom	
 		p	1		p_1	
 		p	3		p_3	
 		p	4		p_4	
@@ -260,7 +260,7 @@ c	net/minecraft/unmapped/C_5918120
 		p	6		p_6	
 		p	8		p_8	
 		p	10		p_10	
-	m	(JII[BDDDFFFIID)V	m_6978508	m_6978508	
+	m	(JII[BDDDFFFIID)V	m_6978508	genTunnel	
 		p	1		p_1	
 		p	3		p_3	
 		p	4		p_4	
@@ -281,7 +281,7 @@ c	net/minecraft/unmapped/C_5918120
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDD)V	m_5719748		m_5719748
+	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDD)V	m_5719748		genRoom
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
@@ -289,7 +289,7 @@ c	net/minecraft/unmapped/C_5918120
 		p	6			p_6
 		p	8			p_8
 		p	10			p_10
-	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDDFFFIID)V	m_6978508		m_6978508
+	m	(JII[Lnet/minecraft/unmapped/C_1241852;DDDFFFIID)V	m_6978508		genTunnel
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
@@ -328,7 +328,7 @@ c	net/minecraft/unmapped/C_6442677
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_6517019
-	m	()[Ljava/lang/StackTraceElement;	m_1334913		m_1334913
+	m	()[Ljava/lang/StackTraceElement;	m_1334913		getStacktrace
 c	net/minecraft/unmapped/C_6849228
 	m	(Lnet/minecraft/unmapped/C_5553933;[BII)V	<init>	<init>	
 		p	1		p_1	

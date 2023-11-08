@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
 	f	D	f_7807987		f_7807987
-	m	()D	m_7168636	m_7168636	
+	m	()D	m_7168636	getRideHeight	
 c	net/minecraft/unmapped/C_0557736
 	f	Ljava/util/List;	f_8620120	f_8620120	
 	f	I	f_6547374	f_6547374	
@@ -14,7 +14,7 @@ c	net/minecraft/unmapped/C_0557736
 		p	0		p_0	
 		p	2		p_2	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_0657699	m_0657699	
+	m	(Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_0557736;	m_0657699	cross	
 		p	1		p_1	
 	m	(DDD)D	m_0428525	m_0428525	
 		p	1		p_1	
@@ -35,7 +35,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_0539808;)F	m_2969994	m_2969994	
+	m	(Lnet/minecraft/unmapped/C_0539808;)F	m_2969994	getExplosionResistance	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0557736;)V	m_7940442	m_7940442	
 		p	1		p_1	
@@ -51,8 +51,8 @@ c	net/minecraft/unmapped/C_1241852
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_1428858	net/minecraft/unmapped/C_1428858	
-	f	Lnet/minecraft/unmapped/C_1241852;	f_5211352	f_5211352	
+c	net/minecraft/unmapped/C_1428858	net/minecraft/world/level/block/StairBlock	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_5211352	base	
 	m	(ILnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -210,7 +210,7 @@ c	net/minecraft/unmapped/C_3216249
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_3622326
-	m	(DDD)D	m_8348378	m_8348378	
+	m	(DDD)D	m_8348378	distanceToSqr	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
@@ -265,7 +265,7 @@ c	net/minecraft/unmapped/C_5577922
 		p	7		p_7	
 		p	9		p_9	
 		p	11		p_11	
-	m	()D	m_8440094	m_8440094	
+	m	()D	m_8440094	getSize	
 	m	(Lnet/minecraft/unmapped/C_5577922;)V	m_9602146	m_9602146	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
@@ -275,7 +275,7 @@ c	net/minecraft/unmapped/C_5664496
 	f	Ljava/lang/String;	f_4057030		f_4057030
 	f	I	f_3882850		f_3882850
 c	net/minecraft/unmapped/C_6849228
-	f	J	f_2098170	f_2098170	
+	f	J	f_2098170	lastSaveTime	
 	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_5577922;Ljava/util/List;)V	m_8657161		m_8657161
 		p	1			p_1
 		p	2			p_2
@@ -307,5 +307,5 @@ c	net/minecraft/unmapped/C_9236886	net/minecraft/unmapped/C_9236886
 		p	0		p_0	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_9482745
-	f	Z	f_7742916	f_7742916	
+	f	Z	f_7742916	flipped	
 	m	()D	m_7168636	m_7168636	

@@ -15,26 +15,26 @@ c	net/minecraft/realms/Tezzelator
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_0349999
-	f	Lnet/minecraft/unmapped/C_2609740;	f_6328716		f_6328716
-	f	Lnet/minecraft/unmapped/C_2609740;	f_9921196		f_9921196
-	f	Lnet/minecraft/unmapped/C_2609740;	f_2513502		f_2513502
-	f	Lnet/minecraft/unmapped/C_2609740;	f_8192464		f_8192464
-	f	Lnet/minecraft/unmapped/C_2609740;	f_0789188		f_0789188
-	f	Lnet/minecraft/unmapped/C_2609740;	f_1232428		f_1232428
-	f	Lnet/minecraft/unmapped/C_2609740;	f_9827845		f_9827845
-	f	Lnet/minecraft/unmapped/C_2609740;	f_0094024		f_0094024
-	f	Lnet/minecraft/unmapped/C_2609740;	f_4023488		f_4023488
-	f	Lnet/minecraft/unmapped/C_2609740;	f_5449347		f_5449347
-	f	Lnet/minecraft/unmapped/C_2609740;	f_2972593		f_2972593
-	f	Lnet/minecraft/unmapped/C_2609740;	f_6999083		f_6999083
-	f	Lnet/minecraft/unmapped/C_2609740;	f_2605661		f_2605661
-	f	Lnet/minecraft/unmapped/C_2609740;	f_2643112		f_2643112
-	f	Lnet/minecraft/unmapped/C_2609740;	f_7668712		f_7668712
-	f	Lnet/minecraft/unmapped/C_2609740;	f_4030427		f_4030427
-	f	Lnet/minecraft/unmapped/C_2609740;	f_4177548		f_4177548
-	f	Lnet/minecraft/unmapped/C_2609740;	f_8448610		f_8448610
-	f	Lnet/minecraft/unmapped/C_2609740;	f_4772152		f_4772152
-	f	Lnet/minecraft/unmapped/C_2609740;	f_2125246		f_2125246
+	f	Lnet/minecraft/unmapped/C_2609740;	f_6328716		EAT_CAKE_SLICE
+	f	Lnet/minecraft/unmapped/C_2609740;	f_9921196		FILL_CAULDRON
+	f	Lnet/minecraft/unmapped/C_2609740;	f_2513502		USE_CAULDRON
+	f	Lnet/minecraft/unmapped/C_2609740;	f_8192464		CLEAN_ARMOR
+	f	Lnet/minecraft/unmapped/C_2609740;	f_0789188		CLEAN_BANNER
+	f	Lnet/minecraft/unmapped/C_2609740;	f_1232428		INTERACT_WITH_BREWINGSTAND
+	f	Lnet/minecraft/unmapped/C_2609740;	f_9827845		INTERACT_WITH_BEACON
+	f	Lnet/minecraft/unmapped/C_2609740;	f_0094024		INSPECT_DROPPER
+	f	Lnet/minecraft/unmapped/C_2609740;	f_4023488		INSPECT_HOPPER
+	f	Lnet/minecraft/unmapped/C_2609740;	f_5449347		INSPECT_DISPENSER
+	f	Lnet/minecraft/unmapped/C_2609740;	f_2972593		PLAY_NOTEBLOCK
+	f	Lnet/minecraft/unmapped/C_2609740;	f_6999083		TUNE_NOTEBLOCK
+	f	Lnet/minecraft/unmapped/C_2609740;	f_2605661		POT_FLOWER
+	f	Lnet/minecraft/unmapped/C_2609740;	f_2643112		TRIGGER_TRAPPED_CHEST
+	f	Lnet/minecraft/unmapped/C_2609740;	f_7668712		OPEN_ENDERCHEST
+	f	Lnet/minecraft/unmapped/C_2609740;	f_4030427		ENCHANT_ITEM
+	f	Lnet/minecraft/unmapped/C_2609740;	f_4177548		PLAY_RECORD
+	f	Lnet/minecraft/unmapped/C_2609740;	f_8448610		INTERACT_WITH_FURNACE
+	f	Lnet/minecraft/unmapped/C_2609740;	f_4772152		INTERACT_WITH_CRAFTING_TABLE
+	f	Lnet/minecraft/unmapped/C_2609740;	f_2125246		OPEN_CHEST
 c	net/minecraft/unmapped/C_0362364
 	f	I	f_5400467	f_5400467	
 	m	(I)V	m_1643950	m_1643950	
@@ -68,19 +68,19 @@ c	net/minecraft/unmapped/C_1103360
 		p	3			p_3
 c	net/minecraft/unmapped/C_1331819
 	f	I	f_2009775		f_2009775
-	f	Z	f_4999630		f_4999630
+	f	Z	f_4999630		renderFpsChart
 c	net/minecraft/unmapped/C_2713005
-	m	()I	m_7832399		m_7832399
-	m	(I)I	m_9201410		m_9201410
+	m	()I	m_7832399		getIntegerSize
+	m	(I)I	m_9201410		getOffset
 		p	1			p_1
 c	net/minecraft/unmapped/C_2907104
 	m	()V	m_7430569		m_7430569
-	m	(IIII)I	m_3701925		m_3701925
+	m	(IIII)I	m_3701925		getSampleColor
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(IIF)I	m_6253742		m_6253742
+	m	(IIF)I	m_6253742		colorLerp
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -90,29 +90,29 @@ c	net/minecraft/unmapped/C_3438842
 c	net/minecraft/unmapped/C_3754158
 	f	Lnet/minecraft/unmapped/C_1081513;	f_8566471	f_8566471	
 c	net/minecraft/unmapped/C_4253627
-	m	(Lnet/minecraft/unmapped/C_8373595;I)I	m_4051893	m_4051893	
+	m	(Lnet/minecraft/unmapped/C_8373595;I)I	m_4051893	end	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8373595;)V	m_4051893		m_4051893
+	m	(Lnet/minecraft/unmapped/C_8373595;)V	m_4051893		end
 		p	1			p_1
 c	net/minecraft/unmapped/C_4461663
-	f	Lnet/minecraft/unmapped/C_0362364;	f_1594767		f_1594767
-	f	Lnet/minecraft/unmapped/C_0362364;	f_4530140		f_4530140
-	f	Lnet/minecraft/unmapped/C_0362364;	f_3802405		f_3802405
-	f	Lnet/minecraft/unmapped/C_0362364;	f_8100067		f_8100067
-	f	Lnet/minecraft/unmapped/C_0362364;	f_6322644		f_6322644
-	f	Lnet/minecraft/unmapped/C_0362364;	f_6887020		f_6887020
+	f	Lnet/minecraft/unmapped/C_0362364;	f_1594767		ELEMENT_POSITION
+	f	Lnet/minecraft/unmapped/C_0362364;	f_4530140		ELEMENT_COLOR
+	f	Lnet/minecraft/unmapped/C_0362364;	f_3802405		ELEMENT_UV0
+	f	Lnet/minecraft/unmapped/C_0362364;	f_8100067		ELEMENT_UV1
+	f	Lnet/minecraft/unmapped/C_0362364;	f_6322644		ELEMENT_NORMAL
+	f	Lnet/minecraft/unmapped/C_0362364;	f_6887020		ELEMENT_PADDING
 c	net/minecraft/unmapped/C_5091950
-	m	(Ljava/nio/ByteBuffer;I)V	m_7533708	m_7533708	
+	m	(Ljava/nio/ByteBuffer;I)V	m_7533708	upload	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/nio/ByteBuffer;)V	m_7533708		m_7533708
+	m	(Ljava/nio/ByteBuffer;)V	m_7533708		upload
 		p	1			p_1
 c	net/minecraft/unmapped/C_5577922
-	m	()Z	m_3967670		m_3967670
+	m	()Z	m_3967670		hasNaN
 c	net/minecraft/unmapped/C_5786166
-	m	()I	m_8222644	m_8222644	
-	m	()V	m_8222644		m_8222644
+	m	()I	m_8222644	end	
+	m	()V	m_8222644		end
 c	net/minecraft/unmapped/C_7028449
 	m	()Z	m_7711876	m_7711876	
 c	net/minecraft/unmapped/C_7799337
@@ -141,14 +141,14 @@ c	net/minecraft/unmapped/C_7969922	net/minecraft/unmapped/C_7969922
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_8105098
-	f	Lnet/minecraft/unmapped/C_6939891;	f_5944006		f_5944006
+	f	Lnet/minecraft/unmapped/C_6939891;	f_5944006		frameTimer
 	f	J	f_8416520		f_8416520
-	m	()Lnet/minecraft/unmapped/C_6939891;	m_8087865		m_8087865
+	m	()Lnet/minecraft/unmapped/C_6939891;	m_8087865		getFrameTimer
 c	net/minecraft/unmapped/C_8373595
 	f	I	f_5697498	f_5697498	
 	f	I	f_7654450	f_7654450	
 	f	I	f_0814539	f_0814539	
-	m	(FFF)Lnet/minecraft/unmapped/C_1103360;	m_1160065	m_1160065	
+	m	(FFF)Lnet/minecraft/unmapped/C_1103360;	m_1160065	sortQuads	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -156,15 +156,15 @@ c	net/minecraft/unmapped/C_8373595
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	()I	m_4394613	m_4394613	
+	m	()I	m_4394613	end	
 	m	()I	m_8711360	m_8711360	
-	m	(FFF)V	m_1160065		m_1160065
+	m	(FFF)V	m_1160065		sortQuads
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()Lnet/minecraft/unmapped/C_1103360;	m_2087006		m_2087006
-	m	()I	m_1109914		m_1109914
-	m	(Ljava/nio/FloatBuffer;FFFII)F	m_6271568		m_6271568
+	m	()Lnet/minecraft/unmapped/C_1103360;	m_2087006		getState
+	m	()I	m_1109914		getBufferIndex
+	m	(Ljava/nio/FloatBuffer;FFFII)F	m_6271568		getQuadDistanceFromPlayer
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -175,7 +175,7 @@ c	net/minecraft/unmapped/C_8373595
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()V	m_4394613		m_4394613
+	m	()V	m_4394613		end
 c	net/minecraft/unmapped/C_8377075
 	m	(Lnet/minecraft/unmapped/C_8373595;I)I	m_4051893	m_4051893	
 		p	1		p_1	
@@ -194,19 +194,19 @@ c	net/minecraft/unmapped/C_5590616		net/minecraft/unmapped/C_5590616
 	m	(Ljava/lang/Object;Ljava/lang/Object;)I	compare		compare
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_6939891		net/minecraft/unmapped/C_6939891
-	f	[J	f_6760290		f_6760290
-	f	I	f_6208621		f_6208621
-	f	I	f_3075471		f_3075471
-	f	I	f_9038534		f_9038534
+c	net/minecraft/unmapped/C_6939891		net/minecraft/util/FrameTimer
+	f	[J	f_6760290		loggedTimes
+	f	I	f_6208621		logStart
+	f	I	f_3075471		logLength
+	f	I	f_9038534		logEnd
 	m	()V	<init>		<init>
-	m	(J)V	m_1835250		m_1835250
+	m	(J)V	m_1835250		logFrameDuration
 		p	1			p_1
-	m	(JI)I	m_1373916		m_1373916
+	m	(JI)I	m_1373916		scaleSampleTo
 		p	1			p_1
 		p	3			p_3
-	m	()I	m_1786300		m_1786300
-	m	()I	m_7311582		m_7311582
-	m	(I)I	m_8272331		m_8272331
+	m	()I	m_1786300		getLogStart
+	m	()I	m_7311582		getLogEnd
+	m	(I)I	m_8272331		wrapIndex
 		p	1			p_1
-	m	()[J	m_2958019		m_2958019
+	m	()[J	m_2958019		getLog

@@ -21,16 +21,16 @@ c	net/minecraft/client/C_5664496
 		p	1		p_1	
 	m	()V	m_9990242	m_9990242	
 c	net/minecraft/unmapped/C_0539808
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7690388	m_7690388	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7690388	saveWithoutId	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_3608898	m_3608898	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_3608898	load	
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_1061793	m_1061793	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	m_7694759	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	readAdditionalSaveData	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840	m_1129840	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840	addAdditionalSaveData	
 		p	1		p_1	
-	m	([D)Lnet/minecraft/unmapped/C_5693434;	m_4393775	m_4393775	
+	m	([D)Lnet/minecraft/unmapped/C_5693434;	m_4393775	newDoubleList	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_0987157
 	f	Ljava/util/Random;	f_3952515		f_3952515
@@ -54,7 +54,7 @@ c	net/minecraft/unmapped/C_1023567
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	m_7694759	
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_1061793	m_1061793	
-c	net/minecraft/unmapped/C_1189578	net/minecraft/unmapped/C_1189578	
+c	net/minecraft/unmapped/C_1189578	net/minecraft/nbt/EndTag	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/DataInput;)V	m_9918199	m_9918199	
 		p	1		p_1	
@@ -68,10 +68,10 @@ c	net/minecraft/unmapped/C_1350658
 	m	()Ljava/lang/String;	m_1061793	m_1061793	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	m_7694759	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1441789	net/minecraft/unmapped/C_1441789	
-	f	Lnet/minecraft/unmapped/C_3020744;	f_1860582	f_1860582	
+c	net/minecraft/unmapped/C_1441789	net/minecraft/client/gui/screens/ConfirmScreen	
+	f	Lnet/minecraft/unmapped/C_3020744;	f_1860582	callback	
 	f	Ljava/lang/String;	f_6214191	f_6214191	
-	f	Ljava/lang/String;	f_7114120	f_7114120	
+	f	Ljava/lang/String;	f_7114120	title2	
 	f	I	f_5789322	f_5789322	
 	m	(Lnet/minecraft/unmapped/C_3020744;Ljava/lang/String;Ljava/lang/String;I)V	<init>	<init>	
 		p	1		p_1	
@@ -102,57 +102,57 @@ c	net/minecraft/unmapped/C_2018497
 	m	(Ljava/io/DataInput;)V	m_9918199	m_9918199	
 		p	1		p_1	
 	m	()B	m_0346400	m_0346400	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3225627;)V	m_2972230	m_2972230	
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3225627;)V	m_2972230	put	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;B)V	m_9476613	m_9476613	
+	m	(Ljava/lang/String;B)V	m_9476613	putByte	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;S)V	m_2856679	m_2856679	
+	m	(Ljava/lang/String;S)V	m_2856679	putShort	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;I)V	m_6525930	m_6525930	
+	m	(Ljava/lang/String;I)V	m_6525930	putInt	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;J)V	m_7177295	m_7177295	
+	m	(Ljava/lang/String;J)V	m_7177295	putLong	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Ljava/lang/String;F)V	m_2391638	m_2391638	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;Ljava/lang/String;)V	m_1991972	m_1991972	
+	m	(Ljava/lang/String;Ljava/lang/String;)V	m_1991972	putString	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;[B)V	m_3033673	m_3033673	
+	m	(Ljava/lang/String;[B)V	m_3033673	putByteArray	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_2018497;)V	m_6976760	m_6976760	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;Z)V	m_0815577	m_0815577	
+	m	(Ljava/lang/String;Z)V	m_0815577	putBoolean	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Ljava/lang/String;)Z	m_0016466	m_0016466	
 		p	1		p_1	
-	m	(Ljava/lang/String;)B	m_6724527	m_6724527	
+	m	(Ljava/lang/String;)B	m_6724527	getByte	
 		p	1		p_1	
-	m	(Ljava/lang/String;)S	m_9488035	m_9488035	
+	m	(Ljava/lang/String;)S	m_9488035	getShort	
 		p	1		p_1	
-	m	(Ljava/lang/String;)I	m_2250123	m_2250123	
+	m	(Ljava/lang/String;)I	m_2250123	getInt	
 		p	1		p_1	
-	m	(Ljava/lang/String;)J	m_7737691	m_7737691	
+	m	(Ljava/lang/String;)J	m_7737691	getLong	
 		p	1		p_1	
 	m	(Ljava/lang/String;)F	m_3941822	m_3941822	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Ljava/lang/String;	m_1107321	m_1107321	
+	m	(Ljava/lang/String;)Ljava/lang/String;	m_1107321	getString	
 		p	1		p_1	
-	m	(Ljava/lang/String;)[B	m_2735530	m_2735530	
+	m	(Ljava/lang/String;)[B	m_2735530	getByteArray	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_2018497;	m_6015642	m_6015642	
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_2018497;	m_6015642	getCompound	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_5693434;	m_7623152	m_7623152	
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_5693434;	m_7623152	getList	
 		p	1		p_1	
-	m	(Ljava/lang/String;)Z	m_0539249	m_0539249	
+	m	(Ljava/lang/String;)Z	m_0539249	getBoolean	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2363721
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840	m_1129840	
@@ -163,7 +163,7 @@ c	net/minecraft/unmapped/C_2363721
 c	net/minecraft/unmapped/C_2454309
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	<init>	<init>	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_6391280	m_6391280	
+	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_6391280	save	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2691939
 	m	(IIIII)V	m_5774577		m_5774577
@@ -183,14 +183,14 @@ c	net/minecraft/unmapped/C_3020744
 	m	(ZI)V	m_7743236	m_7743236	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3225627	net/minecraft/unmapped/C_3225627	
+c	net/minecraft/unmapped/C_3225627	net/minecraft/nbt/Tag	
 	f	Ljava/lang/String;	f_9035823	f_9035823	
 	m	()V	<init>	<init>	
-	m	(Ljava/io/DataOutput;)V	m_6394086	m_6394086	
+	m	(Ljava/io/DataOutput;)V	m_6394086	write	
 		p	1		p_1	
-	m	(Ljava/io/DataInput;)V	m_9918199	m_9918199	
+	m	(Ljava/io/DataInput;)V	m_9918199	load	
 		p	1		p_1	
-	m	()B	m_0346400	m_0346400	
+	m	()B	m_0346400	getId	
 	m	()Ljava/lang/String;	m_8998501	m_8998501	
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3225627;	m_4457344	m_4457344	
 		p	1		p_1	
@@ -199,7 +199,7 @@ c	net/minecraft/unmapped/C_3225627	net/minecraft/unmapped/C_3225627
 	m	(Lnet/minecraft/unmapped/C_3225627;Ljava/io/DataOutput;)V	m_0479039	m_0479039	
 		p	0		p_0	
 		p	1		p_1	
-	m	(B)Lnet/minecraft/unmapped/C_3225627;	m_1352899	m_1352899	
+	m	(B)Lnet/minecraft/unmapped/C_3225627;	m_1352899	newTag	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_3242141
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840	m_1129840	
@@ -219,11 +219,11 @@ c	net/minecraft/unmapped/C_3622326
 	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_1660691	m_1660691	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	m_4740132	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	load	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7291294	m_7291294	
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7291294	save	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179	m_8878179	
+	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179	loadStatic	
 		p	0		p_0	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_4116648
@@ -239,10 +239,10 @@ c	net/minecraft/unmapped/C_4808571
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7291294	m_7291294	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_6154030	m_6154030	
+	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_6154030	getBurnDuration	
 		p	0		p_0	
-c	net/minecraft/unmapped/C_5058702	net/minecraft/unmapped/C_5058702	
-	f	D	f_1560513	f_1560513	
+c	net/minecraft/unmapped/C_5058702	net/minecraft/nbt/DoubleTag	
+	f	D	f_1560513	data	
 	m	()V	<init>	<init>	
 	m	(D)V	<init>	<init>	
 		p	1		p_1	
@@ -252,8 +252,8 @@ c	net/minecraft/unmapped/C_5058702	net/minecraft/unmapped/C_5058702
 		p	1		p_1	
 	m	()B	m_0346400	m_0346400	
 	m	()Ljava/lang/String;	toString	toString	
-c	net/minecraft/unmapped/C_5318159	net/minecraft/unmapped/C_5318159	
-	f	B	f_2497310	f_2497310	
+c	net/minecraft/unmapped/C_5318159	net/minecraft/nbt/ByteTag	
+	f	B	f_2497310	data	
 	m	()V	<init>	<init>	
 	m	(B)V	<init>	<init>	
 		p	1		p_1	
@@ -265,8 +265,8 @@ c	net/minecraft/unmapped/C_5318159	net/minecraft/unmapped/C_5318159
 	m	()Ljava/lang/String;	toString	toString	
 c	net/minecraft/unmapped/C_5353187
 	m	()V	m_9083158		m_9083158
-c	net/minecraft/unmapped/C_5362195	net/minecraft/unmapped/C_5362195	
-	f	Ljava/lang/String;	f_3331056	f_3331056	
+c	net/minecraft/unmapped/C_5362195	net/minecraft/nbt/StringTag	
+	f	Ljava/lang/String;	f_3331056	data	
 	m	()V	<init>	<init>	
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
@@ -307,8 +307,8 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 	m	()V	m_7247331	m_7247331	
 	m	()V	<init>		<init>
-c	net/minecraft/unmapped/C_5578771	net/minecraft/unmapped/C_5578771	
-	f	S	f_1180706	f_1180706	
+c	net/minecraft/unmapped/C_5578771	net/minecraft/nbt/ShortTag	
+	f	S	f_1180706	data	
 	m	()V	<init>	<init>	
 	m	(S)V	<init>	<init>	
 		p	1		p_1	
@@ -318,8 +318,8 @@ c	net/minecraft/unmapped/C_5578771	net/minecraft/unmapped/C_5578771
 		p	1		p_1	
 	m	()B	m_0346400	m_0346400	
 	m	()Ljava/lang/String;	toString	toString	
-c	net/minecraft/unmapped/C_5636518	net/minecraft/unmapped/C_5636518	
-	f	F	f_6852736	f_6852736	
+c	net/minecraft/unmapped/C_5636518	net/minecraft/nbt/FloatTag	
+	f	F	f_6852736	data	
 	m	()V	<init>	<init>	
 	m	(F)V	<init>	<init>	
 		p	1		p_1	
@@ -329,9 +329,9 @@ c	net/minecraft/unmapped/C_5636518	net/minecraft/unmapped/C_5636518
 		p	1		p_1	
 	m	()B	m_0346400	m_0346400	
 	m	()Ljava/lang/String;	toString	toString	
-c	net/minecraft/unmapped/C_5693434	net/minecraft/unmapped/C_5693434	
-	f	Ljava/util/List;	f_0279125	f_0279125	
-	f	B	f_8631370	f_8631370	
+c	net/minecraft/unmapped/C_5693434	net/minecraft/nbt/ListTag	
+	f	Ljava/util/List;	f_0279125	list	
+	f	B	f_8631370	type	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/DataOutput;)V	m_6394086	m_6394086	
 		p	1		p_1	
@@ -339,13 +339,13 @@ c	net/minecraft/unmapped/C_5693434	net/minecraft/unmapped/C_5693434
 		p	1		p_1	
 	m	()B	m_0346400	m_0346400	
 	m	()Ljava/lang/String;	toString	toString	
-	m	(Lnet/minecraft/unmapped/C_3225627;)V	m_0728373	m_0728373	
+	m	(Lnet/minecraft/unmapped/C_3225627;)V	m_0728373	updateType	
 		p	1		p_1	
 	m	(I)Lnet/minecraft/unmapped/C_3225627;	m_1033512	m_1033512	
 		p	1		p_1	
 	m	()I	m_8051737	m_8051737	
-c	net/minecraft/unmapped/C_5705147	net/minecraft/unmapped/C_5705147	
-	f	Lnet/minecraft/unmapped/C_3020744;	f_2033864	f_2033864	
+c	net/minecraft/unmapped/C_5705147	net/minecraft/client/gui/screens/worldselection/SelectWorldScreen	
+	f	Lnet/minecraft/unmapped/C_3020744;	f_2033864	lastScreen	
 	f	Ljava/lang/String;	f_7381457	f_7381457	
 	m	(Lnet/minecraft/unmapped/C_3020744;)V	<init>	<init>	
 		p	1		p_1	
@@ -387,8 +387,8 @@ c	net/minecraft/unmapped/C_6607881
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	m_7694759	
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_1061793	m_1061793	
-c	net/minecraft/unmapped/C_6684392	net/minecraft/unmapped/C_6684392	
-	f	[B	f_4332811	f_4332811	
+c	net/minecraft/unmapped/C_6684392	net/minecraft/nbt/ByteArrayTag	
+	f	[B	f_4332811	data	
 	m	()V	<init>	<init>	
 	m	([B)V	<init>	<init>	
 		p	1		p_1	
@@ -399,7 +399,7 @@ c	net/minecraft/unmapped/C_6684392	net/minecraft/unmapped/C_6684392
 	m	()B	m_0346400	m_0346400	
 	m	()Ljava/lang/String;	toString	toString	
 c	net/minecraft/unmapped/C_6849228
-	f	Z	f_6288246	f_6288246	
+	f	Z	f_6288246	unsaved	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_8402936	m_8402936	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_6849228;	m_2208916	m_2208916	
@@ -412,8 +412,8 @@ c	net/minecraft/unmapped/C_7400754
 	m	()V	m_2515885	m_2515885	
 c	net/minecraft/unmapped/C_7952195
 	m	()V	m_9083158		m_9083158
-c	net/minecraft/unmapped/C_8052742	net/minecraft/unmapped/C_8052742	
-	f	I	f_0021113	f_0021113	
+c	net/minecraft/unmapped/C_8052742	net/minecraft/nbt/IntTag	
+	f	I	f_0021113	data	
 	m	()V	<init>	<init>	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
@@ -474,8 +474,8 @@ c	net/minecraft/unmapped/C_9608041
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_9848147;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_9785392	net/minecraft/unmapped/C_9785392	
-	f	J	f_4174882	f_4174882	
+c	net/minecraft/unmapped/C_9785392	net/minecraft/nbt/LongTag	
+	f	J	f_4174882	data	
 	m	()V	<init>	<init>	
 	m	(J)V	<init>	<init>	
 		p	1		p_1	

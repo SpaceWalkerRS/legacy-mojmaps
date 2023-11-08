@@ -33,10 +33,10 @@ c	net/minecraft/unmapped/C_0490004
 c	net/minecraft/unmapped/C_0539808
 	f	Ljava/lang/String;	f_0929868	f_0929868	
 	m	()Ljava/lang/String;	m_6274448	m_6274448	
-	m	(II)Lnet/minecraft/unmapped/C_8300121;	m_6397813	m_6397813	
+	m	(II)Lnet/minecraft/unmapped/C_8300121;	m_6397813	spawnAtLocation	
 		p	1		p_1	
 		p	2		p_2	
-	m	(IIF)Lnet/minecraft/unmapped/C_8300121;	m_6388648	m_6388648	
+	m	(IIF)Lnet/minecraft/unmapped/C_8300121;	m_6388648	spawnAtLocation	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -219,7 +219,7 @@ c	net/minecraft/unmapped/C_5445172
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_5487116	net/minecraft/unmapped/C_5487116	
+c	net/minecraft/unmapped/C_5487116	net/minecraft/client/model/CowModel	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_5553933
 	f	I	f_6732352	f_6732352	
@@ -231,13 +231,13 @@ c	net/minecraft/unmapped/C_5553933
 	m	()V	m_4237443	m_4237443	
 	m	(F)F	m_2705875	m_2705875	
 		p	1		p_1	
-	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_2284587	m_2284587	
+	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_2284587	getCloudColor	
 		p	1		p_1	
 	m	(F)F	m_2724250	m_2724250	
 		p	1		p_1	
 	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_0577956	m_0577956	
 		p	1		p_1	
-	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_3993231	m_3993231	
+	m	(F)Lnet/minecraft/unmapped/C_0557736;	m_3993231	getSkyColor	
 		p	1		p_1	
 	m	()I	m_1560346	m_1560346	
 	m	()V	m_8798715	m_8798715	
@@ -269,7 +269,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	3			p_3
 c	net/minecraft/unmapped/C_5577922
 	m	()Lnet/minecraft/unmapped/C_0557736;	m_9537830		m_9537830
-c	net/minecraft/unmapped/C_5699383	net/minecraft/unmapped/C_5699383	
+c	net/minecraft/unmapped/C_5699383	net/minecraft/world/level/block/GlassBlock	
 	m	(IILnet/minecraft/unmapped/C_8048208;Z)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -291,8 +291,8 @@ c	net/minecraft/unmapped/C_6607881
 	f	I	f_0053459	f_0053459	
 	m	()Ljava/lang/String;	m_6274448	m_6274448	
 	m	()Ljava/lang/String;	m_4151868	m_4151868	
-	m	()Ljava/lang/String;	m_5045007	m_5045007	
-	m	()Ljava/lang/String;	m_1699770	m_1699770	
+	m	()Ljava/lang/String;	m_5045007	getHurtSound	
+	m	()Ljava/lang/String;	m_1699770	getDeathSound	
 c	net/minecraft/unmapped/C_7079324	net/minecraft/unmapped/C_7079324	
 	f	I	f_1773705	f_1773705	
 	f	Ljava/util/List;	f_4303376	f_4303376	
@@ -342,14 +342,14 @@ c	net/minecraft/unmapped/C_7639596
 	m	(Lnet/minecraft/unmapped/C_6607881;I)Z	m_6142922	m_6142922	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_6607881;)F	m_8081418	m_8081418	
+	m	(Lnet/minecraft/unmapped/C_6607881;)F	m_8081418	getFlipDegrees	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_6607881;FF)I	m_0175108	m_0175108	
+	m	(Lnet/minecraft/unmapped/C_6607881;FF)I	m_0175108	getOverlayColor	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 	m	()F	m_8119463		m_8119463
-	m	(Lnet/minecraft/unmapped/C_6607881;F)I	m_0175108		m_0175108
+	m	(Lnet/minecraft/unmapped/C_6607881;F)I	m_0175108		getOverlayColor
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7759597	net/minecraft/unmapped/C_7759597	
@@ -373,7 +373,7 @@ c	net/minecraft/unmapped/C_8253973
 		p	2		p_2	
 		p	3		p_3	
 	m	()Ljava/lang/String;	m_3588390		m_3588390
-c	net/minecraft/unmapped/C_8322294	net/minecraft/unmapped/C_8322294	
+c	net/minecraft/unmapped/C_8322294	net/minecraft/client/renderer/entity/SheepRenderer	
 	m	(Lnet/minecraft/unmapped/C_7503776;Lnet/minecraft/unmapped/C_7503776;F)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -409,7 +409,7 @@ c	net/minecraft/unmapped/C_8980628
 	m	(Ljava/lang/String;Ljava/lang/String;)V	m_5786061	m_5786061	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_9139005	net/minecraft/unmapped/C_9139005	
+c	net/minecraft/unmapped/C_9139005	net/minecraft/client/renderer/entity/player/PlayerRenderer	
 	f	Lnet/minecraft/unmapped/C_2313930;	f_4448103	f_4448103	
 	f	Lnet/minecraft/unmapped/C_2313930;	f_9975077	f_9975077	
 	m	()V	<init>	<init>	
@@ -423,12 +423,12 @@ c	net/minecraft/unmapped/C_9232749
 		p	1		p_1	
 	m	()V	m_5371592	m_5371592	
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2045457	m_2045457	
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2045457	drop	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2454309;Z)V	m_2211846	m_2211846	
+	m	(Lnet/minecraft/unmapped/C_2454309;Z)V	m_2211846	drop	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2211846		m_2211846
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2211846		drop
 		p	1			p_1
 c	net/minecraft/unmapped/C_9761743
 	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_4879729	m_4879729	

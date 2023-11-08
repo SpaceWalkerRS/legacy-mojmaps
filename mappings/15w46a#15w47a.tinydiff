@@ -18,10 +18,10 @@ c	net/minecraft/unmapped/C_1027277
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)Z	m_3125703	m_3125703	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)Z	m_3125703	isAir	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_3674802;)Z	m_3125703		m_3125703
+	m	(Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_3674802;)Z	m_3125703		isAir
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3037945
@@ -75,14 +75,14 @@ c	net/minecraft/unmapped/C_7431851
 c	net/minecraft/unmapped/C_8354080
 	f	Z	f_2155929		f_2155929
 c	net/minecraft/unmapped/C_8651652
-	m	(Lnet/minecraft/unmapped/C_7799337;)V	m_9770507		m_9770507
+	m	(Lnet/minecraft/unmapped/C_7799337;)V	m_9770507		renderVehicleHealth
 		p	1			p_1
 c	net/minecraft/unmapped/C_9221482
-	f	Lnet/minecraft/unmapped/C_7721249;	f_3603343		f_3603343
-	f	Lnet/minecraft/unmapped/C_7721249;	f_8371949		f_8371949
-	f	Lnet/minecraft/unmapped/C_7721249;	f_9742639		f_9742639
-	f	Lnet/minecraft/unmapped/C_7721249;	f_6715595		f_6715595
-c	net/minecraft/unmapped/C_9011960		net/minecraft/unmapped/C_9011960
+	f	Lnet/minecraft/unmapped/C_7721249;	f_3603343		ARMOR_STAND_PLACE
+	f	Lnet/minecraft/unmapped/C_7721249;	f_8371949		ARMOR_STAND_FALL
+	f	Lnet/minecraft/unmapped/C_7721249;	f_9742639		ARMOR_STAND_HIT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_6715595		ARMOR_STAND_BREAK
+c	net/minecraft/unmapped/C_9011960		net/minecraft/util/datafix/fixes/EntityArmorStandSilentFix
 	m	()V	<init>		<init>
 	m	()I	m_5344326		m_5344326
 	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_3031479		m_3031479

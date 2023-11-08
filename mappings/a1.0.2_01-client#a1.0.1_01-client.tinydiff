@@ -3,7 +3,7 @@ c	net/minecraft/unmapped/C_2485969
 	m	(II)I	m_8325719	m_8325719	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_2794365	net/minecraft/unmapped/C_2794365	
+c	net/minecraft/unmapped/C_2794365	net/minecraft/client/particle/DustParticle	
 	f	F	f_6835523	f_6835523	
 	m	(Lnet/minecraft/unmapped/C_5553933;DDD)V	<init>	<init>	
 		p	1		p_1	
@@ -33,7 +33,7 @@ c	net/minecraft/unmapped/C_8305266
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_0539850	m_0539850	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_0539850	spawnParticles	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -45,7 +45,7 @@ c	net/minecraft/unmapped/C_9469238
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_1075688	m_1075688	
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_1075688	shouldConnectTo	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	

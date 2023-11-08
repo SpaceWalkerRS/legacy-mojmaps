@@ -1,13 +1,13 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_3292284
-	m	(FFZZFF)V	m_9868319	m_9868319	
+	m	(FFZZFF)V	m_9868319	setPlayerInput	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(FFZZ)V	m_9868319		m_9868319
+	m	(FFZZ)V	m_9868319		setPlayerInput
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -32,11 +32,11 @@ c	net/minecraft/unmapped/C_4511817
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_8048208
-	f	Lnet/minecraft/unmapped/C_8048208;	f_1373922		f_1373922
+	f	Lnet/minecraft/unmapped/C_8048208;	f_1373922		CLOTH_DECORATION
 c	net/minecraft/unmapped/C_8099772
-	m	()V	m_3905332		m_3905332
-	m	()Z	m_1314904		m_1314904
-c	net/minecraft/unmapped/C_9045370		net/minecraft/unmapped/C_9045370
+	m	()V	m_3905332		setPersistenceRequired
+	m	()Z	m_1314904		isPersistenceRequired
+c	net/minecraft/unmapped/C_9045370		net/minecraft/world/item/NameTagItem
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_6607881;)Z	m_4911788		m_4911788

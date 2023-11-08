@@ -5,13 +5,13 @@ c	net/minecraft/unmapped/C_1096482
 	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_6923930	m_6923930	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1264786
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2454309;)Z	m_2442845	m_2442845	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2454309;)Z	m_2442845	updateCustomBlockEntityTag	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_8969214	m_8969214	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2454309;)Z	m_2442845		m_2442845
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2454309;)Z	m_2442845		updateCustomBlockEntityTag
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -23,7 +23,7 @@ c	net/minecraft/unmapped/C_1857222
 c	net/minecraft/unmapped/C_3335560
 	m	()Lnet/minecraft/unmapped/C_1241852;	m_0494941	m_0494941	
 c	net/minecraft/unmapped/C_3622326
-	m	()Z	m_3179464		m_3179464
+	m	()Z	m_3179464		onlyOpCanSetNbt
 c	net/minecraft/unmapped/C_7451349
 	m	()Z	m_3179464		m_3179464
 c	net/minecraft/unmapped/C_9008593

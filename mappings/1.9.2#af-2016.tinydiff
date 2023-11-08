@@ -20,7 +20,7 @@ c	net/minecraft/unmapped/C_3325952
 c	net/minecraft/unmapped/C_3628668
 	f	Lnet/minecraft/unmapped/C_1241852;	f_4650945		f_4650945
 c	net/minecraft/unmapped/C_3716663
-	m	(DDDDDD)Z	m_7147932	m_7147932	
+	m	(DDDDDD)Z	m_7147932	cubeInFrustum	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
@@ -50,9 +50,9 @@ c	net/minecraft/unmapped/C_6834966$C_4964589		C_4964589
 		p	7			p_7
 c	net/minecraft/unmapped/C_8651652
 	f	Lnet/minecraft/unmapped/C_0561170;	f_1381860		f_1381860
-	m	(Lnet/minecraft/unmapped/C_7799337;)V	m_2954168	m_2954168	
+	m	(Lnet/minecraft/unmapped/C_7799337;)V	m_2954168	renderPumpkin	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_7799337;Lnet/minecraft/unmapped/C_0561170;)V	m_2954168		m_2954168
+	m	(Lnet/minecraft/unmapped/C_7799337;Lnet/minecraft/unmapped/C_0561170;)V	m_2954168		renderPumpkin
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_9221482
@@ -64,12 +64,12 @@ c	net/minecraft/unmapped/C_9482064$1
 	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_6187402		m_6187402
 		p	1			p_1
 c	net/minecraft/unmapped/C_9620653
-	m	([FDDD)D	m_1131406	m_1131406	
+	m	([FDDD)D	m_1131406	discriminant	
 		p	1		p_1	
 		p	2		p_2	
 		p	4		p_4	
 		p	6		p_6	
-	m	(DDDDDD)Z	m_8467425	m_8467425	
+	m	(DDDDDD)Z	m_8467425	cubeInFrustum	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	

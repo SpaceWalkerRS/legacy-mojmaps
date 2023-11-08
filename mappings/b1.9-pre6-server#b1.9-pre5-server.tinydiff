@@ -2,24 +2,24 @@ tiny	2	0
 c	net/minecraft/unmapped/C_0539808
 	f	I	f_0470256		f_0470256
 	f	I	f_5711542		f_5711542
-	m	()I	m_2477999	m_2477999	
-	m	(I)V	m_3521250	m_3521250	
+	m	()I	m_2477999	getAirSupply	
+	m	(I)V	m_3521250	setAirSupply	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_0807932	m_0807932	
+	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_0807932	is	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_0607826
 	f	I	f_8195269		f_8195269
 	f	I	f_1378839		f_1378839
 	f	I	f_8725098		f_8725098
-	m	(I)V	m_3795038	m_3795038	
+	m	(I)V	m_3795038	setDamage	
 		p	1		p_1	
-	m	()I	m_1515300	m_1515300	
-	m	(I)V	m_1375950	m_1375950	
+	m	()I	m_1515300	getDamage	
+	m	(I)V	m_1375950	setHurtTime	
 		p	1		p_1	
-	m	()I	m_4392568	m_4392568	
-	m	(I)V	m_5094158	m_5094158	
+	m	()I	m_4392568	getHurtTime	
+	m	(I)V	m_5094158	setHurtDir	
 		p	1		p_1	
-	m	()I	m_6541172	m_6541172	
+	m	()I	m_6541172	getHurtDir	
 c	net/minecraft/unmapped/C_0674816
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_1241852;)F	m_5853631	m_5853631	
 		p	1		p_1	
@@ -83,7 +83,7 @@ c	net/minecraft/unmapped/C_2842713
 c	net/minecraft/unmapped/C_3167010
 	f	Lnet/minecraft/unmapped/C_3167010;	f_1817470	f_1817470	
 c	net/minecraft/unmapped/C_3292284
-	f	Z	f_2684304	f_2684304	
+	f	Z	f_2684304	wonGame	
 c	net/minecraft/unmapped/C_3484082
 	m	(Z)V	<init>	<init>	
 		p	1		p_1	
@@ -102,24 +102,24 @@ c	net/minecraft/unmapped/C_4442172
 	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_7842021	m_7842021	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_4551488
-	f	Lnet/minecraft/unmapped/C_8869969;	f_8174025	f_8174025	
+	f	Lnet/minecraft/unmapped/C_8869969;	f_8174025	nearestCrystal	
 	m	()V	m_1700770	m_1700770	
-	m	()V	m_3731768	m_3731768	
+	m	()V	m_3731768	checkCrystals	
 	m	()V	m_5672057	m_5672057	
-	m	(Ljava/util/List;)V	m_3593572	m_3593572	
+	m	(Ljava/util/List;)V	m_3593572	knockBack	
 		p	1		p_1	
-	m	(Ljava/util/List;)V	m_6332823	m_6332823	
+	m	(Ljava/util/List;)V	m_6332823	hurt	
 		p	1		p_1	
 	m	()V	m_3473757	m_3473757	
 	m	(II)V	m_8545629	m_8545629	
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_4976084
-	m	(III)I	m_1109374	m_1109374	
+	m	(III)I	m_1109374	clamp	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_5349997	net/minecraft/unmapped/C_5349997	
+c	net/minecraft/unmapped/C_5349997	net/minecraft/world/level/block/DragonEggBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -157,7 +157,7 @@ c	net/minecraft/unmapped/C_5349997	net/minecraft/unmapped/C_5349997
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2775382	m_2775382	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_2775382	teleport	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -195,7 +195,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(IIIZ)Z	m_3675118	m_3675118	
+	m	(IIIZ)Z	m_3675118	loadedAndEntityCanStandOn	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -204,7 +204,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_6849228
-	m	()Z	m_5909771	m_5909771	
+	m	()Z	m_5909771	isEmpty	
 c	net/minecraft/unmapped/C_7030522
 	f	Z	f_6938878	f_6938878	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_5577922;Ljava/util/ArrayList;)V	m_6210370	m_6210370	
@@ -215,7 +215,7 @@ c	net/minecraft/unmapped/C_7030522
 		p	5		p_5	
 		p	6		p_6	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_7110897	net/minecraft/unmapped/C_7110897	
+c	net/minecraft/unmapped/C_7110897	net/minecraft/world/item/WaterLilyBlockItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2454309;	m_3205185	m_3205185	
@@ -229,20 +229,20 @@ c	net/minecraft/unmapped/C_7393212
 		p	1		p_1	
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_7400754
-	m	(Lnet/minecraft/unmapped/C_7400754;)V	m_7412451	m_7412451	
+	m	(Lnet/minecraft/unmapped/C_7400754;)V	m_7412451	replaceWith	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7650729
 	m	()Z	m_6174711	m_6174711	
 c	net/minecraft/unmapped/C_8048208
-	f	Lnet/minecraft/unmapped/C_8048208;	f_7045746	f_7045746	
+	f	Lnet/minecraft/unmapped/C_8048208;	f_7045746	EGG	
 c	net/minecraft/unmapped/C_8305266
 	m	(ILjava/util/Random;)I	m_9281164	m_9281164	
 		p	1		p_1	
 		p	2		p_2	
 	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_7842021	m_7842021	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_8869969	net/minecraft/unmapped/C_8869969	
-	f	I	f_5747851	f_5747851	
+c	net/minecraft/unmapped/C_8869969	net/minecraft/world/entity/boss/enderdragon/EndCrystal	
+	f	I	f_5747851	time	
 	f	I	f_8036738	f_8036738	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
@@ -277,7 +277,7 @@ c	net/minecraft/unmapped/C_9375022
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_9469238
-	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_1075688	m_1075688	
+	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_1075688	shouldConnectTo	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -290,15 +290,15 @@ c	net/minecraft/unmapped/C_9482745
 	m	()Z	m_6725589	m_6725589	
 	m	(Z)V	m_6179832	m_6179832	
 		p	1		p_1	
-	m	(I)V	m_5124812	m_5124812	
+	m	(I)V	m_5124812	setDamage	
 		p	1		p_1	
-	m	()I	m_7734358	m_7734358	
-	m	(I)V	m_2242598	m_2242598	
+	m	()I	m_7734358	getDamage	
+	m	(I)V	m_2242598	setHurtTime	
 		p	1		p_1	
-	m	()I	m_2133556	m_2133556	
-	m	(I)V	m_4626336	m_4626336	
+	m	()I	m_2133556	getHurtTime	
+	m	(I)V	m_4626336	setHurtDir	
 		p	1		p_1	
-	m	()I	m_8944050	m_8944050	
+	m	()I	m_8944050	getHurtDir	
 c	net/minecraft/unmapped/C_9753638
 	m	(Z)V	<init>	<init>	
 		p	1		p_1	

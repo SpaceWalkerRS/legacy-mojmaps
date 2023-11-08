@@ -9,12 +9,12 @@ c	net/minecraft/unmapped/C_2313930
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_2711798
-	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_3397298	m_3397298	
+	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_3397298	mayPlace	
 		p	1		p_1	
-	m	()I	m_4637113	m_4637113	
-	m	()Z	m_3397298		m_3397298
+	m	()I	m_4637113	getNoItemIcon	
+	m	()Z	m_3397298		mayPlace
 c	net/minecraft/unmapped/C_3716663
-	f	Lnet/minecraft/unmapped/C_9620653;	f_3556553	f_3556553	
+	f	Lnet/minecraft/unmapped/C_9620653;	f_3556553	frustum	
 	f	[Lnet/minecraft/unmapped/C_2283777;	f_7814686		f_7814686
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_6607881;FF)V	<init>		<init>
@@ -25,11 +25,11 @@ c	net/minecraft/unmapped/C_4065940
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_3397298	m_3397298	
 		p	1		p_1	
 	m	()Z	m_3397298		m_3397298
-c	net/minecraft/unmapped/C_5502075	net/minecraft/unmapped/C_5502075	
+c	net/minecraft/unmapped/C_5502075	net/minecraft/world/item/ArmorItem	
 	f	[I	f_0950764	f_0950764	
 	f	[I	f_8744331	f_8744331	
-	f	I	f_3944942	f_3944942	
-	f	I	f_7010937	f_7010937	
+	f	I	f_3944942	slot	
+	f	I	f_7010937	defense	
 	f	I	f_6133844	f_6133844	
 	m	(IIII)V	<init>	<init>	
 		p	1		p_1	
@@ -72,8 +72,8 @@ c	net/minecraft/unmapped/C_6626902	net/minecraft/unmapped/C_6626902
 		p	1		p_1	
 	m	()I	m_4637113	m_4637113	
 c	net/minecraft/unmapped/C_7400754
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_5527103	f_5527103	
-	f	Lnet/minecraft/unmapped/C_9590849;	f_9685560	f_9685560	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_5527103	armor	
+	f	Lnet/minecraft/unmapped/C_9590849;	f_9685560	player	
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	<init>	<init>	
 		p	1		p_1	
 	m	()I	m_7807951	m_7807951	
@@ -86,14 +86,14 @@ c	net/minecraft/unmapped/C_7639596
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_7947657	net/minecraft/unmapped/C_7947657	
-	f	Lnet/minecraft/unmapped/C_7947657;	f_3049546	f_3049546	
-	f	Ljava/nio/FloatBuffer;	f_2328043	f_2328043	
-	f	Ljava/nio/FloatBuffer;	f_5800313	f_5800313	
-	f	Ljava/nio/FloatBuffer;	f_8276072	f_8276072	
+c	net/minecraft/unmapped/C_7947657	net/minecraft/client/renderer/culling/Frustum	
+	f	Lnet/minecraft/unmapped/C_7947657;	f_3049546	FRUSTUM	
+	f	Ljava/nio/FloatBuffer;	f_2328043	_proj	
+	f	Ljava/nio/FloatBuffer;	f_5800313	_modl	
+	f	Ljava/nio/FloatBuffer;	f_8276072	_clip	
 	m	()V	<init>	<init>	
-	m	()Lnet/minecraft/unmapped/C_9620653;	m_2563934	m_2563934	
-	m	([[FI)V	m_4034842	m_4034842	
+	m	()Lnet/minecraft/unmapped/C_9620653;	m_2563934	calculateFrustum	
+	m	([[FI)V	m_4034842	normalizePlane	
 		p	0		p_0	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
@@ -134,11 +134,11 @@ c	net/minecraft/unmapped/C_9590849
 	f	I	f_0531708	f_0531708	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_2992256	m_2992256	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9620653	net/minecraft/unmapped/C_9620653	
-	f	[[F	f_7046082	f_7046082	
-	f	[F	f_9692093	f_9692093	
-	f	[F	f_6232318	f_6232318	
-	f	[F	f_1357038	f_1357038	
+c	net/minecraft/unmapped/C_9620653	net/minecraft/client/renderer/culling/FrustumData	
+	f	[[F	f_7046082	frustumData	
+	f	[F	f_9692093	projectionMatrix	
+	f	[F	f_6232318	modelViewMatrix	
+	f	[F	f_1357038	clip	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_9761743
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_3941370	m_3941370	

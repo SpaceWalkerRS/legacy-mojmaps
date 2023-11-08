@@ -61,6 +61,6 @@ c	net/minecraft/unmapped/C_5553933
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8048208
-	f	Z	f_2829176	f_2829176	
+	f	Z	f_2829176	replaceable	
 	m	()Lnet/minecraft/unmapped/C_8048208;	m_9643894	m_9643894	
-	m	()Z	m_3097791	m_3097791	
+	m	()Z	m_3097791	isReplaceable	

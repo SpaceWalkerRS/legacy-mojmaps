@@ -20,7 +20,7 @@ c	net/minecraft/unmapped/C_5335372
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_5360996
-	f	Lnet/minecraft/unmapped/C_2018497;	f_2363698	f_2363698	
+	f	Lnet/minecraft/unmapped/C_2018497;	f_2363698	tag	
 	f	I	f_1971613		f_1971613
 	f	I	f_5172102		f_5172102
 	f	I	f_6725724		f_6725724
@@ -50,7 +50,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	()I	m_5265419	m_5265419	
+	m	()I	m_5265419	getHeight	
 	m	(IIIII)Z	m_6769014		m_6769014
 		p	1			p_1
 		p	2			p_2

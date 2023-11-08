@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()V	m_3468489		m_3468489
+	m	()V	m_3468489		kill
 c	net/minecraft/unmapped/C_1712153
 	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_1572929	m_1572929	
 		p	1		p_1	
@@ -11,9 +11,9 @@ c	net/minecraft/unmapped/C_1712153
 		p	3			p_3
 c	net/minecraft/unmapped/C_3198459
 	m	()Lnet/minecraft/unmapped/C_7235516;	m_1159644		m_1159644
-	m	()Z	m_8577347		m_8577347
-	m	()Z	m_8976359		m_8976359
-	m	()[F	m_3180627		m_3180627
+	m	()Z	m_8577347		isUltraWarm
+	m	()Z	m_8976359		isHasCeiling
+	m	()[F	m_3180627		getBrightnessRamp
 	m	()I	m_4937417		m_4937417
 c	net/minecraft/unmapped/C_5619546
 	f	I	f_0008627	f_0008627	

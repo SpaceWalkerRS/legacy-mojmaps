@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0022186
-	f	I	f_8376329		f_8376329
+	f	I	f_8376329		explosionPower
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759		m_7694759
@@ -14,8 +14,8 @@ c	net/minecraft/unmapped/C_0927368
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1331819
-	f	I	f_5327532		f_5327532
-	f	I	f_7412465		f_7412465
+	f	I	f_5327532		overrideWidth
+	f	I	f_7412465		overrideHeight
 c	net/minecraft/unmapped/C_1350658
 	m	(Lnet/minecraft/unmapped/C_5553933;DDD)V	<init>		<init>
 		p	1			p_1
@@ -46,17 +46,17 @@ c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_6942443		f_6942443
 	f	Lnet/minecraft/unmapped/C_7735639;	f_1444068		f_1444068
 c	net/minecraft/unmapped/C_3930157
-	f	I	f_5151517		f_5151517
-	f	I	f_2650549		f_2650549
+	f	I	f_5151517		xRot
+	f	I	f_2650549		yRot
 c	net/minecraft/unmapped/C_5553933
-	m	(DDDLjava/lang/String;FF)V	m_8245112	m_8245112	
+	m	(DDDLjava/lang/String;FF)V	m_8245112	playLocalSound	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
 		p	7		p_7	
 		p	8		p_8	
 		p	9		p_9	
-	m	(DDDLjava/lang/String;FFZ)V	m_8245112		m_8245112
+	m	(DDDLjava/lang/String;FFZ)V	m_8245112		playLocalSound
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
@@ -64,7 +64,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	8			p_8
 		p	9			p_9
 		p	10			p_10
-	m	(DDDDDDLnet/minecraft/unmapped/C_2018497;)V	m_2950080		m_2950080
+	m	(DDDDDDLnet/minecraft/unmapped/C_2018497;)V	m_2950080		createFireworks
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
@@ -84,7 +84,7 @@ c	net/minecraft/unmapped/C_5916995	net/minecraft/unmapped/C_5916995
 	m	()Ljava/lang/String;	m_3143788	m_3143788	
 	m	()Ljava/lang/Object;	call	call	
 c	net/minecraft/unmapped/C_6269816
-	f	I	f_7050941		f_7050941
+	f	I	f_7050941		explosionPower
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840		m_1129840
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759		m_7694759
@@ -134,14 +134,14 @@ c	net/minecraft/unmapped/C_8983523
 	f	Z	f_8660849		f_8660849
 c	net/minecraft/unmapped/C_9418545
 	f	Lnet/minecraft/unmapped/C_2018497;	f_4192417	f_4192417	
-	f	Ljava/util/List;	f_1386438		f_1386438
-	f	Lnet/minecraft/unmapped/C_8031101;	f_6017406		f_6017406
+	f	Ljava/util/List;	f_1386438		spawnPotentials
+	f	Lnet/minecraft/unmapped/C_8031101;	f_6017406		nextSpawnData
 c	net/minecraft/unmapped/C_9639106
-	f	Lnet/minecraft/unmapped/C_2711798;	f_0639945		f_0639945
-	f	J	f_3818722		f_3818722
+	f	Lnet/minecraft/unmapped/C_2711798;	f_0639945		quickdropSlot
+	f	J	f_3818722		quickdropTime
 	m	(Lnet/minecraft/unmapped/C_2711798;)Z	m_7317504		m_7317504
 		p	1			p_1
-c	net/minecraft/unmapped/C_2938580		net/minecraft/unmapped/C_2938580
+c	net/minecraft/unmapped/C_2938580		net/minecraft/world/item/FireworkRocketItem
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;IIIIFFF)Z	m_3000450		m_3000450
@@ -160,9 +160,9 @@ c	net/minecraft/unmapped/C_2938580		net/minecraft/unmapped/C_2938580
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_3004499		net/minecraft/unmapped/C_3004499
-	f	I	f_6722263		f_6722263
-	f	I	f_5064399		f_5064399
+c	net/minecraft/unmapped/C_3004499		net/minecraft/world/entity/projectile/FireworkRocketEntity
+	f	I	f_6722263		life
+	f	I	f_5064399		lifetime
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_1700770		m_1700770
@@ -241,7 +241,7 @@ c	net/minecraft/unmapped/C_5226639		net/minecraft/unmapped/C_5226639
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_3335560;)V	m_7572345		m_7572345
 		p	1			p_1
-c	net/minecraft/unmapped/C_6623301		net/minecraft/unmapped/C_6623301
+c	net/minecraft/unmapped/C_6623301		net/minecraft/world/item/FireworkStarItem
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	(II)I	m_5730681		m_5730681
@@ -259,16 +259,16 @@ c	net/minecraft/unmapped/C_6623301		net/minecraft/unmapped/C_6623301
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_2018497;Ljava/util/List;)V	m_3490416		m_3490416
+	m	(Lnet/minecraft/unmapped/C_2018497;Ljava/util/List;)V	m_3490416		appendHoverText
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_7024779		net/minecraft/unmapped/C_7024779
+c	net/minecraft/unmapped/C_7024779		net/minecraft/world/item/BookItem
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_0804807		m_0804807
 		p	1			p_1
 	m	()I	m_9593556		m_9593556
-c	net/minecraft/unmapped/C_7735639		net/minecraft/unmapped/C_7735639
+c	net/minecraft/unmapped/C_7735639		net/minecraft/world/item/EnchantedBookItem
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_7513964		m_7513964
@@ -277,17 +277,17 @@ c	net/minecraft/unmapped/C_7735639		net/minecraft/unmapped/C_7735639
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_8171883;	m_3933654		m_3933654
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_5693434;	m_4294335		m_4294335
+	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_5693434;	m_4294335		getEnchantments
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Ljava/util/List;Z)V	m_5450964		m_5450964
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_0927368;)V	m_4355566		m_4355566
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_0927368;)V	m_4355566		addEnchantment
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0927368;)Lnet/minecraft/unmapped/C_2454309;	m_6048447		m_6048447
+	m	(Lnet/minecraft/unmapped/C_0927368;)Lnet/minecraft/unmapped/C_2454309;	m_6048447		createForEnchantment
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_0230498;Ljava/util/List;)V	m_2335476		m_2335476
 		p	1			p_1
@@ -375,7 +375,7 @@ c	net/minecraft/unmapped/C_9597328		net/minecraft/unmapped/C_9597328
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_9918526		net/minecraft/unmapped/C_9918526
+c	net/minecraft/unmapped/C_9918526		net/minecraft/world/item/crafting/FireworkRocketRecipe
 	f	Lnet/minecraft/unmapped/C_2454309;	f_9245720		f_9245720
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_5217418;Lnet/minecraft/unmapped/C_5553933;)Z	m_8374711		m_8374711

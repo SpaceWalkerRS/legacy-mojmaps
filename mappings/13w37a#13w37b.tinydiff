@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/server/MinecraftServer
-	f	I	f_7229172		f_7229172
-	m	()I	m_1866937		m_1866937
-	m	(I)V	m_6953266		m_6953266
+	f	I	f_7229172		playerIdleTimeout
+	m	()I	m_1866937		getPlayerIdleTimeout
+	m	(I)V	m_6953266		setPlayerIdleTimeout
 		p	1			p_1
 c	net/minecraft/unmapped/C_0219615
 	f	I	f_7064496	f_7064496	
@@ -35,7 +35,7 @@ c	net/minecraft/unmapped/C_1151977
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1922521		m_1922521
 		p	1			p_1
 c	net/minecraft/unmapped/C_1160932
-	m	(Ljava/lang/String;)V	m_7468762		m_7468762
+	m	(Ljava/lang/String;)V	m_7468762		decomposeTemplate
 		p	1			p_1
 c	net/minecraft/unmapped/C_1202026
 	f	Lnet/minecraft/unmapped/C_3849939;	f_0801017	f_0801017	
@@ -74,8 +74,8 @@ c	net/minecraft/unmapped/C_2129018
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/unmapped/C_2381425
 	m	()V	<init>		<init>
-	m	()Lnet/minecraft/unmapped/C_2018497;	m_1036809		m_1036809
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_5373622		m_5373622
+	m	()Lnet/minecraft/unmapped/C_2018497;	m_1036809		createTag
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_5373622		addAdditionalSaveData
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2018497;)V	m_8501447		m_8501447
 		p	1			p_1
@@ -88,12 +88,12 @@ c	net/minecraft/unmapped/C_2435239
 c	net/minecraft/unmapped/C_2485529
 	m	()V	m_4976806		m_4976806
 c	net/minecraft/unmapped/C_2706017
-	f	I	f_8292942		f_8292942
-	f	I	f_3521351		f_3521351
+	f	I	f_8292942		chunkX
+	f	I	f_3521351		chunkZ
 	m	(II)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(II)Lnet/minecraft/unmapped/C_2018497;	m_1419587		m_1419587
+	m	(II)Lnet/minecraft/unmapped/C_2018497;	m_1419587		createTag
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7490071		m_7490071
@@ -103,8 +103,8 @@ c	net/minecraft/unmapped/C_2706017
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_0724458		m_0724458
 		p	1			p_1
-	m	()I	m_2592378		m_2592378
-	m	()I	m_3966186		m_3966186
+	m	()I	m_2592378		getChunkX
+	m	()I	m_3966186		getChunkZ
 c	net/minecraft/unmapped/C_2948979
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_3078426
@@ -123,8 +123,8 @@ c	net/minecraft/unmapped/C_3176678
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1922521		m_1922521
 		p	1			p_1
 c	net/minecraft/unmapped/C_3292284
-	f	J	f_9793950		f_9793950
-	m	()V	m_6870379		m_6870379
+	f	J	f_9793950		lastActionTime
+	m	()V	m_6870379		resetLastActionTime
 c	net/minecraft/unmapped/C_3424041
 	m	()V	m_7554004		m_7554004
 c	net/minecraft/unmapped/C_3604445
@@ -241,7 +241,7 @@ c	net/minecraft/unmapped/C_5681355
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5693434
-	m	(I)[I	m_3032818		m_3032818
+	m	(I)[I	m_3032818		getIntArray
 		p	1			p_1
 c	net/minecraft/unmapped/C_5776452
 	m	()V	<init>		<init>
@@ -310,7 +310,7 @@ c	net/minecraft/unmapped/C_7291679
 c	net/minecraft/unmapped/C_7492943
 	m	([I)V	<init>		<init>
 		p	1			p_1
-	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_7035249;	m_2828913		m_2828913
+	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_7035249;	m_2828913		createTag
 		p	1			p_1
 c	net/minecraft/unmapped/C_7522998
 	f	I	f_8894213	f_8894213	
@@ -348,8 +348,8 @@ c	net/minecraft/unmapped/C_9407506
 		p	1			p_1
 c	net/minecraft/unmapped/C_9470286
 	f	Lnet/minecraft/unmapped/C_8726576;	f_1604936		f_1604936
-	m	()Ljava/lang/String;	m_2990867		m_2990867
-	m	(III)Lnet/minecraft/unmapped/C_2706017;	m_8474516		m_8474516
+	m	()Ljava/lang/String;	m_2990867		getFeatureName
+	m	(III)Lnet/minecraft/unmapped/C_2706017;	m_8474516		getStructureAt
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -364,12 +364,12 @@ c	net/minecraft/unmapped/C_9494583
 c	net/minecraft/unmapped/C_9868114
 	f	Lnet/minecraft/unmapped/C_0341503;	f_5912266	f_5912266	
 	m	()V	<init>		<init>
-c	net/minecraft/unmapped/C_1104039		net/minecraft/unmapped/C_1104039
+c	net/minecraft/unmapped/C_1104039		net/minecraft/world/level/levelgen/structure/StructureFeatureIO
 	f	Ljava/util/Map;	f_2197965		f_2197965
 	f	Ljava/util/Map;	f_8472527		f_8472527
 	f	Ljava/util/Map;	f_2501185		f_2501185
 	f	Ljava/util/Map;	f_1380496		f_1380496
-	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_3367389		m_3367389
+	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_3367389		register
 		p	0			p_0
 		p	1			p_1
 	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_4263306		m_4263306
@@ -382,7 +382,7 @@ c	net/minecraft/unmapped/C_1104039		net/minecraft/unmapped/C_1104039
 	m	(Lnet/minecraft/unmapped/C_2018497;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_2706017;	m_2084137		m_2084137
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2018497;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_2381425;	m_7266840		m_7266840
+	m	(Lnet/minecraft/unmapped/C_2018497;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_2381425;	m_7266840		loadStaticStart
 		p	0			p_0
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
@@ -404,7 +404,7 @@ c	net/minecraft/unmapped/C_8726576		net/minecraft/unmapped/C_8726576
 		p	1			p_1
 		p	2			p_2
 	m	()Lnet/minecraft/unmapped/C_2018497;	m_3819230		m_3819230
-c	net/minecraft/unmapped/C_9082193		net/minecraft/unmapped/C_9082193
+c	net/minecraft/unmapped/C_9082193		net/minecraft/server/commands/SetPlayerIdleTimeoutCommand
 	m	()V	<init>		<init>
 	m	()Ljava/lang/String;	m_2274818		m_2274818
 	m	()I	m_5251718		m_5251718

@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_1324297
-	f	Lorg/apache/logging/log4j/Logger;	f_4826104		f_4826104
+	f	Lorg/apache/logging/log4j/Logger;	f_4826104		LOGGER
 c	net/minecraft/unmapped/C_5553933
 	m	()Z	m_5923188	m_5923188	
 c	net/minecraft/unmapped/C_5570075

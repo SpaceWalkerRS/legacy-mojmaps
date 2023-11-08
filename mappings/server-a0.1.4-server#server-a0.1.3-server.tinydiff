@@ -12,14 +12,14 @@ c	net/minecraft/unmapped/C_0800862	net/minecraft/unmapped/C_0800862
 		p	3		p_3	
 c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_1241852;	f_9373553	f_9373553	
-c	net/minecraft/unmapped/C_1514880	net/minecraft/unmapped/C_1514880	
-	f	I	f_8746369	f_8746369	
-	f	B	f_4254694	f_4254694	
-	f	I	f_6391402	f_6391402	
-	f	I	f_7515478	f_7515478	
-	f	I	f_5323765	f_5323765	
-	f	B	f_5275086	f_5275086	
-	f	B	f_7427685	f_7427685	
+c	net/minecraft/unmapped/C_1514880	net/minecraft/network/protocol/game/ClientboundAddMobPacket	
+	f	I	f_8746369	id	
+	f	B	f_4254694	type	
+	f	I	f_6391402	x	
+	f	I	f_7515478	y	
+	f	I	f_5323765	z	
+	f	B	f_5275086	yRot	
+	f	B	f_7427685	xRot	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	<init>	<init>	
 		p	1		p_1	
@@ -30,7 +30,7 @@ c	net/minecraft/unmapped/C_1514880	net/minecraft/unmapped/C_1514880
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666	m_7216666	
 		p	1		p_1	
 	m	()I	m_4040470	m_4040470	
-c	net/minecraft/unmapped/C_2144954	net/minecraft/unmapped/C_2144954	
+c	net/minecraft/unmapped/C_2144954	net/minecraft/world/level/NaturalSpawner	
 	f	I	f_3573684	f_3573684	
 	f	Ljava/lang/Class;	f_2529785	f_2529785	
 	f	[Ljava/lang/Class;	f_8261189	f_8261189	
@@ -41,11 +41,11 @@ c	net/minecraft/unmapped/C_2144954	net/minecraft/unmapped/C_2144954
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_8607493	m_8607493	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5553933;II)Lnet/minecraft/unmapped/C_1842758;	m_2544799	m_2544799	
+	m	(Lnet/minecraft/unmapped/C_5553933;II)Lnet/minecraft/unmapped/C_1842758;	m_2544799	getRandomPosWithin	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_3893367;)I	m_7552313	m_7552313	
+	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_3893367;)I	m_7552313	spawnCategoryForChunk	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -55,11 +55,11 @@ c	net/minecraft/unmapped/C_3865296
 	f	Lnet/minecraft/unmapped/C_2144954;	f_3700547	f_3700547	
 	f	Lnet/minecraft/unmapped/C_2144954;	f_6239007	f_6239007	
 	m	()V	m_0812377	m_0812377	
-c	net/minecraft/unmapped/C_4179163	net/minecraft/unmapped/C_4179163	
+c	net/minecraft/unmapped/C_4179163	net/minecraft/world/entity/monster/Enemy	
 c	net/minecraft/unmapped/C_5553933
 	m	(Ljava/lang/Class;)I	m_8410365	m_8410365	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_6028829	net/minecraft/unmapped/C_6028829	
+c	net/minecraft/unmapped/C_6028829	net/minecraft/world/level/block/FenceBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -80,32 +80,32 @@ c	net/minecraft/unmapped/C_6028829	net/minecraft/unmapped/C_6028829
 c	net/minecraft/unmapped/C_6055429	net/minecraft/unmapped/C_6055429	
 c	net/minecraft/unmapped/C_6607881
 	f	Z	f_7854127	f_7854127	
-	f	I	f_0862222	f_0862222	
-	f	D	f_5094063	f_5094063	
-	f	D	f_7065948	f_7065948	
-	f	D	f_6352819	f_6352819	
-	f	D	f_1913106	f_1913106	
-	f	D	f_8811307	f_8811307	
+	f	I	f_0862222	lerpSteps	
+	f	D	f_5094063	lerpX	
+	f	D	f_7065948	lerpY	
+	f	D	f_6352819	lerpZ	
+	f	D	f_1913106	lerpYRot	
+	f	D	f_8811307	lerpXRot	
 	f	F	f_1241371	f_1241371	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_1514880;)V	m_9552498	m_9552498	
+	m	(Lnet/minecraft/unmapped/C_1514880;)V	m_9552498	handleAddMob	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_8442234;)V	m_3561901	m_3561901	
+	m	(Lnet/minecraft/unmapped/C_8442234;)V	m_3561901	handleSetTime	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8252988
 	f	Ljava/util/Map;	f_5534754	f_5534754	
 	f	Ljava/util/Map;	f_4092708	f_4092708	
-	m	(Ljava/lang/Class;Ljava/lang/String;I)V	m_0930588	m_0930588	
+	m	(Ljava/lang/Class;Ljava/lang/String;I)V	m_0930588	register	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_0539808;)I	m_9775641	m_9775641	
 		p	0		p_0	
-	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_0930588		m_0930588
+	m	(Ljava/lang/Class;Ljava/lang/String;)V	m_0930588		register
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_8442234	net/minecraft/unmapped/C_8442234	
-	f	J	f_9934360	f_9934360	
+c	net/minecraft/unmapped/C_8442234	net/minecraft/network/protocol/game/ClientboundSetTimePacket	
+	f	J	f_9934360	gameTime	
 	m	()V	<init>	<init>	
 	m	(J)V	<init>	<init>	
 		p	1		p_1	

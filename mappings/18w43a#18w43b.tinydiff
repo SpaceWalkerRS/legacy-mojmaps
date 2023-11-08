@@ -26,7 +26,7 @@ c	net/minecraft/unmapped/C_1519982
 	m	()Z	m_7655006	m_7655006	
 	m	(Ljava/util/function/Function;)V	m_5056375	m_5056375	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Ljava/util/function/Function;)Lnet/minecraft/unmapped/C_0523589;	m_3354134	m_3354134	
+	m	(Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Ljava/util/function/Function;)Lnet/minecraft/unmapped/C_0523589;	m_3354134	getItemOverrides	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -35,7 +35,7 @@ c	net/minecraft/unmapped/C_1519982
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_5986277	m_5986277	
+	m	(Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_5986277	bake	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -43,7 +43,7 @@ c	net/minecraft/unmapped/C_1519982
 		p	5		p_5	
 	m	(Lnet/minecraft/unmapped/C_1519982;)Ljava/lang/String;	m_0438788	m_0438788	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_6781194;Lnet/minecraft/unmapped/C_1519982;)Lnet/minecraft/unmapped/C_0523589;	m_3354134		m_3354134
+	m	(Lnet/minecraft/unmapped/C_6781194;Lnet/minecraft/unmapped/C_1519982;)Lnet/minecraft/unmapped/C_0523589;	m_3354134		getItemOverrides
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_6781194;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_7854551		m_7854551
@@ -51,7 +51,7 @@ c	net/minecraft/unmapped/C_1519982
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_6781194;Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_5986277		m_5986277
+	m	(Lnet/minecraft/unmapped/C_6781194;Lnet/minecraft/unmapped/C_1519982;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_5986277		bake
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -62,9 +62,9 @@ c	net/minecraft/unmapped/C_2907104
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_7141926;)Lnet/minecraft/unmapped/C_6849228;	m_0623972	m_0623972	
 		p	0		p_0	
 		p	1		p_1	
-	m	()Lnet/minecraft/unmapped/C_5553933;	m_4326044		m_4326044
-	m	()Lnet/minecraft/unmapped/C_6849228;	m_5937513		m_5937513
-	m	()Lnet/minecraft/unmapped/C_6849228;	m_0790537		m_0790537
+	m	()Lnet/minecraft/unmapped/C_5553933;	m_4326044		getLevel
+	m	()Lnet/minecraft/unmapped/C_6849228;	m_5937513		getServerChunk
+	m	()Lnet/minecraft/unmapped/C_6849228;	m_0790537		getClientChunk
 	m	()Lnet/minecraft/unmapped/C_6849228;	m_5059180		m_5059180
 	m	(Lnet/minecraft/unmapped/C_4301088;)Lnet/minecraft/unmapped/C_3865296;	m_2109566		m_2109566
 		p	1			p_1
@@ -80,12 +80,12 @@ c	net/minecraft/unmapped/C_2974946
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_3174183
-	m	(Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_7854551	m_7854551	
+	m	(Ljava/util/function/Function;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_7854551	bake	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_6781194;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_7854551		m_7854551
+	m	(Lnet/minecraft/unmapped/C_6781194;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_7854551		bake
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -102,10 +102,10 @@ c	net/minecraft/unmapped/C_4625995
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_6781194
-	f	Lnet/minecraft/unmapped/C_4311621;	f_5141935		f_5141935
-	f	Ljava/util/Map;	f_7533876		f_7533876
-	f	Ljava/util/Map;	f_4768167		f_4768167
-	m	(Ljava/util/Map;Lnet/minecraft/unmapped/C_6390485;)V	m_4442423	m_4442423	
+	f	Lnet/minecraft/unmapped/C_4311621;	f_5141935		ITEM_MODEL_GENERATOR
+	f	Ljava/util/Map;	f_7533876		bakedCache
+	f	Ljava/util/Map;	f_4768167		topLevelModels
+	m	(Ljava/util/Map;Lnet/minecraft/unmapped/C_6390485;)V	m_4442423	loadTopLevel	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_6390485;Lnet/minecraft/unmapped/C_3174183;)V	m_5311849	m_5311849	
@@ -122,9 +122,9 @@ c	net/minecraft/unmapped/C_6781194
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_6390485;)V	m_4442423		m_4442423
+	m	(Lnet/minecraft/unmapped/C_6390485;)V	m_4442423		loadTopLevel
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_0561170;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_1584434		m_1584434
+	m	(Lnet/minecraft/unmapped/C_0561170;Lnet/minecraft/unmapped/C_2334768;Z)Lnet/minecraft/unmapped/C_3504190;	m_1584434		bake
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -145,7 +145,7 @@ c	net/minecraft/unmapped/C_6916756
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_7028449
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_5553933;)Z	m_5530988		m_5530988
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_5553933;)Z	m_5530988		doesChunkExistAt
 		p	0			p_0
 		p	1			p_1
-	m	()Z	m_4967169		m_4967169
+	m	()Z	m_4967169		hasAllNeighbors

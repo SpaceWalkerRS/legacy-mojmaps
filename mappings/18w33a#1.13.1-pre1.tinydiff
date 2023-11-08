@@ -60,11 +60,11 @@ c	net/minecraft/unmapped/C_2826261
 	m	(Ljava/lang/String;)Z	m_9117380	m_9117380	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2986321
-	m	(Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	m_4145315	m_4145315	
+	m	(Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	m_4145315	suggest2DCoordinates	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Predicate;)Ljava/util/concurrent/CompletableFuture;	m_4145315		m_4145315
+	m	(Ljava/lang/String;Ljava/util/Collection;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Predicate;)Ljava/util/concurrent/CompletableFuture;	m_4145315		suggest2DCoordinates
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -94,12 +94,12 @@ c	net/minecraft/unmapped/C_4649460
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5335372
-	m	(Lnet/minecraft/unmapped/C_5335372$C_9085172;)Ljava/util/function/Predicate;	m_4975508		m_4975508
+	m	(Lnet/minecraft/unmapped/C_5335372$C_9085172;)Ljava/util/function/Predicate;	m_4975508		createValidator
 		p	0			p_0
 	m	(Lnet/minecraft/unmapped/C_5335372$C_9085172;Ljava/lang/String;)Z	m_7822375		m_7822375
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_5335372$C_9085172		C_9085172
+c	net/minecraft/unmapped/C_5335372$C_9085172		ParseFunction
 	m	(Lcom/mojang/brigadier/StringReader;)V	parse		parse
 		p	1			p_1
 c	net/minecraft/unmapped/C_5553933
@@ -144,9 +144,9 @@ c	net/minecraft/unmapped/C_6815022
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7141926
-	m	(J)I	m_0934336		m_0934336
+	m	(J)I	m_0934336		getX
 		p	0			p_0
-	m	(J)I	m_6662221		m_6662221
+	m	(J)I	m_6662221		getZ
 		p	0			p_0
 c	net/minecraft/unmapped/C_8099772
 	m	()Z	m_0190665	m_0190665	
@@ -190,12 +190,12 @@ c	net/minecraft/unmapped/C_9378896
 	m	(Lnet/minecraft/unmapped/C_9844932;Z)Z	m_2364728		m_2364728
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_0492631		net/minecraft/unmapped/C_0492631
-	f	Ljava/util/Collection;	f_1617097		f_1617097
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_4617638		f_4617638
+c	net/minecraft/unmapped/C_0492631		net/minecraft/commands/arguments/coordinates/ColumnPosArgument
+	f	Ljava/util/Collection;	f_1617097		EXAMPLES
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_4617638		ERROR_NOT_COMPLETE
 	m	()V	<init>		<init>
-	m	()Lnet/minecraft/unmapped/C_0492631;	m_3771795		m_3771795
-	m	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/unmapped/C_0492631$C_1969119;	m_4860467		m_4860467
+	m	()Lnet/minecraft/unmapped/C_0492631;	m_3771795		columnPos
+	m	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/unmapped/C_0492631$C_1969119;	m_4860467		getColumnPos
 		p	0			p_0
 		p	1			p_1
 	m	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/unmapped/C_3071260;	m_2408283		m_2408283
@@ -214,21 +214,21 @@ c	net/minecraft/unmapped/C_0492631$C_1969119		C_1969119
 		p	1			p_1
 		p	2			p_2
 	m	()Ljava/lang/String;	toString		toString
-c	net/minecraft/unmapped/C_1680295		net/minecraft/unmapped/C_1680295
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1477615		f_1477615
-	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4627520		f_4627520
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_3507154		f_3507154
-	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_2694306		f_2694306
-	m	(Lcom/mojang/brigadier/CommandDispatcher;)V	m_5042008		m_5042008
+c	net/minecraft/unmapped/C_1680295		net/minecraft/server/commands/ForceLoadCommand
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_1477615		ERROR_TOO_MANY_CHUNKS
+	f	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	f_4627520		ERROR_NOT_TICKING
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_3507154		ERROR_ALL_ADDED
+	f	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	f_2694306		ERROR_NONE_REMOVED
+	m	(Lcom/mojang/brigadier/CommandDispatcher;)V	m_5042008		register
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0492631$C_1969119;)I	m_6343439		m_6343439
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0492631$C_1969119;)I	m_6343439		queryForceLoad
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_1630803;)I	m_6455684		m_6455684
+	m	(Lnet/minecraft/unmapped/C_1630803;)I	m_6455684		listForceLoad
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_1630803;)I	m_8679590		m_8679590
+	m	(Lnet/minecraft/unmapped/C_1630803;)I	m_8679590		removeAll
 		p	0			p_0
-	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0492631$C_1969119;Lnet/minecraft/unmapped/C_0492631$C_1969119;Z)I	m_8440930		m_8440930
+	m	(Lnet/minecraft/unmapped/C_1630803;Lnet/minecraft/unmapped/C_0492631$C_1969119;Lnet/minecraft/unmapped/C_0492631$C_1969119;Z)I	m_8440930		changeForceLoad
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -259,17 +259,17 @@ c	net/minecraft/unmapped/C_1680295		net/minecraft/unmapped/C_1680295
 		p	0			p_0
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_8446601		net/minecraft/unmapped/C_8446601
-	f	I	f_7738038		f_7738038
-	f	I	f_7676090		f_7676090
-	f	Lnet/minecraft/unmapped/C_3674802;	f_2945300		f_2945300
-	f	I	f_9632401		f_9632401
-	f	I	f_3006941		f_3006941
-	f	I	f_2261756		f_2261756
-	f	[[Lnet/minecraft/unmapped/C_6849228;	f_6670347		f_6670347
+c	net/minecraft/unmapped/C_8446601		net/minecraft/client/renderer/chunk/RenderChunkRegion
+	f	I	f_7738038		centerX
+	f	I	f_7676090		centerZ
+	f	Lnet/minecraft/unmapped/C_3674802;	f_2945300		start
+	f	I	f_9632401		xLength
+	f	I	f_3006941		yLength
+	f	I	f_2261756		zLength
+	f	[[Lnet/minecraft/unmapped/C_6849228;	f_6670347		chunks
 	f	[Lnet/minecraft/unmapped/C_8446601$C_2535151;	f_9865229		f_9865229
-	f	Lnet/minecraft/unmapped/C_5553933;	f_6722196		f_6722196
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;I)Lnet/minecraft/unmapped/C_8446601;	m_9999057		m_9999057
+	f	Lnet/minecraft/unmapped/C_5553933;	f_6722196		level
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;I)Lnet/minecraft/unmapped/C_8446601;	m_9999057		createIfNotEmpty
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -281,7 +281,7 @@ c	net/minecraft/unmapped/C_8446601		net/minecraft/unmapped/C_8446601
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_5410991		m_5410991
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_5410991		index
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_6686868		m_6686868
 		p	1			p_1
@@ -297,7 +297,7 @@ c	net/minecraft/unmapped/C_8446601		net/minecraft/unmapped/C_8446601
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_8048103		m_8048103
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_6849228$C_3825017;)Lnet/minecraft/unmapped/C_3622326;	m_7565334		m_7565334
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_6849228$C_3825017;)Lnet/minecraft/unmapped/C_3622326;	m_7565334		getBlockEntity
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_3674802;)F	m_1741944		m_1741944

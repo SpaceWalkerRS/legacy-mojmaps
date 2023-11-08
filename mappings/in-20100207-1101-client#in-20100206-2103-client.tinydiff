@@ -2,7 +2,7 @@ tiny	2	0
 c	net/minecraft/client/C_1331819
 	f	Z	f_3504321		f_3504321
 c	net/minecraft/unmapped/C_1872000
-	f	Z	f_4350060	f_4350060	
+	f	Z	f_4350060	loaded	
 	m	()V	m_9806551	m_9806551	
 	m	(FFF)V	m_8066972	m_8066972	
 		p	1		p_1	

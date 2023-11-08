@@ -1,34 +1,34 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0281639
-	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_2018497;)V	m_1784604	m_1784604	
+	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_2018497;)V	m_1784604	saveLevelData	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_9590849;)V	m_1784604		m_1784604
+	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_9590849;)V	m_1784604		saveLevelData
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_0355969	net/minecraft/unmapped/C_0355969	
-	f	I	f_6224876	f_6224876	
+c	net/minecraft/unmapped/C_0355969	net/minecraft/server/level/BlockDestructionProgress	
+	f	I	f_6224876	id	
 	f	I	f_4917379	f_4917379	
 	f	I	f_2990279	f_2990279	
 	f	I	f_1449914	f_1449914	
-	f	I	f_5770830	f_5770830	
+	f	I	f_5770830	progress	
 	m	(IIII)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 	m	()I	m_5891911	m_5891911	
-	m	()I	m_7365994	m_7365994	
+	m	()I	m_7365994	getPos	
 	m	()I	m_9691969	m_9691969	
-	m	(I)V	m_9473359	m_9473359	
+	m	(I)V	m_9473359	setProgress	
 		p	1		p_1	
-	m	()I	m_7395778	m_7395778	
+	m	()I	m_7395778	getProgress	
 c	net/minecraft/unmapped/C_0539808
-	m	()V	m_0846123	m_0846123	
-	m	(ILnet/minecraft/unmapped/C_2454309;)V	m_0241073	m_0241073	
+	m	()V	m_0846123	checkInsideBlocks	
+	m	(ILnet/minecraft/unmapped/C_2454309;)V	m_0241073	setItemSlot	
 		p	1		p_1	
 		p	2		p_2	
-	m	(III)V	m_0241073		m_0241073
+	m	(III)V	m_0241073		setItemSlot
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -72,7 +72,7 @@ c	net/minecraft/unmapped/C_1545069
 	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2018497;	m_2423881		m_2423881
 		p	1			p_1
 c	net/minecraft/unmapped/C_2128050
-	f	Z	f_2251341	f_2251341	
+	f	Z	f_2251341	isDestroyingBlock	
 	f	I	f_4701349	f_4701349	
 	f	F	f_2173128		f_2173128
 	m	(III)V	m_4441578	m_4441578	
@@ -82,18 +82,18 @@ c	net/minecraft/unmapped/C_2128050
 c	net/minecraft/unmapped/C_2134645
 	m	()I	m_8049265	m_8049265	
 c	net/minecraft/unmapped/C_2485969
-	f	Ljava/util/Map;	f_5763834	f_5763834	
+	f	Ljava/util/Map;	f_5763834	RECENT_TOGGLES	
 	f	Ljava/util/List;	f_9083687		f_9083687
 	m	(Lnet/minecraft/unmapped/C_5553933;JJ)V	m_5976590	m_5976590	
 		p	1		p_1	
 		p	2		p_2	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_2731285	net/minecraft/unmapped/C_2731285	
-	f	I	f_3839286	f_3839286	
+c	net/minecraft/unmapped/C_2731285	net/minecraft/network/protocol/game/ClientboundBlockDestructionPacket	
+	f	I	f_3839286	id	
 	f	I	f_9400595	f_9400595	
 	f	I	f_9181700	f_9181700	
 	f	I	f_7177176	f_7177176	
-	f	I	f_8594614	f_8594614	
+	f	I	f_8594614	progress	
 	m	()V	<init>	<init>	
 	m	(IIIII)V	<init>	<init>	
 		p	1		p_1	
@@ -108,11 +108,11 @@ c	net/minecraft/unmapped/C_2731285	net/minecraft/unmapped/C_2731285
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666	m_7216666	
 		p	1		p_1	
 	m	()I	m_4040470	m_4040470	
-	m	()I	m_8053436	m_8053436	
+	m	()I	m_8053436	getId	
 	m	()I	m_6103284	m_6103284	
-	m	()I	m_6529322	m_6529322	
+	m	()I	m_6529322	getPos	
 	m	()I	m_6659747	m_6659747	
-	m	()I	m_6016887	m_6016887	
+	m	()I	m_6016887	getProgress	
 c	net/minecraft/unmapped/C_3499589
 	m	()V	m_9428248	m_9428248	
 c	net/minecraft/unmapped/C_3865296
@@ -130,10 +130,10 @@ c	net/minecraft/unmapped/C_5355424
 	m	()V	m_9428248	m_9428248	
 	m	()Z	m_4120713	m_4120713	
 c	net/minecraft/unmapped/C_5509210
-	f	Lnet/minecraft/unmapped/C_2454309;	f_3048134	f_3048134	
+	f	Lnet/minecraft/unmapped/C_2454309;	f_3048134	itemStack	
 	f	I	f_6592098		f_6592098
 	f	I	f_3819348		f_3819348
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_1624156	m_1624156	
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_1624156	getItem	
 c	net/minecraft/unmapped/C_5528202
 	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_2018497;)V	m_1784604	m_1784604	
 		p	1		p_1	
@@ -142,14 +142,14 @@ c	net/minecraft/unmapped/C_5528202
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5553933
-	m	(IIIII)V	m_3834612	m_3834612	
+	m	(IIIII)V	m_3834612	destroyBlockProgress	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_5722573
-	m	()V	m_4488448	m_4488448	
+	m	()V	m_4488448	cleanup	
 	m	(Lnet/minecraft/unmapped/C_2731285;)V	m_1224501	m_1224501	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5956487
@@ -158,9 +158,9 @@ c	net/minecraft/unmapped/C_5956487
 c	net/minecraft/unmapped/C_6100478
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6152184
-	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_2423881	m_2423881	
+	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_2018497;	m_2423881	createTag	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2018497;	m_2423881		m_2423881
+	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2018497;	m_2423881		createTag
 		p	1			p_1
 c	net/minecraft/unmapped/C_6886891
 	m	(IIIII)V	m_4241594	m_4241594	
@@ -170,7 +170,7 @@ c	net/minecraft/unmapped/C_6886891
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_2731285;)V	m_1224501	m_1224501	
+	m	(Lnet/minecraft/unmapped/C_2731285;)V	m_1224501	handleBlockDestruction	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7282397
 	m	(Lnet/minecraft/unmapped/C_6152184;Lnet/minecraft/unmapped/C_2018497;)V	m_1784604	m_1784604	
@@ -180,15 +180,15 @@ c	net/minecraft/unmapped/C_7282397
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7377641
-	m	()V	m_3208151	m_3208151	
+	m	()V	m_3208151	interrupt	
 c	net/minecraft/unmapped/C_8398976
-	f	Ljava/util/Map;	f_9239880	f_9239880	
+	f	Ljava/util/Map;	f_9239880	destroyingBlocks	
 	f	F	f_3435063		f_3435063
-	m	(Lnet/minecraft/unmapped/C_5786166;Lnet/minecraft/unmapped/C_9590849;F)V	m_1913348	m_1913348	
+	m	(Lnet/minecraft/unmapped/C_5786166;Lnet/minecraft/unmapped/C_9590849;F)V	m_1913348	renderDestroyAnimation	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIIII)V	m_4241594	m_4241594	
+	m	(IIIII)V	m_4241594	destroyBlockProgress	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -197,7 +197,7 @@ c	net/minecraft/unmapped/C_8398976
 c	net/minecraft/unmapped/C_8651652
 	f	F	f_9580949		f_9580949
 c	net/minecraft/unmapped/C_9422575
-	f	Lnet/minecraft/unmapped/C_2018497;	f_8936188	f_8936188	
+	f	Lnet/minecraft/unmapped/C_2018497;	f_8936188	playerData	
 	m	(Lnet/minecraft/unmapped/C_3292284;)V	m_8134419	m_8134419	
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_2018497;	m_6553438	m_6553438	

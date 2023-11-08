@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/server/MinecraftServer
-	f	J	f_3919437		f_3919437
+	f	J	f_3919437		nextTickTime
 	m	(Ljava/io/File;Ljava/net/Proxy;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -11,18 +11,18 @@ c	net/minecraft/server/MinecraftServer
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()Z	m_3381228		m_3381228
-	m	()J	m_8759858		m_8759858
+	m	()Z	m_3381228		isInitialized
+	m	()J	m_8759858		getNextTickTime
 	m	()Ljava/lang/Thread;	m_3899008		m_3899008
 c	net/minecraft/unmapped/C_0539808
-	m	(DDDFFI)V	m_2943996	m_2943996	
+	m	(DDDFFI)V	m_2943996	lerpTo	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
 		p	7		p_7	
 		p	8		p_8	
 		p	9		p_9	
-	m	(DDDFFIZ)V	m_2943996		m_2943996
+	m	(DDDFFIZ)V	m_2943996		lerpTo
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
@@ -94,7 +94,7 @@ c	net/minecraft/unmapped/C_3747079
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3755722
-	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_7502874		m_7502874
+	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_7502874		verifyTagAfterLoad
 		p	1			p_1
 c	net/minecraft/unmapped/C_4116648
 	m	(DDDFFI)V	m_2943996	m_2943996	
@@ -116,17 +116,17 @@ c	net/minecraft/unmapped/C_4301088
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_4354908
-	f	Z	f_5184029		f_5184029
-	m	()Z	m_8936626		m_8936626
-	m	()V	m_3797539		m_3797539
+	f	Z	f_5184029		disconnectionHandled
+	m	()Z	m_8936626		isConnecting
+	m	()V	m_3797539		handleDisconnection
 c	net/minecraft/unmapped/C_4976084
-	f	F	f_5183794		f_5183794
+	f	F	f_5183794		SQRT_OF_TWO
 c	net/minecraft/unmapped/C_5553933
-	m	(Ljava/util/List;)V	m_0836169	m_0836169	
+	m	(Ljava/util/List;)V	m_0836169	addAllPendingBlockEntities	
 		p	1		p_1	
 	m	(Ljava/util/List;)V	m_3412670	m_3412670	
 		p	1		p_1	
-	m	(Ljava/util/Collection;)V	m_0836169		m_0836169
+	m	(Ljava/util/Collection;)V	m_0836169		addAllPendingBlockEntities
 		p	1			p_1
 	m	(Ljava/util/Collection;)V	m_3412670		m_3412670
 		p	1			p_1
@@ -168,14 +168,14 @@ c	net/minecraft/unmapped/C_6607881
 		p	9			p_9
 		p	10			p_10
 c	net/minecraft/unmapped/C_6849228
-	f	[Ljava/util/List;	f_6611626	f_6611626	
-	f	[Lnet/minecraft/unmapped/C_9370929;	f_6611626		f_6611626
-	m	()[Ljava/util/List;	m_1675877	m_1675877	
-	m	()[Lnet/minecraft/unmapped/C_9370929;	m_1675877		m_1675877
+	f	[Ljava/util/List;	f_6611626	entitySections	
+	f	[Lnet/minecraft/unmapped/C_9370929;	f_6611626		entitySections
+	m	()[Ljava/util/List;	m_1675877	getEntitySections	
+	m	()[Lnet/minecraft/unmapped/C_9370929;	m_1675877		getEntitySections
 c	net/minecraft/unmapped/C_9236886
 	f	Ljava/util/Map;	f_7576749	f_7576749	
 	m	()V	m_8144055	m_8144055	
-	m	(II)V	m_1719509		m_1719509
+	m	(II)V	m_1719509		releaseLists
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_9482745
@@ -197,9 +197,9 @@ c	net/minecraft/unmapped/C_9482745
 c	net/minecraft/unmapped/C_9899502
 	m	(Lnet/minecraft/unmapped/C_2018497;)Z	m_7502874		m_7502874
 		p	1			p_1
-c	net/minecraft/unmapped/C_0855172		net/minecraft/unmapped/C_0855172
-	f	Lorg/apache/logging/log4j/Logger;	f_8616057		f_8616057
-	f	Lnet/minecraft/server/MinecraftServer;	f_3208910		f_3208910
+c	net/minecraft/unmapped/C_0855172		net/minecraft/server/dedicated/ServerWatchdog
+	f	Lorg/apache/logging/log4j/Logger;	f_8616057		LOGGER
+	f	Lnet/minecraft/server/MinecraftServer;	f_3208910		server
 	m	(Lnet/minecraft/server/MinecraftServer;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
@@ -216,15 +216,15 @@ c	net/minecraft/unmapped/C_6079937		net/minecraft/unmapped/C_6079937
 	m	(Lnet/minecraft/unmapped/C_1567607;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
-c	net/minecraft/unmapped/C_9370929		net/minecraft/unmapped/C_9370929
+c	net/minecraft/unmapped/C_9370929		net/minecraft/util/ClassInstanceMultiMap
 	f	Ljava/util/Map;	f_2948317		f_2948317
-	f	Lcom/google/common/collect/Multimap;	f_4077302		f_4077302
+	f	Lcom/google/common/collect/Multimap;	f_4077302		byClass
 	f	Lgnu/trove/map/hash/TIntObjectHashMap;	f_6133340		f_6133340
 	f	Ljava/util/Set;	f_2368279		f_2368279
 	m	()V	<init>		<init>
 	m	(Ljava/lang/Class;)V	m_9329705		m_9329705
 		p	1			p_1
-	m	(Ljava/lang/Class;)Ljava/lang/Class;	m_4751146		m_4751146
+	m	(Ljava/lang/Class;)Ljava/lang/Class;	m_4751146		find
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_8159608		m_8159608
 		p	1			p_1

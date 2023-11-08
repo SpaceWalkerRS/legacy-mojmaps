@@ -3,29 +3,29 @@ c	net/minecraft/unmapped/C_0539808
 	m	(Z)V	m_4131238	m_4131238	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1161898
-	m	(Lnet/minecraft/unmapped/C_4116648;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_9315417	m_9315417	
+	m	(Lnet/minecraft/unmapped/C_4116648;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_9315417	arrow	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3366538;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_9701339	m_9701339	
+	m	(Lnet/minecraft/unmapped/C_3366538;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_9701339	fireball	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_3895579	m_3895579	
+	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_1161898;	m_3895579	thrown	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_4116648;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_9315417		m_9315417
+	m	(Lnet/minecraft/unmapped/C_4116648;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_9315417		arrow
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3366538;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_9701339		m_9701339
+	m	(Lnet/minecraft/unmapped/C_3366538;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_9701339		fireball
 		p	0			p_0
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_3895579		m_3895579
+	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_1161898;	m_3895579		thrown
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_2128050
-	m	(Lnet/minecraft/unmapped/C_3865296;)V	m_2545596	m_2545596	
+	m	(Lnet/minecraft/unmapped/C_3865296;)V	m_2545596	setLevel	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2167183
-	f	I	f_2893626	f_2893626	
+	f	I	f_2893626	playerGameType	
 	m	(BBJII)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -42,13 +42,13 @@ c	net/minecraft/unmapped/C_2501864
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_2968238
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)Z	m_9439290	m_9439290	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)Z	m_9439290	growMushroom	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9439290		m_9439290
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9439290		growMushroom
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -68,8 +68,8 @@ c	net/minecraft/unmapped/C_3118824
 	m	(I)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_4116648
-	f	Lnet/minecraft/unmapped/C_0539808;	f_6916610	f_6916610	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_6916610		f_6916610
+	f	Lnet/minecraft/unmapped/C_0539808;	f_6916610	ownerUUID	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_6916610		ownerUUID
 c	net/minecraft/unmapped/C_4378535
 	m	([FIIII)[F	m_2583334	m_2583334	
 		p	1		p_1	
@@ -92,15 +92,15 @@ c	net/minecraft/unmapped/C_4969846
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_5253250
-	f	I	f_4182422	f_4182422	
+	f	I	f_4182422	value	
 	m	(Lnet/minecraft/unmapped/C_5553933;DDDI)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 		p	4		p_4	
 		p	6		p_6	
 		p	8		p_8	
-	m	()I	m_3742381	m_3742381	
-	m	(I)I	m_7713441	m_7713441	
+	m	()I	m_3742381	getValue	
+	m	(I)I	m_7713441	getExperienceValue	
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_5553933;DDD)V	<init>		<init>
 		p	1			p_1
@@ -111,9 +111,9 @@ c	net/minecraft/unmapped/C_5587144
 	f	I	f_3032070		f_3032070
 	f	I	f_8508400		f_8508400
 	m	()V	m_1700770	m_1700770	
-	m	(I)V	m_0664731	m_0664731	
+	m	(I)V	m_0664731	setCarriedBlock	
 		p	1		p_1	
-	m	()I	m_7222327	m_7222327	
+	m	()I	m_7222327	getCarriedBlock	
 	m	(I)V	m_6710037	m_6710037	
 		p	1		p_1	
 	m	()I	m_2791937	m_2791937	
@@ -124,8 +124,8 @@ c	net/minecraft/unmapped/C_6306298
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_6382639
-	f	Lnet/minecraft/unmapped/C_0539808;	f_9669185	f_9669185	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_9669185		f_9669185
+	f	Lnet/minecraft/unmapped/C_0539808;	f_9669185	owner	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_9669185		owner
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -137,14 +137,14 @@ c	net/minecraft/unmapped/C_6382639
 c	net/minecraft/unmapped/C_6607881
 	m	()Z	m_0876818	m_0876818	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_7588380;)V	m_6679158	m_6679158	
+	m	(Lnet/minecraft/unmapped/C_7588380;)V	m_6679158	handleAddExperienceOrb	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_7588380	net/minecraft/unmapped/C_7588380	
-	f	I	f_7042540	f_7042540	
-	f	I	f_7054074	f_7054074	
-	f	I	f_4377997	f_4377997	
-	f	I	f_1928389	f_1928389	
-	f	I	f_3061101	f_3061101	
+c	net/minecraft/unmapped/C_7588380	net/minecraft/network/protocol/game/ClientboundAddExperienceOrbPacket	
+	f	I	f_7042540	id	
+	f	I	f_7054074	x	
+	f	I	f_4377997	y	
+	f	I	f_1928389	z	
+	f	I	f_3061101	value	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_5253250;)V	<init>	<init>	
 		p	1		p_1	
@@ -156,14 +156,14 @@ c	net/minecraft/unmapped/C_7588380	net/minecraft/unmapped/C_7588380
 		p	1		p_1	
 	m	()I	m_4040470	m_4040470	
 c	net/minecraft/unmapped/C_8633065
-	f	[Lnet/minecraft/unmapped/C_7141926;	f_2684292	f_2684292	
+	f	[Lnet/minecraft/unmapped/C_7141926;	f_2684292	strongholdPos	
 	f	I	f_3283041		f_3283041
 	f	I	f_8775391		f_8775391
 c	net/minecraft/unmapped/C_8718968
 	m	(I)I	m_7157143	m_7157143	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9232485
-	f	B	f_3407255	f_3407255	
+	f	B	f_3407255	maxPlayers	
 	m	(Ljava/lang/String;IJIBBBB)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -184,5 +184,5 @@ c	net/minecraft/unmapped/C_9232485
 c	net/minecraft/unmapped/C_9590849
 	m	()Z	m_2916573	m_2916573	
 	m	()Z	m_0876818	m_0876818	
-	m	(Z)Z	m_8914955	m_8914955	
+	m	(Z)Z	m_8914955	canEat	
 		p	1		p_1	

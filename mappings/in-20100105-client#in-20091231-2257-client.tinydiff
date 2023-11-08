@@ -58,11 +58,11 @@ c	net/minecraft/unmapped/C_0256098	net/minecraft/unmapped/C_0256098
 c	net/minecraft/unmapped/C_0259655
 	m	()V	m_8540370	m_8540370	
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_1413981	f_1413981	
-	f	F	f_9402756	f_9402756	
+	f	Z	f_1413981	noPhysics	
+	f	F	f_9402756	pushthrough	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_7680946	m_7680946	
 		p	1		p_1	
-	m	(FFFFF)V	m_0375747	m_0375747	
+	m	(FFFFF)V	m_0375747	moveTo	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -125,7 +125,7 @@ c	net/minecraft/unmapped/C_1250582
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_1525636
 	f	I	f_0563187	f_0563187	
-c	net/minecraft/unmapped/C_1872000	net/minecraft/unmapped/C_1872000	
+c	net/minecraft/unmapped/C_1872000	net/minecraft/client/sounds/SoundEngine	
 	f	Lpaulscode/sound/SoundSystem;	f_1277949	f_1277949	
 	f	Lnet/minecraft/unmapped/C_0256098;	f_2393180	f_2393180	
 	f	Lnet/minecraft/unmapped/C_0256098;	f_3668329	f_3668329	
@@ -341,13 +341,13 @@ c	net/minecraft/unmapped/C_6559556
 	m	(Lnet/minecraft/unmapped/C_0539808;F)V	m_2631170	m_2631170	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_5251046	m_5251046	
+	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_5251046	setLevel	
 		p	1		p_1	
-	m	(III)V	m_4711436	m_4711436	
+	m	(III)V	m_4711436	destroy	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIII)V	m_0198883	m_0198883	
+	m	(IIII)V	m_0198883	crack	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -421,10 +421,10 @@ c	net/minecraft/unmapped/C_7952195
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8398976
-	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_2989568	m_2989568	
+	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_2989568	setLevel	
 		p	1		p_1	
-	m	()V	m_1315270	m_1315270	
-	m	(F)V	m_5055077	m_5055077	
+	m	()V	m_1315270	tick	
+	m	(F)V	m_5055077	renderSky	
 		p	1		p_1	
 	m	()V	m_6633291	m_6633291	
 	m	()V	m_7874783	m_7874783	
@@ -432,7 +432,7 @@ c	net/minecraft/unmapped/C_8398976
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_7794883;I)V	m_5591589	m_5591589	
+	m	(Lnet/minecraft/unmapped/C_7794883;I)V	m_5591589	renderHitOutline	
 		p	1		p_1	
 		p	2		p_2	
 	m	(III)V	m_8568957	m_8568957	
@@ -467,7 +467,7 @@ c	net/minecraft/unmapped/C_8806455	net/minecraft/unmapped/C_8806455
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_8980628
-	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0876962;F)V	m_3138048	m_3138048	
+	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0876962;F)V	m_3138048	renderShadow	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

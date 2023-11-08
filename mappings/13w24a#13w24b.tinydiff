@@ -34,9 +34,9 @@ c	net/minecraft/unmapped/C_2910311
 c	net/minecraft/unmapped/C_2948655
 	m	()Lnet/minecraft/unmapped/C_5553933;	m_8235037		m_8235037
 c	net/minecraft/unmapped/C_3225627
-	m	(Ljava/io/DataInput;)V	m_9918199	m_9918199	
+	m	(Ljava/io/DataInput;)V	m_9918199	load	
 		p	1		p_1	
-	m	(Ljava/io/DataInput;I)V	m_9918199		m_9918199
+	m	(Ljava/io/DataInput;I)V	m_9918199		load
 		p	1			p_1
 		p	2			p_2
 	m	(Ljava/io/DataInput;I)Lnet/minecraft/unmapped/C_3225627;	m_0703879		m_0703879
@@ -52,10 +52,10 @@ c	net/minecraft/unmapped/C_3424041
 c	net/minecraft/unmapped/C_3488550
 	f	Lnet/minecraft/unmapped/C_3488550;	f_6259213	f_6259213	
 	f	Lnet/minecraft/unmapped/C_3488550;	f_7918494		f_7918494
-	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_4920273;)V	m_0968648	m_0968648	
+	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_4920273;)V	m_0968648	removeAttributeModifiers	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_4920273;I)V	m_0968648		m_0968648
+	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_4920273;I)V	m_0968648		removeAttributeModifiers
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -93,9 +93,9 @@ c	net/minecraft/unmapped/C_4257480
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_6347954;)V	m_7644134	m_7644134	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_1676943;)V	m_7876655		m_7876655
+	m	(Lnet/minecraft/unmapped/C_1676943;)V	m_7876655		loadData
 		p	1			p_1
-	m	(Ljava/util/List;I)V	m_8822738		m_8822738
+	m	(Ljava/util/List;I)V	m_8822738		upload
 		p	0			p_0
 		p	1			p_1
 	m	([IIII)[I	m_3853051		m_3853051
@@ -103,8 +103,8 @@ c	net/minecraft/unmapped/C_4257480
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()V	m_0647810		m_0647810
-	m	()Z	m_6515462		m_6515462
+	m	()V	m_0647810		uploadFirstFrame
+	m	()Z	m_6515462		isAnimation
 c	net/minecraft/unmapped/C_4884298
 	m	()Lnet/minecraft/unmapped/C_0561170;	m_5024739		m_5024739
 c	net/minecraft/unmapped/C_4895885
@@ -163,9 +163,9 @@ c	net/minecraft/unmapped/C_6088271
 c	net/minecraft/unmapped/C_6347954
 	m	(Ljava/util/List;)V	<init>	<init>	
 		p	1		p_1	
-	m	(I)Lnet/minecraft/unmapped/C_6173837;	m_7096716		m_7096716
+	m	(I)Lnet/minecraft/unmapped/C_6173837;	m_7096716		getFrame
 		p	1			p_1
-	m	()Ljava/util/Set;	m_7706325		m_7706325
+	m	()Ljava/util/Set;	m_7706325		getUniqueFrameIndices
 c	net/minecraft/unmapped/C_6466836
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_6684392
@@ -240,14 +240,14 @@ c	net/minecraft/unmapped/C_9992501
 		p	9			p_9
 		p	10			p_10
 		p	11			p_11
-c	net/minecraft/unmapped/C_1992618		net/minecraft/unmapped/C_1992618
-	f	Lnet/minecraft/unmapped/C_0561170;	f_4575303		f_4575303
+c	net/minecraft/unmapped/C_1992618		net/minecraft/client/resources/FoliageColorReloadListener
+	f	Lnet/minecraft/unmapped/C_0561170;	f_4575303		LOCATION
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_6577431;)V	m_8394980		m_8394980
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_4645060		net/minecraft/unmapped/C_4645060
-	f	Lnet/minecraft/unmapped/C_0561170;	f_5452144		f_5452144
+c	net/minecraft/unmapped/C_4645060		net/minecraft/client/resources/GrassColorReloadListener
+	f	Lnet/minecraft/unmapped/C_0561170;	f_5452144		LOCATION
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_6577431;)V	m_8394980		m_8394980
 		p	1			p_1

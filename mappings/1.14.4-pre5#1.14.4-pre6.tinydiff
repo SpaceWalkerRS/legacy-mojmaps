@@ -8,14 +8,14 @@ c	net/minecraft/unmapped/C_0097073
 		p	6		p_6	
 		p	8		p_8	
 		p	10		p_10	
-	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_5577922;Ljava/util/function/Predicate;)Ljava/util/List;	m_7956022		m_7956022
+	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_5577922;Ljava/util/function/Predicate;)Ljava/util/List;	m_7956022		getLoadedEntitiesOfClass
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_5577922;)Ljava/util/List;	m_1512148		m_1512148
+	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_5577922;)Ljava/util/List;	m_1512148		getLoadedEntitiesOfClass
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_8688443;Lnet/minecraft/unmapped/C_6607881;DDDLnet/minecraft/unmapped/C_5577922;)Lnet/minecraft/unmapped/C_6607881;	m_2529724		m_2529724
+	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_8688443;Lnet/minecraft/unmapped/C_6607881;DDDLnet/minecraft/unmapped/C_5577922;)Lnet/minecraft/unmapped/C_6607881;	m_2529724		getNearestEntity
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -23,7 +23,7 @@ c	net/minecraft/unmapped/C_0097073
 		p	6			p_6
 		p	8			p_8
 		p	10			p_10
-	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_8688443;Lnet/minecraft/unmapped/C_6607881;DDDLnet/minecraft/unmapped/C_5577922;)Lnet/minecraft/unmapped/C_6607881;	m_6596905		m_6596905
+	m	(Ljava/lang/Class;Lnet/minecraft/unmapped/C_8688443;Lnet/minecraft/unmapped/C_6607881;DDDLnet/minecraft/unmapped/C_5577922;)Lnet/minecraft/unmapped/C_6607881;	m_6596905		getNearestLoadedEntity
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -34,7 +34,7 @@ c	net/minecraft/unmapped/C_0097073
 c	net/minecraft/unmapped/C_0521206
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/unmapped/C_1316134
-	m	(JLnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_3331146;)V	m_9382782		m_9382782
+	m	(JLnet/minecraft/unmapped/C_0636026;Lnet/minecraft/unmapped/C_3331146;)V	m_9382782		storeInCache
 		p	1			p_1
 		p	3			p_3
 		p	4			p_4
@@ -42,10 +42,10 @@ c	net/minecraft/unmapped/C_1316134
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_2428652
-	m	(Ljava/util/function/IntConsumer;)V	m_9753780		m_9753780
+	m	(Ljava/util/function/IntConsumer;)V	m_9753780		getAll
 		p	1			p_1
 c	net/minecraft/unmapped/C_4764197
-	m	(Lnet/minecraft/unmapped/C_4764197$C_3602428;)V	m_8565788		m_8565788
+	m	(Lnet/minecraft/unmapped/C_4764197$C_3602428;)V	m_8565788		count
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_4764197$C_3602428;Lit/unimi/dsi/fastutil/ints/Int2IntMap$Entry;)V	m_4491031		m_4491031
 		p	1			p_1
@@ -53,7 +53,7 @@ c	net/minecraft/unmapped/C_4764197
 	m	(Lit/unimi/dsi/fastutil/ints/Int2IntMap;I)V	m_3904988		m_3904988
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_4764197$C_3602428		C_3602428
+c	net/minecraft/unmapped/C_4764197$C_3602428		CountConsumer
 	m	(Ljava/lang/Object;I)V	accept		accept
 		p	1			p_1
 		p	2			p_2
@@ -63,21 +63,21 @@ c	net/minecraft/unmapped/C_5553933
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_7808835
-	m	(Lnet/minecraft/unmapped/C_3331146;)Ljava/util/concurrent/CompletableFuture;	m_4715833		m_4715833
+	m	(Lnet/minecraft/unmapped/C_3331146;)Ljava/util/concurrent/CompletableFuture;	m_4715833		getFutureIfPresent
 		p	1			p_1
 c	net/minecraft/unmapped/C_8042654
 	m	(Lnet/minecraft/unmapped/C_2441996;I)V	m_9481735		m_9481735
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8881785
-	f	Ljava/lang/invoke/MethodHandle;	f_9316637		f_9316637
-	f	I	f_5322240		f_5322240
+	f	Ljava/lang/invoke/MethodHandle;	f_9316637		glfwRawMouseMotionSupported
+	f	I	f_5322240		GLFW_RAW_MOUSE_MOTION
 	m	()Z	m_1448685	m_1448685	
-	m	()Z	m_8489828		m_8489828
-	m	(JZ)V	m_0771913		m_0771913
+	m	()Z	m_8489828		isRawMouseInputSupported
+	m	(JZ)V	m_0771913		updateRawMouseInput
 		p	0			p_0
 		p	2			p_2
 c	net/minecraft/unmapped/C_9848147
-	m	(II)Lnet/minecraft/unmapped/C_6849228;	m_6628034		m_6628034
+	m	(II)Lnet/minecraft/unmapped/C_6849228;	m_6628034		getChunkNow
 		p	1			p_1
 		p	2			p_2

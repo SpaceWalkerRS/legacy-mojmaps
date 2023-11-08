@@ -14,14 +14,14 @@ c	net/minecraft/unmapped/C_0201752
 	m	()F	m_9376546		m_9376546
 	m	()I	m_7418247		m_7418247
 c	net/minecraft/unmapped/C_0539808
-	m	(F)I	m_7418247	m_7418247	
+	m	(F)I	m_7418247	getLightColor	
 		p	1		p_1	
-	m	(F)F	m_9376546	m_9376546	
+	m	(F)F	m_9376546	getBrightness	
 		p	1		p_1	
-	m	()I	m_7418247		m_7418247
-	m	()F	m_9376546		m_9376546
+	m	()I	m_7418247		getLightColor
+	m	()F	m_9376546		getBrightness
 c	net/minecraft/unmapped/C_0631682
-	m	(Lnet/minecraft/unmapped/C_7721249;FF)Lnet/minecraft/unmapped/C_0631682;	m_0273510		m_0273510
+	m	(Lnet/minecraft/unmapped/C_7721249;FF)Lnet/minecraft/unmapped/C_0631682;	m_0273510		forUI
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -37,7 +37,7 @@ c	net/minecraft/unmapped/C_1444189
 		p	1		p_1	
 	m	()I	m_7418247		m_7418247
 c	net/minecraft/unmapped/C_2384544
-	f	Z	f_6461801		f_6461801
+	f	Z	f_6461801		playedSound
 c	net/minecraft/unmapped/C_3089894
 	m	(Lnet/minecraft/unmapped/C_3089894;)Lnet/minecraft/unmapped/C_8105098;	m_1245756		m_1245756
 		p	0			p_0
@@ -73,17 +73,17 @@ c	net/minecraft/unmapped/C_7063331
 	m	(Lnet/minecraft/unmapped/C_8099772;)V	m_8414824		m_8414824
 		p	1			p_1
 c	net/minecraft/unmapped/C_7203066
-	m	(FLnet/minecraft/unmapped/C_4257480;)V	m_6356832	m_6356832	
+	m	(FLnet/minecraft/unmapped/C_4257480;)V	m_6356832	renderTex	
 		p	1		p_1	
 		p	2		p_2	
-	m	(F)V	m_8287822	m_8287822	
+	m	(F)V	m_8287822	renderFire	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_4257480;)V	m_6356832		m_6356832
+	m	(Lnet/minecraft/unmapped/C_4257480;)V	m_6356832		renderTex
 		p	1			p_1
-	m	()V	m_8287822		m_8287822
+	m	()V	m_8287822		renderFire
 c	net/minecraft/unmapped/C_7476141
 c	net/minecraft/unmapped/C_7476141$C_3198019
-	f	Lnet/minecraft/unmapped/C_7721249;	f_4522645		f_4522645
+	f	Lnet/minecraft/unmapped/C_7721249;	f_4522645		soundEvent
 	m	(Ljava/lang/String;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -91,9 +91,9 @@ c	net/minecraft/unmapped/C_7476141$C_3198019
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_5819357;)V	m_6046183		m_6046183
+	m	(Lnet/minecraft/unmapped/C_5819357;)V	m_6046183		playSound
 		p	1			p_1
 c	net/minecraft/unmapped/C_9221482
-	f	Lnet/minecraft/unmapped/C_7721249;	f_5070700		f_5070700
-	f	Lnet/minecraft/unmapped/C_7721249;	f_0815089		f_0815089
-	f	Lnet/minecraft/unmapped/C_7721249;	f_8952377		f_8952377
+	f	Lnet/minecraft/unmapped/C_7721249;	f_5070700		UI_TOAST_IN
+	f	Lnet/minecraft/unmapped/C_7721249;	f_0815089		UI_TOAST_OUT
+	f	Lnet/minecraft/unmapped/C_7721249;	f_8952377		UI_TOAST_CHALLENGE_COMPLETE

@@ -56,12 +56,12 @@ c	net/minecraft/unmapped/C_4808571
 	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_6154030
 		p	0		p_0	
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_9177170	m_9177170	
+	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_9177170	isFuel	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5005702
 	f	I	f_7691701	f_7691701	
 c	net/minecraft/unmapped/C_5185137
-	m	(Ljava/lang/String;)Ljava/lang/String;	m_9602451	m_9602451	
+	m	(Ljava/lang/String;)Ljava/lang/String;	m_9602451	filterText	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5637855
 	m	()V	m_2790596	m_2790596	
@@ -79,13 +79,13 @@ c	net/minecraft/unmapped/C_7056743
 	f	Ljava/lang/String;	f_1373688	f_1373688	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_7377641
-	f	Ljava/net/URL;	f_7540984	f_7540984	
+	f	Ljava/net/URL;	f_7540984	url	
 	f	Lnet/minecraft/unmapped/C_7377641;	f_6716852		f_6716852
 	f	J	f_3297900		f_3297900
 	f	Ljava/util/Map;	f_1905011		f_1905011
 	m	(Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
-	m	(Ljava/lang/String;Ljava/lang/Object;)V	m_4244849	m_4244849	
+	m	(Ljava/lang/String;Ljava/lang/Object;)V	m_4244849	setDynamicData	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_7377641;)Ljava/net/URL;	m_8393031	m_8393031	
@@ -94,7 +94,7 @@ c	net/minecraft/unmapped/C_7377641
 		p	0		p_0	
 	m	()V	<init>		<init>
 	m	()V	m_7162171		m_7162171
-	m	(Ljava/lang/String;Ljava/lang/String;)V	m_4244849		m_4244849
+	m	(Ljava/lang/String;Ljava/lang/String;)V	m_4244849		setDynamicData
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
@@ -119,7 +119,7 @@ c	net/minecraft/unmapped/C_7873567
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_8643842	net/minecraft/unmapped/C_8643842	
+c	net/minecraft/unmapped/C_8643842	net/minecraft/util/HttpUtil	
 	m	()V	<init>	<init>	
 	m	(Ljava/util/Map;)Ljava/lang/String;	m_0532726	m_0532726	
 		p	0		p_0	
@@ -135,8 +135,8 @@ c	net/minecraft/unmapped/C_8651652
 	f	Ljava/lang/String;	f_1609371		f_1609371
 c	net/minecraft/unmapped/C_9113835
 	f	Z	f_2790681		f_2790681
-	m	()V	m_2790596	m_2790596	
-	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_2790596		m_2790596
+	m	()V	m_2790596	tick	
+	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_2790596		tick
 		p	1			p_1
 c	net/minecraft/unmapped/C_4574682		net/minecraft/unmapped/C_4574682
 	f	Z	f_7194447		f_7194447

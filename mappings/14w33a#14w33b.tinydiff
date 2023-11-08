@@ -11,18 +11,18 @@ c	net/minecraft/unmapped/C_2986085
 	m	()V	<init>		<init>
 	m	([B)V	<init>		<init>
 		p	1			p_1
-	m	(III)I	m_1155133		m_1155133
+	m	(III)I	m_1155133		getIndex
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(I)I	m_8540987		m_8540987
+	m	(I)I	m_8540987		get
 		p	1			p_1
-	m	(II)V	m_9009157		m_9009157
+	m	(II)V	m_9009157		set
 		p	1			p_1
 		p	2			p_2
-	m	(I)Z	m_8647202		m_8647202
+	m	(I)Z	m_8647202		isFirst
 		p	1			p_1
-	m	(I)I	m_7648584		m_7648584
+	m	(I)I	m_7648584		getPosition
 		p	1			p_1
 c	net/minecraft/unmapped/C_4652455
 	m	([B[BI)I	m_7053973		m_7053973
@@ -83,8 +83,8 @@ c	net/minecraft/unmapped/C_5100287
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_1241852;Z)F	m_4499539	m_4499539	
+	m	(Lnet/minecraft/unmapped/C_1241852;Z)F	m_4499539	getDestroySpeed	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_4499539		m_4499539
+	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_4499539		getDestroySpeed
 		p	1			p_1

@@ -8,8 +8,8 @@ c	net/minecraft/unmapped/C_0191817
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_0241772
-	f	Lit/unimi/dsi/fastutil/ints/IntList;	f_1718513		f_1718513
-	m	()Lit/unimi/dsi/fastutil/ints/IntList;	m_0797246		m_0797246
+	f	Lit/unimi/dsi/fastutil/ints/IntList;	f_1718513		stackingIds
+	m	()Lit/unimi/dsi/fastutil/ints/IntList;	m_0797246		getStackingIds
 	m	([Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_0241772$1;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -53,7 +53,7 @@ c	net/minecraft/unmapped/C_0837724
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_0876962
-	f	Lnet/minecraft/unmapped/C_0561170;	f_2792843		f_2792843
+	f	Lnet/minecraft/unmapped/C_0561170;	f_2792843		INTENTIONAL_MISSING_TEXTURE
 c	net/minecraft/unmapped/C_1078566
 	m	(Lnet/minecraft/unmapped/C_1730529;)Lnet/minecraft/unmapped/C_1730529;	m_7464404		m_7464404
 		p	0			p_0
@@ -83,15 +83,15 @@ c	net/minecraft/unmapped/C_1184371
 		p	2			p_2
 c	net/minecraft/unmapped/C_1186819
 	m	()Z	m_7293692	m_7293692	
-	m	()Lnet/minecraft/unmapped/C_0666081;	m_0877864		m_0877864
+	m	()Lnet/minecraft/unmapped/C_0666081;	m_0877864		getGameMode
 c	net/minecraft/unmapped/C_1197137
 	f	Ljava/util/Random;	f_9795591	f_9795591	
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
+	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	fillItemCategory	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965		m_5196965
+	m	(Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965		fillItemCategory
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1264786
@@ -103,7 +103,7 @@ c	net/minecraft/unmapped/C_1264786
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1331819
-	f	Lnet/minecraft/unmapped/C_7778778;	f_3127829		f_3127829
+	f	Lnet/minecraft/unmapped/C_7778778;	f_3127829		keyAdvancements
 c	net/minecraft/unmapped/C_1440477
 	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
 		p	1		p_1	
@@ -254,8 +254,8 @@ c	net/minecraft/unmapped/C_2046731
 c	net/minecraft/unmapped/C_2172682
 	m	()Ljava/util/List;	m_7264146	m_7264146	
 c	net/minecraft/unmapped/C_2361607
-	m	()Ljava/util/List;	m_7264146	m_7264146	
-	m	()Lnet/minecraft/unmapped/C_0160011;	m_7264146		m_7264146
+	m	()Ljava/util/List;	m_7264146	getIngredients	
+	m	()Lnet/minecraft/unmapped/C_0160011;	m_7264146		getIngredients
 c	net/minecraft/unmapped/C_2590170
 	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
 		p	1		p_1	
@@ -305,8 +305,8 @@ c	net/minecraft/unmapped/C_3037945
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3180769
-	f	Lnet/minecraft/unmapped/C_1322485;	f_9033179		f_9033179
-	m	(Lnet/minecraft/unmapped/C_1322485;)V	m_8813571		m_8813571
+	f	Lnet/minecraft/unmapped/C_1322485;	f_9033179		lastSelectedTab
+	m	(Lnet/minecraft/unmapped/C_1322485;)V	m_8813571		setSelectedTab
 		p	1			p_1
 c	net/minecraft/unmapped/C_3273454
 	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
@@ -317,25 +317,25 @@ c	net/minecraft/unmapped/C_3273454
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3285536
-	f	Ljava/util/ArrayDeque;	f_9260348		f_9260348
-	m	(Lnet/minecraft/unmapped/C_6989017;Lnet/minecraft/unmapped/C_1730529;)I	m_0279409		m_0279409
+	f	Ljava/util/ArrayDeque;	f_9260348		commandQueue
+	m	(Lnet/minecraft/unmapped/C_6989017;Lnet/minecraft/unmapped/C_1730529;)I	m_0279409		execute
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_3285536$C_6779224		C_6779224
-	f	Lnet/minecraft/unmapped/C_3285536;	f_6254699		f_6254699
-	f	Lnet/minecraft/unmapped/C_1730529;	f_8128637		f_8128637
-	f	Lnet/minecraft/unmapped/C_6989017$C_2176051;	f_0118840		f_0118840
+c	net/minecraft/unmapped/C_3285536$C_6779224		QueuedCommand
+	f	Lnet/minecraft/unmapped/C_3285536;	f_6254699		manager
+	f	Lnet/minecraft/unmapped/C_1730529;	f_8128637		sender
+	f	Lnet/minecraft/unmapped/C_6989017$C_2176051;	f_0118840		entry
 	m	(Lnet/minecraft/unmapped/C_3285536;Lnet/minecraft/unmapped/C_1730529;Lnet/minecraft/unmapped/C_6989017$C_2176051;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Ljava/util/ArrayDeque;I)V	m_3704702		m_3704702
+	m	(Ljava/util/ArrayDeque;I)V	m_3704702		execute
 		p	1			p_1
 		p	2			p_2
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/unmapped/C_3325952
-	f	Lnet/minecraft/unmapped/C_7735639;	f_9576190	f_9576190	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_9576190		f_9576190
+	f	Lnet/minecraft/unmapped/C_7735639;	f_9576190	ENCHANTED_BOOK	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_9576190		ENCHANTED_BOOK
 c	net/minecraft/unmapped/C_3499107
 	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
 		p	1		p_1	
@@ -345,17 +345,17 @@ c	net/minecraft/unmapped/C_3499107
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3755722
-	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_1746706	m_1746706	
+	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_1746706	fillItemCategory	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_1746706		m_1746706
+	m	(Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_1746706		fillItemCategory
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0191817;)Z	m_1522042		m_1522042
+	m	(Lnet/minecraft/unmapped/C_0191817;)Z	m_1522042		allowdedIn
 		p	1			p_1
 c	net/minecraft/unmapped/C_3809662
-	m	(Lnet/minecraft/unmapped/C_3310297;)V	m_7323622		m_7323622
+	m	(Lnet/minecraft/unmapped/C_3310297;)V	m_7323622		handleSeenAdvancements
 		p	1			p_1
 c	net/minecraft/unmapped/C_3866728
 	m	(F)V	m_3066956	m_3066956	
@@ -383,28 +383,28 @@ c	net/minecraft/unmapped/C_4288942
 c	net/minecraft/unmapped/C_4516246
 	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_7617674		m_7617674
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_1023567;)Z	m_8736263		m_8736263
+	m	(Lnet/minecraft/unmapped/C_1023567;)Z	m_8736263		hasPunchedTreesPreviously
 		p	0			p_0
 c	net/minecraft/unmapped/C_4580351
 	m	()Ljava/util/List;	m_7264146	m_7264146	
 c	net/minecraft/unmapped/C_4703972
-	f	I	f_7574046		f_7574046
-	f	I	f_1069253		f_1069253
-	m	()Lnet/minecraft/unmapped/C_1322485;	m_9163633		m_9163633
-	m	(Lnet/minecraft/unmapped/C_8249166;Lnet/minecraft/unmapped/C_1322485;)V	m_1471555		m_1471555
+	f	I	f_7574046		minX
+	f	I	f_1069253		minY
+	m	()Lnet/minecraft/unmapped/C_1322485;	m_9163633		getAdvancement
+	m	(Lnet/minecraft/unmapped/C_8249166;Lnet/minecraft/unmapped/C_1322485;)V	m_1471555		addWidget
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_4763356
 c	net/minecraft/unmapped/C_4763356$C_7952719
 	m	()Ljava/util/List;	m_7264146	m_7264146	
 c	net/minecraft/unmapped/C_4900540
-	f	Lnet/minecraft/unmapped/C_1322485;	f_1065037		f_1065037
-	m	()Lnet/minecraft/unmapped/C_2754584;	m_6656884		m_6656884
-	m	(Lnet/minecraft/unmapped/C_1322485;Z)V	m_7310181		m_7310181
+	f	Lnet/minecraft/unmapped/C_1322485;	f_1065037		selectedTab
+	m	()Lnet/minecraft/unmapped/C_2754584;	m_6656884		getAdvancements
+	m	(Lnet/minecraft/unmapped/C_1322485;Z)V	m_7310181		setSelectedTab
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_4900540$C_3876670
-	m	(Lnet/minecraft/unmapped/C_1322485;)V	m_6369915		m_6369915
+	m	(Lnet/minecraft/unmapped/C_1322485;)V	m_6369915		onSelectedTabChanged
 		p	1			p_1
 c	net/minecraft/unmapped/C_5192843
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_8754934	m_8754934	
@@ -608,9 +608,9 @@ c	net/minecraft/unmapped/C_5825329
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5940087
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_0280862	m_0280862	
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_0280862	dowseFire	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)V	m_0280862		m_0280862
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)V	m_0280862		dowseFire
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6073931
@@ -625,7 +625,7 @@ c	net/minecraft/unmapped/C_6150373
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6206008
-	m	()I	m_6576495		m_6576495
+	m	()I	m_6576495		countCompletedRequirements
 c	net/minecraft/unmapped/C_6296773
 	m	(Lnet/minecraft/unmapped/C_3755722;Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965	m_5196965	
 		p	1		p_1	
@@ -635,7 +635,7 @@ c	net/minecraft/unmapped/C_6296773
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6333845
-	f	Lnet/minecraft/unmapped/C_0512768;	f_3395391		f_3395391
+	f	Lnet/minecraft/unmapped/C_0512768;	f_3395391		collection
 	m	(II)V	m_9661580	m_9661580	
 		p	1		p_1	
 		p	2		p_2	
@@ -681,11 +681,11 @@ c	net/minecraft/unmapped/C_6989017
 		p	1			p_1
 c	net/minecraft/unmapped/C_6989017$1	1	
 c	net/minecraft/unmapped/C_6989017$C_2176051
-	m	(Lnet/minecraft/unmapped/C_3285536;Lnet/minecraft/unmapped/C_1730529;Ljava/util/Deque;)V	m_2101826	m_2101826	
+	m	(Lnet/minecraft/unmapped/C_3285536;Lnet/minecraft/unmapped/C_1730529;Ljava/util/Deque;)V	m_2101826	execute	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_3285536;Lnet/minecraft/unmapped/C_1730529;Ljava/util/ArrayDeque;I)V	m_2101826		m_2101826
+	m	(Lnet/minecraft/unmapped/C_3285536;Lnet/minecraft/unmapped/C_1730529;Ljava/util/ArrayDeque;I)V	m_2101826		execute
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -748,7 +748,7 @@ c	net/minecraft/unmapped/C_7133828
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_8214778;)V	m_2667518		m_2667518
+	m	(Lnet/minecraft/unmapped/C_8214778;)V	m_2667518		handleSelectAdvancementsTab
 		p	1			p_1
 c	net/minecraft/unmapped/C_7400754
 	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_3566912	m_3566912	
@@ -756,7 +756,7 @@ c	net/minecraft/unmapped/C_7400754
 	m	(Lnet/minecraft/unmapped/C_0241772;I)I	m_7163192	m_7163192	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_8814194;Z)V	m_5777290		m_5777290
+	m	(Lnet/minecraft/unmapped/C_8814194;Z)V	m_5777290		fillStackedContents
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7431851
@@ -768,7 +768,7 @@ c	net/minecraft/unmapped/C_7431851
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7563699
-	m	(Lnet/minecraft/unmapped/C_1023567;)Z	m_4845127		m_4845127
+	m	(Lnet/minecraft/unmapped/C_1023567;)Z	m_4845127		hasCraftedPlanksPreviously
 		p	0			p_0
 c	net/minecraft/unmapped/C_7585705
 	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_2361607;)Z	m_4991921	m_4991921	
@@ -815,13 +815,13 @@ c	net/minecraft/unmapped/C_7848093
 	f	Ljava/util/List;	f_6397176	f_6397176	
 	m	(Lnet/minecraft/unmapped/C_6680878;)V	m_6547463	m_6547463	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_5217418;)Lnet/minecraft/unmapped/C_2361607;	m_5324106	m_5324106	
+	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_5217418;)Lnet/minecraft/unmapped/C_2361607;	m_5324106	getRecipe	
 		p	1		p_1	
 		p	2		p_2	
 	m	(F)V	m_4395919	m_4395919	
 		p	1		p_1	
 	m	()V	m_3461300	m_3461300	
-	m	()Lnet/minecraft/unmapped/C_2361607;	m_5324106		m_5324106
+	m	()Lnet/minecraft/unmapped/C_2361607;	m_5324106		getRecipe
 c	net/minecraft/unmapped/C_7895426
 c	net/minecraft/unmapped/C_7895426$C_6892573
 	m	()Ljava/util/List;	m_7264146	m_7264146	
@@ -888,15 +888,15 @@ c	net/minecraft/unmapped/C_8925055
 c	net/minecraft/unmapped/C_9399468
 	m	()Ljava/util/List;	m_7264146	m_7264146	
 	m	()Lnet/minecraft/unmapped/C_0160011;	m_7264146		m_7264146
-	m	([Ljava/lang/String;)[Ljava/lang/String;	m_5485261		m_5485261
+	m	([Ljava/lang/String;)[Ljava/lang/String;	m_5485261		shrink
 		p	0			p_0
-	m	(Ljava/lang/String;)I	m_8506805		m_8506805
+	m	(Ljava/lang/String;)I	m_8506805		firstNonSpace
 		p	0			p_0
-	m	(Ljava/lang/String;)I	m_1512529		m_1512529
+	m	(Ljava/lang/String;)I	m_1512529		lastNonSpace
 		p	0			p_0
 c	net/minecraft/unmapped/C_9441491
-	f	Lnet/minecraft/unmapped/C_5487241;	f_1153379	f_1153379	
-	f	Lnet/minecraft/unmapped/C_5242898;	f_1153379		f_1153379
+	f	Lnet/minecraft/unmapped/C_5487241;	f_1153379	recipeBookComponent	
+	f	Lnet/minecraft/unmapped/C_5242898;	f_1153379		recipeBookComponent
 c	net/minecraft/unmapped/C_9575469
 c	net/minecraft/unmapped/C_9575469$C_5226130
 	m	()Ljava/util/List;	m_7264146	m_7264146	
@@ -927,30 +927,30 @@ c	net/minecraft/unmapped/C_9937916
 	m	(Lnet/minecraft/unmapped/C_0191817;Lnet/minecraft/unmapped/C_0160011;)V	m_5196965		m_5196965
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_3310297		net/minecraft/unmapped/C_3310297
-	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_8812475		f_8812475
-	f	Lnet/minecraft/unmapped/C_0561170;	f_4328503		f_4328503
+c	net/minecraft/unmapped/C_3310297		net/minecraft/network/protocol/game/ServerboundSeenAdvancementsPacket
+	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_8812475		action
+	f	Lnet/minecraft/unmapped/C_0561170;	f_4328503		tab
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_3310297$C_8801857;Lnet/minecraft/unmapped/C_0561170;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_1322485;)Lnet/minecraft/unmapped/C_3310297;	m_6105379		m_6105379
+	m	(Lnet/minecraft/unmapped/C_1322485;)Lnet/minecraft/unmapped/C_3310297;	m_6105379		openedTab
 		p	0			p_0
-	m	()Lnet/minecraft/unmapped/C_3310297;	m_6592383		m_6592383
+	m	()Lnet/minecraft/unmapped/C_3310297;	m_6592383		closedScreen
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_4792371		m_4792371
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_6110406		m_6110406
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3809662;)V	m_8317817		m_8317817
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_3310297$C_8801857;	m_5775262		m_5775262
-	m	()Lnet/minecraft/unmapped/C_0561170;	m_0495602		m_0495602
+	m	()Lnet/minecraft/unmapped/C_3310297$C_8801857;	m_5775262		getAction
+	m	()Lnet/minecraft/unmapped/C_0561170;	m_0495602		getTab
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
-c	net/minecraft/unmapped/C_3310297$C_8801857		C_8801857
-	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_2949603		f_2949603
-	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_9999880		f_9999880
-	f	[Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_0245265		f_0245265
+c	net/minecraft/unmapped/C_3310297$C_8801857		Action
+	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_2949603		OPENED_TAB
+	f	Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_9999880		CLOSED_SCREEN
+	f	[Lnet/minecraft/unmapped/C_3310297$C_8801857;	f_0245265		$VALUES
 	m	()[Lnet/minecraft/unmapped/C_3310297$C_8801857;	values		values
 	m	(Ljava/lang/String;)Lnet/minecraft/unmapped/C_3310297$C_8801857;	valueOf		valueOf
 		p	0			p_0
@@ -958,38 +958,38 @@ c	net/minecraft/unmapped/C_3310297$C_8801857		C_8801857
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
-	f	Lnet/minecraft/unmapped/C_0561170;	f_1861558		f_1861558
-	f	I	f_4483961		f_4483961
-	f	I	f_4731584		f_4731584
-	f	I	f_6498883		f_6498883
+c	net/minecraft/unmapped/C_5242898		net/minecraft/client/gui/screens/recipebook/RecipeBookComponent
+	f	Lnet/minecraft/unmapped/C_0561170;	f_1861558		RECIPE_BOOK_LOCATION
+	f	I	f_4483961		xOffset
+	f	I	f_4731584		width
+	f	I	f_6498883		height
 	f	Lorg/apache/logging/log4j/Logger;	f_1747437		f_1747437
-	f	Lnet/minecraft/unmapped/C_1606480;	f_0743731		f_0743731
-	f	Ljava/util/List;	f_2523961		f_2523961
-	f	Lnet/minecraft/unmapped/C_3866728;	f_1896807		f_1896807
-	f	Lnet/minecraft/unmapped/C_8545792;	f_6718370		f_6718370
+	f	Lnet/minecraft/unmapped/C_1606480;	f_0743731		ghostRecipe
+	f	Ljava/util/List;	f_2523961		tabButtons
+	f	Lnet/minecraft/unmapped/C_3866728;	f_1896807		selectedTab
+	f	Lnet/minecraft/unmapped/C_8545792;	f_6718370		filterButton
 	f	Lnet/minecraft/unmapped/C_8545792;	f_6138568		f_6138568
 	f	Lnet/minecraft/unmapped/C_8545792;	f_9426620		f_9426620
 	f	Lnet/minecraft/unmapped/C_0191817;	f_0136727		f_0136727
 	f	Lnet/minecraft/unmapped/C_6306298;	f_6722717		f_6722717
-	f	Lnet/minecraft/unmapped/C_5217418;	f_3192223		f_3192223
-	f	Lnet/minecraft/unmapped/C_8105098;	f_4551216		f_4551216
+	f	Lnet/minecraft/unmapped/C_5217418;	f_3192223		menu
+	f	Lnet/minecraft/unmapped/C_8105098;	f_4551216		minecraft
 	f	Lnet/minecraft/unmapped/C_3831727;	f_3496945		f_3496945
 	f	I	f_9839092		f_9839092
 	f	I	f_0428869		f_0428869
 	f	I	f_1700983		f_1700983
-	f	Lnet/minecraft/unmapped/C_2925725;	f_5506330		f_5506330
+	f	Lnet/minecraft/unmapped/C_2925725;	f_5506330		searchBox
 	f	Ljava/lang/String;	f_2918653		f_2918653
-	f	Ljava/lang/String;	f_7363549		f_7363549
+	f	Ljava/lang/String;	f_7363549		lastSearch
 	f	Ljava/util/Map;	f_0803352		f_0803352
 	f	Ljava/util/List;	f_8893447		f_8893447
 	f	Ljava/util/Map;	f_7132081		f_7132081
 	f	Ljava/util/Map;	f_6511681		f_6511681
-	f	Lnet/minecraft/unmapped/C_5890040;	f_8086998		f_8086998
-	f	Lnet/minecraft/unmapped/C_8814194;	f_9908813		f_9908813
-	f	Lnet/minecraft/unmapped/C_6188183;	f_9474773		f_9474773
+	f	Lnet/minecraft/unmapped/C_5890040;	f_8086998		recipeBookPage
+	f	Lnet/minecraft/unmapped/C_8814194;	f_9908813		stackedContents
+	f	Lnet/minecraft/unmapped/C_6188183;	f_9474773		book
 	m	()V	<init>		<init>
-	m	(IILnet/minecraft/unmapped/C_8105098;Lnet/minecraft/unmapped/C_3831727;ZLnet/minecraft/unmapped/C_6306298;Lnet/minecraft/unmapped/C_5217418;)V	m_2828653		m_2828653
+	m	(IILnet/minecraft/unmapped/C_8105098;Lnet/minecraft/unmapped/C_3831727;ZLnet/minecraft/unmapped/C_6306298;Lnet/minecraft/unmapped/C_5217418;)V	m_2828653		init
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -997,15 +997,15 @@ c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-	m	(ZLnet/minecraft/unmapped/C_5217418;)V	m_6464008		m_6464008
+	m	(ZLnet/minecraft/unmapped/C_5217418;)V	m_6464008		initVisuals
 		p	1			p_1
 		p	2			p_2
-	m	()V	m_4681231		m_4681231
-	m	(ZII)I	m_8839394		m_8839394
+	m	()V	m_4681231		removed
+	m	(ZII)I	m_8839394		updateScreenPosition
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(IIIIII)Z	m_8426564		m_8426564
+	m	(IIIIII)Z	m_8426564		hasClickedOutside
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -1025,11 +1025,11 @@ c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
 	m	(Lnet/minecraft/unmapped/C_0191817;)Lnet/minecraft/unmapped/C_0191817;	m_0103149		m_0103149
 		p	1			p_1
 	m	()V	m_2396433		m_2396433
-	m	()V	m_8224721		m_8224721
-	m	()Z	m_1396231		m_1396231
-	m	(Z)V	m_4488802		m_4488802
+	m	()V	m_8224721		toggleVisibility
+	m	()Z	m_1396231		isVisible
+	m	(Z)V	m_4488802		setVisible
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_1421936;)V	m_1284115		m_1284115
+	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_1421936;)V	m_1284115		slotClicked
 		p	1			p_1
 		p	2			p_2
 	m	(Z)V	m_1032813		m_1032813
@@ -1041,18 +1041,18 @@ c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
 	m	()V	m_7530250		m_7530250
 	m	(Z)V	m_2188437		m_2188437
 		p	1			p_1
-	m	()V	m_1209990		m_1209990
+	m	()V	m_1209990		updateTabs
 	m	()V	m_4739369		m_4739369
 	m	(IIF)V	m_0596640		m_0596640
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(IIII)V	m_7016523		m_7016523
+	m	(IIII)V	m_7016523		renderTooltip
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(IIII)V	m_6709261		m_6709261
+	m	(IIII)V	m_6709261		renderGhostRecipeTooltip
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -1071,10 +1071,10 @@ c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
 	m	(CI)Z	m_9463886		m_9463886
 		p	1			p_1
 		p	2			p_2
-	m	(Ljava/lang/String;)V	m_6602019		m_6602019
+	m	(Ljava/lang/String;)V	m_6602019		pirateSpeechForThePeople
 		p	1			p_1
-	m	()Z	m_2981505		m_2981505
-	m	()V	m_2504519		m_2504519
+	m	()Z	m_2981505		isOffsetNextToMainGUI
+	m	()V	m_2504519		recipesUpdated
 	m	(Ljava/util/List;)V	m_1127756		m_1127756
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2361607;IZ)V	m_8341293		m_8341293
@@ -1102,26 +1102,26 @@ c	net/minecraft/unmapped/C_5242898		net/minecraft/unmapped/C_5242898
 		p	2			p_2
 		p	3			p_3
 	m	()Z	m_3444083		m_3444083
-	m	(Lnet/minecraft/unmapped/C_2361607;Ljava/util/List;)V	m_5605291		m_5605291
+	m	(Lnet/minecraft/unmapped/C_2361607;Ljava/util/List;)V	m_5605291		setupGhostRecipe
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_8105098;)V	m_8375123		m_8375123
+	m	(Lnet/minecraft/unmapped/C_8105098;)V	m_8375123		sendUpdateSettings
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5890040		net/minecraft/unmapped/C_5890040
-	f	Ljava/util/List;	f_4468352		f_4468352
+c	net/minecraft/unmapped/C_5890040		net/minecraft/client/gui/screens/recipebook/RecipeBookPage
+	f	Ljava/util/List;	f_4468352		buttons
 	f	Lnet/minecraft/unmapped/C_7848093;	f_4615000		f_4615000
-	f	Lnet/minecraft/unmapped/C_7848093;	f_6903394		f_6903394
-	f	Lnet/minecraft/unmapped/C_6333845;	f_7614400		f_7614400
+	f	Lnet/minecraft/unmapped/C_7848093;	f_6903394		hoveredButton
+	f	Lnet/minecraft/unmapped/C_6333845;	f_7614400		overlay
 	f	Z	f_6007226		f_6007226
 	f	F	f_1388242		f_1388242
-	f	Lnet/minecraft/unmapped/C_8105098;	f_3026496		f_3026496
+	f	Lnet/minecraft/unmapped/C_8105098;	f_3026496		minecraft
 	f	Ljava/util/List;	f_6897864		f_6897864
-	f	Ljava/util/List;	f_3459067		f_3459067
+	f	Ljava/util/List;	f_3459067		showListeners
 	m	()V	<init>		<init>
-	m	(Lnet/minecraft/unmapped/C_8105098;)V	m_7399136		m_7399136
+	m	(Lnet/minecraft/unmapped/C_8105098;)V	m_7399136		init
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_5242898;)V	m_5126925		m_5126925
+	m	(Lnet/minecraft/unmapped/C_5242898;)V	m_5126925		addListener
 		p	1			p_1
 	m	(Ljava/util/List;)V	m_5566077		m_5566077
 		p	1			p_1
@@ -1136,7 +1136,7 @@ c	net/minecraft/unmapped/C_5890040		net/minecraft/unmapped/C_5890040
 	m	(II)V	m_6606823		m_6606823
 		p	1			p_1
 		p	2			p_2
-	m	(II)V	m_8854793		m_8854793
+	m	(II)V	m_8854793		renderTooltip
 		p	1			p_1
 		p	2			p_2
 	m	(III)Z	m_3370892		m_3370892
@@ -1153,8 +1153,8 @@ c	net/minecraft/unmapped/C_5890040		net/minecraft/unmapped/C_5890040
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_8214778		net/minecraft/unmapped/C_8214778
-	f	Lnet/minecraft/unmapped/C_0561170;	f_5660383		f_5660383
+c	net/minecraft/unmapped/C_8214778		net/minecraft/network/protocol/game/ClientboundSelectAdvancementsTabPacket
+	f	Lnet/minecraft/unmapped/C_0561170;	f_5660383		tab
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_0561170;)V	<init>		<init>
 		p	1			p_1
@@ -1164,97 +1164,97 @@ c	net/minecraft/unmapped/C_8214778		net/minecraft/unmapped/C_8214778
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_7240405;)V	m_6110406		m_6110406
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_0561170;	m_6036421		m_6036421
+	m	()Lnet/minecraft/unmapped/C_0561170;	m_6036421		getTab
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
-c	net/minecraft/unmapped/C_8814194		net/minecraft/unmapped/C_8814194
-	f	Lit/unimi/dsi/fastutil/ints/Int2IntMap;	f_3646928		f_3646928
+c	net/minecraft/unmapped/C_8814194		net/minecraft/world/entity/player/StackedContents
+	f	Lit/unimi/dsi/fastutil/ints/Int2IntMap;	f_3646928		contents
 	m	()V	<init>		<init>
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5520197		m_5520197
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_5520197		accountSimpleStack
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2986017		m_2986017
+	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_2986017		getStackingIndex
 		p	0			p_0
-	m	(I)Z	m_5570721		m_5570721
+	m	(I)Z	m_5570721		has
 		p	1			p_1
-	m	(II)I	m_0261811		m_0261811
-		p	1			p_1
-		p	2			p_2
-	m	(II)V	m_0031630		m_0031630
+	m	(II)I	m_0261811		take
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;)Z	m_8826076		m_8826076
+	m	(II)V	m_0031630		put
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;I)Z	m_5466807		m_5466807
+	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;)Z	m_8826076		canCraft
+		p	1			p_1
+		p	2			p_2
+	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;I)Z	m_5466807		canCraft
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;)I	m_1137462		m_1137462
+	m	(Lnet/minecraft/unmapped/C_2361607;Lit/unimi/dsi/fastutil/ints/IntList;)I	m_1137462		getBiggestCraftableStack
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_2361607;ILit/unimi/dsi/fastutil/ints/IntList;)I	m_4642594		m_4642594
+	m	(Lnet/minecraft/unmapped/C_2361607;ILit/unimi/dsi/fastutil/ints/IntList;)I	m_4642594		getBiggestCraftableStack
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_8089679		m_8089679
+	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_8089679		fromStackingIndex
 		p	0			p_0
-	m	()V	m_9756494		m_9756494
+	m	()V	m_9756494		clear
 	m	(Lnet/minecraft/unmapped/C_8814194;II)V	m_3667808		m_3667808
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_8814194$C_3648878		C_3648878
-	f	Lnet/minecraft/unmapped/C_2361607;	f_5576965		f_5576965
-	f	Ljava/util/List;	f_3940473		f_3940473
-	f	I	f_9113616		f_9113616
-	f	[I	f_1262581		f_1262581
-	f	I	f_2297936		f_2297936
-	f	Ljava/util/BitSet;	f_5698363		f_5698363
-	f	Lit/unimi/dsi/fastutil/ints/IntList;	f_5082611		f_5082611
+c	net/minecraft/unmapped/C_8814194$C_3648878		RecipePicker
+	f	Lnet/minecraft/unmapped/C_2361607;	f_5576965		recipe
+	f	Ljava/util/List;	f_3940473		ingredients
+	f	I	f_9113616		ingredientCount
+	f	[I	f_1262581		items
+	f	I	f_2297936		itemCount
+	f	Ljava/util/BitSet;	f_5698363		data
+	f	Lit/unimi/dsi/fastutil/ints/IntList;	f_5082611		path
 	f	Lnet/minecraft/unmapped/C_8814194;	f_6823774		f_6823774
 	m	(Lnet/minecraft/unmapped/C_8814194;Lnet/minecraft/unmapped/C_2361607;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(ILit/unimi/dsi/fastutil/ints/IntList;)Z	m_9685797		m_9685797
+	m	(ILit/unimi/dsi/fastutil/ints/IntList;)Z	m_9685797		tryPick
 		p	1			p_1
 		p	2			p_2
-	m	()[I	m_6086937		m_6086937
-	m	(I)Z	m_7915181		m_7915181
+	m	()[I	m_6086937		getUniqueAvailableIngredientItems
+	m	(I)Z	m_7915181		dfs
 		p	1			p_1
-	m	(I)Z	m_9536025		m_9536025
+	m	(I)Z	m_9536025		isSatisfied
 		p	1			p_1
-	m	(I)V	m_5003759		m_5003759
+	m	(I)V	m_5003759		setSatisfied
 		p	1			p_1
-	m	(I)I	m_7536391		m_7536391
+	m	(I)I	m_7536391		getSatisfiedIndex
 		p	1			p_1
-	m	(ZII)Z	m_9216315		m_9216315
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(ZII)Z	m_5580604		m_5580604
+	m	(ZII)Z	m_9216315		hasConnection
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(ZII)V	m_6523189		m_6523189
+	m	(ZII)Z	m_5580604		hasResidual
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(ZII)I	m_2563439		m_2563439
+	m	(ZII)V	m_6523189		toggleResidual
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(ZI)V	m_0945149		m_0945149
+	m	(ZII)I	m_2563439		getIndex
 		p	1			p_1
 		p	2			p_2
-	m	(ZI)Z	m_0989083		m_0989083
+		p	3			p_3
+	m	(ZI)V	m_0945149		visit
 		p	1			p_1
 		p	2			p_2
-	m	(ZI)I	m_5659365		m_5659365
+	m	(ZI)Z	m_0989083		hasVisited
 		p	1			p_1
 		p	2			p_2
-	m	(ILit/unimi/dsi/fastutil/ints/IntList;)I	m_9615646		m_9615646
+	m	(ZI)I	m_5659365		getVisitedIndex
 		p	1			p_1
 		p	2			p_2
-	m	()I	m_3652072		m_3652072
+	m	(ILit/unimi/dsi/fastutil/ints/IntList;)I	m_9615646		tryPickAll
+		p	1			p_1
+		p	2			p_2
+	m	()I	m_3652072		getMinIngredientCount
 	m	(Lnet/minecraft/unmapped/C_0241772;)Z	m_5724783		m_5724783
 		p	0			p_0

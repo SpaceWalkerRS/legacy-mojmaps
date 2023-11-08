@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/server/MinecraftServer
-	m	(Lnet/minecraft/unmapped/C_3865296;)I	m_3700987		m_3700987
+	m	(Lnet/minecraft/unmapped/C_3865296;)I	m_3700987		getSpawnRadius
 		p	1			p_1
 c	net/minecraft/unmapped/C_0607826
 c	net/minecraft/unmapped/C_0607826$C_7204670
@@ -14,31 +14,31 @@ c	net/minecraft/unmapped/C_0607826$C_7204670
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	()I	m_6480266		m_6480266
+	m	()I	m_6480266		getPlanks
 c	net/minecraft/unmapped/C_0778972
 	m	()Lnet/minecraft/unmapped/C_0561170;	m_0629987		m_0629987
 c	net/minecraft/unmapped/C_2543847
-	m	()Ljava/lang/String;	m_4066530	m_4066530	
-	m	(Lnet/minecraft/unmapped/C_3831727;I)Ljava/lang/String;	m_4066530		m_4066530
+	m	()Ljava/lang/String;	m_4066530	getRandomName	
+	m	(Lnet/minecraft/unmapped/C_3831727;I)Ljava/lang/String;	m_4066530		getRandomName
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_2842201
-	f	Z	f_8329035		f_8329035
-	f	Z	f_0011981		f_0011981
-	f	Z	f_8800642		f_8800642
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6124529;	m_6849805		m_6849805
+	f	Z	f_8329035		canPassDoors
+	f	Z	f_0011981		canOpenDoors
+	f	Z	f_8800642		canFloat
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6124529;	m_6849805		getBlockPathType
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Z)V	m_2988250		m_2988250
+	m	(Z)V	m_2988250		setCanPassDoors
 		p	1			p_1
-	m	(Z)V	m_0384439		m_0384439
+	m	(Z)V	m_0384439		setCanOpenDoors
 		p	1			p_1
-	m	(Z)V	m_4028310		m_4028310
+	m	(Z)V	m_4028310		setCanFloat
 		p	1			p_1
-	m	()Z	m_6223014		m_6223014
-	m	()Z	m_3409460		m_3409460
+	m	()Z	m_6223014		canPassDoors
+	m	()Z	m_3409460		canFloat
 c	net/minecraft/unmapped/C_3118916
 	m	()Z	m_1667313		m_1667313
 c	net/minecraft/unmapped/C_3721081
@@ -348,12 +348,12 @@ c	net/minecraft/unmapped/C_3754158$C_8013848		C_8013848
 c	net/minecraft/unmapped/C_3945422
 	m	()Z	m_1667313		m_1667313
 c	net/minecraft/unmapped/C_5090242
-	f	Ljava/util/Map;	f_0392600		f_0392600
+	f	Ljava/util/Map;	f_0392600		pathMaxDist
 	f	F	f_9966451		f_9966451
-	m	(ILnet/minecraft/unmapped/C_2306016;)V	m_2517185	m_2517185	
+	m	(ILnet/minecraft/unmapped/C_2306016;)V	m_2517185	addPath	
 		p	1		p_1	
 		p	2		p_2	
-	m	(ILnet/minecraft/unmapped/C_2306016;F)V	m_2517185		m_2517185
+	m	(ILnet/minecraft/unmapped/C_2306016;F)V	m_2517185		addPath
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -394,17 +394,17 @@ c	net/minecraft/unmapped/C_5585855$C_6669882		C_6669882
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6124529
-	f	Lnet/minecraft/unmapped/C_6124529;	f_2206261		f_2206261
-	f	Lnet/minecraft/unmapped/C_6124529;	f_2674387		f_2674387
-	f	Lnet/minecraft/unmapped/C_6124529;	f_0726609		f_0726609
-	f	Lnet/minecraft/unmapped/C_6124529;	f_9029370		f_9029370
+	f	Lnet/minecraft/unmapped/C_6124529;	f_2206261		RAIL
+	f	Lnet/minecraft/unmapped/C_6124529;	f_2674387		DOOR_OPEN
+	f	Lnet/minecraft/unmapped/C_6124529;	f_0726609		DOOR_WOOD_CLOSED
+	f	Lnet/minecraft/unmapped/C_6124529;	f_9029370		DOOR_IRON_CLOSED
 c	net/minecraft/unmapped/C_8008980
 	f	Lnet/minecraft/unmapped/C_8009477;	f_8640788	f_8640788	
 c	net/minecraft/unmapped/C_8009477
 	f	Z	f_1375429	f_1375429	
 	f	Z	f_6676583	f_6676583	
 	f	Z	f_8834710	f_8834710	
-	m	(IIIID)Lnet/minecraft/unmapped/C_8180393;	m_4161093	m_4161093	
+	m	(IIIID)Lnet/minecraft/unmapped/C_8180393;	m_4161093	getLandNode	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -418,7 +418,7 @@ c	net/minecraft/unmapped/C_8009477
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_0539808;IIIIIIZZ)Lnet/minecraft/unmapped/C_6124529;	m_4381403	m_4381403	
+	m	(Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_0539808;IIIIIIZZ)Lnet/minecraft/unmapped/C_6124529;	m_4381403	getBlockPathTypeRaw	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -437,7 +437,7 @@ c	net/minecraft/unmapped/C_8009477
 		p	1		p_1	
 	m	()Z	m_3317051	m_3317051	
 	m	()Z	m_1545253	m_1545253	
-	m	(IIIIDLnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_8180393;	m_4161093		m_4161093
+	m	(IIIIDLnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_8180393;	m_4161093		getLandNode
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -449,7 +449,7 @@ c	net/minecraft/unmapped/C_8009477
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6124529;	m_4381403		m_4381403
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6124529;	m_4381403		getBlockPathTypeRaw
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -457,8 +457,8 @@ c	net/minecraft/unmapped/C_8009477
 c	net/minecraft/unmapped/C_8669942
 	m	()Z	m_1667313		m_1667313
 c	net/minecraft/unmapped/C_9229053
-	f	F	f_5447865		f_5447865
-	f	Lnet/minecraft/unmapped/C_2842201;	f_0668969		f_0668969
+	f	F	f_5447865		maxDistanceToWaypoint
+	f	Lnet/minecraft/unmapped/C_2842201;	f_0668969		nodeEvaluator
 	m	()Lnet/minecraft/unmapped/C_2842201;	m_2988518		m_2988518
 c	net/minecraft/unmapped/C_9549896
 	m	()Lnet/minecraft/unmapped/C_3544601;	m_4851161		m_4851161

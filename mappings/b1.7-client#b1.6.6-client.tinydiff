@@ -22,7 +22,7 @@ c	net/minecraft/unmapped/C_0200457
 		p	14			p_14
 c	net/minecraft/unmapped/C_0539808
 	f	F	f_4350946	f_4350946	
-c	net/minecraft/unmapped/C_1056918	net/minecraft/unmapped/C_1056918	
+c	net/minecraft/unmapped/C_1056918	net/minecraft/world/level/block/piston/PistonHeadBlock	
 	f	I	f_6132145	f_6132145	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
@@ -69,7 +69,7 @@ c	net/minecraft/unmapped/C_1056918	net/minecraft/unmapped/C_1056918
 		p	5		p_5	
 	m	(I)I	m_5637055	m_5637055	
 		p	0		p_0	
-c	net/minecraft/unmapped/C_1154893	net/minecraft/unmapped/C_1154893	
+c	net/minecraft/unmapped/C_1154893	net/minecraft/client/renderer/blockentity/PistonHeadRenderer	
 	f	Lnet/minecraft/unmapped/C_3216249;	f_1855500	f_1855500	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_6100478;DDDF)V	m_4899443	m_4899443	
@@ -96,8 +96,8 @@ c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_1241852;	f_2057632		f_2057632
 	f	Lnet/minecraft/unmapped/C_1241852;	f_9100376		f_9100376
 	m	()Lnet/minecraft/unmapped/C_1241852;	m_2676859	m_2676859	
-	m	()F	m_7303643	m_7303643	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_2454309;)V	m_6793083	m_6793083	
+	m	()F	m_7303643	getDestroySpeed	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_2454309;)V	m_6793083	popResource	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -105,7 +105,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	5		p_5	
 	m	(I)I	m_7915393	m_7915393	
 		p	1		p_1	
-	m	()I	m_1582100	m_1582100	
+	m	()I	m_1582100	getPistonPushReaction	
 c	net/minecraft/unmapped/C_1428858
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7180520		m_7180520
 		p	1			p_1
@@ -114,7 +114,7 @@ c	net/minecraft/unmapped/C_1428858
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_1797947
-	f	[I	f_5710294	f_5710294	
+	f	[I	f_5710294	ITEM_BY_COLOR	
 c	net/minecraft/unmapped/C_2450045	net/minecraft/unmapped/C_2450045	
 	f	[I	f_3373832	f_3373832	
 	f	[I	f_0296297	f_0296297	
@@ -206,7 +206,7 @@ c	net/minecraft/unmapped/C_3480712	net/minecraft/unmapped/C_3480712
 		p	1		p_1	
 	m	(I)I	m_9419526	m_9419526	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_3543399	net/minecraft/unmapped/C_3543399	
+c	net/minecraft/unmapped/C_3543399	net/minecraft/world/item/ShearsItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;IIIILnet/minecraft/unmapped/C_6607881;)Z	m_4864163	m_4864163	
@@ -222,14 +222,14 @@ c	net/minecraft/unmapped/C_3543399	net/minecraft/unmapped/C_3543399
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_3622326
-	f	Z	f_5572528	f_5572528	
-	m	()Z	m_0299061	m_0299061	
-	m	()V	m_5808262	m_5808262	
-	m	()V	m_3991391	m_3991391	
+	f	Z	f_5572528	remove	
+	m	()Z	m_0299061	isRemoved	
+	m	()V	m_5808262	setRemoved	
+	m	()V	m_3991391	clearRemoved	
 c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3543399;	f_4235685	f_4235685	
 c	net/minecraft/unmapped/C_3940616
-	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_6425480	m_6425480	
+	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_6425480	setLevel	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_4311389
 	m	()I	m_1582100	m_1582100	
@@ -238,7 +238,7 @@ c	net/minecraft/unmapped/C_4400155
 	m	(ILjava/util/Random;)I	m_7534654	m_7534654	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_5243081	net/minecraft/unmapped/C_5243081	
+c	net/minecraft/unmapped/C_5243081	net/minecraft/world/level/block/piston/MovingPistonBlock	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_3622326;	m_9359758	m_9359758	
@@ -282,7 +282,7 @@ c	net/minecraft/unmapped/C_5243081	net/minecraft/unmapped/C_5243081
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(IIIZZ)Lnet/minecraft/unmapped/C_3622326;	m_5915640	m_5915640	
+	m	(IIIZZ)Lnet/minecraft/unmapped/C_3622326;	m_5915640	newMovingBlockEntity	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -306,7 +306,7 @@ c	net/minecraft/unmapped/C_5243081	net/minecraft/unmapped/C_5243081
 		p	5		p_5	
 		p	6		p_6	
 		p	7		p_7	
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6100478;	m_4572390	m_4572390	
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Lnet/minecraft/unmapped/C_6100478;	m_4572390	getBlockEntity	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -336,14 +336,14 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5622853
 	m	()V	m_7580829	m_7580829	
-c	net/minecraft/unmapped/C_6100478	net/minecraft/unmapped/C_6100478	
+c	net/minecraft/unmapped/C_6100478	net/minecraft/world/level/block/piston/PistonMovingBlockEntity	
 	f	I	f_5939301	f_5939301	
 	f	I	f_2511264	f_2511264	
-	f	I	f_0072895	f_0072895	
-	f	Z	f_8342559	f_8342559	
-	f	Z	f_2845408	f_2845408	
-	f	F	f_9704129	f_9704129	
-	f	F	f_3531502	f_3531502	
+	f	I	f_0072895	direction	
+	f	Z	f_8342559	extending	
+	f	Z	f_2845408	isSourcePiston	
+	f	F	f_9704129	progress	
+	f	F	f_3531502	progressO	
 	f	Ljava/util/List;	f_5280913	f_5280913	
 	m	()V	<init>	<init>	
 	m	(IIIZZ)V	<init>	<init>	
@@ -354,9 +354,9 @@ c	net/minecraft/unmapped/C_6100478	net/minecraft/unmapped/C_6100478
 		p	5		p_5	
 	m	()I	m_4343063	m_4343063	
 	m	()I	m_1210226	m_1210226	
-	m	()Z	m_8561473	m_8561473	
+	m	()Z	m_8561473	isExtending	
 	m	()I	m_4671615	m_4671615	
-	m	()Z	m_3404869	m_3404869	
+	m	()Z	m_3404869	isSourcePiston	
 	m	(F)F	m_6697265	m_6697265	
 		p	1		p_1	
 	m	(F)F	m_0612943	m_0612943	
@@ -365,10 +365,10 @@ c	net/minecraft/unmapped/C_6100478	net/minecraft/unmapped/C_6100478
 		p	1		p_1	
 	m	(F)F	m_7641668	m_7641668	
 		p	1		p_1	
-	m	(FF)V	m_7250311	m_7250311	
+	m	(FF)V	m_7250311	moveCollidedEntities	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_0371444	m_0371444	
+	m	()V	m_0371444	finalTick	
 	m	()V	m_1055699	m_1055699	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	m_4740132	
 		p	1		p_1	
@@ -382,19 +382,19 @@ c	net/minecraft/unmapped/C_7180857
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_1670417	m_1670417	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7885415
-	m	()I	m_4478716	m_4478716	
+	m	()I	m_4478716	getDefaultColor	
 c	net/minecraft/unmapped/C_8048208
-	f	Lnet/minecraft/unmapped/C_8048208;	f_3704773	f_3704773	
-	f	Lnet/minecraft/unmapped/C_8048208;	f_8324127	f_8324127	
-	f	Z	f_4413457	f_4413457	
-	f	I	f_4264013	f_4264013	
+	f	Lnet/minecraft/unmapped/C_8048208;	f_3704773	WEB	
+	f	Lnet/minecraft/unmapped/C_8048208;	f_8324127	PISTON	
+	f	Z	f_4413457	alwaysDestroyable	
+	f	I	f_4264013	pushReaction	
 	m	()Lnet/minecraft/unmapped/C_8048208;	m_3764726	m_3764726	
-	m	()Z	m_7030119	m_7030119	
-	m	()I	m_9568411	m_9568411	
+	m	()Z	m_7030119	isAlwaysDestroyable	
+	m	()I	m_9568411	getPushReaction	
 	m	()Lnet/minecraft/unmapped/C_8048208;	m_1889239	m_1889239	
 	m	()Lnet/minecraft/unmapped/C_8048208;	m_2958938	m_2958938	
-c	net/minecraft/unmapped/C_8124234	net/minecraft/unmapped/C_8124234	
-	f	Z	f_3375956	f_3375956	
+c	net/minecraft/unmapped/C_8124234	net/minecraft/world/level/block/piston/PistonBaseBlock	
+	f	Z	f_3375956	isSticky	
 	m	(IIZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -428,12 +428,12 @@ c	net/minecraft/unmapped/C_8124234	net/minecraft/unmapped/C_8124234
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_8031362	m_8031362	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_8031362	checkIfExtend	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_9356302	m_9356302	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_9356302	getNeighborSignal	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -470,7 +470,7 @@ c	net/minecraft/unmapped/C_8124234	net/minecraft/unmapped/C_8124234
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(ILnet/minecraft/unmapped/C_5553933;III)Z	m_1680891	m_1680891	
+	m	(ILnet/minecraft/unmapped/C_5553933;III)Z	m_1680891	isPushable	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -482,7 +482,7 @@ c	net/minecraft/unmapped/C_8124234	net/minecraft/unmapped/C_8124234
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_6658251	m_6658251	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_6658251	moveBlocks	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -499,13 +499,13 @@ c	net/minecraft/unmapped/C_8620458
 		p	5		p_5	
 		p	6		p_6	
 c	net/minecraft/unmapped/C_9469238
-	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_1075688	m_1075688	
+	m	(Lnet/minecraft/unmapped/C_8030141;IIII)Z	m_1075688	shouldConnectTo	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_1075688		m_1075688
+	m	(Lnet/minecraft/unmapped/C_8030141;III)Z	m_1075688		shouldConnectTo
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

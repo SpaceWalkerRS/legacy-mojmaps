@@ -13,9 +13,9 @@ c	net/minecraft/realms/RealmsObjectSelectionListProxy
 		p	1			p_1
 	m	()I	getRowLeft		getRowLeft
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_9588962		f_9588962
-	m	()V	m_0194134		m_0194134
-	m	()Z	m_4112365		m_4112365
+	f	Z	f_9588962		isInLava
+	m	()V	m_0194134		setInLava
+	m	()Z	m_4112365		isVisuallyCrawling
 c	net/minecraft/unmapped/C_1630332
 	m	(Ljava/util/Collection;)V	replaceEntries		replaceEntries
 		p	1			p_1
@@ -23,12 +23,12 @@ c	net/minecraft/unmapped/C_2485969
 	m	(Lnet/minecraft/unmapped/C_5250955;)Ljava/util/List;	m_7866018		m_7866018
 		p	0			p_0
 c	net/minecraft/unmapped/C_2907104
-	f	Ljava/util/Map;	f_5532591		f_5532591
+	f	Ljava/util/Map;	f_5532591		HEIGHTMAP_NAMES
 	m	(Ljava/util/EnumMap;)V	m_0873752		m_0873752
 		p	0			p_0
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_3644595
-	f	Lnet/minecraft/unmapped/C_2538104;	f_9305212		f_9305212
+	f	Lnet/minecraft/unmapped/C_2538104;	f_9305212		resultContainer
 c	net/minecraft/unmapped/C_3644595$2
 	f	Lnet/minecraft/unmapped/C_3644595;	f_1170277	f_1170277	
 	f	Lnet/minecraft/unmapped/C_3644595;	f_1305247		f_1305247
@@ -79,7 +79,7 @@ c	net/minecraft/unmapped/C_3644595$4
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_3644595$5		5
-	f	Lnet/minecraft/unmapped/C_3672670;	f_6507577		f_6507577
+	f	Lnet/minecraft/unmapped/C_3672670;	f_6507577		val$access
 	f	Lnet/minecraft/unmapped/C_3644595;	f_5164004		f_5164004
 	m	(Lnet/minecraft/unmapped/C_3644595;Lnet/minecraft/unmapped/C_5818647;IIILnet/minecraft/unmapped/C_3672670;)V	<init>		<init>
 		p	1			p_1
@@ -113,7 +113,7 @@ c	net/minecraft/unmapped/C_3747079
 		p	4			p_4
 c	net/minecraft/unmapped/C_5503280
 c	net/minecraft/unmapped/C_5503280$C_6055071
-	m	()Z	m_4209021		m_4209021
+	m	()Z	m_4209021		keepAfterWorldgen
 c	net/minecraft/unmapped/C_5553933
 	m	(Lnet/minecraft/unmapped/C_1125872;Lnet/minecraft/unmapped/C_3674802;)Z	m_3772519		m_3772519
 		p	1			p_1
@@ -130,7 +130,7 @@ c	net/minecraft/unmapped/C_6710431
 	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_7983964		m_7983964
 		p	0			p_0
 c	net/minecraft/unmapped/C_6792903
-	m	(Lnet/minecraft/unmapped/C_0636026;Ljava/util/function/IntSupplier;)Ljava/util/concurrent/CompletableFuture;	m_2163571	m_2163571	
+	m	(Lnet/minecraft/unmapped/C_0636026;Ljava/util/function/IntSupplier;)Ljava/util/concurrent/CompletableFuture;	m_2163571	protoChunkToFullChunk	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_7141926;Ljava/util/function/IntSupplier;Ljava/lang/Runnable;)V	m_1606645	m_1606645	
@@ -147,10 +147,10 @@ c	net/minecraft/unmapped/C_6792903
 		p	1		p_1	
 		p	3		p_3	
 		p	4		p_4	
-	m	(JLnet/minecraft/unmapped/C_7808835;)V	m_4104347		m_4104347
+	m	(JLnet/minecraft/unmapped/C_7808835;)V	m_4104347		scheduleUnload
 		p	1			p_1
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_7808835;)Ljava/util/concurrent/CompletableFuture;	m_2163571		m_2163571
+	m	(Lnet/minecraft/unmapped/C_7808835;)Ljava/util/concurrent/CompletableFuture;	m_2163571		protoChunkToFullChunk
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6849228;)V	m_8399692		m_8399692
 		p	1			p_1
@@ -184,23 +184,23 @@ c	net/minecraft/unmapped/C_7077203
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7808835
-	m	(Lnet/minecraft/unmapped/C_5208378;)V	m_0287498		m_0287498
+	m	(Lnet/minecraft/unmapped/C_5208378;)V	m_0287498		replaceProtoChunk
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6792903;Lcom/mojang/datafixers/util/Either;)V	m_8269365		m_8269365
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_1628760		net/minecraft/unmapped/C_1628760
+c	net/minecraft/unmapped/C_1628760		net/minecraft/util/datafix/OminousBannerRenameFix
 	m	(Lcom/mojang/datafixers/schemas/Schema;Z)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-	m	(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	m_7139539		m_7139539
+	m	(Lcom/mojang/datafixers/Dynamic;)Lcom/mojang/datafixers/Dynamic;	m_7139539		fixTag
 		p	1			p_1
 	m	()Lcom/mojang/datafixers/TypeRewriteRule;	makeRule		makeRule
 	m	(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	m_4592893		m_4592893
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_3184117		net/minecraft/unmapped/C_3184117
+c	net/minecraft/unmapped/C_3184117		net/minecraft/world/entity/ai/behavior/ResetProfession
 	m	()V	<init>		<init>
 	m	()Ljava/util/Set;	m_7086530		m_7086530
 	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_8814877;)Z	m_0561845		m_0561845

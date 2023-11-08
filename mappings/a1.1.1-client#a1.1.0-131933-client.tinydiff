@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_4153657	m_4153657	
+	m	()Z	m_4153657	isSneaking	
 c	net/minecraft/unmapped/C_1023567
 	m	()Z	m_4153657	m_4153657	
 c	net/minecraft/unmapped/C_1331819
@@ -21,7 +21,7 @@ c	net/minecraft/unmapped/C_1331819
 	m	(Ljava/lang/String;)F	m_9456467	m_9456467	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2313930
-	f	Z	f_2981279	f_2981279	
+	f	Z	f_2981279	sneaking	
 c	net/minecraft/unmapped/C_2348249
 	m	(Z)I	m_8274414	m_8274414	
 		p	1		p_1	
@@ -49,7 +49,7 @@ c	net/minecraft/unmapped/C_5423347
 	f	Lnet/minecraft/unmapped/C_5423347;	f_2522483	f_2522483	
 	f	Lnet/minecraft/unmapped/C_5423347;	f_0499427	f_0499427	
 	f	Lnet/minecraft/unmapped/C_5423347;	f_0976113	f_0976113	
-c	net/minecraft/unmapped/C_5571887	net/minecraft/unmapped/C_5571887	
+c	net/minecraft/unmapped/C_5571887	net/minecraft/client/gui/components/AbstractSliderButton	
 	f	F	f_4574660	f_4574660	
 	f	Z	f_8634044	f_8634044	
 	f	I	f_4850872	f_4850872	
@@ -74,4 +74,4 @@ c	net/minecraft/unmapped/C_5571887	net/minecraft/unmapped/C_5571887
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_9113835
-	f	Z	f_9317439	f_9317439	
+	f	Z	f_9317439	sneakKeyDown	

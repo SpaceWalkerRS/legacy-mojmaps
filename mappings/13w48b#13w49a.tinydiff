@@ -1,11 +1,11 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0024265
-	m	()Z	m_5814803		m_5814803
-	m	()Z	m_4720203		m_4720203
-	m	(Lnet/minecraft/unmapped/C_5818647;I)Z	m_1141639		m_1141639
+	m	()Z	m_5814803		inventoryEmpty
+	m	()Z	m_4720203		inventoryFull
+	m	(Lnet/minecraft/unmapped/C_5818647;I)Z	m_1141639		isFullContainer
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_5818647;I)Z	m_4807308		m_4807308
+	m	(Lnet/minecraft/unmapped/C_5818647;I)Z	m_4807308		isEmptyContainer
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_3292284
@@ -72,11 +72,11 @@ c	net/minecraft/unmapped/C_8938952
 	m	(Lnet/minecraft/unmapped/C_8938952;)Lnet/minecraft/unmapped/C_8105098;	m_7537322	m_7537322	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_9992501
-	m	(I)V	m_2053465		m_2053465
+	m	(I)V	m_2053465		setViewDistance
 		p	1			p_1
-c	net/minecraft/unmapped/C_2716280		net/minecraft/unmapped/C_2716280
-	f	Lorg/apache/logging/log4j/Logger;	f_3451663		f_3451663
-	f	Ljava/util/Map;	f_7371080		f_7371080
+c	net/minecraft/unmapped/C_2716280		net/minecraft/client/resources/AssetIndex
+	f	Lorg/apache/logging/log4j/Logger;	f_3451663		LOGGER
+	f	Ljava/util/Map;	f_7371080		mapping
 	m	(Ljava/io/File;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2

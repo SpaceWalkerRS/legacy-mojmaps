@@ -9,27 +9,27 @@ c	net/minecraft/unmapped/C_0259655
 		p	1		p_1	
 	m	()V	m_6211536		m_6211536
 c	net/minecraft/unmapped/C_0539808
-	m	()V	m_4493293	m_4493293	
+	m	()V	m_4493293	outOfWorld	
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_6033607	m_6033607	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_0557736
-	m	()D	m_6533082	m_6533082	
+	m	()D	m_6533082	length	
 c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_1241852;	f_2260232	f_2260232	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_0539808;)V	m_3847163	m_3847163	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_0539808;)V	m_3847163	stepOn	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_3847163		m_3847163
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_3847163		stepOn
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_1741573	net/minecraft/unmapped/C_1741573	
-	f	I	f_6582626	f_6582626	
-	f	I	f_9152518	f_9152518	
+c	net/minecraft/unmapped/C_1741573	net/minecraft/world/entity/item/FallingBlockEntity	
+	f	I	f_6582626	blockState	
+	f	I	f_9152518	time	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFFI)V	<init>	<init>	
@@ -44,8 +44,8 @@ c	net/minecraft/unmapped/C_1741573	net/minecraft/unmapped/C_1741573
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_7694759	m_7694759	
 		p	1		p_1	
-	m	()Lnet/minecraft/unmapped/C_5553933;	m_7367035	m_7367035	
-c	net/minecraft/unmapped/C_1998703	net/minecraft/unmapped/C_1998703	
+	m	()Lnet/minecraft/unmapped/C_5553933;	m_7367035	getLevel	
+c	net/minecraft/unmapped/C_1998703	net/minecraft/client/renderer/entity/FallingBlockRenderer	
 	f	Lnet/minecraft/unmapped/C_3216249;	f_3028028	f_3028028	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_0539808;DDDFF)V	m_8727966	m_8727966	
@@ -55,8 +55,8 @@ c	net/minecraft/unmapped/C_1998703	net/minecraft/unmapped/C_1998703
 		p	6		p_6	
 		p	8		p_8	
 		p	9		p_9	
-c	net/minecraft/unmapped/C_2110981	net/minecraft/unmapped/C_2110981	
-	f	[Lnet/minecraft/unmapped/C_6697291;	f_3788940	f_3788940	
+c	net/minecraft/unmapped/C_2110981	net/minecraft/client/model/MinecartModel	
+	f	[Lnet/minecraft/unmapped/C_6697291;	f_3788940	cubes	
 	m	()V	<init>	<init>	
 	m	(FFFFFF)V	m_7620620	m_7620620	
 		p	1		p_1	
@@ -97,8 +97,8 @@ c	net/minecraft/unmapped/C_3216249
 		p	5		p_5	
 c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_6711944	f_6711944	
-c	net/minecraft/unmapped/C_4151304	net/minecraft/unmapped/C_4151304	
-	f	Lnet/minecraft/unmapped/C_7503776;	f_6271303	f_6271303	
+c	net/minecraft/unmapped/C_4151304	net/minecraft/client/renderer/entity/MinecartRenderer	
+	f	Lnet/minecraft/unmapped/C_7503776;	f_6271303	model	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_0539808;DDDFF)V	m_8727966	m_8727966	
 		p	1		p_1	
@@ -107,7 +107,7 @@ c	net/minecraft/unmapped/C_4151304	net/minecraft/unmapped/C_4151304
 		p	6		p_6	
 		p	8		p_8	
 		p	9		p_9	
-c	net/minecraft/unmapped/C_4311389	net/minecraft/unmapped/C_4311389	
+c	net/minecraft/unmapped/C_4311389	net/minecraft/world/level/block/BaseRailBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -208,7 +208,7 @@ c	net/minecraft/unmapped/C_6849228
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_6991030	net/minecraft/unmapped/C_6991030	
+c	net/minecraft/unmapped/C_6991030	net/minecraft/world/item/MinecartItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_3000450	m_3000450	
@@ -252,9 +252,9 @@ c	net/minecraft/unmapped/C_8680630	net/minecraft/unmapped/C_8680630
 c	net/minecraft/unmapped/C_9304189
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9482745	net/minecraft/unmapped/C_9482745	
+c	net/minecraft/unmapped/C_9482745	net/minecraft/world/entity/vehicle/AbstractMinecart	
 	f	[Lnet/minecraft/unmapped/C_2454309;	f_1065264	f_1065264	
-	f	[[[I	f_5754041	f_5754041	
+	f	[[[I	f_5754041	EXITS	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_6281908	m_6281908	
@@ -265,12 +265,12 @@ c	net/minecraft/unmapped/C_9482745	net/minecraft/unmapped/C_9482745
 		p	6		p_6	
 	m	()Z	m_3104437	m_3104437	
 	m	()V	m_7274048	m_7274048	
-	m	(DDDD)Lnet/minecraft/unmapped/C_0557736;	m_4908713	m_4908713	
+	m	(DDDD)Lnet/minecraft/unmapped/C_0557736;	m_4908713	getPosOffs	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
 		p	7		p_7	
-	m	(DDD)Lnet/minecraft/unmapped/C_0557736;	m_9506297	m_9506297	
+	m	(DDD)Lnet/minecraft/unmapped/C_0557736;	m_9506297	getPos	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	

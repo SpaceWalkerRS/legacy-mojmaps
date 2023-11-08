@@ -46,10 +46,10 @@ c	net/minecraft/unmapped/C_3565515
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132		m_4740132
 		p	1			p_1
 c	net/minecraft/unmapped/C_3622326
-	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	m_4740132	
+	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	load	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132		m_4740132
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132		load
 		p	1			p_1
 c	net/minecraft/unmapped/C_4062549
 	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_2018497;)V	m_4740132	m_4740132	

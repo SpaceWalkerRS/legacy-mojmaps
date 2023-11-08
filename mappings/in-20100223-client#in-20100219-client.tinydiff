@@ -1,5 +1,5 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_1321581	net/minecraft/unmapped/C_1321581	
+c	net/minecraft/unmapped/C_1321581	net/minecraft/client/renderer/entity/PaintingRenderer	
 	f	Ljava/util/Random;	f_8193711	f_8193711	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_0539808;FFFFF)V	m_8727966	m_8727966	
@@ -11,7 +11,7 @@ c	net/minecraft/unmapped/C_1321581	net/minecraft/unmapped/C_1321581
 		p	6		p_6	
 c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_8335447	f_8335447	
-c	net/minecraft/unmapped/C_4613250	net/minecraft/unmapped/C_4613250	
+c	net/minecraft/unmapped/C_4613250	net/minecraft/world/item/HangingEntityItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_3000450	m_3000450	
@@ -59,13 +59,13 @@ c	net/minecraft/unmapped/C_5423347	net/minecraft/unmapped/C_5423347
 		p	6		p_6	
 		p	7		p_7	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_6435650	net/minecraft/unmapped/C_6435650	
+c	net/minecraft/unmapped/C_6435650	net/minecraft/world/entity/decoration/Painting	
 	f	I	f_0319404	f_0319404	
 	f	I	f_3317782	f_3317782	
 	f	I	f_9593533	f_9593533	
 	f	I	f_5889558	f_5889558	
 	f	I	f_8073064	f_8073064	
-	f	Lnet/minecraft/unmapped/C_5423347;	f_2800950	f_2800950	
+	f	Lnet/minecraft/unmapped/C_5423347;	f_2800950	motive	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	<init>	<init>	

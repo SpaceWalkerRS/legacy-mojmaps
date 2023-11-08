@@ -69,9 +69,9 @@ c	net/minecraft/unmapped/C_1184371
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_9335057;	m_3247759	m_3247759	
+	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_9335057;	m_3247759	getMapColor	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_9335057;	m_3247759		m_3247759
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_8030141;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_9335057;	m_3247759		getMapColor
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -167,10 +167,10 @@ c	net/minecraft/unmapped/C_3059682
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3285536
-	f	Z	f_5784414		f_5784414
+	f	Z	f_5784414		isInFunction
 	m	()Lnet/minecraft/unmapped/C_1730529;	m_8496729	m_8496729	
 c	net/minecraft/unmapped/C_3342272
-	f	Z	f_1951550		f_1951550
+	f	Z	f_1951550		buttonClicked
 c	net/minecraft/unmapped/C_3472419
 	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_9335057;	m_3247759	m_3247759	
 		p	1		p_1	
@@ -198,17 +198,17 @@ c	net/minecraft/unmapped/C_4594583
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_5242898
-	f	I	f_9381276		f_9381276
-	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_1421936;)V	m_1284115	m_1284115	
+	f	I	f_9381276		timesInventoryChanged
+	m	(Lnet/minecraft/unmapped/C_2711798;Lnet/minecraft/unmapped/C_1421936;)V	m_1284115	slotClicked	
 		p	1		p_1	
 		p	2		p_2	
 	m	(III)V	m_8433387	m_8433387	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_1284115		m_1284115
+	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_1284115		slotClicked
 		p	1			p_1
-	m	()V	m_5074153		m_5074153
+	m	()V	m_5074153		tick
 	m	(III)Z	m_8433387		m_8433387
 		p	1			p_1
 		p	2			p_2
@@ -277,9 +277,9 @@ c	net/minecraft/unmapped/C_6465443
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_6471932
-	m	(Lnet/minecraft/unmapped/C_2441996;)I	m_0405982	m_0405982	
+	m	(Lnet/minecraft/unmapped/C_2441996;)I	m_0405982	getColor	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)I	m_0405982		m_0405982
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)I	m_0405982		getColor
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -311,8 +311,8 @@ c	net/minecraft/unmapped/C_7233506
 		p	3		p_3	
 c	net/minecraft/unmapped/C_7400754
 	f	Z	f_4848933	f_4848933	
-	f	I	f_9988631		f_9988631
-	m	()I	m_3212024		m_3212024
+	f	I	f_9988631		timesChanged
+	m	()I	m_3212024		getTimesChanged
 c	net/minecraft/unmapped/C_7842113
 	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_9335057;	m_3247759	m_3247759	
 		p	1		p_1	

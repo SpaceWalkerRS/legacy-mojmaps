@@ -2,9 +2,9 @@ tiny	2	0
 c	net/minecraft/client/C_1331819
 	f	Z	f_6553253	f_6553253	
 c	net/minecraft/unmapped/C_0539808
-	m	(Lnet/minecraft/unmapped/C_8048208;)Z	m_0217121	m_0217121	
+	m	(Lnet/minecraft/unmapped/C_8048208;)Z	m_0217121	isUnderLiquid	
 		p	1		p_1	
-	m	()Z	m_0217121		m_0217121
+	m	()Z	m_0217121		isUnderLiquid
 c	net/minecraft/unmapped/C_0774916
 	m	(I)Z	m_3628236		m_3628236
 		p	1			p_1
@@ -27,7 +27,7 @@ c	net/minecraft/unmapped/C_1241852
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773	m_5507773	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773	getShape	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -64,15 +64,15 @@ c	net/minecraft/unmapped/C_3216249
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3362006
-	f	Lnet/minecraft/client/C_1331819;	f_3150710	f_3150710	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/client/C_1331819;F)V	m_3742790	m_3742790	
+	f	Lnet/minecraft/client/C_1331819;	f_3150710	options	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/client/C_1331819;F)V	m_3742790	prepare	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790		m_3742790
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790		prepare
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -249,8 +249,8 @@ c	net/minecraft/unmapped/C_8620458
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_9621687	net/minecraft/unmapped/C_9621687	
-	f	I	f_8805374	f_8805374	
+c	net/minecraft/unmapped/C_9621687	net/minecraft/world/item/BucketItem	
+	f	I	f_8805374	content	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

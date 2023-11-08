@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	()Z	m_9931460	m_9931460	
+	m	()Z	m_9931460	isInWall	
 c	net/minecraft/unmapped/C_2805044
-	f	I	f_5255428	f_5255428	
+	f	I	f_5255428	size	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -43,10 +43,10 @@ c	net/minecraft/unmapped/C_5553933
 		p	5		p_5	
 		p	6		p_6	
 c	net/minecraft/unmapped/C_6466836
-	f	J	f_9972028	f_9972028	
-	f	J	f_5817530	f_5817530	
-	f	J	f_0069126	f_0069126	
-	f	I	f_5817530		f_5817530
+	f	J	f_9972028	counter	
+	f	J	f_5817530	delay	
+	f	J	f_0069126	c	
+	f	I	f_5817530		delay
 	m	(Ljava/lang/Object;)Z	equals	equals	
 		p	1		p_1	
 	m	()I	hashCode	hashCode	

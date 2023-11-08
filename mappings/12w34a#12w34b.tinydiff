@@ -3,8 +3,8 @@ c	net/minecraft/unmapped/C_0118999
 	m	()Ljava/lang/String;	m_0699887		m_0699887
 c	net/minecraft/unmapped/C_1444189
 	f	I	f_6528478	f_6528478	
-	f	[I	f_8621821		f_8621821
-	m	()Z	m_1419442		m_1419442
+	f	[I	f_8621821		nextHeadUpdate
+	m	()Z	m_1419442		isPowered
 c	net/minecraft/unmapped/C_2454309
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_6437401	m_6437401	
 		p	1		p_1	
@@ -14,9 +14,9 @@ c	net/minecraft/unmapped/C_5773087
 	f	I	f_0613043	f_0613043	
 	f	Lnet/minecraft/unmapped/C_2454309;	f_5232998		f_5232998
 c	net/minecraft/unmapped/C_8307016
-	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9865017;	m_3075420	m_3075420	
+	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_9865017;	m_3075420	getHoldingPlayer	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_9865017;	m_3075420		m_3075420
+	m	(Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_9865017;	m_3075420		getHoldingPlayer
 		p	1			p_1
 c	net/minecraft/unmapped/C_8502309
 	f	Lnet/minecraft/unmapped/C_0118999;	f_4661690	f_4661690	

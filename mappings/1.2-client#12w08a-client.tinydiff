@@ -48,14 +48,14 @@ c	net/minecraft/unmapped/C_1023567
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_1241852
-	m	(I)Z	m_0244472	m_0244472	
+	m	(I)Z	m_0244472	isRedstoneConductor	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_1331819
 	m	([Ljava/lang/String;I)Ljava/lang/String;	m_7110881	m_7110881	
 		p	0		p_0	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1718367	net/minecraft/unmapped/C_1718367	
-	f	Lnet/minecraft/unmapped/C_9184792;	f_4741106	f_4741106	
+c	net/minecraft/unmapped/C_1718367	net/minecraft/world/entity/ai/goal/target/NonTameRandomTargetGoal	
+	f	Lnet/minecraft/unmapped/C_9184792;	f_4741106	tamableMob	
 	m	(Lnet/minecraft/unmapped/C_9184792;Ljava/lang/Class;FIZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -154,17 +154,17 @@ c	net/minecraft/unmapped/C_6013256
 c	net/minecraft/unmapped/C_6607881
 	m	(Ljava/lang/Class;)Z	m_6749823	m_6749823	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_7377641	net/minecraft/unmapped/C_7377641	
+c	net/minecraft/unmapped/C_7377641	net/minecraft/world/Snooper	
 	f	Lnet/minecraft/unmapped/C_7377641;	f_6716852	f_6716852	
 	f	J	f_3297900	f_3297900	
 	f	Ljava/util/Map;	f_1905011	f_1905011	
-	f	Ljava/util/Map;	f_4079146	f_4079146	
+	f	Ljava/util/Map;	f_4079146	dynamicData	
 	m	()V	<init>	<init>	
 	m	()V	m_7162171	m_7162171	
-	m	(Ljava/lang/String;Ljava/lang/String;)V	m_4244849	m_4244849	
+	m	(Ljava/lang/String;Ljava/lang/String;)V	m_4244849	setDynamicData	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_6695927	m_6695927	
+	m	()V	m_6695927	start	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_7592368
 	m	()V	m_1700770	m_1700770	
@@ -180,18 +180,18 @@ c	net/minecraft/unmapped/C_7592368
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	()Z	m_4442111	m_4442111	
-	m	(Z)V	m_2231496	m_2231496	
+	m	()Z	m_4442111	isPlayerCreated	
+	m	(Z)V	m_2231496	setPlayerCreated	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8159814
-	f	I	f_2828930	f_2828930	
-	f	I	f_6717233	f_6717233	
-	f	I	f_6368515	f_6368515	
+	f	I	f_2828930	reachCache	
+	f	I	f_6717233	reachCacheTime	
+	f	I	f_6368515	unseenTicks	
 	m	()V	m_3836415	m_3836415	
-	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_4138585	m_4138585	
+	m	(Lnet/minecraft/unmapped/C_6607881;)Z	m_4138585	canReach	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_8173586
-	f	I	f_5662202	f_5662202	
+	f	I	f_5662202	timeToRecalcPath	
 c	net/minecraft/unmapped/C_8300121
 	f	I	f_6718492		f_6718492
 c	net/minecraft/unmapped/C_9148840
@@ -217,15 +217,15 @@ c	net/minecraft/unmapped/C_9549896
 	m	()V	m_4228659	m_4228659	
 	m	()I	m_8236854	m_8236854	
 c	net/minecraft/unmapped/C_9590849
-	m	()Lnet/minecraft/unmapped/C_8300121;	m_0699542	m_0699542	
-	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_8300121;	m_2045457	m_2045457	
+	m	()Lnet/minecraft/unmapped/C_8300121;	m_0699542	drop	
+	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_8300121;	m_2045457	drop	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2454309;Z)Lnet/minecraft/unmapped/C_8300121;	m_2211846	m_2211846	
+	m	(Lnet/minecraft/unmapped/C_2454309;Z)Lnet/minecraft/unmapped/C_8300121;	m_2211846	drop	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_0699542		m_0699542
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2045457		m_2045457
+	m	()V	m_0699542		drop
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2045457		drop
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2454309;Z)V	m_2211846		m_2211846
+	m	(Lnet/minecraft/unmapped/C_2454309;Z)V	m_2211846		drop
 		p	1			p_1
 		p	2			p_2

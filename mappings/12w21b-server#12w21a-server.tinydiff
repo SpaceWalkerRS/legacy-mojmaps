@@ -1,20 +1,20 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0191817	net/minecraft/unmapped/C_0191817	
-	f	[Lnet/minecraft/unmapped/C_0191817;	f_5611693	f_5611693	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8774379	f_8774379	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8621364	f_8621364	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7464303	f_7464303	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_1329263	f_1329263	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_6515746	f_6515746	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7937700	f_7937700	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_4502463	f_4502463	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7368974	f_7368974	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7879832	f_7879832	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_7598051	f_7598051	
+c	net/minecraft/unmapped/C_0191817	net/minecraft/world/item/CreativeModeTab	
+	f	[Lnet/minecraft/unmapped/C_0191817;	f_5611693	TABS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8774379	TAB_BUILDING_BLOCKS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8621364	TAB_DECORATIONS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7464303	TAB_REDSTONE	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_1329263	TAB_TRANSPORTATION	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_6515746	TAB_MISC	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7937700	TAB_SEARCH	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_4502463	TAB_FOOD	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7368974	TAB_TOOLS	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7879832	TAB_COMBAT	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_7598051	TAB_BREWING	
 	f	Lnet/minecraft/unmapped/C_0191817;	f_8222103	f_8222103	
-	f	Lnet/minecraft/unmapped/C_0191817;	f_3233178	f_3233178	
-	f	I	f_2210046	f_2210046	
-	f	Ljava/lang/String;	f_6066272	f_6066272	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_3233178	TAB_INVENTORY	
+	f	I	f_2210046	id	
+	f	Ljava/lang/String;	f_6066272	langId	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -56,7 +56,7 @@ c	net/minecraft/unmapped/C_3668474	net/minecraft/unmapped/C_3668474
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_0191817;	f_8699915	f_8699915	
+	f	Lnet/minecraft/unmapped/C_0191817;	f_8699915	category	
 	m	(Lnet/minecraft/unmapped/C_0191817;)Lnet/minecraft/unmapped/C_3755722;	m_3158674	m_3158674	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5012870	net/minecraft/unmapped/C_5012870	

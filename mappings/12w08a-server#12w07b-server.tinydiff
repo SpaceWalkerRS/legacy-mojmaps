@@ -7,7 +7,7 @@ c	net/minecraft/unmapped/C_1428858
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_1747981
-	f	Z	f_7065022	f_7065022	
+	f	Z	f_7065022	onlyAtNight	
 	m	(Lnet/minecraft/unmapped/C_5622853;FZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -15,9 +15,9 @@ c	net/minecraft/unmapped/C_1747981
 	m	(Lnet/minecraft/unmapped/C_5622853;F)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_1792356	net/minecraft/unmapped/C_1792356	
-	f	Lnet/minecraft/unmapped/C_7592368;	f_7573381	f_7573381	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_8368703	f_8368703	
+c	net/minecraft/unmapped/C_1792356	net/minecraft/world/entity/ai/goal/target/DefendVillageTargetGoal	
+	f	Lnet/minecraft/unmapped/C_7592368;	f_7573381	golem	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_8368703	potentialTarget	
 	m	(Lnet/minecraft/unmapped/C_7592368;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_9549250	m_9549250	
@@ -55,14 +55,14 @@ c	net/minecraft/unmapped/C_3014809	net/minecraft/unmapped/C_3014809
 	m	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3551236	net/minecraft/unmapped/C_3551236	
-	f	Lnet/minecraft/unmapped/C_5622853;	f_2122138	f_2122138	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_6506340	f_6506340	
-	f	D	f_8675193	f_8675193	
-	f	D	f_2382830	f_2382830	
-	f	D	f_0883666	f_0883666	
-	f	F	f_9565808	f_9565808	
-	f	F	f_1867902	f_1867902	
+c	net/minecraft/unmapped/C_3551236	net/minecraft/world/entity/ai/goal/MoveTowardsTargetGoal	
+	f	Lnet/minecraft/unmapped/C_5622853;	f_2122138	mob	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_6506340	target	
+	f	D	f_8675193	wantedX	
+	f	D	f_2382830	wantedY	
+	f	D	f_0883666	wantedZ	
+	f	F	f_9565808	speedModifier	
+	f	F	f_1867902	within	
 	m	(Lnet/minecraft/unmapped/C_5622853;FF)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -71,7 +71,7 @@ c	net/minecraft/unmapped/C_3551236	net/minecraft/unmapped/C_3551236
 	m	()Z	m_4540487	m_4540487	
 	m	()V	m_7242457	m_7242457	
 	m	()V	m_3836415	m_3836415	
-c	net/minecraft/unmapped/C_4292131	net/minecraft/unmapped/C_4292131	
+c	net/minecraft/unmapped/C_4292131	net/minecraft/world/level/block/HorizontalDirectionalBlock	
 	m	(IILnet/minecraft/unmapped/C_8048208;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -123,7 +123,7 @@ c	net/minecraft/unmapped/C_5708472
 	m	(I)V	m_5838302		m_5838302
 		p	1			p_1
 c	net/minecraft/unmapped/C_6607881
-	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_8337329	m_8337329	
+	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_8337329	setLastHurtByMob	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_6849228
 	f	I	f_7470066	f_7470066	
@@ -141,11 +141,11 @@ c	net/minecraft/unmapped/C_7159708
 	m	(II)Z	m_3541347	m_3541347	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_7592368	net/minecraft/unmapped/C_7592368	
+c	net/minecraft/unmapped/C_7592368	net/minecraft/world/entity/animal/IronGolem	
 	f	I	f_4450686	f_4450686	
 	f	Lnet/minecraft/unmapped/C_5708472;	f_5087798	f_5087798	
-	f	I	f_1327570	f_1327570	
-	f	I	f_5047639	f_5047639	
+	f	I	f_1327570	attackAnimationTick	
+	f	I	f_5047639	offerFlowerTick	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_6682221	m_6682221	
@@ -159,16 +159,16 @@ c	net/minecraft/unmapped/C_7592368	net/minecraft/unmapped/C_7592368
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_3916798	m_3916798	
 		p	1		p_1	
 	m	()Lnet/minecraft/unmapped/C_5708472;	m_8842724	m_8842724	
-	m	(Z)V	m_9136085	m_9136085	
+	m	(Z)V	m_9136085	offerFlower	
 		p	1		p_1	
 	m	(ZI)V	m_9519027	m_9519027	
 		p	1		p_1	
 		p	2		p_2	
-	m	()I	m_3920914	m_3920914	
-c	net/minecraft/unmapped/C_7968335	net/minecraft/unmapped/C_7968335	
-	f	Lnet/minecraft/unmapped/C_7592368;	f_8413247	f_8413247	
-	f	Lnet/minecraft/unmapped/C_8814877;	f_7718511	f_7718511	
-	f	I	f_3458673	f_3458673	
+	m	()I	m_3920914	getOfferFlowerTick	
+c	net/minecraft/unmapped/C_7968335	net/minecraft/world/entity/ai/goal/OfferFlowerGoal	
+	f	Lnet/minecraft/unmapped/C_7592368;	f_8413247	golem	
+	f	Lnet/minecraft/unmapped/C_8814877;	f_7718511	villager	
+	f	I	f_3458673	tick	
 	m	(Lnet/minecraft/unmapped/C_7592368;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_9549250	m_9549250	
@@ -186,7 +186,7 @@ c	net/minecraft/unmapped/C_7985395
 		p	5		p_5	
 		p	6		p_6	
 c	net/minecraft/unmapped/C_8159814
-	f	Z	f_1608748	f_1608748	
+	f	Z	f_1608748	mustReach	
 	m	(Lnet/minecraft/unmapped/C_6607881;FZZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

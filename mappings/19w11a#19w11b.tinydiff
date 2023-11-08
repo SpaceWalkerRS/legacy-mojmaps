@@ -15,7 +15,7 @@ c	net/minecraft/unmapped/C_0318732
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_0529894
-	f	Lnet/minecraft/unmapped/C_0529894;	f_5796308		f_5796308
+	f	Lnet/minecraft/unmapped/C_0529894;	f_5796308		HARD_CROP
 c	net/minecraft/unmapped/C_0739399
 	m	(Ljava/lang/Object;)Z	m_5444297		m_5444297
 		p	1			p_1
@@ -35,7 +35,7 @@ c	net/minecraft/unmapped/C_0876962
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_0904511
-	f	J	f_9793475		f_9793475
+	f	J	f_9793475		nextOkStartTime
 c	net/minecraft/unmapped/C_2248454
 	m	(Lnet/minecraft/unmapped/C_2248454$C_4125937;Lnet/minecraft/unmapped/C_6577431;Lnet/minecraft/unmapped/C_5142493;Lnet/minecraft/unmapped/C_5142493;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	m_4229852	m_4229852	
 		p	1		p_1	
@@ -58,19 +58,19 @@ c	net/minecraft/unmapped/C_2420175
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_3015107
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_0960638;	m_9264313	m_9264313	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_0960638;	m_9264313	read	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_6863048;Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_0960638;	m_9264313		m_9264313
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0899004;Lnet/minecraft/unmapped/C_6863048;Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_0960638;	m_9264313		read
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_3556854
-	m	(Ljava/lang/Object;)Z	m_5444297		m_5444297
+	m	(Ljava/lang/Object;)Z	m_5444297		maybeHas
 		p	1			p_1
 c	net/minecraft/unmapped/C_3865296
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_4022468	m_4022468	
@@ -89,8 +89,8 @@ c	net/minecraft/unmapped/C_3865296
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_4402181
-	f	Ljava/util/Map;	f_7669062		f_7669062
-	f	Ljava/util/Set;	f_2099537		f_2099537
+	f	Ljava/util/Map;	f_7669062		TYPE_BY_STATE
+	f	Ljava/util/Set;	f_2099537		matchingStates
 	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_2591549	m_2591549	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1241852;)Lnet/minecraft/unmapped/C_4402181;	m_5971908	m_5971908	
@@ -98,11 +98,11 @@ c	net/minecraft/unmapped/C_4402181
 	m	(Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_4402181;)Z	m_4163769	m_4163769	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2441996;)Ljava/util/Optional;	m_7419381		m_7419381
+	m	(Lnet/minecraft/unmapped/C_2441996;)Ljava/util/Optional;	m_7419381		forState
 		p	0			p_0
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_0969307		m_0969307
 		p	0			p_0
-	m	()Ljava/util/stream/Stream;	m_0892342		m_0892342
+	m	()Ljava/util/stream/Stream;	m_0892342		allPoiStates
 	m	(Lnet/minecraft/unmapped/C_2248454$C_4125937;Lnet/minecraft/unmapped/C_6577431;Lnet/minecraft/unmapped/C_5142493;Lnet/minecraft/unmapped/C_5142493;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	m_5686358		m_5686358
 		p	0			p_0
 		p	1			p_1
@@ -142,7 +142,7 @@ c	net/minecraft/unmapped/C_4594583
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_4780978	m_4780978	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_4764197
-	m	(Ljava/lang/Object;)Z	m_1341788		m_1341788
+	m	(Ljava/lang/Object;)Z	m_1341788		maybeHas
 		p	1			p_1
 c	net/minecraft/unmapped/C_5001493
 	m	(Lnet/minecraft/unmapped/C_2248454$C_4125937;Lnet/minecraft/unmapped/C_6577431;Lnet/minecraft/unmapped/C_5142493;Lnet/minecraft/unmapped/C_5142493;Ljava/util/concurrent/Executor;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	m_4229852	m_4229852	
@@ -189,7 +189,7 @@ c	net/minecraft/unmapped/C_6559556
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_6792903
-	m	(Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_2163571	m_2163571	
+	m	(Lnet/minecraft/unmapped/C_0636026;)Ljava/util/concurrent/CompletableFuture;	m_2163571	protoChunkToFullChunk	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_7808835;Ljava/lang/Runnable;)V	m_1606645	m_1606645	
 		p	1		p_1	
@@ -200,7 +200,7 @@ c	net/minecraft/unmapped/C_6792903
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_7808835;)Lnet/minecraft/unmapped/C_7808835$C_7318955;	m_6660081	m_6660081	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_0636026;Ljava/util/function/IntSupplier;)Ljava/util/concurrent/CompletableFuture;	m_2163571		m_2163571
+	m	(Lnet/minecraft/unmapped/C_0636026;Ljava/util/function/IntSupplier;)Ljava/util/concurrent/CompletableFuture;	m_2163571		protoChunkToFullChunk
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_7141926;Ljava/util/function/IntSupplier;Ljava/lang/Runnable;)V	m_1606645		m_1606645
@@ -217,7 +217,7 @@ c	net/minecraft/unmapped/C_6792903
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6863048
-	m	(Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_8042654;)V	m_7744033		m_7744033
+	m	(Lnet/minecraft/unmapped/C_7141926;Lnet/minecraft/unmapped/C_8042654;)V	m_7744033		checkConsistencyWithBlocks
 		p	1			p_1
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_8042654;Lnet/minecraft/unmapped/C_3674802;)V	m_5173438		m_5173438
@@ -227,10 +227,10 @@ c	net/minecraft/unmapped/C_6863048
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8042654
-	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_1986342		m_1986342
+	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_1986342		maybeHas
 		p	1			p_1
 c	net/minecraft/unmapped/C_8814877
-	f	Ljava/util/Map;	f_2333469		f_2333469
+	f	Ljava/util/Map;	f_2333469		POI_MEMORIES
 	m	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/unmapped/C_9000156;)V	m_9306239	m_9306239	
 		p	0		p_0	
 		p	1		p_1	
@@ -272,14 +272,14 @@ c	net/minecraft/unmapped/C_9414749	net/minecraft/unmapped/C_9414749
 	m	(Lnet/minecraft/unmapped/C_2441996;)Lnet/minecraft/unmapped/C_7721249;	m_2343255	m_2343255	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9681331
-	m	()I	m_8304703		m_8304703
-	m	()I	m_9090575		m_9090575
-	m	()I	m_0717107		m_0717107
-	m	()I	m_5886136		m_5886136
-	m	()I	m_3188886		m_3188886
-	m	()I	m_8261527		m_8261527
-	m	()Ljava/util/stream/Stream;	m_7227022		m_7227022
-c	net/minecraft/unmapped/C_2732112		net/minecraft/unmapped/C_2732112
+	m	()I	m_8304703		minBlockX
+	m	()I	m_9090575		minBlockY
+	m	()I	m_0717107		minBlockZ
+	m	()I	m_5886136		maxBlockX
+	m	()I	m_3188886		maxBlockY
+	m	()I	m_8261527		maxBlockZ
+	m	()Ljava/util/stream/Stream;	m_7227022		blocksInside
+c	net/minecraft/unmapped/C_2732112		net/minecraft/world/entity/ai/behavior/WakeUp
 	m	()V	<init>		<init>
 	m	()Ljava/util/Set;	m_7086530		m_7086530
 	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_6607881;)Z	m_0488171		m_0488171

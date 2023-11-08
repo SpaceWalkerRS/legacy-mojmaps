@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	f	Ljava/lang/String;	f_4962776		f_4962776
-	m	()Ljava/lang/String;	m_7735632		m_7735632
+	f	Ljava/lang/String;	f_4962776		stringUUID
+	m	()Ljava/lang/String;	m_7735632		getStringUUID
 c	net/minecraft/unmapped/C_1316134
 	f	Lnet/minecraft/unmapped/C_1431328;	f_9552996	f_9552996	
 	f	Ljava/util/List;	f_5073208	f_5073208	
@@ -70,9 +70,9 @@ c	net/minecraft/unmapped/C_1712153
 	f	Lnet/minecraft/unmapped/C_1431328;	f_9663771	f_9663771	
 	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_9663771		f_9663771
 c	net/minecraft/unmapped/C_3250247
-	f	Lnet/minecraft/unmapped/C_1431328;	f_3346107	f_3346107	
+	f	Lnet/minecraft/unmapped/C_1431328;	f_3346107	negativeChecks	
 	f	Ljava/util/List;	f_0045312	f_0045312	
-	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_3346107		f_3346107
+	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_3346107		negativeChecks
 c	net/minecraft/unmapped/C_3767424
 	f	Lnet/minecraft/unmapped/C_1431328;	f_4373717	f_4373717	
 	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_4373717		f_4373717
@@ -82,7 +82,7 @@ c	net/minecraft/unmapped/C_4241305
 	f	Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;	f_6813705		f_6813705
 c	net/minecraft/unmapped/C_5553933
 	m	()Lnet/minecraft/unmapped/C_5863756;	m_7943600	m_7943600	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_0586509		m_0586509
+	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_0586509		isOutsideBuildHeight
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_3978059		m_3978059
 		p	1			p_1
@@ -94,12 +94,12 @@ c	net/minecraft/unmapped/C_5863756
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_6517019
-	m	(Ljava/lang/String;Ljava/util/concurrent/Callable;)V	m_4031679	m_4031679	
+	m	(Ljava/lang/String;Ljava/util/concurrent/Callable;)V	m_4031679	setDetail	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_9197353;)V	m_4031679		m_4031679
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_9197353;)V	m_4031679		setDetail
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_6849228
 	f	Z	f_2714582		f_2714582
-c	net/minecraft/unmapped/C_9197353		net/minecraft/unmapped/C_9197353
+c	net/minecraft/unmapped/C_9197353		net/minecraft/CrashReportDetail

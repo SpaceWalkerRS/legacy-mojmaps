@@ -1,21 +1,21 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0024265
-	m	(Lnet/minecraft/unmapped/C_3472905;Lnet/minecraft/unmapped/C_5818647;II)Z	m_1038671	m_1038671	
+	m	(Lnet/minecraft/unmapped/C_3472905;Lnet/minecraft/unmapped/C_5818647;II)Z	m_1038671	tryTakeInItemFromSlot	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Z	m_4693510	m_4693510	
+	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Z	m_4693510	canPlaceItemInContainer	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Z	m_4000012	m_4000012	
+	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Z	m_4000012	canTakeItemFromContainer	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Lnet/minecraft/unmapped/C_2454309;	m_7833999	m_7833999	
+	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_2454309;II)Lnet/minecraft/unmapped/C_2454309;	m_7833999	tryMoveInItem	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -133,9 +133,9 @@ c	net/minecraft/unmapped/C_3865296
 c	net/minecraft/unmapped/C_4281786
 	m	()V	m_3681089		m_3681089
 c	net/minecraft/unmapped/C_4808571
-	f	[I	f_4797460	f_4797460	
-	f	[I	f_4874971	f_4874971	
-	f	[I	f_2662657	f_2662657	
+	f	[I	f_4797460	SLOTS_FOR_UP	
+	f	[I	f_4874971	SLOTS_FOR_DOWN	
+	f	[I	f_2662657	SLOTS_FOR_SIDES	
 	f	I	f_9479627		f_9479627
 	m	(I)[I	m_2518429	m_2518429	
 		p	1		p_1	
@@ -169,23 +169,23 @@ c	net/minecraft/unmapped/C_5416361
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_5433736
-	m	(I)[I	m_2518429	m_2518429	
+	m	(I)[I	m_2518429	getSlotsForFace	
 		p	1		p_1	
-	m	(ILnet/minecraft/unmapped/C_2454309;I)Z	m_2568414	m_2568414	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(ILnet/minecraft/unmapped/C_2454309;I)Z	m_9768291	m_9768291	
+	m	(ILnet/minecraft/unmapped/C_2454309;I)Z	m_2568414	canPlaceItemThroughFace	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(I)I	m_2518429		m_2518429
+	m	(ILnet/minecraft/unmapped/C_2454309;I)Z	m_9768291	canTakeItemThroughFace	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(I)I	m_2518429		getSlotsForFace
 		p	1			p_1
 	m	(I)I	m_5337338		m_5337338
 		p	1			p_1
 c	net/minecraft/unmapped/C_5542904
-	f	[I	f_7665354	f_7665354	
-	f	[I	f_1007987	f_1007987	
+	f	[I	f_7665354	SLOTS_FOR_UP	
+	f	[I	f_1007987	SLOTS_FOR_DOWN	
 	m	(I)[I	m_2518429	m_2518429	
 		p	1		p_1	
 	m	(ILnet/minecraft/unmapped/C_2454309;I)Z	m_2568414	m_2568414	

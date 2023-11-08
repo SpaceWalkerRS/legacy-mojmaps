@@ -34,17 +34,17 @@ c	net/minecraft/unmapped/C_3674802$C_0067708
 	m	(Lnet/minecraft/unmapped/C_3674802$C_0067708;I)I	m_2514869	m_2514869	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_9249639		m_9249639
+	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_9249639		set
 		p	1			p_1
-	m	(DDD)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_1226386		m_1226386
+	m	(DDD)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_1226386		set
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_2033463;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_9191205		m_9191205
+	m	(Lnet/minecraft/unmapped/C_2033463;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_9191205		set
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_2828397		m_2828397
+	m	(Lnet/minecraft/unmapped/C_3544601;)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_2828397		move
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3544601;I)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_0072246		m_0072246
+	m	(Lnet/minecraft/unmapped/C_3544601;I)Lnet/minecraft/unmapped/C_3674802$C_0067708;	m_0072246		move
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3674802$C_0869341
@@ -99,21 +99,21 @@ c	net/minecraft/unmapped/C_4500708
 c	net/minecraft/unmapped/C_7028449
 	f	Lnet/minecraft/unmapped/C_3674802;	f_4863579	f_4863579	
 	f	Ljava/util/EnumMap;	f_2605355	f_2605355	
-	f	Lnet/minecraft/unmapped/C_3674802$C_0067708;	f_2282542		f_2282542
-	f	[Lnet/minecraft/unmapped/C_3674802$C_0067708;	f_3392187		f_3392187
+	f	Lnet/minecraft/unmapped/C_3674802$C_0067708;	f_2282542		origin
+	f	[Lnet/minecraft/unmapped/C_3674802$C_0067708;	f_3392187		relativeOrigins
 	f	Lnet/minecraft/unmapped/C_8030141;	f_8297266		f_8297266
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_8398976;Lnet/minecraft/unmapped/C_3674802;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_5351306	m_5351306	
+	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_5351306	setOrigin	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_8398976;I)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(III)V	m_5351306		m_5351306
+	m	(III)V	m_5351306		setOrigin
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -151,11 +151,11 @@ c	net/minecraft/unmapped/C_8384582
 c	net/minecraft/unmapped/C_8398976
 c	net/minecraft/unmapped/C_8398976$C_7199562
 	f	Ljava/util/Set;	f_1472195	f_1472195	
-	f	B	f_9517573		f_9517573
-	m	(BLnet/minecraft/unmapped/C_3544601;)V	m_5045263		m_5045263
+	f	B	f_9517573		directions
+	m	(BLnet/minecraft/unmapped/C_3544601;)V	m_5045263		setDirections
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_3544601;)Z	m_8479074		m_8479074
+	m	(Lnet/minecraft/unmapped/C_3544601;)Z	m_8479074		hasDirection
 		p	1			p_1
 c	net/minecraft/unmapped/C_8892483
 	m	(IIII)V	m_3713758	m_3713758	

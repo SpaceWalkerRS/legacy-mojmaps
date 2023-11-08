@@ -8,7 +8,7 @@ c	net/minecraft/unmapped/C_0230498
 	f	Lnet/minecraft/unmapped/C_0230498;	f_9176846	f_9176846	
 	f	Lnet/minecraft/unmapped/C_0230498;	f_9040541	f_9040541	
 	f	Lnet/minecraft/unmapped/C_0230498;	f_8727635	f_8727635	
-c	net/minecraft/unmapped/C_0658183	net/minecraft/unmapped/C_0658183	
+c	net/minecraft/unmapped/C_0658183	net/minecraft/world/item/enchantment/ArrowInfiniteEnchantment	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -27,12 +27,12 @@ c	net/minecraft/unmapped/C_1556410
 c	net/minecraft/unmapped/C_1567607
 	m	(Lnet/minecraft/unmapped/C_0433100;)V	m_5970610		m_5970610
 		p	1			p_1
-c	net/minecraft/unmapped/C_2221425	net/minecraft/unmapped/C_2221425	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_2512030	f_2512030	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_7527439	f_7527439	
+c	net/minecraft/unmapped/C_2221425	net/minecraft/world/entity/ai/goal/LookAtPlayerGoal	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_2512030	mob	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_7527439	lookAt	
 	f	Lnet/minecraft/unmapped/C_5553933;	f_2591367	f_2591367	
-	f	F	f_3911451	f_3911451	
-	f	I	f_0421199	f_0421199	
+	f	F	f_3911451	lookDistance	
+	f	I	f_0421199	lookTime	
 	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_5553933;F)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -47,7 +47,7 @@ c	net/minecraft/unmapped/C_2221425	net/minecraft/unmapped/C_2221425
 		p	1		p_1	
 	m	()Z	m_9478616	m_9478616	
 c	net/minecraft/unmapped/C_3120382
-	m	(ILnet/minecraft/unmapped/C_3980755;)V	m_7027881	m_7027881	
+	m	(ILnet/minecraft/unmapped/C_3980755;)V	m_7027881	addGoal	
 		p	1		p_1	
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_9603802;)Z	m_9297314	m_9297314	
@@ -55,14 +55,14 @@ c	net/minecraft/unmapped/C_3120382
 	m	(Lnet/minecraft/unmapped/C_9603802;Lnet/minecraft/unmapped/C_9603802;)Z	m_1947247	m_1947247	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_3980755;)V	m_7027881		m_7027881
+	m	(Lnet/minecraft/unmapped/C_3980755;)V	m_7027881		addGoal
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3980755;)Z	m_9297314		m_9297314
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3980755;Lnet/minecraft/unmapped/C_3980755;)Z	m_1947247		m_1947247
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_3152224	net/minecraft/unmapped/C_3152224	
+c	net/minecraft/unmapped/C_3152224	net/minecraft/world/item/enchantment/ArrowKnockbackEnchantment	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -71,7 +71,7 @@ c	net/minecraft/unmapped/C_3152224	net/minecraft/unmapped/C_3152224
 	m	(I)I	m_0564004	m_0564004	
 		p	1		p_1	
 	m	()I	m_5897549	m_5897549	
-c	net/minecraft/unmapped/C_3194394	net/minecraft/unmapped/C_3194394	
+c	net/minecraft/unmapped/C_3194394	net/minecraft/world/item/enchantment/ArrowDamageEnchantment	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -101,16 +101,16 @@ c	net/minecraft/unmapped/C_3901562
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_3980755
-	f	I	f_9737366	f_9737366	
+	f	I	f_9737366	flags	
 	f	Ljava/util/ArrayList;	f_8372626		f_8372626
-	m	(I)V	m_1135505	m_1135505	
+	m	(I)V	m_1135505	setFlags	
 		p	1		p_1	
-	m	()I	m_5043911	m_5043911	
+	m	()I	m_5043911	getFlags	
 	m	(Lnet/minecraft/unmapped/C_0905826;)V	m_1587970		m_1587970
 		p	1			p_1
-	m	()Ljava/util/ArrayList;	m_5043911		m_5043911
-c	net/minecraft/unmapped/C_4073764	net/minecraft/unmapped/C_4073764	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_4194442	f_4194442	
+	m	()Ljava/util/ArrayList;	m_5043911		getFlags
+c	net/minecraft/unmapped/C_4073764	net/minecraft/world/entity/ai/goal/FloatGoal	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_4194442	mob	
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_9549250	m_9549250	
@@ -123,19 +123,19 @@ c	net/minecraft/unmapped/C_4073764	net/minecraft/unmapped/C_4073764
 	m	()Z	m_9478616	m_9478616	
 	m	()Z	m_4540487	m_4540487	
 c	net/minecraft/unmapped/C_4116648
-	f	D	f_6443270	f_6443270	
-	f	I	f_6862909	f_6862909	
-	m	(D)V	m_2236062	m_2236062	
+	f	D	f_6443270	baseDamage	
+	f	I	f_6862909	knockback	
+	m	(D)V	m_2236062	setBaseDamage	
 		p	1		p_1	
-	m	()D	m_3848954	m_3848954	
-	m	(I)V	m_6241078	m_6241078	
+	m	()D	m_3848954	getBaseDamage	
+	m	(I)V	m_6241078	setKnockback	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_4281786
 	m	()Z	m_6682221	m_6682221	
 c	net/minecraft/unmapped/C_4316830
 	m	()Z	m_6682221	m_6682221	
 	m	()V	m_2135259		m_2135259
-c	net/minecraft/unmapped/C_5352679	net/minecraft/unmapped/C_5352679	
+c	net/minecraft/unmapped/C_5352679	net/minecraft/world/item/enchantment/ArrowFireEnchantment	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -163,13 +163,13 @@ c	net/minecraft/unmapped/C_5660126
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_6145927	net/minecraft/unmapped/C_6145927	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_3539132	f_3539132	
-	f	Z	f_6448023	f_6448023	
+c	net/minecraft/unmapped/C_6145927	net/minecraft/world/entity/ai/control/JumpControl	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_3539132	mob	
+	f	Z	f_6448023	jump	
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	<init>	<init>	
 		p	1		p_1	
-	m	()V	m_8270823	m_8270823	
-	m	()V	m_5363603	m_5363603	
+	m	()V	m_8270823	jump	
+	m	()V	m_5363603	tick	
 c	net/minecraft/unmapped/C_6382639
 	m	()Lnet/minecraft/unmapped/C_0539808;	m_8479261	m_8479261	
 c	net/minecraft/unmapped/C_6385582
@@ -180,8 +180,8 @@ c	net/minecraft/unmapped/C_6385582
 	m	(Lnet/minecraft/unmapped/C_0905826;)V	m_1587970		m_1587970
 		p	1			p_1
 c	net/minecraft/unmapped/C_6607881
-	f	F	f_7005130	f_7005130	
-	f	F	f_3228610	f_3228610	
+	f	F	f_7005130	yHeadRot	
+	f	F	f_3228610	yHeadRotO	
 	f	Lnet/minecraft/unmapped/C_6145927;	f_1338095	f_1338095	
 	m	()Lnet/minecraft/unmapped/C_6145927;	m_9649615	m_9649615	
 	m	()Z	m_6682221	m_6682221	
@@ -225,22 +225,22 @@ c	net/minecraft/unmapped/C_9086492
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_5771439		m_5771439
 		p	1			p_1
 c	net/minecraft/unmapped/C_9229053
-	m	(DDDF)V	m_6026864	m_6026864	
+	m	(DDDF)V	m_6026864	moveTo	
 		p	1		p_1	
 		p	3		p_3	
 		p	5		p_5	
 		p	7		p_7	
-	m	(Lnet/minecraft/unmapped/C_6607881;F)V	m_5771439	m_5771439	
+	m	(Lnet/minecraft/unmapped/C_6607881;F)V	m_5771439	createPath	
 		p	1		p_1	
 		p	2		p_2	
-	m	(DDD)V	m_6026864		m_6026864
+	m	(DDD)V	m_6026864		moveTo
 		p	1			p_1
 		p	3			p_3
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_5771439		m_5771439
+	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_5771439		createPath
 		p	1			p_1
 c	net/minecraft/unmapped/C_9491517
-	f	Lnet/minecraft/unmapped/C_9491517;	f_2699625	f_2699625	
+	f	Lnet/minecraft/unmapped/C_9491517;	f_2699625	BOW	
 c	net/minecraft/unmapped/C_9603802	net/minecraft/unmapped/C_9603802	
 	f	Lnet/minecraft/unmapped/C_3980755;	f_1843538	f_1843538	
 	f	I	f_3023151	f_3023151	

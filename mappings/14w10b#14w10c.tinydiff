@@ -21,7 +21,7 @@ c	net/minecraft/unmapped/C_2669673
 c	net/minecraft/unmapped/C_3544601
 	m	(Lnet/minecraft/unmapped/C_8357359;)Lnet/minecraft/unmapped/C_3544601;	m_9140518		m_9140518
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_3544601;	m_0140640		m_0140640
+	m	()Lnet/minecraft/unmapped/C_3544601;	m_0140640		getClockWiseX
 	m	()Lnet/minecraft/unmapped/C_3544601;	m_2005148		m_2005148
 c	net/minecraft/unmapped/C_5615103
 	m	()I	m_1863884	m_1863884	

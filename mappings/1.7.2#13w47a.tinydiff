@@ -75,19 +75,19 @@ c	net/minecraft/unmapped/C_1616310
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0561170;)V	m_0186656	m_0186656	
+	m	(Lnet/minecraft/unmapped/C_0561170;)V	m_0186656	load	
 		p	1		p_1	
-	m	(Lcom/google/gson/JsonElement;)V	m_1407987	m_1407987	
+	m	(Lcom/google/gson/JsonElement;)V	m_1407987	parsePassNode	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_6577431;Lnet/minecraft/unmapped/C_5837633;Lnet/minecraft/unmapped/C_0561170;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_0561170;)V	m_0186656		m_0186656
+	m	(Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_0561170;)V	m_0186656		load
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0876962;Lcom/google/gson/JsonElement;)V	m_1407987		m_1407987
+	m	(Lnet/minecraft/unmapped/C_0876962;Lcom/google/gson/JsonElement;)V	m_1407987		parsePassNode
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_1677199
@@ -116,8 +116,8 @@ c	net/minecraft/unmapped/C_2728826
 c	net/minecraft/unmapped/C_3216249
 	f	Z	f_7305805		f_7305805
 c	net/minecraft/unmapped/C_3628668
-	f	Lnet/minecraft/unmapped/C_1241852;	f_7134658	f_7134658	
-	f	Lnet/minecraft/unmapped/C_6296773;	f_7134658		f_7134658
+	f	Lnet/minecraft/unmapped/C_1241852;	f_7134658	SAND	
+	f	Lnet/minecraft/unmapped/C_6296773;	f_7134658		SAND
 c	net/minecraft/unmapped/C_4707822
 	m	(Lnet/minecraft/unmapped/C_4707822;)Lnet/minecraft/unmapped/C_2348249;	m_1355998		m_1355998
 		p	0			p_0
@@ -205,8 +205,8 @@ c	net/minecraft/unmapped/C_5916564
 	f	Z	f_6918055		f_6918055
 	m	()Ljava/lang/String;	m_1557448		m_1557448
 c	net/minecraft/unmapped/C_6607881
-	m	()V	m_5824073		m_5824073
-	m	()V	m_3417514		m_3417514
+	m	()V	m_5824073		onLeaveCombat
+	m	()V	m_3417514		onEnterCombat
 c	net/minecraft/unmapped/C_6734442
 	m	(Lnet/minecraft/unmapped/C_5681355;Ljava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
@@ -220,8 +220,8 @@ c	net/minecraft/unmapped/C_6775796
 	m	(Lnet/minecraft/unmapped/C_1677199;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_6954368
-	f	I	f_1077993		f_1077993
-	f	I	f_5804353		f_5804353
+	f	I	f_1077993		combatStartTime
+	f	I	f_5804353		combatEndTime
 c	net/minecraft/unmapped/C_7042060
 	f	Lnet/minecraft/unmapped/C_5691462;	f_5238062	f_5238062	
 	f	Lnet/minecraft/unmapped/C_5659049;	f_5238062		f_5238062
@@ -296,12 +296,12 @@ c	net/minecraft/unmapped/C_8643842
 	m	(Ljava/net/URL;)Ljava/lang/String;	m_2066117		m_2066117
 		p	0			p_0
 c	net/minecraft/unmapped/C_8651652
-	f	Lnet/minecraft/unmapped/C_0743638;	f_1762411		f_1762411
+	f	Lnet/minecraft/unmapped/C_0743638;	f_1762411		bossOverlay
 	m	(FF)V	m_3236923		m_3236923
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8843167
-	m	(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonObject;	m_2184061		m_2184061
+	m	(Lcom/google/gson/JsonObject;Ljava/lang/String;)Lcom/google/gson/JsonObject;	m_2184061		getAsJsonObject
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_9136208

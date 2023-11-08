@@ -10,12 +10,12 @@ c	net/minecraft/server/MinecraftServer
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_1350658
-	m	(I)V	m_5488055		m_5488055
+	m	(I)V	m_5488055		setLifetime
 		p	1			p_1
 c	net/minecraft/unmapped/C_3755722
-	f	Ljava/util/UUID;	f_7231054		f_7231054
+	f	Ljava/util/UUID;	f_7231054		BASE_ATTACK_SPEED_UUID
 c	net/minecraft/unmapped/C_3817789
-c	net/minecraft/unmapped/C_3817789$C_0471538		C_0471538
+c	net/minecraft/unmapped/C_3817789$C_0471538		DamageIndicatorProvider
 	m	()V	<init>		<init>
 	m	(ILnet/minecraft/unmapped/C_5553933;DDDDDD[I)Lnet/minecraft/unmapped/C_1350658;	m_6227983		m_6227983
 		p	1			p_1
@@ -30,7 +30,7 @@ c	net/minecraft/unmapped/C_3817789$C_0471538		C_0471538
 c	net/minecraft/unmapped/C_4701530
 	f	Lnet/minecraft/unmapped/C_4701530;	f_1350011		f_1350011
 c	net/minecraft/unmapped/C_4895885
-	m	(I)V	m_0033061		m_0033061
+	m	(I)V	m_0033061		setSuccessCount
 		p	1			p_1
 c	net/minecraft/unmapped/C_4972050
 	f	Lnet/minecraft/unmapped/C_9564318;	f_7662310		f_7662310
@@ -46,12 +46,12 @@ c	net/minecraft/unmapped/C_4972050$1		1
 		p	3			p_3
 	m	()Lnet/minecraft/unmapped/C_3674802;	m_4031515		m_4031515
 c	net/minecraft/unmapped/C_5774785
-	f	Lnet/minecraft/unmapped/C_3661275;	f_3539534		f_3539534
+	f	Lnet/minecraft/unmapped/C_3661275;	f_3539534		ATTACK_SPEED
 c	net/minecraft/unmapped/C_6319393
-	f	Lnet/minecraft/unmapped/C_2348249;	f_8829635		f_8829635
+	f	Lnet/minecraft/unmapped/C_2348249;	f_8829635		conditionalButton
 	f	Lnet/minecraft/unmapped/C_9564318;	f_3269922		f_3269922
-	f	Z	f_4308309		f_4308309
-	m	()V	m_7386111		m_7386111
+	f	Z	f_4308309		conditional
+	m	()V	m_7386111		updateConditional
 	m	([Ljava/lang/String;)V	m_7333324		m_7333324
 		p	1			p_1
 c	net/minecraft/unmapped/C_6319393$1
@@ -104,7 +104,7 @@ c	net/minecraft/unmapped/C_8248479
 		p	3			p_3
 	m	()Z	m_6811027		m_6811027
 c	net/minecraft/unmapped/C_8456884
-	f	F	f_6907444		f_6907444
+	f	F	f_6907444		attackSpeed
 	m	(FLnet/minecraft/unmapped/C_3755722$C_3737136;Ljava/util/Set;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -115,17 +115,17 @@ c	net/minecraft/unmapped/C_8456884
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_9008593
-	f	Z	f_8584674		f_8584674
-	m	()Z	m_9652211		m_9652211
-	m	(Z)V	m_9501277		m_9501277
+	f	Z	f_8584674		sendToClient
+	m	()Z	m_9652211		isAutomatic
+	m	(Z)V	m_9501277		setSendToClient
 		p	1			p_1
 c	net/minecraft/unmapped/C_9590849
-	f	Lnet/minecraft/unmapped/C_2454309;	f_0581634		f_0581634
+	f	Lnet/minecraft/unmapped/C_2454309;	f_0581634		lastItemInMainHand
 	m	()I	m_2352236	m_2352236	
-	m	()F	m_4868214		m_4868214
-	m	(F)F	m_3361672		m_3361672
+	m	()F	m_4868214		getCurrentItemAttackStrengthDelay
+	m	(F)F	m_3361672		getAttackStrengthScale
 		p	1			p_1
-	m	()V	m_4087953		m_4087953
+	m	()V	m_4087953		resetAttackStrengthTicker
 c	net/minecraft/unmapped/C_0284979		net/minecraft/unmapped/C_0284979
 	m	([Ljava/lang/String;)V	m_7333324		m_7333324
 		p	1			p_1

@@ -1,16 +1,16 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0759248
-	f	Ljava/util/Properties;	f_6169381	f_6169381	
+	f	Ljava/util/Properties;	f_6169381	storage	
 	f	Lcom/google/common/base/Splitter;	f_5845977		f_5845977
-	f	Ljava/util/Map;	f_6169381		f_6169381
+	f	Ljava/util/Map;	f_6169381		storage
 	m	()V	m_3579348	m_3579348	
-	m	(Ljava/lang/String;)Ljava/lang/String;	m_2574583		m_2574583
+	m	(Ljava/lang/String;)Ljava/lang/String;	m_2574583		getProperty
 		p	1			p_1
 c	net/minecraft/unmapped/C_3832296
 	m	(Lnet/minecraft/unmapped/C_2454309;)Z	m_5991226		m_5991226
 		p	1			p_1
 c	net/minecraft/unmapped/C_4254488
-	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;III)Z	m_1539234		m_1539234
+	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_5553933;III)Z	m_1539234		bindPlayerMobs
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2

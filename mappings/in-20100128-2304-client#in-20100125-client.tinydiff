@@ -3,13 +3,13 @@ c	net/minecraft/client/C_5664496
 	f	Lnet/minecraft/client/MinecraftApplet;	f_2261002	f_2261002	
 c	net/minecraft/client/C_8730536
 	f	Ljava/lang/String;	f_7169434	f_7169434	
-c	net/minecraft/unmapped/C_0674816	net/minecraft/unmapped/C_0674816	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	f_3026864	
+c	net/minecraft/unmapped/C_0674816	net/minecraft/world/item/AxeItem	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	DIGGABLES	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_0707753	net/minecraft/unmapped/C_0707753	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	f_1859613	
+c	net/minecraft/unmapped/C_0707753	net/minecraft/world/item/ShovelItem	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	DIGGABLES	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
@@ -39,11 +39,11 @@ c	net/minecraft/unmapped/C_1379168
 c	net/minecraft/unmapped/C_1640834
 	m	()V	m_1894352		m_1894352
 c	net/minecraft/unmapped/C_2454309
-	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1980273	m_1980273	
+	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1980273	split	
 		p	1		p_1	
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_1980273		m_1980273
-c	net/minecraft/unmapped/C_2538104	net/minecraft/unmapped/C_2538104	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8765448	f_8765448	
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_1980273		split
+c	net/minecraft/unmapped/C_2538104	net/minecraft/world/inventory/ResultContainer	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8765448	itemStacks	
 	m	(Lnet/minecraft/unmapped/C_9441491;B)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -57,18 +57,18 @@ c	net/minecraft/unmapped/C_2538104	net/minecraft/unmapped/C_2538104
 	m	()I	m_7072579	m_7072579	
 	m	(Lnet/minecraft/unmapped/C_9441491;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_2671832	net/minecraft/unmapped/C_2671832	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	f_0027327	
+c	net/minecraft/unmapped/C_2671832	net/minecraft/world/item/PickaxeItem	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	DIGGABLES	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_2711798
-	m	()V	m_1468841	m_1468841	
-	m	()Z	m_3397298	m_3397298	
+	m	()V	m_1468841	onTake	
+	m	()Z	m_3397298	mayPlace	
 	m	()Lnet/minecraft/unmapped/C_2454309;	m_8536395	m_8536395	
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2091806	m_2091806	
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2091806	set	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_2091806		m_2091806
+	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_2091806		set
 		p	1			p_1
 c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_3755722;	f_7134803	f_7134803	
@@ -84,9 +84,9 @@ c	net/minecraft/unmapped/C_4065940	net/minecraft/unmapped/C_4065940
 		p	5		p_5	
 	m	()Z	m_3397298	m_3397298	
 	m	()V	m_1468841	m_1468841	
-c	net/minecraft/unmapped/C_5217418	net/minecraft/unmapped/C_5217418	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_9097031	f_9097031	
-	f	Lnet/minecraft/unmapped/C_9441491;	f_0084175	f_0084175	
+c	net/minecraft/unmapped/C_5217418	net/minecraft/world/inventory/CraftingContainer	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_9097031	items	
+	f	Lnet/minecraft/unmapped/C_9441491;	f_0084175	menu	
 	m	(Lnet/minecraft/unmapped/C_9441491;B)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -110,11 +110,11 @@ c	net/minecraft/unmapped/C_5714220
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5818647
-	m	()I	m_7072579	m_7072579	
+	m	()I	m_7072579	getMaxStackSize	
 	m	(II)Lnet/minecraft/unmapped/C_2454309;	m_7126904		m_7126904
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_6386154	net/minecraft/unmapped/C_6386154	
+c	net/minecraft/unmapped/C_6386154	net/minecraft/world/item/SwordItem	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_5853631	m_5853631	
@@ -124,7 +124,7 @@ c	net/minecraft/unmapped/C_7400754
 	m	(II)Lnet/minecraft/unmapped/C_2454309;	m_7126904		m_7126904
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_7585705	net/minecraft/unmapped/C_7585705	
+c	net/minecraft/unmapped/C_7585705	net/minecraft/world/item/crafting/RecipeManager	
 	f	Lnet/minecraft/unmapped/C_7585705;	f_7422423	f_7422423	
 	m	()V	<init>	<init>	
 	m	([I)Lnet/minecraft/unmapped/C_2454309;	m_9000025	m_9000025	
@@ -148,7 +148,7 @@ c	net/minecraft/unmapped/C_8241844	net/minecraft/unmapped/C_8241844
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_5407865	m_5407865	
-c	net/minecraft/unmapped/C_9441491	net/minecraft/unmapped/C_9441491	
+c	net/minecraft/unmapped/C_9441491	net/minecraft/client/gui/screens/inventory/CraftingScreen	
 	f	Lnet/minecraft/unmapped/C_5217418;	f_3482527	f_3482527	
 	f	Lnet/minecraft/unmapped/C_5818647;	f_8944572	f_8944572	
 	m	()V	m_8984281	m_8984281	

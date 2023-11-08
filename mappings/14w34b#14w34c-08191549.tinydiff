@@ -48,7 +48,7 @@ c	net/minecraft/unmapped/C_7829140
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_8253973
-	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_2454309;)V	m_9580184		m_9580184
+	m	(Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/unmapped/C_2454309;)V	m_9580184		usePlayerItem
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8398976

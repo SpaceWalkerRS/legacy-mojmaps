@@ -1,22 +1,22 @@
 tiny	2	0
 c	net/minecraft/server/MinecraftServer
 	f	Ljava/util/Queue;	f_6875241		f_6875241
-	f	Ljava/lang/Thread;	f_3900648		f_3900648
+	f	Ljava/lang/Thread;	f_3900648		serverThread
 	m	(Ljava/util/concurrent/Callable;)Lcom/google/common/util/concurrent/ListenableFuture;	m_1675458		m_1675458
 		p	1			p_1
 	m	(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	m_2167033		m_2167033
 		p	1			p_1
 	m	()Z	m_7691568		m_7691568
 c	net/minecraft/unmapped/C_0089468
-	f	I	f_7268786	f_7268786	
-	f	Lnet/minecraft/unmapped/C_8323999;	f_7268786		f_7268786
+	f	I	f_7268786	method	
+	f	Lnet/minecraft/unmapped/C_8323999;	f_7268786		method
 	m	(Lnet/minecraft/unmapped/C_3526030;I)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-	m	()I	m_9644791	m_9644791	
+	m	()I	m_9644791	getMethod	
 	m	(Lnet/minecraft/unmapped/C_3526030;)V	<init>		<init>
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_8323999;	m_9644791		m_9644791
+	m	()Lnet/minecraft/unmapped/C_8323999;	m_9644791		getMethod
 c	net/minecraft/unmapped/C_0168865
 	m	()Z	m_7208514	m_7208514	
 c	net/minecraft/unmapped/C_0328429
@@ -33,14 +33,14 @@ c	net/minecraft/unmapped/C_0445914
 c	net/minecraft/unmapped/C_0509685
 	m	()Ljava/lang/String;	m_4149431	m_4149431	
 c	net/minecraft/unmapped/C_0539808
-	m	(Ljava/lang/String;)V	m_0752703		m_0752703
+	m	(Ljava/lang/String;)V	m_0752703		setCustomName
 		p	1			p_1
 	m	()Ljava/lang/String;	m_3601118		m_3601118
 	m	()Z	m_1844807		m_1844807
-	m	(Z)V	m_3309866		m_3309866
+	m	(Z)V	m_3309866		setCustomNameVisible
 		p	1			p_1
-	m	()Z	m_4340318		m_4340318
-	m	()Z	m_0876818		m_0876818
+	m	()Z	m_4340318		isCustomNameVisible
+	m	()Z	m_0876818		shouldShowName
 c	net/minecraft/unmapped/C_1008454
 	m	(Ljava/lang/String;Lio/netty/buffer/ByteBuf;)V	<init>	<init>	
 		p	1		p_1	
@@ -113,10 +113,10 @@ c	net/minecraft/unmapped/C_2717027
 		p	2			p_2
 c	net/minecraft/unmapped/C_3027966
 	f	Lcom/mojang/authlib/GameProfile;	f_5899939	f_5899939	
-	f	Ljava/util/UUID;	f_8291713		f_8291713
+	f	Ljava/util/UUID;	f_8291713		playerId
 	m	()Ljava/lang/String;	m_4149431	m_4149431	
-	m	()Lcom/mojang/authlib/GameProfile;	m_3894595	m_3894595	
-	m	()Ljava/util/UUID;	m_3894595		m_3894595
+	m	()Lcom/mojang/authlib/GameProfile;	m_3894595	getPlayerId	
+	m	()Ljava/util/UUID;	m_3894595		getPlayerId
 c	net/minecraft/unmapped/C_3247465
 	m	(Lnet/minecraft/unmapped/C_2279766;Lnet/minecraft/unmapped/C_2279766;)V	m_0390205	m_0390205	
 		p	1		p_1	
@@ -170,7 +170,7 @@ c	net/minecraft/unmapped/C_3930157
 c	net/minecraft/unmapped/C_4052742
 	m	()Ljava/lang/String;	m_4149431	m_4149431	
 c	net/minecraft/unmapped/C_4281786
-	f	Ljava/util/UUID;	f_5593663		f_5593663
+	f	Ljava/util/UUID;	f_5593663		lastHurtByUUID
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_8337329		m_8337329
 		p	1			p_1
 c	net/minecraft/unmapped/C_4334442
@@ -190,12 +190,12 @@ c	net/minecraft/unmapped/C_4348169
 c	net/minecraft/unmapped/C_4354908
 	f	Ljava/util/Queue;	f_1523071	f_1523071	
 	f	Lnet/minecraft/unmapped/C_2279766;	f_1770381	f_1770381	
-	m	(Lnet/minecraft/unmapped/C_5385258;[Lio/netty/util/concurrent/GenericFutureListener;)V	m_6098407	m_6098407	
+	m	(Lnet/minecraft/unmapped/C_5385258;[Lio/netty/util/concurrent/GenericFutureListener;)V	m_6098407	send	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_5385258;)V	m_9976232		m_9976232
+	m	(Lnet/minecraft/unmapped/C_5385258;)V	m_9976232		send
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_5385258;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V	m_6098407		m_6098407
+	m	(Lnet/minecraft/unmapped/C_5385258;Lio/netty/util/concurrent/GenericFutureListener;[Lio/netty/util/concurrent/GenericFutureListener;)V	m_6098407		send
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -332,13 +332,13 @@ c	net/minecraft/unmapped/C_7063331
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_4999389		m_4999389
 		p	1			p_1
 c	net/minecraft/unmapped/C_7240405
-	m	([B)V	m_9874803		m_9874803
+	m	([B)V	m_9874803		writeByteArray
 		p	1			p_1
-	m	()[B	m_4015180		m_4015180
+	m	()[B	m_4015180		readByteArray
 	m	()[B	m_4134246		m_4134246
-	m	(Ljava/lang/Class;)Ljava/lang/Enum;	m_9153102		m_9153102
+	m	(Ljava/lang/Class;)Ljava/lang/Enum;	m_9153102		readEnum
 		p	1			p_1
-	m	(Ljava/lang/Enum;)V	m_1585487		m_1585487
+	m	(Ljava/lang/Enum;)V	m_1585487		writeEnum
 		p	1			p_1
 c	net/minecraft/unmapped/C_7452476
 	m	(Lcom/google/common/collect/BiMap;I)Lnet/minecraft/unmapped/C_5385258;	m_8441503		m_8441503
@@ -399,14 +399,14 @@ c	net/minecraft/unmapped/C_8442234
 c	net/minecraft/unmapped/C_8607703
 	m	()Ljava/lang/String;	m_4149431	m_4149431	
 c	net/minecraft/unmapped/C_8980628
-	m	(Lnet/minecraft/unmapped/C_0539808;DDD)V	m_2120335		m_2120335
+	m	(Lnet/minecraft/unmapped/C_0539808;DDD)V	m_2120335		renderName
 		p	1			p_1
 		p	2			p_2
 		p	4			p_4
 		p	6			p_6
-	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_4999389		m_4999389
+	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_4999389		shouldShowName
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_0539808;DDDLjava/lang/String;FD)V	m_3168609		m_3168609
+	m	(Lnet/minecraft/unmapped/C_0539808;DDDLjava/lang/String;FD)V	m_3168609		renderNameTags
 		p	1			p_1
 		p	2			p_2
 		p	4			p_4
@@ -421,7 +421,7 @@ c	net/minecraft/unmapped/C_8983523
 		p	2		p_2	
 	m	()V	m_1976244		m_1976244
 c	net/minecraft/unmapped/C_9012949
-	f	[Ljava/lang/Class;	f_1462228		f_1462228
+	f	[Ljava/lang/Class;	f_1462228		toIgnoreDamage
 	m	(Lnet/minecraft/unmapped/C_5622853;Z)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -473,17 +473,17 @@ c	net/minecraft/unmapped/C_9937280
 	m	(Ljava/lang/String;I)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_2528621		net/minecraft/unmapped/C_2528621
-	m	(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	m_2167033		m_2167033
+c	net/minecraft/unmapped/C_2528621		net/minecraft/util/thread/BlockableEventLoop
+	m	(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;	m_2167033		submitAsync
 		p	1			p_1
 	m	()Z	m_7691568		m_7691568
-c	net/minecraft/unmapped/C_3220675		net/minecraft/unmapped/C_3220675
-	m	(Lnet/minecraft/unmapped/C_5385258;Lnet/minecraft/unmapped/C_5444260;Lnet/minecraft/unmapped/C_2528621;)V	m_4917007		m_4917007
+c	net/minecraft/unmapped/C_3220675		net/minecraft/network/protocol/PacketUtils
+	m	(Lnet/minecraft/unmapped/C_5385258;Lnet/minecraft/unmapped/C_5444260;Lnet/minecraft/unmapped/C_2528621;)V	m_4917007		ensureRunningOnSameThread
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_3506152		net/minecraft/unmapped/C_3506152
-	f	Lnet/minecraft/unmapped/C_3506152;	f_0825743		f_0825743
+c	net/minecraft/unmapped/C_3506152		net/minecraft/server/RunningOnDifferentThreadException
+	f	Lnet/minecraft/unmapped/C_3506152;	f_0825743		RUNNING_ON_DIFFERENT_THREAD
 	m	()V	<init>		<init>
 	m	()Ljava/lang/Throwable;	fillInStackTrace		fillInStackTrace
 	m	()V	<clinit>		<clinit>

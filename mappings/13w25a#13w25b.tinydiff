@@ -15,7 +15,7 @@ c	net/minecraft/unmapped/C_2497436	net/minecraft/unmapped/C_2497436
 	m	()V	<init>	<init>	
 	m	()Ljava/lang/Object;	m_1536965	m_1536965	
 c	net/minecraft/unmapped/C_3292284
-	f	F	f_2386956		f_2386956
+	f	F	f_2386956		lastRecordedHealthAndAbsorption
 	m	(F)V	m_9455713	m_9455713	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_5053437	net/minecraft/unmapped/C_5053437	

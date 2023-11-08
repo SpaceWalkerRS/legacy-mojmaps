@@ -292,8 +292,8 @@ c	net/minecraft/unmapped/C_2121150	net/minecraft/unmapped/C_2121150
 	m	()Lorg/apache/logging/log4j/Logger;	m_3121405	m_3121405	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_2131741
-	f	Z	f_5331697		f_5331697
-	m	()V	m_2735561		m_2735561
+	f	Z	f_5331697		changed
+	m	()V	m_2735561		setChanged
 c	net/minecraft/unmapped/C_2143364
 	m	()V	m_1055699	m_1055699	
 	m	()V	m_1976244		m_1976244
@@ -342,7 +342,7 @@ c	net/minecraft/unmapped/C_3060676
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_3292284
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_3692831		m_3692831
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_3692831		getTabListDisplayName
 c	net/minecraft/unmapped/C_3352951
 	f	Lnet/minecraft/unmapped/C_5794148;	f_5560157	f_5560157	
 	f	Lnet/minecraft/unmapped/C_3906726;	f_2305980	f_2305980	
@@ -363,10 +363,10 @@ c	net/minecraft/unmapped/C_3394106	net/minecraft/unmapped/C_3394106
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_3543146
-	f	Lnet/minecraft/unmapped/C_9550253;	f_2184666		f_2184666
-	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_4317839		m_4317839
+	f	Lnet/minecraft/unmapped/C_9550253;	f_2184666		tabListDisplayName
+	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_4317839		setTabListDisplayName
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_1419099		m_1419099
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_1419099		getTabListDisplayName
 c	net/minecraft/unmapped/C_3580087	net/minecraft/unmapped/C_3580087	
 	f	Ljava/net/Proxy;	f_0457964	f_0457964	
 	m	()Ljava/net/Proxy;	m_2631235	m_2631235	
@@ -457,13 +457,13 @@ c	net/minecraft/unmapped/C_3906726	net/minecraft/unmapped/C_3906726
 	m	()Lorg/apache/logging/log4j/Logger;	m_3419568	m_3419568	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_4052762
-	f	Lnet/minecraft/unmapped/C_9550253;	f_1899231		f_1899231
-	f	Lnet/minecraft/unmapped/C_9550253;	f_0966102		f_0966102
-	m	(Lnet/minecraft/unmapped/C_3543146;)Ljava/lang/String;	m_3332156		m_3332156
+	f	Lnet/minecraft/unmapped/C_9550253;	f_1899231		footer
+	f	Lnet/minecraft/unmapped/C_9550253;	f_0966102		header
+	m	(Lnet/minecraft/unmapped/C_3543146;)Ljava/lang/String;	m_3332156		getNameForDisplay
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_7125479		m_7125479
+	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_7125479		setFooter
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_9612328		m_9612328
+	m	(Lnet/minecraft/unmapped/C_9550253;)V	m_9612328		setHeader
 		p	1			p_1
 c	net/minecraft/unmapped/C_4083217	net/minecraft/unmapped/C_4083217	
 	f	Lnet/minecraft/unmapped/C_4428596;	f_2667159	f_2667159	
@@ -503,8 +503,8 @@ c	net/minecraft/unmapped/C_4311580	net/minecraft/unmapped/C_4311580
 		p	5		p_5	
 	m	()V	run	run	
 c	net/minecraft/unmapped/C_4354908
-	f	Z	f_0393506		f_0393506
-	m	()Z	m_5134944		m_5134944
+	f	Z	f_0393506		encrypted
+	m	()Z	m_5134944		isEncrypted
 c	net/minecraft/unmapped/C_4405393
 	m	()J	m_5651997		m_5651997
 c	net/minecraft/unmapped/C_4428596	net/minecraft/unmapped/C_4428596	
@@ -940,7 +940,7 @@ c	net/minecraft/unmapped/C_5553746	net/minecraft/unmapped/C_5553746
 c	net/minecraft/unmapped/C_5553933
 	f	Ljava/util/List;	f_4476108		f_4476108
 c	net/minecraft/unmapped/C_5565812
-	f	I	f_7708359		f_7708359
+	f	I	f_7708359		age
 c	net/minecraft/unmapped/C_5584663	net/minecraft/unmapped/C_5584663	
 	f	Lnet/minecraft/unmapped/C_3020744;	f_7363059	f_7363059	
 	m	(Lnet/minecraft/unmapped/C_3020744;)V	<init>	<init>	
@@ -1418,10 +1418,10 @@ c	net/minecraft/unmapped/C_6947656	net/minecraft/unmapped/C_6947656
 		p	2		p_2	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_6982053
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)F	m_3405893	m_3405893	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)F	m_3405893	getGrowthSpeed	
 		p	1		p_1	
 		p	2		p_2	
-	m	(Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)F	m_3405893		m_3405893
+	m	(Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)F	m_3405893		getGrowthSpeed
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
@@ -1448,7 +1448,7 @@ c	net/minecraft/unmapped/C_7233506
 	m	(I)V	m_3479724	m_3479724	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_8925055;)V	m_4578344		m_4578344
+	m	(Lnet/minecraft/unmapped/C_8925055;)V	m_4578344		handleTabListCustomisation
 		p	1			p_1
 c	net/minecraft/unmapped/C_7318339	net/minecraft/unmapped/C_7318339	
 	f	[B	f_5743687	f_5743687	
@@ -1674,7 +1674,7 @@ c	net/minecraft/unmapped/C_8646368	net/minecraft/unmapped/C_8646368
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_8651652
-	m	()Lnet/minecraft/unmapped/C_4052762;	m_1283508		m_1283508
+	m	()Lnet/minecraft/unmapped/C_4052762;	m_1283508		getTabList
 c	net/minecraft/unmapped/C_8745090	net/minecraft/unmapped/C_8745090	
 	m	()V	<init>	<init>	
 	m	(Ljava/lang/Object;)V	m_8561696	m_8561696	
@@ -1716,7 +1716,7 @@ c	net/minecraft/unmapped/C_8843576	net/minecraft/unmapped/C_8843576
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_8886052
 	f	Lcom/google/common/base/Joiner;	f_0242393		f_0242393
-	f	Lcom/google/common/base/Function;	f_5606304		f_5606304
+	f	Lcom/google/common/base/Function;	f_5606304		PROPERTY_ENTRY_TO_STRING_FUNCTION
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_8938952
 	f	Z	f_0309469	f_0309469	
@@ -1729,7 +1729,7 @@ c	net/minecraft/unmapped/C_8938952
 	m	(Z)Z	m_1412044	m_1412044	
 		p	0		p_0	
 	m	()Lorg/apache/logging/log4j/Logger;	m_9216558	m_9216558	
-	m	()V	m_5724150		m_5724150
+	m	()V	m_5724150		realmsButtonClicked
 c	net/minecraft/unmapped/C_9136208	net/minecraft/unmapped/C_9136208	
 	f	Lnet/minecraft/unmapped/C_9876986;	f_7853560	f_7853560	
 	m	(Lnet/minecraft/unmapped/C_9876986;)V	<init>	<init>	
@@ -2494,7 +2494,7 @@ c	net/minecraft/realms/ServerPing		net/minecraft/realms/ServerPing
 	f	J	lastPingSnapshot		lastPingSnapshot
 	m	()V	<init>		<init>
 c	net/minecraft/realms/Tezzelator		net/minecraft/realms/Tezzelator
-	f	Lnet/minecraft/unmapped/C_5786166;	f_5075020		f_5075020
+	f	Lnet/minecraft/unmapped/C_5786166;	f_5075020		t
 	f	Lnet/minecraft/realms/Tezzelator;	instance		instance
 	m	()V	<init>		<init>
 	m	()I	end		end
@@ -2598,16 +2598,16 @@ c	net/minecraft/unmapped/C_3429977		net/minecraft/unmapped/C_3429977
 		p	1			p_1
 	m	(Ljava/lang/Object;)Ljava/lang/Object;	apply		apply
 		p	1			p_1
-c	net/minecraft/unmapped/C_5280294		net/minecraft/unmapped/C_5280294
-	f	Lorg/apache/logging/log4j/Logger;	f_8830384		f_8830384
-	f	Ljava/io/File;	f_6194728		f_6194728
-	f	Z	f_1471756		f_1471756
+c	net/minecraft/unmapped/C_5280294		net/minecraft/server/Eula
+	f	Lorg/apache/logging/log4j/Logger;	f_8830384		LOGGER
+	f	Ljava/io/File;	f_6194728		file
+	f	Z	f_1471756		agreed
 	m	(Ljava/io/File;)V	<init>		<init>
 		p	1			p_1
-	m	(Ljava/io/File;)Z	m_1518685		m_1518685
+	m	(Ljava/io/File;)Z	m_1518685		readFile
 		p	1			p_1
-	m	()Z	m_2023881		m_2023881
-	m	()V	m_5261462		m_5261462
+	m	()Z	m_2023881		hasAgreedToEULA
+	m	()V	m_5261462		saveDefaults
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6669207		net/minecraft/unmapped/C_6669207
 	m	()V	<init>		<init>
@@ -2717,9 +2717,9 @@ c	net/minecraft/unmapped/C_8609806		net/minecraft/unmapped/C_8609806
 		p	3			p_3
 		p	4			p_4
 	m	()V	run		run
-c	net/minecraft/unmapped/C_8925055		net/minecraft/unmapped/C_8925055
-	f	Lnet/minecraft/unmapped/C_9550253;	f_8470399		f_8470399
-	f	Lnet/minecraft/unmapped/C_9550253;	f_4351085		f_4351085
+c	net/minecraft/unmapped/C_8925055		net/minecraft/network/protocol/game/ClientboundTabListPacket
+	f	Lnet/minecraft/unmapped/C_9550253;	f_8470399		header
+	f	Lnet/minecraft/unmapped/C_9550253;	f_4351085		footer
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_9550253;)V	<init>		<init>
 		p	1			p_1
@@ -2729,8 +2729,8 @@ c	net/minecraft/unmapped/C_8925055		net/minecraft/unmapped/C_8925055
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_5252713		m_5252713
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_6930565		m_6930565
-	m	()Lnet/minecraft/unmapped/C_9550253;	m_6105907		m_6105907
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_6930565		getHeader
+	m	()Lnet/minecraft/unmapped/C_9550253;	m_6105907		getFooter
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
 c	net/minecraft/unmapped/C_9954218		net/minecraft/unmapped/C_9954218

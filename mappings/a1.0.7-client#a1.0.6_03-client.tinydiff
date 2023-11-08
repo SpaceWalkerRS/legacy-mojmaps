@@ -4,10 +4,10 @@ c	net/minecraft/unmapped/C_0168865
 c	net/minecraft/unmapped/C_0506965
 	m	()I	m_3270342		m_3270342
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_5233737	f_5233737	
-	f	I	f_6593214	f_6593214	
-	f	I	f_1699830	f_1699830	
-	f	I	f_1378082	f_1378082	
+	f	Z	f_5233737	inChunk	
+	f	I	f_6593214	xChunk	
+	f	I	f_1699830	yChunk	
+	f	I	f_1378082	zChunk	
 c	net/minecraft/unmapped/C_3027966
 	m	()I	m_3270342		m_3270342
 c	net/minecraft/unmapped/C_3476247
@@ -76,9 +76,9 @@ c	net/minecraft/unmapped/C_7024377
 c	net/minecraft/unmapped/C_7037764
 	m	()I	m_3270342		m_3270342
 c	net/minecraft/unmapped/C_7250084
-	m	(Lnet/minecraft/unmapped/C_9615057;)V	m_8434667	m_8434667	
+	m	(Lnet/minecraft/unmapped/C_9615057;)V	m_8434667	handleMovePlayer	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_7748732;)V	m_8434667		m_8434667
+	m	(Lnet/minecraft/unmapped/C_7748732;)V	m_8434667		handleMovePlayer
 		p	1			p_1
 c	net/minecraft/unmapped/C_7662890	net/minecraft/unmapped/C_7662890	
 	m	(DDDZ)V	<init>	<init>	
@@ -128,7 +128,7 @@ c	net/minecraft/unmapped/C_7873567
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIIII)Z	m_5226379	m_5226379	
+	m	(IIIII)Z	m_5226379	setKnownState	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -150,15 +150,15 @@ c	net/minecraft/unmapped/C_8423495
 	m	()I	m_3270342		m_3270342
 c	net/minecraft/unmapped/C_9358458
 	m	()I	m_3270342		m_3270342
-c	net/minecraft/unmapped/C_9615057	net/minecraft/unmapped/C_9615057	
-	f	D	f_2923227	f_2923227	
-	f	D	f_6347010	f_6347010	
+c	net/minecraft/unmapped/C_9615057	net/minecraft/network/protocol/game/ServerboundMovePlayerPacket	
+	f	D	f_2923227	x	
+	f	D	f_6347010	y	
 	f	D	f_5020153	f_5020153	
-	f	F	f_8745664	f_8745664	
-	f	F	f_5221915	f_5221915	
-	f	Z	f_7055782	f_7055782	
-	f	Z	f_6806931	f_6806931	
-	f	Z	f_5687860	f_5687860	
+	f	F	f_8745664	yRot	
+	f	F	f_5221915	xRot	
+	f	Z	f_7055782	onGround	
+	f	Z	f_6806931	hasPos	
+	f	Z	f_5687860	hasRot	
 	m	()V	<init>	<init>	
 	m	(Z)V	<init>	<init>	
 		p	1		p_1	

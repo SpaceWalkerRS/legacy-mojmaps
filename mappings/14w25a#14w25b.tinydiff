@@ -15,13 +15,13 @@ c	net/minecraft/unmapped/C_0371393
 	m	(Ljava/util/Map;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_0593414
-	f	Z	f_4253983		f_4253983
+	f	Z	f_4253983		wasOnGround
 c	net/minecraft/unmapped/C_1241852
-	m	()Lnet/minecraft/unmapped/C_5604282;	m_0622199		m_0622199
+	m	()Lnet/minecraft/unmapped/C_5604282;	m_0622199		getOffsetType
 c	net/minecraft/unmapped/C_1549236
 	m	()Z	m_0974034		m_0974034
 c	net/minecraft/unmapped/C_2128050
-	m	()Z	m_7413164		m_7413164
+	m	()Z	m_7413164		isSurvival
 c	net/minecraft/unmapped/C_2337516
 	f	Lnet/minecraft/unmapped/C_6823239;	f_6023622		f_6023622
 	m	(Lnet/minecraft/unmapped/C_3362006;Lnet/minecraft/unmapped/C_3755722;I)V	<init>	<init>	
@@ -46,19 +46,19 @@ c	net/minecraft/unmapped/C_2337516
 c	net/minecraft/unmapped/C_3037945
 	m	()Lnet/minecraft/unmapped/C_5604282;	m_0622199		m_0622199
 c	net/minecraft/unmapped/C_3488550
-	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_6607881;ID)V	m_4427082	m_4427082	
+	m	(Lnet/minecraft/unmapped/C_6607881;Lnet/minecraft/unmapped/C_6607881;ID)V	m_4427082	applyInstantenousEffect	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_6607881;ID)V	m_4427082		m_4427082
+	m	(Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_6607881;ID)V	m_4427082		applyInstantenousEffect
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_3677942
-	m	()V	m_7565094		m_7565094
+	m	()V	m_7565094		setupSprites
 c	net/minecraft/unmapped/C_3887904
 	m	()Z	m_6210647	m_6210647	
 	m	()Z	m_7385405	m_7385405	
@@ -72,7 +72,7 @@ c	net/minecraft/unmapped/C_4281786
 c	net/minecraft/unmapped/C_4517657
 	m	()Z	m_0974034		m_0974034
 c	net/minecraft/unmapped/C_4804187
-	f	Z	f_8504082		f_8504082
+	f	Z	f_8504082		onGround
 	m	(IIIIBB)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -88,12 +88,12 @@ c	net/minecraft/unmapped/C_4804187
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-	m	()Z	m_2483978		m_2483978
+	m	()Z	m_2483978		isOnGround
 c	net/minecraft/unmapped/C_5299936
 	m	(Lnet/minecraft/unmapped/C_8357359;)Lnet/minecraft/unmapped/C_5299936;	m_4540207		m_4540207
 		p	0			p_0
 c	net/minecraft/unmapped/C_5438730
-	f	Z	f_0333798		f_0333798
+	f	Z	f_0333798		wasOnGround
 c	net/minecraft/unmapped/C_5558107
 	m	(IBBB)V	<init>	<init>	
 		p	1		p_1	
@@ -107,10 +107,10 @@ c	net/minecraft/unmapped/C_5558107
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_5981136
-	f	Z	f_0581815		f_0581815
-	m	()Z	m_2031485		m_2031485
+	f	Z	f_0581815		onGround
+	m	()Z	m_2031485		isOnGround
 c	net/minecraft/unmapped/C_6695579
-	f	Lnet/minecraft/unmapped/C_3677942;	f_8582595		f_8582595
+	f	Lnet/minecraft/unmapped/C_3677942;	f_8582595		liquidBlockRenderer
 c	net/minecraft/unmapped/C_7024377
 	m	(IBB)V	<init>	<init>	
 		p	1		p_1	
@@ -144,7 +144,7 @@ c	net/minecraft/unmapped/C_7028449
 	m	(Lnet/minecraft/unmapped/C_3333682;Lnet/minecraft/unmapped/C_0539808;)V	m_8781874		m_8781874
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_8519042		m_8519042
+	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_8519042		rebuildTransparent
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_7030350
@@ -178,11 +178,11 @@ c	net/minecraft/unmapped/C_7754971
 		p	6			p_6
 		p	7			p_7
 c	net/minecraft/unmapped/C_8099772
-	m	()Z	m_0974034		m_0974034
+	m	()Z	m_0974034		checkSpawnObstruction
 c	net/minecraft/unmapped/C_8398976
 	m	(Lnet/minecraft/unmapped/C_6577431;)V	m_8394980		m_8394980
 		p	1			p_1
-	m	()V	m_3730279		m_3730279
+	m	()V	m_3730279		setupBreakingTextureSprites
 c	net/minecraft/unmapped/C_9939341
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;FFFILnet/minecraft/unmapped/C_6607881;)Lnet/minecraft/unmapped/C_2441996;	m_1921716		m_1921716
 		p	1			p_1

@@ -274,20 +274,20 @@ c	net/minecraft/server/C_9992501	net/minecraft/server/C_9992501
 	m	()V	m_9197741	m_9197741	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/server/MinecraftServer
-	f	Lnet/minecraft/server/C_9992501;	f_0447091	f_0447091	
-	f	Lnet/minecraft/unmapped/C_9992501;	f_0447091		f_0447091
-	m	(Lnet/minecraft/server/C_5270789;)V	m_4905585	m_4905585	
+	f	Lnet/minecraft/server/C_9992501;	f_0447091	playerList	
+	f	Lnet/minecraft/unmapped/C_9992501;	f_0447091		playerList
+	m	(Lnet/minecraft/server/C_5270789;)V	m_4905585	addTickable	
 		p	1		p_1	
 	m	()Z	m_5733001	m_5733001	
-	m	()Lnet/minecraft/server/C_9992501;	m_8526012	m_8526012	
-	m	(Lnet/minecraft/server/C_9992501;)V	m_3978626	m_3978626	
+	m	()Lnet/minecraft/server/C_9992501;	m_8526012	getPlayerList	
+	m	(Lnet/minecraft/server/C_9992501;)V	m_3978626	setPlayerList	
 		p	1		p_1	
 	m	(Lnet/minecraft/server/MinecraftServer;)Lnet/minecraft/server/C_9992501;	m_0911164	m_0911164	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_5270789;)V	m_4905585		m_4905585
+	m	(Lnet/minecraft/unmapped/C_5270789;)V	m_4905585		addTickable
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_9992501;	m_8526012		m_8526012
-	m	(Lnet/minecraft/unmapped/C_9992501;)V	m_3978626		m_3978626
+	m	()Lnet/minecraft/unmapped/C_9992501;	m_8526012		getPlayerList
+	m	(Lnet/minecraft/unmapped/C_9992501;)V	m_3978626		setPlayerList
 		p	1			p_1
 	m	(Lnet/minecraft/server/MinecraftServer;)Lnet/minecraft/unmapped/C_9992501;	m_0911164		m_0911164
 		p	0			p_0
@@ -302,14 +302,14 @@ c	net/minecraft/unmapped/C_1063627
 c	net/minecraft/unmapped/C_1137800
 	m	()Z	m_4140229	m_4140229	
 c	net/minecraft/unmapped/C_1161898
-	f	Z	f_8879561	f_8879561	
-	m	()Lnet/minecraft/unmapped/C_1161898;	m_9101810	m_9101810	
-	m	()Z	m_0661922	m_0661922	
+	f	Z	f_8879561	scalesWithDifficulty	
+	m	()Lnet/minecraft/unmapped/C_1161898;	m_9101810	setScalesWithDifficulty	
+	m	()Z	m_0661922	scalesWithDifficulty	
 c	net/minecraft/unmapped/C_1197137
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_1324297
-	f	Ljava/util/concurrent/locks/ReadWriteLock;	f_8721407	f_8721407	
-	m	(I)Lnet/minecraft/unmapped/C_1637075;	m_6198532	m_6198532	
+	f	Ljava/util/concurrent/locks/ReadWriteLock;	f_8721407	lock	
+	m	(I)Lnet/minecraft/unmapped/C_1637075;	m_6198532	getItem	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_1555023
 	f	Lnet/minecraft/server/C_9375659;	f_4008432	f_4008432	
@@ -339,10 +339,10 @@ c	net/minecraft/unmapped/C_2950542
 c	net/minecraft/unmapped/C_2973148
 	m	()Z	m_4140229	m_4140229	
 c	net/minecraft/unmapped/C_3027966
-	f	Lnet/minecraft/unmapped/C_1324297;	f_3045703	f_3045703	
-	f	Ljava/util/List;	f_8997793	f_8997793	
+	f	Lnet/minecraft/unmapped/C_1324297;	f_3045703	entityData	
+	f	Ljava/util/List;	f_8997793	unpack	
 c	net/minecraft/unmapped/C_3292284
-	m	(Lnet/minecraft/unmapped/C_3622326;)V	m_4471170	m_4471170	
+	m	(Lnet/minecraft/unmapped/C_3622326;)V	m_4471170	broadcast	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3338851
 	m	()V	<init>		<init>
@@ -362,7 +362,7 @@ c	net/minecraft/unmapped/C_3978417
 c	net/minecraft/unmapped/C_4525887
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_4976084
-	m	(F)I	m_4705638	m_4705638	
+	m	(F)I	m_4705638	ceil	
 		p	0		p_0	
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_5385258
@@ -401,8 +401,8 @@ c	net/minecraft/unmapped/C_6675180
 c	net/minecraft/unmapped/C_6912915
 	m	()Z	m_4140229	m_4140229	
 c	net/minecraft/unmapped/C_7078971
-	f	Lnet/minecraft/server/C_4556759;	f_6075726	f_6075726	
-	f	Lnet/minecraft/unmapped/C_4556759;	f_6075726		f_6075726
+	f	Lnet/minecraft/server/C_4556759;	f_6075726	serverInterface	
+	f	Lnet/minecraft/unmapped/C_4556759;	f_6075726		serverInterface
 	m	(Lnet/minecraft/server/C_4556759;)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_4556759;)V	<init>		<init>

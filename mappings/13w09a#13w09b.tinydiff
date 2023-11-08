@@ -14,7 +14,7 @@ c	net/minecraft/unmapped/C_3831727
 		p	1			p_1
 	m	()V	m_8219747		m_8219747
 c	net/minecraft/unmapped/C_5722573
-	f	Lnet/minecraft/unmapped/C_3020744;	f_0454847		f_0454847
+	f	Lnet/minecraft/unmapped/C_3020744;	f_0454847		callbackScreen
 	m	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;ILnet/minecraft/unmapped/C_3020744;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
@@ -29,12 +29,12 @@ c	net/minecraft/unmapped/C_8922447
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_4499539	m_4499539	
+	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_4499539	getDestroySpeed	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_1241852;Z)F	m_4499539		m_4499539
+	m	(Lnet/minecraft/unmapped/C_1241852;Z)F	m_4499539		getDestroySpeed
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_0978219		net/minecraft/unmapped/C_0978219
+c	net/minecraft/unmapped/C_0978219		net/minecraft/server/commands/EffectCommands
 	m	()V	<init>		<init>
 	m	()Ljava/lang/String;	m_2274818		m_2274818
 	m	()I	m_5251718		m_5251718
@@ -50,7 +50,7 @@ c	net/minecraft/unmapped/C_0978219		net/minecraft/unmapped/C_0978219
 	m	([Ljava/lang/String;I)Z	m_5755145		m_5755145
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_6100753		net/minecraft/unmapped/C_6100753
+c	net/minecraft/unmapped/C_6100753		net/minecraft/world/level/storage/LevelStorageException
 	m	(Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 c	net/minecraft/unmapped/C_7741897		net/minecraft/unmapped/C_7741897

@@ -22,9 +22,9 @@ c	net/minecraft/unmapped/C_3325732$C_9041140	C_9041140
 	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0419586	m_0419586	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3622326
-	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179	m_8878179	
+	m	(Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179	loadStatic	
 		p	0		p_0	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179		m_8878179
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_2018497;)Lnet/minecraft/unmapped/C_3622326;	m_8878179		loadStatic
 		p	0			p_0
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_9504289		m_9504289
@@ -47,7 +47,7 @@ c	net/minecraft/unmapped/C_3832296$C_9769504	C_9769504
 	m	(Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0419586	m_0419586	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3961659
-	m	(I)D	m_8080681		m_8080681
+	m	(I)D	m_8080681		offs
 		p	1			p_1
 c	net/minecraft/unmapped/C_4316830
 c	net/minecraft/unmapped/C_4316830$C_5975803	C_5975803	
@@ -86,7 +86,7 @@ c	net/minecraft/unmapped/C_8252988
 		p	4		p_4	
 	m	(Z)Ljava/util/List;	m_8648524	m_8648524	
 		p	0		p_0	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621		m_1977621
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621		create
 		p	0			p_0
 		p	1			p_1
 	m	(I)Ljava/lang/Class;	m_5736692		m_5736692

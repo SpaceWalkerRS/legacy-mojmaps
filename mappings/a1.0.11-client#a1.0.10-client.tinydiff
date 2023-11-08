@@ -1,12 +1,12 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0593414	net/minecraft/unmapped/C_0593414	
-	f	F	f_3070472	f_3070472	
-	f	F	f_9068894	f_9068894	
+c	net/minecraft/unmapped/C_0593414	net/minecraft/world/entity/monster/Slime	
+	f	F	f_3070472	targetSquish	
+	f	F	f_9068894	oSquish	
 	f	I	f_0522109	f_0522109	
 	f	I	f_1081992	f_1081992	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
-	m	(I)V	m_8633318	m_8633318	
+	m	(I)V	m_8633318	setSize	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_1129840	m_1129840	
 		p	1		p_1	
@@ -40,7 +40,7 @@ c	net/minecraft/unmapped/C_1241852
 c	net/minecraft/unmapped/C_2313930
 	f	Z	f_1854242	f_1854242	
 	f	Z	f_4955480	f_4955480	
-c	net/minecraft/unmapped/C_2358978	net/minecraft/unmapped/C_2358978	
+c	net/minecraft/unmapped/C_2358978	net/minecraft/world/level/levelgen/feature/ReedsFeature	
 	m	()V	<init>	<init>	
 	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;III)Z	m_5378046	m_5378046	
 		p	1		p_1	
@@ -116,10 +116,10 @@ c	net/minecraft/unmapped/C_3813953
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_4179163	net/minecraft/unmapped/C_4179163	
+c	net/minecraft/unmapped/C_4179163	net/minecraft/world/entity/monster/Enemy	
 c	net/minecraft/unmapped/C_5201828
-	f	Lnet/minecraft/unmapped/C_0539808;	f_9761907	f_9761907	
-	f	Lnet/minecraft/unmapped/C_6607881;	f_9761907		f_9761907
+	f	Lnet/minecraft/unmapped/C_0539808;	f_9761907	target	
+	f	Lnet/minecraft/unmapped/C_6607881;	f_9761907		target
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0539808;Lnet/minecraft/unmapped/C_0539808;F)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -151,16 +151,16 @@ c	net/minecraft/unmapped/C_6489331	net/minecraft/unmapped/C_6489331
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_6607881
-	m	()F	m_9491259	m_9491259	
+	m	()F	m_9491259	getSoundVolume	
 c	net/minecraft/unmapped/C_6697291
-	m	(FFFIII)V	m_1062222	m_1062222	
+	m	(FFFIII)V	m_1062222	addBox	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_7640150	net/minecraft/unmapped/C_7640150	
+c	net/minecraft/unmapped/C_7640150	net/minecraft/world/level/block/SugarCaneBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -203,8 +203,8 @@ c	net/minecraft/unmapped/C_7640150	net/minecraft/unmapped/C_7640150
 	m	()Z	m_6174711	m_6174711	
 	m	()I	m_2337713	m_2337713	
 c	net/minecraft/unmapped/C_8048208
-	f	Lnet/minecraft/unmapped/C_8048208;	f_1485101	f_1485101	
-c	net/minecraft/unmapped/C_8177352	net/minecraft/unmapped/C_8177352	
+	f	Lnet/minecraft/unmapped/C_8048208;	f_1485101	CACTUS	
+c	net/minecraft/unmapped/C_8177352	net/minecraft/world/level/block/CactusBlock	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -251,7 +251,7 @@ c	net/minecraft/unmapped/C_8492283
 	m	()F	m_9491259	m_9491259	
 	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_4185556	m_4185556	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_8732981	net/minecraft/unmapped/C_8732981	
+c	net/minecraft/unmapped/C_8732981	net/minecraft/client/renderer/entity/SlimeRenderer	
 	m	(Lnet/minecraft/unmapped/C_7503776;F)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -263,8 +263,8 @@ c	net/minecraft/unmapped/C_8732981	net/minecraft/unmapped/C_8732981
 		p	2		p_2	
 c	net/minecraft/unmapped/C_9568451
 	m	()Z	m_8135976	m_8135976	
-c	net/minecraft/unmapped/C_9998479	net/minecraft/unmapped/C_9998479	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7553051	f_7553051	
+c	net/minecraft/unmapped/C_9998479	net/minecraft/client/model/SlimeModel	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7553051	cube	
 	m	()V	<init>	<init>	
 	m	(FFFFFF)V	m_6142526	m_6142526	
 		p	1		p_1	

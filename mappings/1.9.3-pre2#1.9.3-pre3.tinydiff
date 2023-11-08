@@ -29,8 +29,8 @@ c	net/minecraft/unmapped/C_3747079
 c	net/minecraft/unmapped/C_4505797
 c	net/minecraft/unmapped/C_4505797$1
 	f	Lnet/minecraft/unmapped/C_4505797;	f_8013343	f_8013343	
-	f	Ljava/lang/String;	f_8502802		f_8502802
-	f	I	f_4514367		f_4514367
+	f	Ljava/lang/String;	f_8502802		val$hostname
+	f	I	f_4514367		val$port
 	f	Lnet/minecraft/unmapped/C_4505797;	f_1948672		f_1948672
 	m	(Lnet/minecraft/unmapped/C_4505797;)V	<init>	<init>	
 		p	1		p_1	

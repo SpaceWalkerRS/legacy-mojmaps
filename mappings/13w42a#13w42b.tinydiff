@@ -1,6 +1,6 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0631682
-	m	(Lnet/minecraft/unmapped/C_0561170;)Lnet/minecraft/unmapped/C_0631682;	m_4527928		m_4527928
+	m	(Lnet/minecraft/unmapped/C_0561170;)Lnet/minecraft/unmapped/C_0631682;	m_4527928		forMusic
 		p	0			p_0
 c	net/minecraft/unmapped/C_0915802
 	f	Lnet/minecraft/unmapped/C_0915802;	f_2150711		f_2150711
@@ -12,7 +12,7 @@ c	net/minecraft/unmapped/C_1428858
 	m	(I)Lnet/minecraft/unmapped/C_9335057;	m_3247759		m_3247759
 		p	1			p_1
 c	net/minecraft/unmapped/C_1872000
-	m	(Lnet/minecraft/unmapped/C_9588086;)Z	m_8506823		m_8506823
+	m	(Lnet/minecraft/unmapped/C_9588086;)Z	m_8506823		isActive
 		p	1			p_1
 c	net/minecraft/unmapped/C_3390001
 	m	(Ljava/lang/String;)Ljava/lang/String;	m_4637372	m_4637372	
@@ -21,24 +21,24 @@ c	net/minecraft/unmapped/C_3499107
 	m	(I)Lnet/minecraft/unmapped/C_9335057;	m_3247759		m_3247759
 		p	1			p_1
 c	net/minecraft/unmapped/C_5819357
-	m	(Lnet/minecraft/unmapped/C_9588086;)Z	m_3514830		m_3514830
+	m	(Lnet/minecraft/unmapped/C_9588086;)Z	m_3514830		isActive
 		p	1			p_1
 c	net/minecraft/unmapped/C_6928498
-	f	Lorg/apache/logging/log4j/Logger;	f_1659120		f_1659120
+	f	Lorg/apache/logging/log4j/Logger;	f_1659120		LOGGER
 c	net/minecraft/unmapped/C_8105098
-	f	Lnet/minecraft/unmapped/C_4393403;	f_7306281		f_7306281
-	m	()Lnet/minecraft/unmapped/C_8165265;	m_8959609		m_8959609
+	f	Lnet/minecraft/unmapped/C_4393403;	f_7306281		musicManager
+	m	()Lnet/minecraft/unmapped/C_8165265;	m_8959609		getSituationalMusic
 c	net/minecraft/unmapped/C_8639317
 	m	(Ljava/lang/String;)Ljava/lang/String;	m_5121899	m_5121899	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9335057
-	m	(I)I	m_4724233		m_4724233
+	m	(I)I	m_4724233		calculateRGBColor
 		p	1			p_1
-c	net/minecraft/unmapped/C_4393403		net/minecraft/unmapped/C_4393403
-	f	Ljava/util/Random;	f_2477549		f_2477549
-	f	Lnet/minecraft/unmapped/C_8105098;	f_6019554		f_6019554
-	f	Lnet/minecraft/unmapped/C_9588086;	f_3949592		f_3949592
-	f	I	f_5123963		f_5123963
+c	net/minecraft/unmapped/C_4393403		net/minecraft/client/sounds/MusicManager
+	f	Ljava/util/Random;	f_2477549		random
+	f	Lnet/minecraft/unmapped/C_8105098;	f_6019554		minecraft
+	f	Lnet/minecraft/unmapped/C_9588086;	f_3949592		currentMusic
+	f	I	f_5123963		nextSongDelay
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>		<init>
 		p	1			p_1
 	m	()V	m_1976244		m_1976244

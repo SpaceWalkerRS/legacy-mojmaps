@@ -9,8 +9,8 @@ c	net/minecraft/unmapped/C_1014639
 c	net/minecraft/unmapped/C_2750238
 	f	I	f_0292588	f_0292588	
 	f	I	f_7470845	f_7470845	
-	f	Lnet/minecraft/unmapped/C_2441996;	f_7717567		f_7717567
-	f	Lnet/minecraft/unmapped/C_2441996;	f_7526597		f_7526597
+	f	Lnet/minecraft/unmapped/C_2441996;	f_7717567		trunk
+	f	Lnet/minecraft/unmapped/C_2441996;	f_7526597		leaf
 	m	(ZIIII)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -24,13 +24,13 @@ c	net/minecraft/unmapped/C_2750238
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_3484082
-	f	Lnet/minecraft/unmapped/C_2441996;	f_9034465		f_9034465
-	f	Lnet/minecraft/unmapped/C_2441996;	f_5883923		f_5883923
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_8338509	m_8338509	
+	f	Lnet/minecraft/unmapped/C_2441996;	f_9034465		TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_5883923		LEAF
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_8338509	addVine	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_8338509		m_8338509
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_8338509		addVine
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -38,17 +38,17 @@ c	net/minecraft/unmapped/C_3484082
 c	net/minecraft/unmapped/C_4156170
 	f	I	f_7702235	f_7702235	
 	f	I	f_2644901	f_2644901	
-	f	Lnet/minecraft/unmapped/C_2441996;	f_8341858		f_8341858
-	f	Lnet/minecraft/unmapped/C_2441996;	f_0410340		f_0410340
-	f	Lnet/minecraft/unmapped/C_2441996;	f_4029544		f_4029544
-	f	Lnet/minecraft/unmapped/C_2441996;	f_9155534		f_9155534
+	f	Lnet/minecraft/unmapped/C_2441996;	f_8341858		DEFAULT_TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_0410340		DEFAULT_LEAF
+	f	Lnet/minecraft/unmapped/C_2441996;	f_4029544		trunk
+	f	Lnet/minecraft/unmapped/C_2441996;	f_9155534		leaf
 	m	(ZIIIZ)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_4743859	m_4743859	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)V	m_4743859	addHangingVine	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -58,22 +58,22 @@ c	net/minecraft/unmapped/C_4156170
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)V	m_7209904		m_7209904
+	m	(Lnet/minecraft/unmapped/C_5553933;ILnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)V	m_7209904		placeCocoa
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_6898518		m_6898518
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_6898518		addVine
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_4743859		m_4743859
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_4743859		addHangingVine
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_4393403
-	m	(Lnet/minecraft/unmapped/C_8165265;)V	m_4225923		m_4225923
+	m	(Lnet/minecraft/unmapped/C_8165265;)V	m_4225923		startPlaying
 		p	1			p_1
 	m	()V	m_7513301		m_7513301
 c	net/minecraft/unmapped/C_4967125
@@ -85,7 +85,7 @@ c	net/minecraft/unmapped/C_4967125
 		p	5		p_5	
 	m	(Lnet/minecraft/unmapped/C_8048208;)Z	m_8304122	m_8304122	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;Lnet/minecraft/unmapped/C_3674802;I)V	m_3230178	m_3230178	
+	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;Lnet/minecraft/unmapped/C_3674802;I)V	m_3230178	placeVine	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -96,7 +96,7 @@ c	net/minecraft/unmapped/C_4967125
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_3230178		m_3230178
+	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_7674520;)V	m_3230178		placeVine
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -112,9 +112,9 @@ c	net/minecraft/unmapped/C_5537602
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_5843193
-	f	Lnet/minecraft/unmapped/C_2441996;	f_4594729		f_4594729
-	f	Lnet/minecraft/unmapped/C_2441996;	f_4031645		f_4031645
-	f	Lnet/minecraft/unmapped/C_2441996;	f_3117047		f_3117047
+	f	Lnet/minecraft/unmapped/C_2441996;	f_4594729		TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_4031645		LEAF
+	f	Lnet/minecraft/unmapped/C_2441996;	f_3117047		PODZOL
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6464522
 	f	I	f_1142859	f_1142859	
@@ -142,41 +142,41 @@ c	net/minecraft/unmapped/C_7133828
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_7393212
-	m	(Lnet/minecraft/unmapped/C_3674802;FLnet/minecraft/unmapped/C_1241852;)V	m_1264895	m_1264895	
+	m	(Lnet/minecraft/unmapped/C_3674802;FLnet/minecraft/unmapped/C_1241852;)V	m_1264895	crossSection	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_3674802;FLnet/minecraft/unmapped/C_2441996;)V	m_1264895		m_1264895
+	m	(Lnet/minecraft/unmapped/C_3674802;FLnet/minecraft/unmapped/C_2441996;)V	m_1264895		crossSection
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_7668990
-	f	Lnet/minecraft/unmapped/C_2441996;	f_2658059		f_2658059
-	f	Lnet/minecraft/unmapped/C_2441996;	f_0255782		f_0255782
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)Z	m_2916865		m_2916865
+	f	Lnet/minecraft/unmapped/C_2441996;	f_2658059		LOG
+	f	Lnet/minecraft/unmapped/C_2441996;	f_0255782		LEAVES
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;I)Z	m_2916865		canPlaceTreeOfHeight
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_4291574		m_4291574
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_4291574		placeLogAt
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_8105098
-	m	()Lnet/minecraft/unmapped/C_4393403;	m_7761260		m_7761260
+	m	()Lnet/minecraft/unmapped/C_4393403;	m_7761260		getMusicManager
 c	net/minecraft/unmapped/C_8825627
-	f	Lnet/minecraft/unmapped/C_2441996;	f_7411233		f_7411233
-	f	Lnet/minecraft/unmapped/C_2441996;	f_3283540		f_3283540
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_2290100		m_2290100
+	f	Lnet/minecraft/unmapped/C_2441996;	f_7411233		TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_3283540		LEAF
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	m_2290100		placeLogAt
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_9098256
-	f	Lnet/minecraft/unmapped/C_2441996;	f_0283428		f_0283428
-	f	Lnet/minecraft/unmapped/C_2441996;	f_3084797		f_3084797
+	f	Lnet/minecraft/unmapped/C_2441996;	f_0283428		LOG
+	f	Lnet/minecraft/unmapped/C_2441996;	f_3084797		LEAF
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_9152773
-	f	Lnet/minecraft/unmapped/C_2441996;	f_0362685		f_0362685
-	f	Lnet/minecraft/unmapped/C_2441996;	f_6042553		f_6042553
+	f	Lnet/minecraft/unmapped/C_2441996;	f_0362685		TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_6042553		LEAF
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_9595731
 	f	Lnet/minecraft/unmapped/C_2441996;	f_6165455		f_6165455
@@ -184,6 +184,6 @@ c	net/minecraft/unmapped/C_9595731
 	f	Lnet/minecraft/unmapped/C_2441996;	f_1707704		f_1707704
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_9753638
-	f	Lnet/minecraft/unmapped/C_2441996;	f_7734633		f_7734633
-	f	Lnet/minecraft/unmapped/C_2441996;	f_5217701		f_5217701
+	f	Lnet/minecraft/unmapped/C_2441996;	f_7734633		TRUNK
+	f	Lnet/minecraft/unmapped/C_2441996;	f_5217701		LEAF
 	m	()V	<clinit>		<clinit>

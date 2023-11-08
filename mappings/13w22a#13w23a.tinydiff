@@ -150,7 +150,7 @@ c	net/minecraft/unmapped/C_7985395
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_8105098
-	f	Ljava/lang/String;	f_1202292		f_1202292
+	f	Ljava/lang/String;	f_1202292		launchedVersion
 	m	(Lnet/minecraft/unmapped/C_8730536;IIZZLjava/io/File;Ljava/net/Proxy;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -188,7 +188,7 @@ c	net/minecraft/unmapped/C_8159814
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	()D	m_9394640		m_9394640
+	m	()D	m_9394640		getFollowDistance
 c	net/minecraft/unmapped/C_8779132
 	f	Ljava/lang/String;	f_1986948	f_1986948	
 	f	Lnet/minecraft/unmapped/C_2361662;	f_0681285		f_0681285
@@ -217,7 +217,7 @@ c	net/minecraft/unmapped/C_9270193
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_0273219		net/minecraft/unmapped/C_0273219
+c	net/minecraft/unmapped/C_0273219		net/minecraft/server/commands/SpreadPlayersCommand
 	m	()V	<init>		<init>
 	m	()Ljava/lang/String;	m_2274818		m_2274818
 	m	()I	m_5251718		m_5251718
@@ -226,7 +226,7 @@ c	net/minecraft/unmapped/C_0273219		net/minecraft/unmapped/C_0273219
 	m	(Lnet/minecraft/unmapped/C_1730529;[Ljava/lang/String;)V	m_2644869		m_2644869
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/util/List;Lnet/minecraft/unmapped/C_2785184;DDLnet/minecraft/unmapped/C_5553933;Z)V	m_7560467		m_7560467
+	m	(Lnet/minecraft/unmapped/C_1730529;Ljava/util/List;Lnet/minecraft/unmapped/C_2785184;DDLnet/minecraft/unmapped/C_5553933;Z)V	m_7560467		spreadPlayers
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -234,9 +234,9 @@ c	net/minecraft/unmapped/C_0273219		net/minecraft/unmapped/C_0273219
 		p	6			p_6
 		p	8			p_8
 		p	9			p_9
-	m	(Ljava/util/List;)I	m_9543309		m_9543309
+	m	(Ljava/util/List;)I	m_9543309		getNumberOfTeams
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2785184;DLnet/minecraft/unmapped/C_5553933;Ljava/util/Random;DDDD[Lnet/minecraft/unmapped/C_2785184;Z)I	m_7443341		m_7443341
+	m	(Lnet/minecraft/unmapped/C_2785184;DLnet/minecraft/unmapped/C_5553933;Ljava/util/Random;DDDD[Lnet/minecraft/unmapped/C_2785184;Z)I	m_7443341		spreadPositions
 		p	1			p_1
 		p	2			p_2
 		p	4			p_4
@@ -247,12 +247,12 @@ c	net/minecraft/unmapped/C_0273219		net/minecraft/unmapped/C_0273219
 		p	12			p_12
 		p	14			p_14
 		p	15			p_15
-	m	(Ljava/util/List;Lnet/minecraft/unmapped/C_5553933;[Lnet/minecraft/unmapped/C_2785184;Z)D	m_6337537		m_6337537
+	m	(Ljava/util/List;Lnet/minecraft/unmapped/C_5553933;[Lnet/minecraft/unmapped/C_2785184;Z)D	m_6337537		setPlayerPositions
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(Ljava/util/Random;IDDDD)[Lnet/minecraft/unmapped/C_2785184;	m_7405310		m_7405310
+	m	(Ljava/util/Random;IDDDD)[Lnet/minecraft/unmapped/C_2785184;	m_7405310		createInitialPositions
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3

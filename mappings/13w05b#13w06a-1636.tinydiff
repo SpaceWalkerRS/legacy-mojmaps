@@ -15,14 +15,14 @@ c	net/minecraft/unmapped/C_0547482
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_5553933;IIIII)V	m_5983609	m_5983609	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIIII)V	m_5983609	triggerEvent	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIIII)Z	m_5983609		m_5983609
+	m	(Lnet/minecraft/unmapped/C_5553933;IIIII)Z	m_5983609		triggerEvent
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -43,10 +43,10 @@ c	net/minecraft/unmapped/C_3601640
 	m	(I)Z	m_4693627		m_4693627
 		p	1			p_1
 c	net/minecraft/unmapped/C_3622326
-	m	(II)V	m_0008999	m_0008999	
+	m	(II)V	m_0008999	triggerEvent	
 		p	1		p_1	
 		p	2		p_2	
-	m	(II)Z	m_0008999		m_0008999
+	m	(II)Z	m_0008999		triggerEvent
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_3948776
@@ -181,19 +181,19 @@ c	net/minecraft/unmapped/C_9418545
 	m	(II)V	m_0008999	m_0008999	
 		p	1		p_1	
 		p	2		p_2	
-	m	()V	m_7174730		m_7174730
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4992030		m_4992030
+	m	()V	m_7174730		tick
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4992030		load
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_8944526		m_8944526
+	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_8944526		save
 		p	1			p_1
-	m	(I)Z	m_6929333		m_6929333
+	m	(I)Z	m_6929333		onEventTriggered
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_8031101;	m_6726571		m_6726571
-	m	(Lnet/minecraft/unmapped/C_8031101;)V	m_4048134		m_4048134
+	m	(Lnet/minecraft/unmapped/C_8031101;)V	m_4048134		setNextSpawnData
 		p	1			p_1
-	m	(I)V	m_0007832		m_0007832
+	m	(I)V	m_0007832		broadcastEvent
 		p	1			p_1
-	m	()Lnet/minecraft/unmapped/C_5553933;	m_1172703		m_1172703
+	m	()Lnet/minecraft/unmapped/C_5553933;	m_1172703		getLevel
 	m	()I	m_7664520		m_7664520
 	m	()I	m_6525158		m_6525158
 	m	()I	m_0312361		m_0312361
@@ -209,8 +209,8 @@ c	net/minecraft/unmapped/C_2982074		net/minecraft/unmapped/C_2982074
 	m	()I	m_0312361		m_0312361
 	m	(Lnet/minecraft/unmapped/C_8031101;)V	m_4048134		m_4048134
 		p	1			p_1
-c	net/minecraft/unmapped/C_3325443		net/minecraft/unmapped/C_3325443
-	f	Lnet/minecraft/unmapped/C_9418545;	f_0324128		f_0324128
+c	net/minecraft/unmapped/C_3325443		net/minecraft/world/entity/vehicle/MinecartSpawner
+	f	Lnet/minecraft/unmapped/C_9418545;	f_0324128		spawner
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5553933;DDD)V	<init>		<init>
@@ -250,8 +250,8 @@ c	net/minecraft/unmapped/C_5588361		net/minecraft/unmapped/C_5588361
 	m	()I	m_7664520		m_7664520
 	m	()I	m_6525158		m_6525158
 	m	()I	m_0312361		m_0312361
-c	net/minecraft/unmapped/C_7451349		net/minecraft/unmapped/C_7451349
-	f	Lnet/minecraft/unmapped/C_9418545;	f_2583669		f_2583669
+c	net/minecraft/unmapped/C_7451349		net/minecraft/world/level/block/entity/SpawnerBlockEntity
+	f	Lnet/minecraft/unmapped/C_9418545;	f_2583669		spawner
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_4740132		m_4740132
 		p	1			p_1
@@ -262,4 +262,4 @@ c	net/minecraft/unmapped/C_7451349		net/minecraft/unmapped/C_7451349
 	m	(II)Z	m_0008999		m_0008999
 		p	1			p_1
 		p	2			p_2
-	m	()Lnet/minecraft/unmapped/C_9418545;	m_3190250		m_3190250
+	m	()Lnet/minecraft/unmapped/C_9418545;	m_3190250		getSpawner

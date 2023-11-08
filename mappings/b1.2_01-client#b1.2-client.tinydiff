@@ -2,7 +2,7 @@ tiny	2	0
 c	net/minecraft/unmapped/C_5423347
 	f	Lnet/minecraft/unmapped/C_5423347;	f_0863030	f_0863030	
 c	net/minecraft/unmapped/C_5553933
-	m	(ZZ)V	m_8667272	m_8667272	
+	m	(ZZ)V	m_8667272	setSpawnSettings	
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_8398976
