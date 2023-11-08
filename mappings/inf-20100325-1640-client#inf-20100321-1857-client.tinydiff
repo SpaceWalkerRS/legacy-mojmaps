@@ -25,19 +25,19 @@ c	net/minecraft/unmapped/C_0774916
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIIILjava/util/Random;)V	m_0159758	spread	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		chance	
-		p	6		random	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_9373962	updateBurnChance	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		burnChance	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIIILjava/util/Random;)V	m_0159758	m_0159758	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+		p	6		p_6	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_9373962	m_9373962	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7735018	m_7735018	
 		p	1		p_1	
 		p	2		p_2	
@@ -70,34 +70,31 @@ c	net/minecraft/unmapped/C_0826810
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_1241852
-	f	Lnet/minecraft/unmapped/C_1241852;	f_8582891	LIT_FURNACE	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	tick	
-		c	Performs a scheduled tick. Blocks that want to perform some action after a delay can\ntell the world to schedule the update, which is then executed by calling this method.	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		random	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9792685	randomDisplayTick	
-		c	Performs a random display tick. Random display ticks are mostly used to spawn particles\naround a block. The client does 1000 random display tick attempts within a radius of\n16 blocks of the player each tick.	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		random	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7735018	neighborChanged	
-		c	Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		neighborBlockId	
-	m	()I	m_0006289	getTickRate	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_4217571	onRemoved	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_8582891	f_8582891	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9792685	m_9792685	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)V	m_7735018	m_7735018	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	()I	m_0006289	m_0006289	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_4217571	m_4217571	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
 c	net/minecraft/unmapped/C_2010724
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
 		p	1		p_1	
@@ -118,8 +115,8 @@ c	net/minecraft/unmapped/C_2501864
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_2805044	net/minecraft/world/gen/feature/VeinFeature	
-	f	I	f_1022309	blockId	
+c	net/minecraft/unmapped/C_2805044	net/minecraft/unmapped/C_2805044	
+	f	I	f_1022309	f_1022309	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;III)Z	m_5378046	m_5378046	
@@ -158,11 +155,11 @@ c	net/minecraft/unmapped/C_3586288
 		p	4		p_4	
 		p	5		p_5	
 c	net/minecraft/unmapped/C_3622326
-	f	Lnet/minecraft/unmapped/C_5553933;	f_1431038	world	
-	f	I	f_4390267	x	
-	f	I	f_7270670	y	
-	f	I	f_7068054	z	
-	m	()V	m_1055699	tick	
+	f	Lnet/minecraft/unmapped/C_5553933;	f_1431038	f_1431038	
+	f	I	f_4390267	f_4390267	
+	f	I	f_7270670	f_7270670	
+	f	I	f_7068054	f_7068054	
+	m	()V	m_1055699	m_1055699	
 c	net/minecraft/unmapped/C_3747079
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
 		p	1		p_1	
@@ -215,7 +212,7 @@ c	net/minecraft/unmapped/C_3747079
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_3755722;	f_2146355	COOKED_PORKCHOP	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_2146355	f_2146355	
 c	net/minecraft/unmapped/C_4722045
 	m	()Z	m_6339444	m_6339444	
 c	net/minecraft/unmapped/C_4808571
@@ -223,10 +220,10 @@ c	net/minecraft/unmapped/C_4808571
 		p	1		p_1	
 	m	(I)I	m_8770448	m_8770448	
 		p	1		p_1	
-	m	()Z	m_8354076	hasFuel	
+	m	()Z	m_8354076	m_8354076	
 	m	()V	m_1055699	m_1055699	
-	m	()Z	m_7212228	canCook	
-	m	(I)I	m_9835956	getResult	
+	m	()Z	m_7212228	m_7212228	
+	m	(I)I	m_9835956	m_9835956	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5170040
 	m	()Z	m_6339444	m_6339444	
@@ -249,51 +246,51 @@ c	net/minecraft/unmapped/C_5445172
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_0565664	canSurviveOrBreak	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_0565664	m_0565664	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
 	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_1708282	m_1708282	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_5537602	net/minecraft/world/gen/feature/Feature	
+c	net/minecraft/unmapped/C_5537602	net/minecraft/unmapped/C_5537602	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_5553933
-	f	Ljava/util/List;	f_3610117	scheduledTicksInOrder	
-	f	Ljava/util/List;	f_6204732	blockEntities	
-	f	I	f_5073787	randomTickLCG	
-	f	I	f_6049590	randomTickLCGIncrement	
-	m	(IIII)V	m_3858067	updateNeighbors	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		blockId	
-	m	(IIII)V	m_7610902	neighborChanged	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		neighborBlockId	
-	m	(III)Z	m_1260767	hasSkyAccess	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-	m	()Z	m_7253958	isSunny	
-	m	(IIII)V	m_2640654	scheduleTick	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		blockId	
-	m	(III)V	m_0568097	removeBlockEntity	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-	m	(III)V	m_8145587	doRandomDisplayTicks	
-		p	1		x	
-		p	2		y	
-		p	3		z	
+	f	Ljava/util/List;	f_3610117	f_3610117	
+	f	Ljava/util/List;	f_6204732	f_6204732	
+	f	I	f_5073787	f_5073787	
+	f	I	f_6049590	f_6049590	
+	m	(IIII)V	m_3858067	m_3858067	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(IIII)V	m_7610902	m_7610902	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(III)Z	m_1260767	m_1260767	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	()Z	m_7253958	m_7253958	
+	m	(IIII)V	m_2640654	m_2640654	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(III)V	m_0568097	m_0568097	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(III)V	m_8145587	m_8145587	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
 	m	(III)Z	m_7259311		m_7259311
 		p	1			p_1
 		p	2			p_2
@@ -305,17 +302,17 @@ c	net/minecraft/unmapped/C_5615103
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_6466836	net/minecraft/world/ScheduledTick	
-	f	I	f_3919118	x	
-	f	I	f_9302931	y	
-	f	I	f_1185883	z	
-	f	I	f_4619589	blockId	
-	f	I	f_5817530	time	
+c	net/minecraft/unmapped/C_6466836	net/minecraft/unmapped/C_6466836	
+	f	I	f_3919118	f_3919118	
+	f	I	f_9302931	f_9302931	
+	f	I	f_1185883	f_1185883	
+	f	I	f_4619589	f_4619589	
+	f	I	f_5817530	f_5817530	
 	m	(IIII)V	<init>	<init>	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		blockId	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
 c	net/minecraft/unmapped/C_6849228
 	f	Ljava/util/List;	f_1327421		f_1327421
 	m	(III)V	m_3088960	m_3088960	
@@ -365,7 +362,7 @@ c	net/minecraft/unmapped/C_7457854
 		p	3		p_3	
 		p	4		p_4	
 c	net/minecraft/unmapped/C_7650729
-	f	Ljava/util/Random;	f_1076020	random	
+	f	Ljava/util/Random;	f_1076020	f_1076020	
 	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_4217571	m_4217571	
 		p	1		p_1	
 		p	2		p_2	
@@ -386,7 +383,7 @@ c	net/minecraft/unmapped/C_7753067
 		p	5		p_5	
 c	net/minecraft/unmapped/C_8048208
 	m	()Z	m_3787971	m_3787971	
-	m	()Z	m_6339444	isOpaque	
+	m	()Z	m_6339444	m_6339444	
 c	net/minecraft/unmapped/C_8620458
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_7197439	m_7197439	
 		p	1		p_1	
@@ -407,11 +404,11 @@ c	net/minecraft/unmapped/C_9761743
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_7174811	canSurviveOrBreak	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_7174811	m_7174811	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIILjava/util/Random;)V	m_9792685	m_9792685	
 		p	1		p_1	
 		p	2		p_2	

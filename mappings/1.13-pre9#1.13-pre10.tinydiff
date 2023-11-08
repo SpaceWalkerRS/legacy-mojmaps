@@ -6,8 +6,8 @@ c	net/minecraft/unmapped/C_0778972
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_0852140
-	f	Lnet/minecraft/unmapped/C_9086953;	f_1287734		WOODEN_TRAPDOORS
-	f	Lnet/minecraft/unmapped/C_9086953;	f_1823480		TRAPDOORS
+	f	Lnet/minecraft/unmapped/C_9086953;	f_1287734		f_1287734
+	f	Lnet/minecraft/unmapped/C_9086953;	f_1823480		f_1823480
 c	net/minecraft/unmapped/C_0971705
 	m	(Lnet/minecraft/unmapped/C_0971705;)Lnet/minecraft/unmapped/C_8105098;	m_8045195		m_8045195
 		p	0			p_0
@@ -53,16 +53,16 @@ c	net/minecraft/unmapped/C_0971705$7		7
 		p	1			p_1
 		p	3			p_3
 c	net/minecraft/unmapped/C_1241852
-c	net/minecraft/unmapped/C_1241852$C_0960454		StatePair
-	f	Lnet/minecraft/unmapped/C_2441996;	f_2950048		from
-	f	Lnet/minecraft/unmapped/C_2441996;	f_1505588		to
-	f	Lnet/minecraft/unmapped/C_3544601;	f_8662203		dir
+c	net/minecraft/unmapped/C_1241852$C_0960454		C_0960454
+	f	Lnet/minecraft/unmapped/C_2441996;	f_2950048		f_2950048
+	f	Lnet/minecraft/unmapped/C_2441996;	f_1505588		f_1505588
+	f	Lnet/minecraft/unmapped/C_3544601;	f_8662203		f_8662203
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3544601;)V	<init>		<init>
-		p	1			from
-		p	2			to
-		p	3			dir
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
 	m	(Ljava/lang/Object;)Z	equals		equals
-		p	1			obj
+		p	1			p_1
 	m	()I	hashCode		hashCode
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_3544601;Lnet/minecraft/unmapped/C_1241852$1;)V	<init>		<init>
 		p	1			p_1
@@ -149,11 +149,11 @@ c	net/minecraft/unmapped/C_2211410$1$1	1
 		p	1		p_1	
 		p	3		p_3	
 c	net/minecraft/unmapped/C_3015107
-	m	(Lnet/minecraft/unmapped/C_9844932;II)Lnet/minecraft/unmapped/C_2018497;	m_5927748	fixChunkNbt	
+	m	(Lnet/minecraft/unmapped/C_9844932;II)Lnet/minecraft/unmapped/C_2018497;	m_5927748	m_5927748	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_0013174;Lnet/minecraft/unmapped/C_1559260;II)Lnet/minecraft/unmapped/C_2018497;	m_5927748		fixChunkNbt
+	m	(Lnet/minecraft/unmapped/C_0013174;Lnet/minecraft/unmapped/C_1559260;II)Lnet/minecraft/unmapped/C_2018497;	m_5927748		m_5927748
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -190,7 +190,7 @@ c	net/minecraft/unmapped/C_5237571
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5313722
-	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Z)Z	m_7610930	testBlocksCondition	
+	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Z)Z	m_7610930	m_7610930	
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
@@ -200,60 +200,60 @@ c	net/minecraft/unmapped/C_5313722
 		p	0		p_0	
 	m	(Lcom/mojang/brigadier/context/CommandContext;)Z	m_3446360	m_3446360	
 		p	0		p_0	
-	m	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/builder/ArgumentBuilder;ZZ)Lcom/mojang/brigadier/builder/ArgumentBuilder;	m_6828929		addBlocksConditionLogic
-		p	0			root
-		p	1			builder
-		p	2			positive
-		p	3			masked
-	m	(Lcom/mojang/brigadier/context/CommandContext;Z)I	m_1474406		executePositiveBlockCondition
-		p	0			context
-		p	1			masked
-	m	(Lcom/mojang/brigadier/context/CommandContext;Z)I	m_4486288		executeNegativeBlockCondition
-		p	0			context
-		p	1			masked
-	m	(Lcom/mojang/brigadier/context/CommandContext;Z)Ljava/util/OptionalInt;	m_1694945		testBlocksCondition
-		p	0			context
-		p	1			masked
-	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Z)Ljava/util/OptionalInt;	m_7610930		testBlocksCondition
-		p	0			world
-		p	1			start
-		p	2			end
-		p	3			destination
-		p	4			masked
+	m	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/builder/ArgumentBuilder;ZZ)Lcom/mojang/brigadier/builder/ArgumentBuilder;	m_6828929		m_6828929
+		p	0			p_0
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
+	m	(Lcom/mojang/brigadier/context/CommandContext;Z)I	m_1474406		m_1474406
+		p	0			p_0
+		p	1			p_1
+	m	(Lcom/mojang/brigadier/context/CommandContext;Z)I	m_4486288		m_4486288
+		p	0			p_0
+		p	1			p_1
+	m	(Lcom/mojang/brigadier/context/CommandContext;Z)Ljava/util/OptionalInt;	m_1694945		m_1694945
+		p	0			p_0
+		p	1			p_1
+	m	(Lnet/minecraft/unmapped/C_3865296;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3674802;Z)Ljava/util/OptionalInt;	m_7610930		m_7610930
+		p	0			p_0
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
+		p	4			p_4
 	m	(ZLcom/mojang/brigadier/context/CommandContext;)I	m_1539630		m_1539630
 		p	0			p_0
-		p	1			context
+		p	1			p_1
 	m	(ZLcom/mojang/brigadier/context/CommandContext;)I	m_1271865		m_1271865
 		p	0			p_0
-		p	1			context
+		p	1			p_1
 	m	(ZZLcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	m_9647405		m_9647405
 		p	0			p_0
 		p	1			p_1
-		p	2			context
+		p	2			p_2
 c	net/minecraft/unmapped/C_5469919
 	m	()Z	m_9777052		m_9777052
 c	net/minecraft/unmapped/C_6928498
 	f	Lnet/minecraft/unmapped/C_0851687;	f_7396959	f_7396959	
 c	net/minecraft/unmapped/C_7011459
-	f	Lnet/minecraft/unmapped/C_9086953;	f_0592990		WOODEN_TRAPDOORS
-	f	Lnet/minecraft/unmapped/C_9086953;	f_4180644		TRAPDOORS
+	f	Lnet/minecraft/unmapped/C_9086953;	f_0592990		f_0592990
+	f	Lnet/minecraft/unmapped/C_9086953;	f_4180644		f_4180644
 c	net/minecraft/unmapped/C_7719787
-	f	I	f_1731112		fakeRightMouse
+	f	I	f_1731112		f_1731112
 c	net/minecraft/unmapped/C_7809327
 	m	(II)Z	m_1867953		m_1867953
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_9379659
-	m	(Lnet/minecraft/unmapped/C_6075177;)Z	m_2333015		canFlowInto
-		p	1			state
+	m	(Lnet/minecraft/unmapped/C_6075177;)Z	m_2333015		m_2333015
+		p	1			p_1
 c	net/minecraft/unmapped/C_9844932
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_0573095;)V	m_0610197	setSavedData	
-		p	1		id	
-		p	2		data	
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_0573095;)V	m_0610197	m_0610197	
+		p	1		p_1	
+		p	2		p_2	
 c	net/minecraft/unmapped/C_9921707
 c	net/minecraft/unmapped/C_9921707$C_5864193
 	f	Ljava/util/Set;	f_6238871		f_6238871
-c	net/minecraft/unmapped/C_1178944		net/minecraft/client/gui/screen/world/OptimizeWorldScreen
+c	net/minecraft/unmapped/C_1178944		net/minecraft/unmapped/C_1178944
 	f	Lorg/apache/logging/log4j/Logger;	f_1689957		f_1689957
 	f	Lnet/minecraft/unmapped/C_3020744;	f_9606486		f_9606486
 	f	Lnet/minecraft/unmapped/C_6152184;	f_0535339		f_0535339
@@ -396,7 +396,3 @@ c	net/minecraft/unmapped/C_8714735$3		3
 c	net/minecraft/unmapped/C_8714735$C_9488014		C_9488014
 	m	(Z)V	proceed		proceed
 		p	1			p_1
-c	net/minecraft/unmapped/C_5553933
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_0573095;)V	m_0610197	m_0610197	setSavedData
-		p	1		p_1	id
-		p	2		p_2	data

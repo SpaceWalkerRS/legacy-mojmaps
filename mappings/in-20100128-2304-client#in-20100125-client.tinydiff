@@ -3,14 +3,13 @@ c	net/minecraft/client/C_5664496
 	f	Lnet/minecraft/client/MinecraftApplet;	f_2261002	f_2261002	
 c	net/minecraft/client/C_8730536
 	f	Ljava/lang/String;	f_7169434	f_7169434	
-c	net/minecraft/unmapped/C_0674816	net/minecraft/item/AxeItem	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	EFFECTIVE_BLOCKS	
-		c	The items that are broken more efficiently with an axe	
+c	net/minecraft/unmapped/C_0674816	net/minecraft/unmapped/C_0674816	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_3026864	f_3026864	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_0707753	net/minecraft/item/ShovelItem	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	EFFECTIVE_BLOCKS	
+c	net/minecraft/unmapped/C_0707753	net/minecraft/unmapped/C_0707753	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_1859613	f_1859613	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
@@ -29,9 +28,9 @@ c	net/minecraft/unmapped/C_0767651	net/minecraft/unmapped/C_0767651
 		p	1		p_1	
 	m	()Z	m_0674178	m_0674178	
 c	net/minecraft/unmapped/C_1241852
-	f	Lnet/minecraft/unmapped/C_1241852;	f_4770128	REDSTONE_WIRE	
-	f	Lnet/minecraft/unmapped/C_1241852;	f_4502085	DIAMOND_ORE	
-	f	Lnet/minecraft/unmapped/C_1241852;	f_5238586	DIAMOND_BLOCK	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_4770128	f_4770128	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_4502085	f_4502085	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_5238586	f_5238586	
 c	net/minecraft/unmapped/C_1379168
 	m	()I	m_7072579	m_7072579	
 	m	(II)Lnet/minecraft/unmapped/C_2454309;	m_7126904		m_7126904
@@ -40,11 +39,11 @@ c	net/minecraft/unmapped/C_1379168
 c	net/minecraft/unmapped/C_1640834
 	m	()V	m_1894352		m_1894352
 c	net/minecraft/unmapped/C_2454309
-	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1980273	split	
-		p	1		amount	
-	m	()Lnet/minecraft/unmapped/C_2454309;	m_1980273		split
-c	net/minecraft/unmapped/C_2538104	net/minecraft/inventory/ResultInventory	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8765448	stacks	
+	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1980273	m_1980273	
+		p	1		p_1	
+	m	()Lnet/minecraft/unmapped/C_2454309;	m_1980273		m_1980273
+c	net/minecraft/unmapped/C_2538104	net/minecraft/unmapped/C_2538104	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8765448	f_8765448	
 	m	(Lnet/minecraft/unmapped/C_9441491;B)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -58,23 +57,23 @@ c	net/minecraft/unmapped/C_2538104	net/minecraft/inventory/ResultInventory
 	m	()I	m_7072579	m_7072579	
 	m	(Lnet/minecraft/unmapped/C_9441491;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_2671832	net/minecraft/item/PickaxeItem	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	EFFECTIVE_BLOCKS	
+c	net/minecraft/unmapped/C_2671832	net/minecraft/unmapped/C_2671832	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_0027327	f_0027327	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_2711798
-	m	()V	m_1468841	onStackRemovedByPlayer	
-	m	()Z	m_3397298	canSetStack	
+	m	()V	m_1468841	m_1468841	
+	m	()Z	m_3397298	m_3397298	
 	m	()Lnet/minecraft/unmapped/C_2454309;	m_8536395	m_8536395	
-	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2091806	setStack	
-		p	1		stack	
-	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_2091806		setStack
+	m	(Lnet/minecraft/unmapped/C_2454309;)V	m_2091806	m_2091806	
+		p	1		p_1	
+	m	(Lnet/minecraft/unmapped/C_2711798;)V	m_2091806		m_2091806
 		p	1			p_1
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7134803	WOODEN_SHOVEL	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_5052531	COAL	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4608004	DIAMOND	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7134803	f_7134803	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_5052531	f_5052531	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4608004	f_4608004	
 c	net/minecraft/unmapped/C_4065940	net/minecraft/unmapped/C_4065940	
 	f	Lnet/minecraft/unmapped/C_9441491;	f_2887743	f_2887743	
 	m	(Lnet/minecraft/unmapped/C_9441491;Lnet/minecraft/unmapped/C_5818647;III)V	<init>	<init>	
@@ -85,9 +84,9 @@ c	net/minecraft/unmapped/C_4065940	net/minecraft/unmapped/C_4065940
 		p	5		p_5	
 	m	()Z	m_3397298	m_3397298	
 	m	()V	m_1468841	m_1468841	
-c	net/minecraft/unmapped/C_5217418	net/minecraft/inventory/CraftingInventory	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_9097031	stacks	
-	f	Lnet/minecraft/unmapped/C_9441491;	f_0084175	menu	
+c	net/minecraft/unmapped/C_5217418	net/minecraft/unmapped/C_5217418	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_9097031	f_9097031	
+	f	Lnet/minecraft/unmapped/C_9441491;	f_0084175	f_0084175	
 	m	(Lnet/minecraft/unmapped/C_9441491;B)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -111,11 +110,11 @@ c	net/minecraft/unmapped/C_5714220
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5818647
-	m	()I	m_7072579	getMaxStackSize	
+	m	()I	m_7072579	m_7072579	
 	m	(II)Lnet/minecraft/unmapped/C_2454309;	m_7126904		m_7126904
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_6386154	net/minecraft/item/SwordItem	
+c	net/minecraft/unmapped/C_6386154	net/minecraft/unmapped/C_6386154	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_5853631	m_5853631	
@@ -125,15 +124,15 @@ c	net/minecraft/unmapped/C_7400754
 	m	(II)Lnet/minecraft/unmapped/C_2454309;	m_7126904		m_7126904
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_7585705	net/minecraft/crafting/CraftingManager	
-	f	Lnet/minecraft/unmapped/C_7585705;	f_7422423	INSTANCE	
+c	net/minecraft/unmapped/C_7585705	net/minecraft/unmapped/C_7585705	
+	f	Lnet/minecraft/unmapped/C_7585705;	f_7422423	f_7422423	
 	m	()V	<init>	<init>	
-	m	([I)Lnet/minecraft/unmapped/C_2454309;	m_9000025	applyRecipe	
+	m	([I)Lnet/minecraft/unmapped/C_2454309;	m_9000025	m_9000025	
 		p	0		p_0	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_7799337	net/minecraft/client/render/Window	
-	f	I	f_0709454	width	
-	f	I	f_3277420	height	
+c	net/minecraft/unmapped/C_7799337	net/minecraft/unmapped/C_7799337	
+	f	I	f_0709454	f_0709454	
+	f	I	f_3277420	f_3277420	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -149,7 +148,7 @@ c	net/minecraft/unmapped/C_8241844	net/minecraft/unmapped/C_8241844
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	m_5407865	m_5407865	
-c	net/minecraft/unmapped/C_9441491	net/minecraft/client/gui/screen/inventory/menu/CraftingTableScreen	
+c	net/minecraft/unmapped/C_9441491	net/minecraft/unmapped/C_9441491	
 	f	Lnet/minecraft/unmapped/C_5217418;	f_3482527	f_3482527	
 	f	Lnet/minecraft/unmapped/C_5818647;	f_8944572	f_8944572	
 	m	()V	m_8984281	m_8984281	

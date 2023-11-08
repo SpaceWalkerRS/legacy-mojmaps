@@ -110,14 +110,14 @@ c	net/minecraft/isom/C_7274164	net/minecraft/isom/C_7274164
 		p	2		p_2	
 		p	3		p_3	
 c	net/minecraft/isom/IsomPreviewApplet	net/minecraft/isom/IsomPreviewApplet	
-	f	Lnet/minecraft/isom/C_0951692;	f_0209079	canvas	
+	f	Lnet/minecraft/isom/C_0951692;	f_0209079	f_0209079	
 	m	()V	<init>	<init>	
 	m	()V	start	start	
 	m	()V	stop	stop	
 c	net/minecraft/unmapped/C_0987157
 	m	()Z	m_6553566	m_6553566	
 c	net/minecraft/unmapped/C_5553933
-	m	(Ljava/io/File;)Lnet/minecraft/unmapped/C_9848147;	m_7881827	createChunkCache	
+	m	(Ljava/io/File;)Lnet/minecraft/unmapped/C_9848147;	m_7881827	m_7881827	
 		p	1		p_1	
 	m	(Ljava/io/File;Ljava/lang/String;JZ)V	<init>		<init>
 		p	1			p_1
@@ -126,9 +126,9 @@ c	net/minecraft/unmapped/C_5553933
 		p	5			p_5
 c	net/minecraft/unmapped/C_6849228
 	f	Z	f_8225699	f_8225699	
-	m	(II)Z	m_6667476	isAt	
-		p	1		chunkX	
-		p	2		chunkZ	
+	m	(II)Z	m_6667476	m_6667476	
+		p	1		p_1	
+		p	2		p_2	
 c	net/minecraft/unmapped/C_8593406	net/minecraft/unmapped/C_8593406	
 	f	[Lnet/minecraft/unmapped/C_6849228;	f_1145022	f_1145022	
 	f	Ljava/io/File;	f_8873346	f_8873346	
@@ -157,4 +157,4 @@ c	net/minecraft/unmapped/C_8593406	net/minecraft/unmapped/C_8593406
 c	net/minecraft/unmapped/C_9608041
 	m	()Z	m_6553566	m_6553566	
 c	net/minecraft/unmapped/C_9848147
-	m	()Z	m_6553566	canSave	
+	m	()Z	m_6553566	m_6553566	

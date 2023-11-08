@@ -2,10 +2,9 @@ tiny	2	0
 c	net/minecraft/client/C_1331819
 	f	Z	f_6553253	f_6553253	
 c	net/minecraft/unmapped/C_0539808
-	m	(Lnet/minecraft/unmapped/C_8048208;)Z	m_0217121	isSubmergedIn	
-		c	Check if this entity is submerged in the given fluid, meaning the fluid covers its eyes.	
-		p	1		liquid	
-	m	()Z	m_0217121		isSubmergedIn
+	m	(Lnet/minecraft/unmapped/C_8048208;)Z	m_0217121	m_0217121	
+		p	1		p_1	
+	m	()Z	m_0217121		m_0217121
 c	net/minecraft/unmapped/C_0774916
 	m	(I)Z	m_3628236		m_3628236
 		p	1			p_1
@@ -20,15 +19,15 @@ c	net/minecraft/unmapped/C_0774916
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_1241852
-	m	(Z)Z	m_7371947	hasCollision	
+	m	(Z)Z	m_7371947	m_7371947	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_0557736;)V	m_7940442	applyMaterialDrag	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIILnet/minecraft/unmapped/C_0557736;)V	m_7940442	m_7940442	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773	updateShape	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_5507773	m_5507773	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -55,25 +54,25 @@ c	net/minecraft/unmapped/C_2588000
 		p	4			p_4
 		p	6			p_6
 c	net/minecraft/unmapped/C_3216249
-	m	(IIILnet/minecraft/unmapped/C_8048208;)F	m_8157292	getLiquidHeight	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		liquid	
-	m	(III)F	m_8157292		getLiquidHeight
+	m	(IIILnet/minecraft/unmapped/C_8048208;)F	m_8157292	m_8157292	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(III)F	m_8157292		m_8157292
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3362006
-	f	Lnet/minecraft/client/C_1331819;	f_3150710	options	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/client/C_1331819;F)V	m_3742790	prepare	
+	f	Lnet/minecraft/client/C_1331819;	f_3150710	f_3150710	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;Lnet/minecraft/client/C_1331819;F)V	m_3742790	m_3742790	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790		prepare
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_3831727;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790		m_3742790
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -82,15 +81,14 @@ c	net/minecraft/unmapped/C_3362006
 c	net/minecraft/unmapped/C_3747079
 	f	I	f_9509159		f_9509159
 	f	I	f_9203262		f_9203262
-	m	(I)F	m_3205273	getHeightLoss	
-		p	0		level	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_7726651	getLevel	
-		c	Returns the level of this fluid. The first 3 bits encode the distance to a source\nfluid, while the 4th bit encodes whether this fluid is falling.	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_3610891	getDistanceToSource	
+	m	(I)F	m_3205273	m_3205273	
+		p	0		p_0	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_7726651	m_7726651	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)I	m_3610891	m_3610891	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -151,68 +149,66 @@ c	net/minecraft/unmapped/C_3747079
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_3755722;	f_0929720	BUCKET	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_3810496	WATER_BUCKET	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4556576	LAVA_BUCKET	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_0929720	f_0929720	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_3810496	f_3810496	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4556576	f_4556576	
 c	net/minecraft/unmapped/C_5553933
-	m	(IIIII)Z	m_3085006	setBlockWithMetadata	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		blockId	
-		p	5		metadata	
-	m	(IIII)V	m_5170064	onBlockChanged	
-		p	1		x	
-		p	2		y	
-		p	3		z	
-		p	4		blockId	
-	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_7794883;	m_4935276	rayTrace	
-		p	1		from	
-		p	2		to	
-	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;Z)Lnet/minecraft/unmapped/C_7794883;	m_1592938	rayTrace	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_5577922;Lnet/minecraft/unmapped/C_8048208;Lnet/minecraft/unmapped/C_0539808;)Z	m_0774852	applyLiquidDrag	
-		p	1		bounds	
-		p	2		material	
-		p	3		entity	
-	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_7794883;	m_1592938		rayTrace
-		p	1			p_1
-		p	2			p_2
-c	net/minecraft/unmapped/C_7051878
-	f	[Z	f_0329558	spreadDirections	
-		c	Whether this liquid should flow in each direction.\n<br>\n@see net.minecraft.util.math.Facings	
-	f	[I	f_3001582	distanceToGap	
-		c	The distance to the nearest gap to flow into for each horizontal direction.\n<br>\n@see net.minecraft.util.math.Facings	
-	f	I	f_2995398		f_2995398
-	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_8941536	convertToSource	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_2162184	getDistanceToGap	
+	m	(IIIII)Z	m_3085006	m_3085006	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_1007056	blocksSpreading	
+	m	(IIII)V	m_5170064	m_5170064	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_7794883;	m_4935276	m_4935276	
+		p	1		p_1	
+		p	2		p_2	
+	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;Z)Lnet/minecraft/unmapped/C_7794883;	m_1592938	m_1592938	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(Lnet/minecraft/unmapped/C_5577922;Lnet/minecraft/unmapped/C_8048208;Lnet/minecraft/unmapped/C_0539808;)Z	m_0774852	m_0774852	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(Lnet/minecraft/unmapped/C_0557736;Lnet/minecraft/unmapped/C_0557736;)Lnet/minecraft/unmapped/C_7794883;	m_1592938		m_1592938
+		p	1			p_1
+		p	2			p_2
+c	net/minecraft/unmapped/C_7051878
+	f	[Z	f_0329558	f_0329558	
+	f	[I	f_3001582	f_3001582	
+	f	I	f_2995398		f_2995398
+	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_8941536	m_8941536	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_2162184	m_2162184	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_1007056	m_1007056	
 		p	0		p_0	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_5643540	decreaseLevel	
-		p	1		world	
-		p	2		x	
-		p	3		y	
-		p	4		z	
-		p	5		level	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_5712832	canSpreadTo	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(Lnet/minecraft/unmapped/C_5553933;IIII)I	m_5643540	m_5643540	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_5712832	m_5712832	
 		p	0		p_0	
-		p	1		world	
-		p	2		x	
-		p	3		y	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_5553933;IIII)Z	m_1392993		m_1392993
 		p	1			p_1
 		p	2			p_2
@@ -253,11 +249,11 @@ c	net/minecraft/unmapped/C_8620458
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_9621687	net/minecraft/item/BucketItem	
-	f	I	f_8805374	liquid	
+c	net/minecraft/unmapped/C_9621687	net/minecraft/unmapped/C_9621687	
+	f	I	f_8805374	f_8805374	
 	m	(II)V	<init>	<init>	
-		p	1		id	
-		p	2		liquid	
+		p	1		p_1	
+		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_9590849;)Lnet/minecraft/unmapped/C_2454309;	m_3205185	m_3205185	
 		p	1		p_1	
 		p	2		p_2	

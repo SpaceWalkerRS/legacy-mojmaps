@@ -1,7 +1,7 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0539808
-	m	(I)V	m_6921888	applyFireDamage	
-		p	1		amount	
+	m	(I)V	m_6921888	m_6921888	
+		p	1		p_1	
 c	net/minecraft/unmapped/C_1241852
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)Z	m_2728530	m_2728530	
 		p	1		p_1	
@@ -23,32 +23,32 @@ c	net/minecraft/unmapped/C_2367183
 		p	4		p_4	
 c	net/minecraft/unmapped/C_2454309
 	m	(Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
-		p	1		block	
+		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_3755722;)V	<init>	<init>	
-		p	1		item	
+		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_3755722;I)V	<init>	<init>	
-		p	1		item	
-		p	2		size	
+		p	1		p_1	
+		p	2		p_2	
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6751530	BOW	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7158813	IRON_PICKAXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_1181142	IRON_AXE	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6751530	f_6751530	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7158813	f_7158813	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_1181142	f_1181142	
 	f	Lnet/minecraft/unmapped/C_3755722;	f_1808804	f_1808804	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6719967	IRON_INGOT	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_5643464	GOLD_INGOT	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_0632654	IRON_SWORD	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_8560292	WOODEN_SWORD	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_2317064	WOODEN_PICKAXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_3265122	WOODEN_AXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6497221	STONE_SWORD	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4331683	STONE_SHOVEL	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7801826	STONE_PICKAXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_1469127	STONE_AXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_0617670	DIAMOND_SWORD	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_0440487	DIAMOND_SHOVEL	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4206670	DIAMOND_PICKAXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6772320	DIAMOND_AXE	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_6317605	STICK	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6719967	f_6719967	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_5643464	f_5643464	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_0632654	f_0632654	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_8560292	f_8560292	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_2317064	f_2317064	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_3265122	f_3265122	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6497221	f_6497221	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4331683	f_4331683	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7801826	f_7801826	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_1469127	f_1469127	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_0617670	f_0617670	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_0440487	f_0440487	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4206670	f_4206670	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6772320	f_6772320	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_6317605	f_6317605	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)Z	m_1359852	m_1359852	
 		p	1		p_1	
 		p	2		p_2	
@@ -66,22 +66,22 @@ c	net/minecraft/unmapped/C_6607881
 c	net/minecraft/unmapped/C_6942422
 	m	()I	m_1333868	m_1333868	
 c	net/minecraft/unmapped/C_7585705
-	f	Ljava/util/List;	f_4691918	recipes	
-	m	()Lnet/minecraft/unmapped/C_7585705;	m_3645662	getInstance	
-	m	(Lnet/minecraft/unmapped/C_2454309;[Ljava/lang/Object;)V	m_9425091	registerShaped	
-		p	1		result	
-		p	2		args	
+	f	Ljava/util/List;	f_4691918	f_4691918	
+	m	()Lnet/minecraft/unmapped/C_7585705;	m_3645662	m_3645662	
+	m	(Lnet/minecraft/unmapped/C_2454309;[Ljava/lang/Object;)V	m_9425091	m_9425091	
+		p	1		p_1	
+		p	2		p_2	
 	m	([I)Lnet/minecraft/unmapped/C_2454309;	m_9000025
 		p	1		p_1	
 		p	0			p_0
 c	net/minecraft/unmapped/C_8300121
 	m	(I)V	m_6921888	m_6921888	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_9399468	net/minecraft/crafting/recipe/ShapedRecipe	
-	f	I	f_2947126	width	
-	f	I	f_2101207	height	
-	f	[I	f_0697598	ingredients	
-	f	Lnet/minecraft/unmapped/C_2454309;	f_0790780	result	
+c	net/minecraft/unmapped/C_9399468	net/minecraft/unmapped/C_9399468	
+	f	I	f_2947126	f_2947126	
+	f	I	f_2101207	f_2101207	
+	f	[I	f_0697598	f_0697598	
+	f	Lnet/minecraft/unmapped/C_2454309;	f_0790780	f_0790780	
 	m	(II[ILnet/minecraft/unmapped/C_2454309;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

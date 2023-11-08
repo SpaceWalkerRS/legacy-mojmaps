@@ -10,28 +10,27 @@ c	net/minecraft/client/C_5664496
 	m	(I)V	m_0092759		m_0092759
 		p	1			p_1
 c	net/minecraft/unmapped/C_0256098
-	m	(Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/unmapped/C_8806455;	m_9143237	load	
-		p	1		path	
-		p	2		file	
-	m	(Ljava/lang/String;Ljava/io/File;)V	m_9143237		load
+	m	(Ljava/lang/String;Ljava/io/File;)Lnet/minecraft/unmapped/C_8806455;	m_9143237	m_9143237	
+		p	1		p_1	
+		p	2		p_2	
+	m	(Ljava/lang/String;Ljava/io/File;)V	m_9143237		m_9143237
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_0259655
 	f	Ljava/text/DecimalFormat;	f_8054979	f_8054979	
 c	net/minecraft/unmapped/C_0539808
-	f	I	f_6659111	fireResistance	
-	f	I	f_4398228	onFireTimer	
-		c	The number of ticks left for which this entity will be on fire.	
-c	net/minecraft/unmapped/C_0774916	net/minecraft/block/FireBlock	
-	f	[I	f_9218750	burnChance	
-	f	[I	f_7285878	spreadChance	
+	f	I	f_6659111	f_6659111	
+	f	I	f_4398228	f_4398228	
+c	net/minecraft/unmapped/C_0774916	net/minecraft/unmapped/C_0774916	
+	f	[I	f_9218750	f_9218750	
+	f	[I	f_7285878	f_7285878	
 	m	(II)V	<init>	<init>	
-		p	1		id	
-		p	2		sprite	
-	m	(III)V	m_5629697	registerBurnProperties	
-		p	1		blockId	
-		p	2		burnChance	
-		p	3		spreadChance	
+		p	1		p_1	
+		p	2		p_2	
+	m	(III)V	m_5629697	m_5629697	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
 	m	(III)Lnet/minecraft/unmapped/C_5577922;	m_4350289	m_4350289	
 		p	1		p_1	
 		p	2		p_2	
@@ -60,7 +59,7 @@ c	net/minecraft/unmapped/C_0774916	net/minecraft/block/FireBlock
 		p	3		p_3	
 		p	4		p_4	
 	m	()Z	m_0674178	m_0674178	
-	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_3183220	canBurn	
+	m	(Lnet/minecraft/unmapped/C_5553933;III)Z	m_3183220	m_3183220	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -92,11 +91,11 @@ c	net/minecraft/unmapped/C_0774916	net/minecraft/block/FireBlock
 c	net/minecraft/unmapped/C_1022696
 	m	()V	m_3915071	m_3915071	
 c	net/minecraft/unmapped/C_1241852
-	f	Lnet/minecraft/unmapped/C_0774916;	f_6109727	FIRE	
-	f	F	f_5491034	miningSpeed	
-	f	I	f_5491034		miningSpeed
-	m	()Z	m_0674178	hasCollision	
-	m	(Lnet/minecraft/unmapped/C_9590849;)I	m_0646926	getMiningSpeed	
+	f	Lnet/minecraft/unmapped/C_0774916;	f_6109727	f_6109727	
+	f	F	f_5491034	f_5491034	
+	f	I	f_5491034		f_5491034
+	m	()Z	m_0674178	m_0674178	
+	m	(Lnet/minecraft/unmapped/C_9590849;)I	m_0646926	m_0646926	
 		p	1		p_1	
 	m	(F)Lnet/minecraft/unmapped/C_1241852;	m_5406685		m_5406685
 		p	1			p_1
@@ -106,8 +105,8 @@ c	net/minecraft/unmapped/C_1241852
 		p	3			p_3
 		p	4			p_4
 	m	()I	m_3343046		m_3343046
-c	net/minecraft/unmapped/C_1264786	net/minecraft/item/BlockItem	
-	f	I	f_5874804	blockId	
+c	net/minecraft/unmapped/C_1264786	net/minecraft/unmapped/C_1264786	
+	f	I	f_5874804	f_5874804	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;IIII)V	m_3000450	m_3000450	
@@ -117,32 +116,32 @@ c	net/minecraft/unmapped/C_1264786	net/minecraft/item/BlockItem
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_1703615	net/minecraft/client/render/texture/WaterSprite	
-	f	[F	f_8073243	image0	
-	f	[F	f_4739750	image1	
+c	net/minecraft/unmapped/C_1703615	net/minecraft/unmapped/C_1703615	
+	f	[F	f_8073243	f_8073243	
+	f	[F	f_4739750	f_4739750	
 	f	[F	f_3435997	f_3435997	
 	f	[F	f_6408760	f_6408760	
-	f	I	f_8467511	ticks	
+	f	I	f_8467511	f_8467511	
 	m	()V	<init>	<init>	
 	m	()V	m_5407865	m_5407865	
 c	net/minecraft/unmapped/C_1872000
-	f	Lnet/minecraft/client/C_1331819;	f_9261647	options	
+	f	Lnet/minecraft/client/C_1331819;	f_9261647	f_9261647	
 	m	(Lnet/minecraft/client/C_1331819;)V	m_8643571	m_8643571	
 		p	1		p_1	
-	m	()V	m_1108475	volumeChanged	
+	m	()V	m_1108475	m_1108475	
 	m	()V	m_8643571		m_8643571
 c	net/minecraft/unmapped/C_2454309
 	f	I	f_9064670		f_9064670
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
-	m	()Lnet/minecraft/unmapped/C_3755722;	m_2410511	getItem	
+	m	()Lnet/minecraft/unmapped/C_3755722;	m_2410511	m_2410511	
 	m	(Lnet/minecraft/unmapped/C_1241852;)V	<init>		<init>
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2454309;I)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_2643505	net/minecraft/item/FoodItem	
-	f	I	f_8483389	hungerPoints	
+c	net/minecraft/unmapped/C_2643505	net/minecraft/unmapped/C_2643505	
+	f	I	f_8483389	f_8483389	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -161,25 +160,25 @@ c	net/minecraft/unmapped/C_2910311
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_3216249
-	m	(Lnet/minecraft/unmapped/C_1241852;FFFI)V	m_5308705	tessellateBottomFace	
+	m	(Lnet/minecraft/unmapped/C_1241852;FFFI)V	m_5308705	m_5308705	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_1241852;FFFI)V	m_1833462	tessellateTopFace	
+	m	(Lnet/minecraft/unmapped/C_1241852;FFFI)V	m_1833462	m_1833462	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(Lnet/minecraft/unmapped/C_1241852;IIII)V	m_5308705		tessellateBottomFace
+	m	(Lnet/minecraft/unmapped/C_1241852;IIII)V	m_5308705		m_5308705
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_1241852;IIII)V	m_1833462		tessellateTopFace
+	m	(Lnet/minecraft/unmapped/C_1241852;IIII)V	m_1833462		m_1833462
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -197,24 +196,24 @@ c	net/minecraft/unmapped/C_3747079
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_3755722	net/minecraft/item/Item	
-	f	[Lnet/minecraft/unmapped/C_3755722;	f_9423974	BY_ID	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_2843946	ARROW	
-	f	I	f_1913083	id	
-	f	I	f_4664543	sprite	
+c	net/minecraft/unmapped/C_3755722	net/minecraft/unmapped/C_3755722	
+	f	[Lnet/minecraft/unmapped/C_3755722;	f_9423974	f_9423974	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_2843946	f_2843946	
+	f	I	f_1913083	f_1913083	
+	f	I	f_4664543	f_4664543	
 	m	(I)V	<init>	<init>	
-		p	1		id	
-	m	()I	m_9183979	getSprite	
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;IIII)V	m_3000450	use	
+		p	1		p_1	
+	m	()I	m_9183979	m_9183979	
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;IIII)V	m_3000450	m_3000450	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_5853631	getMiningSpeed	
+	m	(Lnet/minecraft/unmapped/C_1241852;)F	m_5853631	m_5853631	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;)Z	m_3205185	startUsing	
+	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_9590849;)Z	m_3205185	m_3205185	
 		p	1		p_1	
 		p	2		p_2	
 	m	()V	<clinit>	<clinit>	
@@ -237,7 +236,7 @@ c	net/minecraft/unmapped/C_4393193
 	f	I	f_8065768	f_8065768	
 	f	I	f_9959653	f_9959653	
 	m	()V	m_5312327	m_5312327	
-c	net/minecraft/unmapped/C_4769518	net/minecraft/item/FlintAndSteelItem	
+c	net/minecraft/unmapped/C_4769518	net/minecraft/unmapped/C_4769518	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;Lnet/minecraft/unmapped/C_5553933;IIII)V	m_3000450	m_3000450	
@@ -282,13 +281,13 @@ c	net/minecraft/unmapped/C_5553933
 		p	3		p_3	
 	m	()I	m_6307946	m_6307946	
 	m	()I	m_6053275	m_6053275	
-	m	(Lnet/minecraft/unmapped/C_5577922;)Z	m_7197503	containsFireSource	
-		p	1		bounds	
+	m	(Lnet/minecraft/unmapped/C_5577922;)Z	m_7197503	m_7197503	
+		p	1		p_1	
 	m	(III)B	m_4165411	m_4165411	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(FFFLjava/lang/String;FF)V	m_1301388	playSound	
+	m	(FFFLjava/lang/String;FF)V	m_1301388	m_1301388	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -307,7 +306,7 @@ c	net/minecraft/unmapped/C_7400754
 	m	(I)Z	m_3622700		m_3622700
 		p	1			p_1
 c	net/minecraft/unmapped/C_7952195
-	m	(III)Z	m_3937629	finishMiningBlock	
+	m	(III)Z	m_3937629	m_3937629	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -316,13 +315,13 @@ c	net/minecraft/unmapped/C_7952195
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(III)V	m_3937629		finishMiningBlock
+	m	(III)V	m_3937629		m_3937629
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_8456884	net/minecraft/item/ToolItem	
-	f	[Lnet/minecraft/unmapped/C_1241852;	f_9177785	effectiveBlocks	
-	f	F	f_4430732	miningSpeed	
+c	net/minecraft/unmapped/C_8456884	net/minecraft/unmapped/C_8456884	
+	f	[Lnet/minecraft/unmapped/C_1241852;	f_9177785	f_9177785	
+	f	F	f_4430732	f_4430732	
 	m	(I[Lnet/minecraft/unmapped/C_1241852;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

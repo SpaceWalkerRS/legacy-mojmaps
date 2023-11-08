@@ -15,12 +15,12 @@ c	net/minecraft/unmapped/C_1184371
 	m	(I)I	m_7534654		m_7534654
 		p	1			p_1
 c	net/minecraft/unmapped/C_1241852
-	f	Lnet/minecraft/unmapped/C_1241852;	f_7040557	FURNACE	
+	f	Lnet/minecraft/unmapped/C_1241852;	f_7040557	f_7040557	
 	f	Lnet/minecraft/unmapped/C_1241852;	f_6179977	f_6179977	
-	m	(ILjava/util/Random;)I	m_7534654	getDropItem	
-		p	1		metadata	
-		p	2		random	
-	m	(I)I	m_7534654		getDropItem
+	m	(ILjava/util/Random;)I	m_7534654	m_7534654	
+		p	1		p_1	
+		p	2		p_2	
+	m	(I)I	m_7534654		m_7534654
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)Z	m_2728530		m_2728530
 		p	1			p_1
@@ -67,7 +67,7 @@ c	net/minecraft/unmapped/C_2910311
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_2998483	net/minecraft/block/GravelBlock	
+c	net/minecraft/unmapped/C_2998483	net/minecraft/unmapped/C_2998483	
 	m	(II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -83,9 +83,9 @@ c	net/minecraft/unmapped/C_3622326
 	f	I	f_6596512	f_6596512	
 	m	()V	m_0895893	m_0895893	
 c	net/minecraft/unmapped/C_3755722
-	f	Lnet/minecraft/unmapped/C_3755722;	f_7093581	FLINT_AND_STEEL	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_9472232	FLINT	
-	f	Lnet/minecraft/unmapped/C_3755722;	f_4605471	GOLDEN_APPLE	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_7093581	f_7093581	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_9472232	f_9472232	
+	f	Lnet/minecraft/unmapped/C_3755722;	f_4605471	f_4605471	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)Z	m_1359852		m_1359852
 		p	1			p_1
 		p	2			p_2
@@ -93,11 +93,11 @@ c	net/minecraft/unmapped/C_3755722
 		p	4			p_4
 c	net/minecraft/unmapped/C_4316830
 	m	()I	m_0469364	m_0469364	
-c	net/minecraft/unmapped/C_4808571	net/minecraft/block/entity/FurnaceBlockEntity	
-	f	[Lnet/minecraft/unmapped/C_2454309;	f_8615531	inventory	
-	f	I	f_9055729	fuelTime	
-	f	I	f_9928665	totalFuelTime	
-	f	I	f_0929479	cookTime	
+c	net/minecraft/unmapped/C_4808571	net/minecraft/unmapped/C_4808571	
+	f	[Lnet/minecraft/unmapped/C_2454309;	f_8615531	f_8615531	
+	f	I	f_9055729	f_9055729	
+	f	I	f_9928665	f_9928665	
+	f	I	f_0929479	f_0929479	
 	m	()V	<init>	<init>	
 	m	()I	m_2930514	m_2930514	
 	m	(I)Lnet/minecraft/unmapped/C_2454309;	m_1816230	m_1816230	
@@ -126,12 +126,12 @@ c	net/minecraft/unmapped/C_4808571	net/minecraft/block/entity/FurnaceBlockEntity
 	m	(Lnet/minecraft/unmapped/C_2454309;)I	m_1450722	m_1450722	
 		p	0		p_0	
 c	net/minecraft/unmapped/C_5553933
-	f	Ljava/util/List;	f_6240257	eventListeners	
-c	net/minecraft/unmapped/C_5615103	net/minecraft/block/FurnaceBlock	
-	f	Z	f_9621589	lit	
+	f	Ljava/util/List;	f_6240257	f_6240257	
+c	net/minecraft/unmapped/C_5615103	net/minecraft/unmapped/C_5615103	
+	f	Z	f_9621589	f_9621589	
 	m	(IZ)V	<init>	<init>	
-		p	1		id	
-		p	2		lit	
+		p	1		p_1	
+		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_5553933;III)V	m_1556953	m_1556953	
 		p	1		p_1	
 		p	2		p_2	
@@ -163,17 +163,17 @@ c	net/minecraft/unmapped/C_5615103	net/minecraft/block/FurnaceBlock
 		p	4		p_4	
 		p	5		p_5	
 	m	()Lnet/minecraft/unmapped/C_3622326;	m_2470522	m_2470522	
-c	net/minecraft/unmapped/C_5903539	net/minecraft/client/gui/screen/inventory/menu/FurnaceScreen	
-	f	Lnet/minecraft/unmapped/C_4808571;	f_2900872	furnace	
+c	net/minecraft/unmapped/C_5903539	net/minecraft/unmapped/C_5903539	
+	f	Lnet/minecraft/unmapped/C_4808571;	f_2900872	f_2900872	
 	m	(Lnet/minecraft/unmapped/C_7400754;Lnet/minecraft/unmapped/C_4808571;)V	<init>	<init>	
-		p	1		inventory	
-		p	2		parentBlockEntity	
+		p	1		p_1	
+		p	2		p_2	
 	m	()V	m_5696373	m_5696373	
 	m	()V	m_5246765	m_5246765	
 c	net/minecraft/unmapped/C_6057159
 	m	()I	m_0469364	m_0469364	
 c	net/minecraft/unmapped/C_6607881
-	m	()I	m_0469364	getDroppedItem	
+	m	()I	m_0469364	m_0469364	
 c	net/minecraft/unmapped/C_6982053
 	m	(ILjava/util/Random;)I	m_7534654	m_7534654	
 		p	1		p_1	
@@ -193,7 +193,7 @@ c	net/minecraft/unmapped/C_8620458
 	m	(I)I	m_7534654		m_7534654
 		p	1			p_1
 c	net/minecraft/unmapped/C_9590849
-	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_4097013	canBreakBlock	
-		p	1		block	
-	m	(Lnet/minecraft/unmapped/C_4808571;)V	m_8252645	openFurnaceMenu	
-		p	1		furnace	
+	m	(Lnet/minecraft/unmapped/C_1241852;)Z	m_4097013	m_4097013	
+		p	1		p_1	
+	m	(Lnet/minecraft/unmapped/C_4808571;)V	m_8252645	m_8252645	
+		p	1		p_1	

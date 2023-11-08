@@ -667,18 +667,18 @@ c	net/minecraft/unmapped/C_2691939
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_3612346		drawCenteredString
-		p	1			textRenderer
-		p	2			text
-		p	3			x
-		p	4			y
-		p	5			color
-	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_3051210		drawString
-		p	1			textRenderer
-		p	2			text
-		p	3			x
-		p	4			y
-		p	5			color
+	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_3612346		m_3612346
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
+		p	4			p_4
+		p	5			p_5
+	m	(Lnet/minecraft/unmapped/C_3831727;Ljava/lang/String;III)V	m_3051210		m_3051210
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
+		p	4			p_4
+		p	5			p_5
 	m	(IIIIII)V	m_3294244		m_3294244
 		p	1			p_1
 		p	2			p_2
@@ -794,7 +794,7 @@ c	net/minecraft/unmapped/C_3020744
 	f	Ljava/util/List;	f_9855393		f_9855393
 	f	Ljava/util/List;	f_1441680		f_1441680
 	f	Z	f_7326303		f_7326303
-	f	Lnet/minecraft/unmapped/C_3831727;	f_0492613		textRenderer
+	f	Lnet/minecraft/unmapped/C_3831727;	f_0492613		f_0492613
 	f	Lnet/minecraft/unmapped/C_2348249;	f_4393417		f_4393417
 	f	I	f_2975400		f_2975400
 	f	J	f_3184560		f_3184560
@@ -861,10 +861,10 @@ c	net/minecraft/unmapped/C_3020744
 	m	()Z	hasControlDown	hasControlDown	
 	m	()Z	hasShiftDown	hasShiftDown	
 	m	()Z	hasAltDown	hasAltDown	
-	m	(IIF)V	m_7637732		render
-		p	1			mouseX
-		p	2			mouseY
-		p	3			tickDelta
+	m	(IIF)V	m_7637732		m_7637732
+		p	1			p_1
+		p	2			p_2
+		p	3			p_3
 	m	(CI)V	m_6205139		m_6205139
 		p	1			p_1
 		p	2			p_2
@@ -914,9 +914,9 @@ c	net/minecraft/unmapped/C_3020744
 	m	(I)V	m_0972373		m_0972373
 		p	1			p_1
 	m	()Z	m_7304402		m_7304402
-	m	(ZI)V	m_3701347		confirmResult
-		p	1			result
-		p	2			id
+	m	(ZI)V	m_3701347		m_3701347
+		p	1			p_1
+		p	2			p_2
 	m	()Z	m_5203037		m_5203037
 	m	()Z	m_7692598		m_7692598
 c	net/minecraft/unmapped/C_3193933
@@ -956,7 +956,7 @@ c	net/minecraft/unmapped/C_3193933
 		p	6			p_6
 		p	7			p_7
 	m	()I	m_7932808		m_7932808
-c	net/minecraft/unmapped/C_3286695	net/minecraft/C_60ydimwin	net/minecraft/unmapped/C_3286695
+c	net/minecraft/unmapped/C_3286695
 	m	()V	init	init	
 	m	(Lnet/minecraft/unmapped/C_2348249;)V	buttonClicked	buttonClicked	
 		p	1		p_1	
@@ -1020,7 +1020,7 @@ c	net/minecraft/unmapped/C_3435613
 		p	2			p_2
 		p	3			p_3
 	m	()Z	m_7304402		m_7304402
-c	net/minecraft/unmapped/C_3537028	net/minecraft/C_05vidyswa__C_3537028	net/minecraft/unmapped/C_3537028
+c	net/minecraft/unmapped/C_3537028
 	m	()I	getItemCount	getItemCount	
 	m	(IZII)V	selectItem	selectItem	
 		p	1		p_1	
@@ -1164,11 +1164,11 @@ c	net/minecraft/unmapped/C_3830328
 		p	7			p_7
 c	net/minecraft/unmapped/C_3949943
 	m	(ZI)V	confirmResult	confirmResult	
-		p	1		result	
-		p	2		id	
-	m	(ZI)V	m_3701347		confirmResult
-		p	1			result
-		p	2			id
+		p	1		p_1	
+		p	2		p_2	
+	m	(ZI)V	m_3701347		m_3701347
+		p	1			p_1
+		p	2			p_2
 c	net/minecraft/unmapped/C_4077617
 	m	(IILnet/minecraft/unmapped/C_5786166;)V	renderHeader	renderHeader	
 		p	1		p_1	
@@ -1358,8 +1358,8 @@ c	net/minecraft/unmapped/C_5106429
 	m	()Z	m_7304402		m_7304402
 	m	()V	m_7029182		m_7029182
 c	net/minecraft/unmapped/C_5233418
-	f	Lgnu/trove/map/hash/TIntIntHashMap;	f_9896086	ids	
-	f	Ljava/util/IdentityHashMap;	f_9896086		ids
+	f	Lgnu/trove/map/hash/TIntIntHashMap;	f_9896086	f_9896086	
+	f	Ljava/util/IdentityHashMap;	f_9896086		f_9896086
 c	net/minecraft/unmapped/C_5571887
 	m	(Z)I	getYImage	getYImage	
 		p	1		p_1	
@@ -1404,7 +1404,7 @@ c	net/minecraft/unmapped/C_5632627
 		p	3			p_3
 	m	(Lnet/minecraft/unmapped/C_2348249;)V	m_0222473		m_0222473
 		p	1			p_1
-c	net/minecraft/unmapped/C_5650398	net/minecraft/C_99zivblrr	net/minecraft/unmapped/C_5650398
+c	net/minecraft/unmapped/C_5650398
 	m	()V	init	init	
 	m	(Lnet/minecraft/unmapped/C_2348249;)V	buttonClicked	buttonClicked	
 		p	1		p_1	
@@ -2154,7 +2154,7 @@ c	net/minecraft/unmapped/C_8716218
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5819357;)V	m_1442690		m_1442690
 		p	1			p_1
-c	net/minecraft/unmapped/C_8836398	net/minecraft/C_05vidyswa	net/minecraft/unmapped/C_8836398
+c	net/minecraft/unmapped/C_8836398
 	m	()V	init	init	
 	m	()V	removed	removed	
 	m	(Lnet/minecraft/unmapped/C_2348249;)V	buttonClicked	buttonClicked	

@@ -9,13 +9,13 @@ c	net/minecraft/unmapped/C_0614482
 	m	()Ljava/lang/String;	m_8859920	m_8859920	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_1079885
-	f	Lnet/minecraft/unmapped/C_9550253;	f_3093403		DISCONNECT_REASON
-	f	Z	f_8967995		hasStatusRequest
+	f	Lnet/minecraft/unmapped/C_9550253;	f_3093403		f_3093403
+	f	Z	f_8967995		f_8967995
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_1150342
 	m	()I	m_2100391		m_2100391
 c	net/minecraft/unmapped/C_1331819
-	f	Ljava/util/List;	f_4207838		incompatibleResourcePacks
+	f	Ljava/util/List;	f_4207838		f_4207838
 c	net/minecraft/unmapped/C_2975244
 c	net/minecraft/unmapped/C_2975244$3
 	f	Lnet/minecraft/unmapped/C_2975244;	f_6286851	f_6286851	
@@ -50,16 +50,16 @@ c	net/minecraft/unmapped/C_2975244$8	8
 	m	()Ljava/lang/Object;	call	call	
 c	net/minecraft/unmapped/C_2983776
 c	net/minecraft/unmapped/C_2983776$C_6631302
-	m	()I	m_8317499		getFormat
+	m	()I	m_8317499		m_8317499
 c	net/minecraft/unmapped/C_3015107
-	f	Z	f_1141478		saving
+	f	Z	f_1141478		f_1141478
 c	net/minecraft/unmapped/C_3118916
 	m	()I	m_2100391		m_2100391
 c	net/minecraft/unmapped/C_3945422
-	f	Lnet/minecraft/unmapped/C_9550253;	f_5085707		INCOMPATIBLE_GENERIC
-	f	Lnet/minecraft/unmapped/C_9550253;	f_8326489		INCOMPATIBLE_TOO_OLD
-	f	Lnet/minecraft/unmapped/C_9550253;	f_8979762		INCOMPATIBLE_TOO_NEW
-	m	()I	m_2100391		getFormat
+	f	Lnet/minecraft/unmapped/C_9550253;	f_5085707		f_5085707
+	f	Lnet/minecraft/unmapped/C_9550253;	f_8326489		f_8326489
+	f	Lnet/minecraft/unmapped/C_9550253;	f_8979762		f_8979762
+	m	()I	m_2100391		m_2100391
 c	net/minecraft/unmapped/C_3945422$1		1
 	f	Lnet/minecraft/unmapped/C_3945422;	f_5293478		f_5293478
 	m	(Lnet/minecraft/unmapped/C_3945422;)V	<init>		<init>
@@ -68,8 +68,8 @@ c	net/minecraft/unmapped/C_3945422$1		1
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_5585855
-	f	Ljava/lang/String;	f_2597073		cpuInfo
-	m	()Ljava/lang/String;	m_7054292		getCpuInfo
+	f	Ljava/lang/String;	f_2597073		f_2597073
+	m	()Ljava/lang/String;	m_7054292		m_7054292
 c	net/minecraft/unmapped/C_8105098
 c	net/minecraft/unmapped/C_8105098$10
 	f	Lnet/minecraft/unmapped/C_8105098;	f_0519636	f_0519636	
@@ -85,7 +85,7 @@ c	net/minecraft/unmapped/C_8105098$11
 	f	Lnet/minecraft/unmapped/C_8105098;	f_0519636		f_0519636
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>	<init>	
 		p	1		p_1	
-	m	()Ljava/lang/String;	m_2473095	call	
+	m	()Ljava/lang/String;	m_2473095	m_2473095	
 	m	()Ljava/lang/Object;	call	call	
 	m	(Lnet/minecraft/unmapped/C_8105098;Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
@@ -94,32 +94,32 @@ c	net/minecraft/unmapped/C_8105098$11
 c	net/minecraft/unmapped/C_8105098$12
 	f	Lnet/minecraft/unmapped/C_8105098;	f_5393104	f_5393104	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_9081964		f_9081964
-	m	()Ljava/lang/String;	m_0789350	call	
+	m	()Ljava/lang/String;	m_0789350	m_0789350	
 	m	()Ljava/lang/String;	m_2473095		m_2473095
 c	net/minecraft/unmapped/C_8105098$13
 	f	Lnet/minecraft/unmapped/C_8105098;	f_2048459	f_2048459	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_5393104		f_5393104
-	m	()Ljava/lang/String;	m_8418756	call	
+	m	()Ljava/lang/String;	m_8418756	m_8418756	
 	m	()Ljava/lang/String;	m_0789350		m_0789350
 c	net/minecraft/unmapped/C_8105098$14
 	f	Lnet/minecraft/unmapped/C_8105098;	f_5345822	f_5345822	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_2048459		f_2048459
-	m	()Ljava/lang/String;	m_2029182	call	
+	m	()Ljava/lang/String;	m_2029182	m_2029182	
 	m	()Ljava/lang/String;	m_8418756		m_8418756
 c	net/minecraft/unmapped/C_8105098$15
 	f	Lnet/minecraft/unmapped/C_8105098;	f_0886493	f_0886493	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_5345822		f_5345822
-	m	()Ljava/lang/String;	m_3863477	call	
+	m	()Ljava/lang/String;	m_3863477	m_3863477	
 	m	()Ljava/lang/String;	m_2029182		m_2029182
 c	net/minecraft/unmapped/C_8105098$16
 	f	Lnet/minecraft/unmapped/C_8105098;	f_7466146	f_7466146	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_0886493		f_0886493
-	m	()Ljava/lang/String;	m_0284574	call	
+	m	()Ljava/lang/String;	m_0284574	m_0284574	
 	m	()Ljava/lang/String;	m_3863477		m_3863477
 c	net/minecraft/unmapped/C_8105098$17
 	f	Lnet/minecraft/unmapped/C_8105098;	f_0199112	f_0199112	
 	f	Lnet/minecraft/unmapped/C_8105098;	f_7466146		f_7466146
-	m	()Ljava/lang/String;	m_5374894	call	
+	m	()Ljava/lang/String;	m_5374894	m_5374894	
 	m	()Ljava/lang/String;	m_0284574		m_0284574
 c	net/minecraft/unmapped/C_8105098$7
 	f	Lnet/minecraft/unmapped/C_8105098;	f_4966088	f_4966088	

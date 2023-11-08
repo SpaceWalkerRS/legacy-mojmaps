@@ -5,7 +5,7 @@ c	net/minecraft/unmapped/C_0263952
 	m	()I	m_6723775	m_6723775	
 	m	()I	m_6438600	m_6438600	
 	m	(I)Ljava/lang/String;	m_1649100		m_1649100
-		p	0			variant
+		p	0			p_0
 	m	(I)Lnet/minecraft/unmapped/C_5291991;	m_6199180		m_6199180
 		p	0			p_0
 	m	(I)Lnet/minecraft/unmapped/C_5291991;	m_9736684		m_9736684
@@ -102,7 +102,7 @@ c	net/minecraft/unmapped/C_2125221
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_3747079
-	f	Ljava/util/List;	f_7678633		fluidStates
+	f	Ljava/util/List;	f_7678633		f_7678633
 c	net/minecraft/unmapped/C_4634225
 	m	(Lnet/minecraft/unmapped/C_9844932;)Z	m_3712793	m_3712793	
 		p	1		p_1	
@@ -120,13 +120,13 @@ c	net/minecraft/unmapped/C_7769942
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8099772
-	m	(Lnet/minecraft/unmapped/C_9844932;Z)Z	m_2364728		canSpawn
-		p	1			world
-		p	2			fromSpawner
+	m	(Lnet/minecraft/unmapped/C_9844932;Z)Z	m_2364728		m_2364728
+		p	1			p_1
+		p	2			p_2
 c	net/minecraft/unmapped/C_8474433
 	m	()Z	m_1314904		m_1314904
 c	net/minecraft/unmapped/C_9379659
-	f	Ljava/lang/ThreadLocal;	f_3599544		OCCLUSION_CACHE
+	f	Ljava/lang/ThreadLocal;	f_3599544		f_3599544
 	m	(Lnet/minecraft/unmapped/C_3544601;Lnet/minecraft/unmapped/C_7345216;Lnet/minecraft/unmapped/C_7345216;)Z	m_9658234	m_9658234	
 		p	1		p_1	
 		p	2		p_2	

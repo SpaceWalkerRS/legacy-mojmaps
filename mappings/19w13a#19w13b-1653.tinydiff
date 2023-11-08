@@ -1,8 +1,8 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_0328289
-	f	Lnet/minecraft/unmapped/C_0328289$C_4717357;	f_4447232	buttonForward	
-	f	Lnet/minecraft/unmapped/C_0328289$C_4717357;	f_7193678	buttonBack	
-	f	I	f_2983747	currentPage	
+	f	Lnet/minecraft/unmapped/C_0328289$C_4717357;	f_4447232	f_4447232	
+	f	Lnet/minecraft/unmapped/C_0328289$C_4717357;	f_7193678	f_7193678	
+	f	I	f_2983747	f_2983747	
 	f	I	f_8046816		f_8046816
 	f	[Lnet/minecraft/unmapped/C_0328289$C_4717357;	f_7233237		f_7233237
 	f	I	f_0577155		f_0577155
@@ -58,7 +58,7 @@ c	net/minecraft/unmapped/C_0328289
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_0328289$C_4717357
-	f	Z	f_5526051	hasHeight	
+	f	Z	f_5526051	f_5526051	
 	f	I	f_7848591		f_7848591
 	f	Lnet/minecraft/unmapped/C_0328289;	f_9195088		f_9195088
 	m	(IIZLnet/minecraft/unmapped/C_0818095$C_6298894;)V	<init>	<init>	
@@ -145,26 +145,25 @@ c	net/minecraft/unmapped/C_1077561
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_1241852
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;)V	m_7735018	neighborChanged	
-		c	Performs a block update. This method is called when a neighboring block has updated\n(i.e. placed, broken, or otherwise changed state).	
-		p	1		state	
-		p	2		world	
-		p	3		pos	
-		p	4		neighborBlock	
-		p	5		neighborPos	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_2420716	onAdded	
-		p	1		state	
-		p	2		world	
-		p	3		pos	
-		p	4		oldState	
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;Z)V	m_7735018		neighborChanged
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;)V	m_7735018	m_7735018	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_2420716	m_2420716	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;Z)V	m_7735018		m_7735018
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Z)V	m_2420716		onAdded
+	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Z)V	m_2420716		m_2420716
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -231,22 +230,22 @@ c	net/minecraft/unmapped/C_2134645
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_2441996
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;)V	m_4894489	neighborChanged	
-		p	1		world	
-		p	2		pos	
-		p	3		neighborBlock	
-		p	4		neighborPos	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_9160154	onAdded	
-		p	1		world	
-		p	2		pos	
-		p	3		oldState	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;Z)V	m_4894489		neighborChanged
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;)V	m_4894489	m_4894489	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_9160154	m_9160154	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;Lnet/minecraft/unmapped/C_3674802;Z)V	m_4894489		m_4894489
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Z)V	m_9160154		onAdded
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;Z)V	m_9160154		m_9160154
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -346,10 +345,10 @@ c	net/minecraft/unmapped/C_3010919
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_6892988		m_6892988
 		p	0			p_0
 c	net/minecraft/unmapped/C_3331146
-	f	Z	f_9381592	updateHeightMaps	
+	f	Z	f_9381592	f_9381592	
 	f	Ljava/util/EnumSet;	f_2258218		f_2258218
 	f	Ljava/util/EnumSet;	f_6328015		f_6328015
-	f	Ljava/util/EnumSet;	f_9381592		updateHeightMaps
+	f	Ljava/util/EnumSet;	f_9381592		f_9381592
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;IZLnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_0879457;)Lnet/minecraft/unmapped/C_3331146;	m_4232696	m_4232696	
 		p	0		p_0	
 		p	1		p_1	
@@ -371,7 +370,7 @@ c	net/minecraft/unmapped/C_3331146
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	()Z	m_1953755	updateHeightMaps	
+	m	()Z	m_1953755	m_1953755	
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3331146;ILjava/util/EnumSet;Lnet/minecraft/unmapped/C_3331146$C_3040737;Lnet/minecraft/unmapped/C_3331146$C_0879457;)Lnet/minecraft/unmapped/C_3331146;	m_4232696		m_4232696
 		p	0			p_0
 		p	1			p_1
@@ -393,7 +392,7 @@ c	net/minecraft/unmapped/C_3331146
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	()Ljava/util/EnumSet;	m_1953755		updateHeightMaps
+	m	()Ljava/util/EnumSet;	m_1953755		m_1953755
 c	net/minecraft/unmapped/C_3747079
 	m	(Lnet/minecraft/unmapped/C_2441996;Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_2441996;)V	m_2420716	m_2420716	
 		p	1		p_1	
@@ -670,9 +669,9 @@ c	net/minecraft/unmapped/C_6427868
 		p	0			p_0
 		p	1			p_1
 c	net/minecraft/unmapped/C_6937124
-	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_0159225	removeBlock	
-		p	1		pos	
-	m	(Lnet/minecraft/unmapped/C_3674802;Z)Z	m_0159225		removeBlock
+	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_0159225	m_0159225	
+		p	1		p_1	
+	m	(Lnet/minecraft/unmapped/C_3674802;Z)Z	m_0159225		m_0159225
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_7005109

@@ -8,17 +8,17 @@ c	net/minecraft/unmapped/C_0539808
 c	net/minecraft/unmapped/C_1023567
 	f	Ljava/util/ArrayList;	f_2503754		f_2503754
 c	net/minecraft/unmapped/C_1331819
-	f	[Ljava/lang/String;	f_5197571	FPS_LIMIT_SETTINGS	
-	f	I	f_6619596	fpsLimit	
-	f	Z	f_6619596		fpsLimit
+	f	[Ljava/lang/String;	f_5197571	f_5197571	
+	f	I	f_6619596	f_6619596	
+	f	Z	f_6619596		f_6619596
 c	net/minecraft/unmapped/C_1955653
-	f	D	f_9651376	cameraX	
-	f	D	f_1264212	cameraY	
-	f	D	f_5395774	cameraZ	
+	f	D	f_9651376	f_9651376	
+	f	D	f_1264212	f_1264212	
+	f	D	f_5395774	f_5395774	
 	f	Lnet/minecraft/unmapped/C_0539808;	f_8218061		f_8218061
 c	net/minecraft/unmapped/C_2454309
-	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_2454309;	m_7979335	copyOf	
-		p	0		stack	
+	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_2454309;	m_7979335	m_7979335	
+		p	0		p_0	
 c	net/minecraft/unmapped/C_3499589
 	f	Z	f_1438801		f_1438801
 	m	(Lnet/minecraft/unmapped/C_3499589;Ljava/lang/Exception;)V	m_5363504	m_5363504	

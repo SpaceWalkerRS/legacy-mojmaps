@@ -2,16 +2,16 @@ tiny	2	0
 c	net/minecraft/client/C_8938952
 	f	[Ljava/lang/String;	f_4481087	f_4481087	
 	f	Ljava/lang/String;	f_4536664	f_4536664	
-c	net/minecraft/unmapped/C_0124240	net/minecraft/client/render/model/entity/QuadrupedModel	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_3332231	head	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8955391	body	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5044809	backRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9597021	backLeftLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6233562	frontRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5963575	frontLeftLeg	
+c	net/minecraft/unmapped/C_0124240	net/minecraft/unmapped/C_0124240	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_3332231	f_3332231	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8955391	f_8955391	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5044809	f_5044809	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9597021	f_9597021	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6233562	f_6233562	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5963575	f_5963575	
 	m	(IF)V	<init>	<init>	
-		p	1		pivotPoint	
-		p	2		reduction	
+		p	1		p_1	
+		p	2		p_2	
 	m	(FFFFFF)V	m_7620620	m_7620620	
 		p	1		p_1	
 		p	2		p_2	
@@ -29,13 +29,12 @@ c	net/minecraft/unmapped/C_0124240	net/minecraft/client/render/model/entity/Quad
 c	net/minecraft/unmapped/C_0488213
 	m	()Z	m_3570151	m_3570151	
 c	net/minecraft/unmapped/C_0539808
-	f	Z	f_4449114	inFirstTick	
-		c	True if the entity is in the first tick of its existence.	
-	m	()F	m_0866957	getEyeHeight	
+	f	Z	f_4449114	f_4449114	
+	m	()F	m_0866957	m_0866957	
 c	net/minecraft/unmapped/C_1023567
 	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_3875418	m_3875418	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1498011	net/minecraft/entity/living/mob/hostile/CreeperEntity	
+c	net/minecraft/unmapped/C_1498011	net/minecraft/unmapped/C_1498011	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_2313930
@@ -46,18 +45,18 @@ c	net/minecraft/unmapped/C_2313930
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_2356545	net/minecraft/client/render/model/entity/SpiderModel	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9095810	head	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_1665559	neck	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2810264	body	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_0448346	backRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5603833	backLeftLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2420029	backMiddleRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9401247	backMiddleLeftLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9116725	frontMiddleRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_5991224	frontMiddleLeftLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_7026217	frontRightLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_3974964	frontLeftLeg	
+c	net/minecraft/unmapped/C_2356545	net/minecraft/unmapped/C_2356545	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9095810	f_9095810	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_1665559	f_1665559	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2810264	f_2810264	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_0448346	f_0448346	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5603833	f_5603833	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2420029	f_2420029	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9401247	f_9401247	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9116725	f_9116725	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_5991224	f_5991224	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_7026217	f_7026217	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_3974964	f_3974964	
 	m	()V	<init>	<init>	
 	m	(FFFFFF)V	m_7620620	m_7620620	
 		p	1		p_1	
@@ -73,44 +72,44 @@ c	net/minecraft/unmapped/C_2356545	net/minecraft/client/render/model/entity/Spid
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-c	net/minecraft/unmapped/C_2363721	net/minecraft/entity/living/mob/hostile/SpiderEntity	
+c	net/minecraft/unmapped/C_2363721	net/minecraft/unmapped/C_2363721	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_2588000	net/minecraft/entity/particle/WaterSplashParticle	
+c	net/minecraft/unmapped/C_2588000	net/minecraft/unmapped/C_2588000	
 	m	(Lnet/minecraft/unmapped/C_5553933;FFF)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_3242141	net/minecraft/entity/living/mob/passive/animal/SheepEntity	
+c	net/minecraft/unmapped/C_3242141	net/minecraft/unmapped/C_3242141	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_3325732	net/minecraft/entity/living/mob/hostile/SkeletonEntity	
+c	net/minecraft/unmapped/C_3325732	net/minecraft/unmapped/C_3325732	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_3362006
-	f	Lnet/minecraft/unmapped/C_3362006;	f_9792930	INSTANCE	
-	f	F	f_1950168	cameraX	
-	f	F	f_3231051	cameraY	
-	f	F	f_9988139	cameraZ	
-	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790	prepare	
+	f	Lnet/minecraft/unmapped/C_3362006;	f_9792930	f_9792930	
+	f	F	f_1950168	f_1950168	
+	f	F	f_3231051	f_3231051	
+	f	F	f_9988139	f_9988139	
+	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_0876962;Lnet/minecraft/unmapped/C_9590849;F)V	m_3742790	m_3742790	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_0539808;F)V	m_7883401	render	
-		p	1		entity	
-		p	2		tickDelta	
-	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_1035027	setWorld	
-		p	1		world	
-	m	(FFF)F	m_8276019	getSquaredDistanceToCamera	
+	m	(Lnet/minecraft/unmapped/C_0539808;F)V	m_7883401	m_7883401	
+		p	1		p_1	
+		p	2		p_2	
+	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_1035027	m_1035027	
+		p	1		p_1	
+	m	(FFF)F	m_8276019	m_8276019	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_4116648
-	f	I	f_2141721	ticksInAir	
-c	net/minecraft/unmapped/C_4316830	net/minecraft/entity/living/mob/hostile/ZombieEntity	
+	f	I	f_2141721	f_2141721	
+c	net/minecraft/unmapped/C_4316830	net/minecraft/unmapped/C_4316830	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_4713165	net/minecraft/unmapped/C_4713165	
@@ -140,7 +139,7 @@ c	net/minecraft/unmapped/C_4722045
 c	net/minecraft/unmapped/C_5170040
 	m	()Z	m_3570151	m_3570151	
 	m	()Z	m_5256523	m_5256523	
-c	net/minecraft/unmapped/C_5297983	net/minecraft/client/render/model/entity/SheepModel	
+c	net/minecraft/unmapped/C_5297983	net/minecraft/unmapped/C_5297983	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_5376418
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	m_0638488	m_0638488	
@@ -175,13 +174,13 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 	m	()Ljava/lang/String;	m_6248674	m_6248674	
-	m	()Ljava/lang/String;	m_0756886	getEntitiesDebugInfo	
+	m	()Ljava/lang/String;	m_0756886	m_0756886	
 c	net/minecraft/unmapped/C_5786166
 	f	Z	f_5537920	f_5537920	
-c	net/minecraft/unmapped/C_6057159	net/minecraft/entity/living/mob/passive/animal/PigEntity	
+c	net/minecraft/unmapped/C_6057159	net/minecraft/unmapped/C_6057159	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_6297924	net/minecraft/client/render/model/entity/SkeletonModel	
+c	net/minecraft/unmapped/C_6297924	net/minecraft/unmapped/C_6297924	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_6559556
 	m	(F)V	m_7371694	m_7371694	
@@ -192,17 +191,16 @@ c	net/minecraft/unmapped/C_6607881
 	m	(FF)V	m_0134520	m_0134520	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_6769358	net/minecraft/client/render/model/entity/PigModel	
+c	net/minecraft/unmapped/C_6769358	net/minecraft/unmapped/C_6769358	
 	m	()V	<init>	<init>	
-c	net/minecraft/unmapped/C_7482415	net/minecraft/client/render/model/entity/CreeperModel	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4363944	head	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2592175	largeHead	
-		c	Has the shape of the head, but it is .5 larger in size than a normal head. It has texture coordinates pointing to an empty place in the texture atlas.\nThis field is initialised but never rendered.	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_9578408	body	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_8664370	rightBackLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_4254326	leftBackleg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_6417295	rightFrontLeg	
-	f	Lnet/minecraft/unmapped/C_6697291;	f_2871047	leftFrontLeg	
+c	net/minecraft/unmapped/C_7482415	net/minecraft/unmapped/C_7482415	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4363944	f_4363944	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2592175	f_2592175	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_9578408	f_9578408	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_8664370	f_8664370	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_4254326	f_4254326	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_6417295	f_6417295	
+	f	Lnet/minecraft/unmapped/C_6697291;	f_2871047	f_2871047	
 	m	()V	<init>	<init>	
 	m	(FFFFFF)V	m_7620620	m_7620620	
 		p	1		p_1	
@@ -219,32 +217,32 @@ c	net/minecraft/unmapped/C_7482415	net/minecraft/client/render/model/entity/Cree
 		p	5		p_5	
 		p	6		p_6	
 c	net/minecraft/unmapped/C_7503776
-	m	(FFFFFF)V	m_6142526	setAngles	
-		p	1		handSwing	
-		p	2		handSwingAmount	
-		p	3		age	
-		p	4		yaw	
-		p	5		pitch	
-		p	6		scale	
+	m	(FFFFFF)V	m_6142526	m_6142526	
+		p	1		p_1	
+		p	2		p_2	
+		p	3		p_3	
+		p	4		p_4	
+		p	5		p_5	
+		p	6		p_6	
 c	net/minecraft/unmapped/C_7639596
 	m	(Lnet/minecraft/unmapped/C_7503776;F)V	<init>	<init>	
-		p	1		model	
-		p	2		shadowSize	
+		p	1		p_1	
+		p	2		p_2	
 	m	()V	<init>		<init>
 c	net/minecraft/unmapped/C_8048208
-	m	()Z	m_3570151	isSolid	
+	m	()Z	m_3570151	m_3570151	
 	m	()Z	m_5256523	m_5256523	
 c	net/minecraft/unmapped/C_8398976
 	f	Lnet/minecraft/unmapped/C_3362006;	f_9135836		f_9135836
 c	net/minecraft/unmapped/C_8456884
-	f	I	f_5019313	attackDamage	
+	f	I	f_5019313	f_5019313	
 c	net/minecraft/unmapped/C_8980628
-	f	F	f_8635488	shadowDarkness	
+	f	F	f_8635488	f_8635488	
 c	net/minecraft/unmapped/C_9590849
 	m	(Lnet/minecraft/unmapped/C_0539808;)V	m_3875418	m_3875418	
 		p	1		p_1	
 	m	()F	m_0866957	m_0866957	
-c	net/minecraft/unmapped/C_9885753	net/minecraft/client/render/model/entity/ZombieModel	
+c	net/minecraft/unmapped/C_9885753	net/minecraft/unmapped/C_9885753	
 	m	()V	<init>	<init>	
 	m	(FFFFFF)V	m_6142526	m_6142526	
 		p	1		p_1	
