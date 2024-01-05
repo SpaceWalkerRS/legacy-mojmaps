@@ -5966,7 +5966,7 @@ c	net/minecraft/unmapped/C_1250058	net/minecraft/unmapped/C_1250058
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(IIIIII)V	m_3074343	m_3074343
+	m	(IIIIII)V	m_3074343	setRegionDirty
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -29233,7 +29233,7 @@ c	net/minecraft/unmapped/C_8398976	net/minecraft/client/renderer/LevelRenderer
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(IIIIII)V	m_3074343	setSectionDirty
+	m	(IIIIII)V	m_3074343	m_3074343
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3

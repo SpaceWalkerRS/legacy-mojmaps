@@ -1590,7 +1590,7 @@ c	net/minecraft/unmapped/C_1166271
 	m	(Lnet/minecraft/unmapped/C_1316134;)Z	m_4302175		runAllUpdates
 		p	1			p_1
 c	net/minecraft/unmapped/C_1250058
-	m	(IIIIII)V	m_3074343	m_3074343	
+	m	(IIIIII)V	m_3074343	setRegionDirty	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -1608,7 +1608,7 @@ c	net/minecraft/unmapped/C_1250058
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(III)V	m_3074343		m_3074343
+	m	(III)V	m_3074343		setRegionDirty
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -3005,7 +3005,7 @@ c	net/minecraft/unmapped/C_8398976
 		p	5		p_5	
 		p	6		p_6	
 		p	7		p_7	
-	m	(IIIIII)V	m_3074343	setSectionDirty	
+	m	(IIIIII)V	m_3074343	m_3074343	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -3015,7 +3015,7 @@ c	net/minecraft/unmapped/C_8398976
 	m	(Lnet/minecraft/unmapped/C_3674802;Z)V	m_2192209		setBlockDirty
 		p	1			p_1
 		p	2			p_2
-	m	(III)V	m_3074343		setSectionDirty
+	m	(III)V	m_3074343		m_3074343
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
