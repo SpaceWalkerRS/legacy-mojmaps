@@ -473,7 +473,7 @@ c	net/minecraft/unmapped/C_4281786
 	m	()Ljava/lang/String;	m_6274448	m_6274448	
 c	net/minecraft/unmapped/C_4316830
 	m	()Ljava/lang/String;	m_6274448	m_6274448	
-c	net/minecraft/unmapped/C_4518032	net/minecraft/unmapped/C_4518032	
+c	net/minecraft/unmapped/C_4518032	net/minecraft/client/multiplayer/ClientPacketListener__1	
 	f	Ljava/lang/String;	f_2051332	f_2051332	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_4652503	f_4652503	
 	m	(Lnet/minecraft/unmapped/C_5722573;Ljava/lang/String;)V	<init>	<init>	
@@ -558,7 +558,7 @@ c	net/minecraft/unmapped/C_5473482
 	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_0561170;	m_7036687		m_7036687
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5603079	net/minecraft/unmapped/C_5603079	
+c	net/minecraft/unmapped/C_5603079	net/minecraft/unmapped/C_7105334__1	
 	f	Lnet/minecraft/unmapped/C_7105334;	f_7852772	f_7852772	
 	m	(Lnet/minecraft/unmapped/C_7105334;)V	<init>	<init>	
 		p	1		p_1	
@@ -619,7 +619,7 @@ c	net/minecraft/unmapped/C_6088271
 	f	Lnet/minecraft/unmapped/C_0561170;	f_3126491		LOCATION_BLOCKS
 	f	Lnet/minecraft/unmapped/C_0561170;	f_3974992		f_3974992
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6173837
+c	net/minecraft/unmapped/C_6173837	net/minecraft/client/resources/metadata/animation/AnimationMetadataSection__AnimationFrame	net/minecraft/client/resources/metadata/animation/AnimationFrame
 	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_9811046	getTime	
 		p	0		p_0	
 	m	(Lnet/minecraft/unmapped/C_6173837;)I	m_3940289	getIndex	
@@ -905,7 +905,7 @@ c	net/minecraft/unmapped/C_7419670
 c	net/minecraft/unmapped/C_7443906
 	f	Lnet/minecraft/unmapped/C_0561170;	f_1285886		BOOK_LOCATION
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_7458415	net/minecraft/unmapped/C_7458415	
+c	net/minecraft/unmapped/C_7458415	net/minecraft/util/HttpUtil__1	
 	f	Lnet/minecraft/unmapped/C_3893367;	f_1329736	f_1329736	
 	f	Ljava/lang/String;	f_3575589	f_3575589	
 	f	Ljava/util/Map;	f_1997651	f_1997651	
@@ -1391,7 +1391,7 @@ c	net/minecraft/unmapped/C_3378372		net/minecraft/unmapped/C_3378372
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_3383261		net/minecraft/unmapped/C_3383261
+c	net/minecraft/unmapped/C_3383261		net/minecraft/client/resources/ClientPackSource__1
 	m	()V	<init>		<init>
 	m	(Ljava/io/File;)Z	accept		accept
 		p	1			p_1
@@ -1461,7 +1461,7 @@ c	net/minecraft/unmapped/C_4858765		net/minecraft/server/packs/metadata/pack/Pac
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_5195890		net/minecraft/unmapped/C_5195890
+c	net/minecraft/unmapped/C_5195890		net/minecraft/server/packs/FolderResourcePack__1
 	m	()V	<init>		<init>
 	m	(Ljava/io/File;)Z	accept		accept
 		p	1			p_1
@@ -1470,7 +1470,7 @@ c	net/minecraft/unmapped/C_6504242		net/minecraft/unmapped/C_6504242
 	m	()V	<init>		<init>
 	m	(Ljava/util/Random;)V	m_4038043		m_4038043
 		p	1			p_1
-c	net/minecraft/unmapped/C_6945562		net/minecraft/unmapped/C_6945562
+c	net/minecraft/unmapped/C_6945562		net/minecraft/client/resources/ClientPackSource__C_6945562
 	f	Ljava/io/File;	f_5735327		f_5735327
 	f	Lnet/minecraft/unmapped/C_7532262;	f_2548161		f_2548161
 	f	Lnet/minecraft/unmapped/C_9632344;	f_0232758		f_0232758
@@ -1495,7 +1495,7 @@ c	net/minecraft/unmapped/C_6945562		net/minecraft/unmapped/C_6945562
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_7153960		net/minecraft/unmapped/C_7153960
+c	net/minecraft/unmapped/C_7153960		net/minecraft/unmapped/C_1296613__1
 c	net/minecraft/unmapped/C_9155254		net/minecraft/client/resources/metadata/animation/AnimationMetadataSectionSerializer
 	m	()V	<init>		<init>
 	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/unmapped/C_6347954;	m_0343490		m_0343490
@@ -1536,3 +1536,24 @@ c	net/minecraft/unmapped/C_9632344		net/minecraft/unmapped/C_9632344
 		p	2			p_2
 	m	()Ljava/lang/String;	m_9191867		m_9191867
 	m	()I	m_6330166		m_6330166
+c	net/minecraft/unmapped/C_1908400	net/minecraft/world/item/CreativeModeTab__8	net/minecraft/world/item/CreativeModeTab__9
+c	net/minecraft/unmapped/C_1916373	net/minecraft/world/item/CreativeModeTab__6	net/minecraft/world/item/CreativeModeTab__7
+c	net/minecraft/unmapped/C_2515472	agt__1	ahc__1
+c	net/minecraft/unmapped/C_3038102	net/minecraft/world/item/CreativeModeTab__7	net/minecraft/world/item/CreativeModeTab__8
+c	net/minecraft/unmapped/C_3136790	net/minecraft/world/item/CreativeModeTab__12	net/minecraft/world/item/CreativeModeTab__1
+c	net/minecraft/unmapped/C_3440186	net/minecraft/world/item/CreativeModeTab__10	net/minecraft/world/item/CreativeModeTab__11
+c	net/minecraft/unmapped/C_3500928	net/minecraft/world/item/CreativeModeTab__5	net/minecraft/world/item/CreativeModeTab__6
+c	net/minecraft/unmapped/C_5012870	net/minecraft/world/item/CreativeModeTab__9	net/minecraft/world/item/CreativeModeTab__10
+c	net/minecraft/unmapped/C_6143572	net/minecraft/world/item/CreativeModeTab__1	net/minecraft/world/item/CreativeModeTab__5
+c	net/minecraft/unmapped/C_6299435	net/minecraft/world/item/CreativeModeTab__11	net/minecraft/world/item/CreativeModeTab__12
+c	net/minecraft/unmapped/C_0881518	net/minecraft/client/Minecraft__3	net/minecraft/client/Minecraft__2
+c	net/minecraft/unmapped/C_2619780	net/minecraft/client/Minecraft__12	net/minecraft/client/Minecraft__11
+c	net/minecraft/unmapped/C_4394019	net/minecraft/client/Minecraft__9	net/minecraft/client/Minecraft__8
+c	net/minecraft/unmapped/C_4563671	net/minecraft/client/Minecraft__7	net/minecraft/client/Minecraft__6
+c	net/minecraft/unmapped/C_5100772	net/minecraft/client/Minecraft__11	net/minecraft/client/Minecraft__10
+c	net/minecraft/unmapped/C_5160100	net/minecraft/client/Minecraft__8	net/minecraft/client/Minecraft__7
+c	net/minecraft/unmapped/C_5362986	net/minecraft/client/Minecraft__6	net/minecraft/client/Minecraft__5
+c	net/minecraft/unmapped/C_7145858	net/minecraft/client/Minecraft__4	net/minecraft/client/Minecraft__3
+c	net/minecraft/unmapped/C_8612369	net/minecraft/client/Minecraft__2	net/minecraft/client/Minecraft__12
+c	net/minecraft/unmapped/C_9216568	net/minecraft/client/Minecraft__10	net/minecraft/client/Minecraft__9
+c	net/minecraft/unmapped/C_9361497	net/minecraft/client/Minecraft__5	net/minecraft/client/Minecraft__4

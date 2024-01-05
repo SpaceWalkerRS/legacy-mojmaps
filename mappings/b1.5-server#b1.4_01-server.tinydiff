@@ -135,7 +135,7 @@ c	net/minecraft/unmapped/C_3292284
 	m	(Lnet/minecraft/unmapped/C_2609740;I)V	m_6031937	m_6031937	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3326540	net/minecraft/unmapped/C_3326540	
+c	net/minecraft/unmapped/C_3326540	net/minecraft/stats/Stat__2	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_3674802
 	m	(III)D	m_8479342	m_8479342	
@@ -237,7 +237,7 @@ c	net/minecraft/unmapped/C_4689255
 	m	(Lnet/minecraft/unmapped/C_5818647;Lnet/minecraft/unmapped/C_4808571;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_4764985	net/minecraft/unmapped/C_4764985	
+c	net/minecraft/unmapped/C_4764985	net/minecraft/stats/Stat__3	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_5133826	net/minecraft/unmapped/C_5133826	
 	m	(ILjava/lang/String;Lnet/minecraft/unmapped/C_1978204;)V	<init>	<init>	
@@ -418,7 +418,7 @@ c	net/minecraft/unmapped/C_7284070	net/minecraft/world/level/block/DetectorRailB
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_7673115	net/minecraft/unmapped/C_7673115	
+c	net/minecraft/unmapped/C_7673115	net/minecraft/stats/Stat__1	
 	m	()V	<init>	<init>	
 c	net/minecraft/unmapped/C_7842113
 	m	(I)Z	m_4142177	m_4142177	

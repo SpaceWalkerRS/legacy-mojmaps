@@ -73,8 +73,9 @@ c	net/minecraft/unmapped/C_8938952
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_8938952;)I	m_1042344	m_1042344	
 		p	0		p_0	
-c	net/minecraft/unmapped/C_8960339	net/minecraft/unmapped/C_8960339	
+c	net/minecraft/unmapped/C_8960339	net/minecraft/client/gui/screens/TitleScreen__1	
 	f	Lnet/minecraft/unmapped/C_8938952;	f_3670582	f_3670582	
 	m	(Lnet/minecraft/unmapped/C_8938952;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	run	run	
+c	net/minecraft/unmapped/C_0660843	net/minecraft/client/gui/screens/TitleScreen__2	net/minecraft/client/gui/screens/TitleScreen__1

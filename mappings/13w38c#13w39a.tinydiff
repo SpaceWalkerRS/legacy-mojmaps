@@ -68,7 +68,7 @@ c	net/minecraft/unmapped/C_0660843
 c	net/minecraft/unmapped/C_0674995
 	f	Lorg/apache/logging/log4j/Logger;	f_5224208		LOGGER
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_0760609	net/minecraft/unmapped/C_0760609	
+c	net/minecraft/unmapped/C_0760609	net/minecraft/unmapped/C_5971432__1	
 	f	Lnet/minecraft/unmapped/C_5971432;	f_0967137	f_0967137	
 	m	(Lnet/minecraft/unmapped/C_5971432;)V	<init>	<init>	
 		p	1		p_1	
@@ -201,7 +201,7 @@ c	net/minecraft/unmapped/C_2226122
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_2266228
 	f	Lorg/apache/logging/log4j/Logger;	f_1510549		LOGGER
-c	net/minecraft/unmapped/C_2448035	net/minecraft/unmapped/C_2448035	
+c	net/minecraft/unmapped/C_2448035	net/minecraft/unmapped/C_9306225__1	
 c	net/minecraft/unmapped/C_2501864
 	f	Lorg/apache/logging/log4j/Logger;	f_8876746		f_8876746
 	m	()V	<clinit>		<clinit>
@@ -596,7 +596,7 @@ c	net/minecraft/unmapped/C_7711981
 	m	()V	<init>	<init>	
 	m	(Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_7825354	net/minecraft/unmapped/C_7825354	
+c	net/minecraft/unmapped/C_7825354	net/minecraft/unmapped/C_9306225__C_7825354	
 	f	Ljava/text/SimpleDateFormat;	f_8713638	f_8713638	
 	f	Lnet/minecraft/unmapped/C_9306225;	f_9072767	f_9072767	
 	m	(Lnet/minecraft/unmapped/C_9306225;)V	<init>	<init>	
@@ -887,7 +887,7 @@ c	net/minecraft/unmapped/C_2833867		net/minecraft/world/entity/vehicle/MinecartC
 		p	1			p_1
 	m	(I)V	m_8901560		m_8901560
 		p	1			p_1
-c	net/minecraft/unmapped/C_4290763		net/minecraft/unmapped/C_4290763
+c	net/minecraft/unmapped/C_4290763		net/minecraft/world/entity/vehicle/MinecartCommandBlock__1
 	f	Lnet/minecraft/unmapped/C_2833867;	f_6094608		f_6094608
 	m	(Lnet/minecraft/unmapped/C_2833867;)V	<init>		<init>
 		p	1			p_1
@@ -897,7 +897,7 @@ c	net/minecraft/unmapped/C_4290763		net/minecraft/unmapped/C_4290763
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_3674802;	m_0490395		m_0490395
 	m	()Lnet/minecraft/unmapped/C_5553933;	m_8235037		m_8235037
-c	net/minecraft/unmapped/C_5773788		net/minecraft/unmapped/C_5773788
+c	net/minecraft/unmapped/C_5773788		net/minecraft/world/level/block/entity/CommandBlockEntity__1
 	f	Lnet/minecraft/unmapped/C_9008593;	f_6355719		f_6355719
 	m	(Lnet/minecraft/unmapped/C_9008593;)V	<init>		<init>
 		p	1			p_1
@@ -941,3 +941,4 @@ c	net/minecraft/unmapped/C_9008593		net/minecraft/world/level/block/entity/Comma
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_5385258;	m_0196138		m_0196138
 	m	()Lnet/minecraft/unmapped/C_4895885;	m_1301166		getCommandBlock
+c	net/minecraft/unmapped/C_6856946	net/minecraft/unmapped/C_6856946	net/minecraft/client/server/LanServerDetection__C_6856946

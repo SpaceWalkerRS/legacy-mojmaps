@@ -16,7 +16,7 @@ c	net/minecraft/unmapped/C_0268929
 	m	([Lnet/minecraft/unmapped/C_0268929;[Lnet/minecraft/unmapped/C_0268929;)[Lnet/minecraft/unmapped/C_0268929;	m_7093257		m_7093257
 		p	0			p_0
 		p	1			p_1
-c	net/minecraft/unmapped/C_0940100	net/minecraft/unmapped/C_0940100	
+c	net/minecraft/unmapped/C_0940100	net/minecraft/client/gui/screens/ChatScreen__1	
 	f	Lnet/minecraft/unmapped/C_4955046;	f_7754128	f_7754128	
 	f	Lnet/minecraft/unmapped/C_7669754;	f_3069636	f_3069636	
 	m	(Lnet/minecraft/unmapped/C_7669754;Lnet/minecraft/unmapped/C_3020744;Ljava/lang/String;ILnet/minecraft/unmapped/C_4955046;)V	<init>	<init>	

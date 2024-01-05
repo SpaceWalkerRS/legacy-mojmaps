@@ -209,7 +209,7 @@ c	net/minecraft/unmapped/C_9590849
 		p	2		p_2	
 	m	()Lnet/minecraft/unmapped/C_4143404;	m_9485094	m_9485094	
 	m	()Lnet/minecraft/unmapped/C_3177907;	m_9485094		m_9485094
-c	net/minecraft/unmapped/C_0065212		net/minecraft/unmapped/C_0065212
+c	net/minecraft/unmapped/C_0065212		net/minecraft/world/entity/monster/Zombie__1
 c	net/minecraft/unmapped/C_3177907		net/minecraft/world/scores/Team
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_3177907;)Z	m_1995990		isAlliedTo
@@ -219,7 +219,7 @@ c	net/minecraft/unmapped/C_3177907		net/minecraft/world/scores/Team
 		p	1			p_1
 	m	()Z	m_1979947		canSeeFriendlyInvisibles
 	m	()Z	m_0205039		isAllowFriendlyFire
-c	net/minecraft/unmapped/C_3198674		net/minecraft/unmapped/C_3198674
+c	net/minecraft/unmapped/C_3198674		net/minecraft/client/multiplayer/MultiPlayerLevel__4
 	f	Lnet/minecraft/unmapped/C_7873567;	f_3193901		f_3193901
 	m	(Lnet/minecraft/unmapped/C_7873567;)V	<init>		<init>
 		p	1			p_1
@@ -269,15 +269,26 @@ c	net/minecraft/unmapped/C_9297634		net/minecraft/network/protocol/game/Clientbo
 	m	(Ljava/io/DataOutput;)V	m_6110406		m_6110406
 		p	1			p_1
 	m	()I	m_4040470		m_4040470
-c	net/minecraft/unmapped/C_9578973		net/minecraft/unmapped/C_9578973
+c	net/minecraft/unmapped/C_9578973		net/minecraft/client/multiplayer/MultiPlayerLevel__3
 	f	Lnet/minecraft/unmapped/C_7873567;	f_2981698		f_2981698
 	m	(Lnet/minecraft/unmapped/C_7873567;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_0521398		m_0521398
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9830960		net/minecraft/unmapped/C_9830960
+c	net/minecraft/unmapped/C_9830960		net/minecraft/client/Minecraft__3
 	f	Lnet/minecraft/unmapped/C_8105098;	f_3385690		f_3385690
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_3001296		m_3001296
 	m	()Ljava/lang/Object;	call		call
+c	net/minecraft/unmapped/C_2515472	ahe__1	ahi__1
+c	net/minecraft/unmapped/C_2619780	net/minecraft/client/Minecraft__11	net/minecraft/client/Minecraft__12
+c	net/minecraft/unmapped/C_4394019	net/minecraft/client/Minecraft__8	net/minecraft/client/Minecraft__9
+c	net/minecraft/unmapped/C_4563671	net/minecraft/client/Minecraft__6	net/minecraft/client/Minecraft__7
+c	net/minecraft/unmapped/C_5100772	net/minecraft/client/Minecraft__10	net/minecraft/client/Minecraft__11
+c	net/minecraft/unmapped/C_5160100	net/minecraft/client/Minecraft__7	net/minecraft/client/Minecraft__8
+c	net/minecraft/unmapped/C_5362986	net/minecraft/client/Minecraft__5	net/minecraft/client/Minecraft__6
+c	net/minecraft/unmapped/C_7145858	net/minecraft/client/Minecraft__3	net/minecraft/client/Minecraft__4
+c	net/minecraft/unmapped/C_8612369	net/minecraft/client/Minecraft__12	net/minecraft/client/Minecraft__13
+c	net/minecraft/unmapped/C_9216568	net/minecraft/client/Minecraft__9	net/minecraft/client/Minecraft__10
+c	net/minecraft/unmapped/C_9361497	net/minecraft/client/Minecraft__4	net/minecraft/client/Minecraft__5

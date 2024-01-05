@@ -15,7 +15,7 @@ c	net/minecraft/unmapped/C_7106153
 		p	0			p_0
 c	net/minecraft/unmapped/C_0005350		net/minecraft/client/renderer/texture/Tickable
 	m	()V	m_0311145		tick
-c	net/minecraft/unmapped/C_6004457		net/minecraft/unmapped/C_6004457
+c	net/minecraft/unmapped/C_6004457		net/minecraft/unmapped/C_1228817__1
 	f	Lnet/minecraft/unmapped/C_1567607;	f_4493675		f_4493675
 	f	Lnet/minecraft/unmapped/C_1228817;	f_1371114		f_1371114
 	m	(Lnet/minecraft/unmapped/C_1228817;Lnet/minecraft/unmapped/C_1567607;)V	<init>		<init>
@@ -24,3 +24,4 @@ c	net/minecraft/unmapped/C_6004457		net/minecraft/unmapped/C_6004457
 	m	()Ljava/lang/String;	m_4437595		m_4437595
 	m	()Ljava/lang/Object;	call		call
 c	net/minecraft/unmapped/C_6618055		net/minecraft/client/renderer/texture/TickableTextureObject
+c	net/minecraft/unmapped/C_2515472	aga__1	agb__1

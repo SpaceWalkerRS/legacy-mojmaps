@@ -277,4 +277,4 @@ c	net/minecraft/unmapped/C_0162482		net/minecraft/unmapped/C_0162482
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_1981412;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_1981412		net/minecraft/unmapped/C_1981412
+c	net/minecraft/unmapped/C_1981412		net/minecraft/network/protocol/Packet__1

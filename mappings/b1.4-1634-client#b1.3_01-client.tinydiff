@@ -256,7 +256,7 @@ c	net/minecraft/unmapped/C_3020744
 	f	Lnet/minecraft/unmapped/C_6069223;	f_8347669	f_8347669	
 c	net/minecraft/unmapped/C_3115568
 	m	()Ljava/util/Map;	m_0943271	m_0943271	
-c	net/minecraft/unmapped/C_3167010	net/minecraft/unmapped/C_3167010	
+c	net/minecraft/unmapped/C_3167010	net/minecraft/world/entity/player/Player__C_3167010	
 	f	Lnet/minecraft/unmapped/C_3167010;	f_7385391	f_7385391	
 	f	Lnet/minecraft/unmapped/C_3167010;	f_9606724	f_9606724	
 	f	Lnet/minecraft/unmapped/C_3167010;	f_1143236	f_1143236	

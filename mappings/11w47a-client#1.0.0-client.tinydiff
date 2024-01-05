@@ -87,12 +87,12 @@ c	net/minecraft/unmapped/C_4111659	net/minecraft/unmapped/C_4111659
 	m	(Lnet/minecraft/unmapped/C_9822825;)V	m_7904058	m_7904058	
 		p	1		p_1	
 	m	()V	m_3940858	m_3940858	
-c	net/minecraft/unmapped/C_4853392	net/minecraft/unmapped/C_4853392	
+c	net/minecraft/unmapped/C_4853392	net/minecraft/unmapped/C_1834285__1	
 	f	Lnet/minecraft/unmapped/C_1834285;	f_5092596	f_5092596	
 	m	(Lnet/minecraft/unmapped/C_1834285;)V	<init>	<init>	
 		p	1		p_1	
 	m	()V	run	run	
-c	net/minecraft/unmapped/C_6839628	net/minecraft/unmapped/C_6839628	
+c	net/minecraft/unmapped/C_6839628	net/minecraft/client/Minecraft__6	
 	f	[I	f_7831269	f_7831269	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_9822825	net/minecraft/unmapped/C_9822825	
@@ -115,3 +115,26 @@ c	net/minecraft/unmapped/C_9822825	net/minecraft/unmapped/C_9822825
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
+c	net/minecraft/unmapped/C_0107612	net/minecraft/unmapped/C_1390297__1	net/minecraft/unmapped/C_1390297__2
+c	net/minecraft/unmapped/C_0160606	net/minecraft/world/inventory/EnchantmentMenu__2	net/minecraft/world/inventory/EnchantmentMenu__1
+c	net/minecraft/unmapped/C_1274722	net/minecraft/unmapped/C_1390297__3	net/minecraft/unmapped/C_1390297__1
+c	net/minecraft/unmapped/C_2452333	net/minecraft/unmapped/C_0632194__4	net/minecraft/unmapped/C_0632194__1
+c	net/minecraft/unmapped/C_2640824	net/minecraft/stats/Stat__2	net/minecraft/stats/Stat__1
+c	net/minecraft/unmapped/C_4323228	net/minecraft/unmapped/C_0632194__3	net/minecraft/unmapped/C_0632194__4
+c	net/minecraft/unmapped/C_5510478	net/minecraft/unmapped/C_3499589__3	net/minecraft/unmapped/C_3499589__1
+c	net/minecraft/unmapped/C_5565947	net/minecraft/stats/Stat__1	net/minecraft/stats/Stat__2
+c	net/minecraft/unmapped/C_6065941	net/minecraft/unmapped/C_8313918__1	net/minecraft/unmapped/C_8313918__2
+c	net/minecraft/unmapped/C_6529692	net/minecraft/unmapped/C_3499589__1	net/minecraft/unmapped/C_3499589__3
+c	net/minecraft/unmapped/C_7199680	net/minecraft/world/inventory/EnchantmentMenu__1	net/minecraft/world/inventory/EnchantmentMenu__2
+c	net/minecraft/unmapped/C_7961705	net/minecraft/world/level/block/Block__2	net/minecraft/world/level/block/Block__1
+c	net/minecraft/unmapped/C_8269353	net/minecraft/unmapped/C_8313918__2	net/minecraft/unmapped/C_8313918__1
+c	net/minecraft/unmapped/C_8455444	net/minecraft/world/level/levelgen/structure/StrongholdPieces__2	net/minecraft/world/level/levelgen/structure/StrongholdPieces__1
+c	net/minecraft/unmapped/C_8644429	net/minecraft/unmapped/C_0632194__5	net/minecraft/unmapped/C_0632194__3
+c	net/minecraft/unmapped/C_9344203	net/minecraft/unmapped/C_1390297__2	net/minecraft/unmapped/C_1390297__3
+c	net/minecraft/unmapped/C_9418795	net/minecraft/unmapped/C_0632194__1	net/minecraft/unmapped/C_0632194__5
+c	net/minecraft/unmapped/C_9895803	net/minecraft/world/level/block/Block__1	net/minecraft/world/level/block/Block__2
+c	net/minecraft/unmapped/C_9971267	net/minecraft/world/level/levelgen/structure/StrongholdPieces__1	net/minecraft/world/level/levelgen/structure/StrongholdPieces__2
+c	net/minecraft/unmapped/C_2950556	net/minecraft/client/MinecraftApplet__2	net/minecraft/client/MinecraftApplet__1
+c	net/minecraft/unmapped/C_3987516	net/minecraft/client/Minecraft__1	net/minecraft/client/Minecraft__4
+c	net/minecraft/unmapped/C_6812394	net/minecraft/client/MinecraftApplet__1	net/minecraft/client/MinecraftApplet__2
+c	net/minecraft/unmapped/C_5767905	net/minecraft/client/Minecraft__4	net/minecraft/client/Minecraft__1

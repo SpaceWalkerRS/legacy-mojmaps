@@ -1,3 +1,13 @@
 tiny	2	0
 c	net/minecraft/unmapped/C_3865296
 	m	()V	m_4018030	setInitialSpawn	
+c	net/minecraft/unmapped/C_1739936	net/minecraft/server/MinecraftServer__4	net/minecraft/server/MinecraftServer__1
+c	net/minecraft/unmapped/C_2784775	net/minecraft/server/gui/MinecraftServerGui__2	net/minecraft/server/gui/MinecraftServerGui__1
+c	net/minecraft/unmapped/C_4553622	net/minecraft/unmapped/C_3499589__4	net/minecraft/unmapped/C_3499589__2
+c	net/minecraft/unmapped/C_7961705	net/minecraft/world/level/block/Block__2	net/minecraft/world/level/block/Block__1
+c	net/minecraft/unmapped/C_8050545	net/minecraft/server/gui/MinecraftServerGui__1	net/minecraft/server/gui/MinecraftServerGui__2
+c	net/minecraft/unmapped/C_9755172	net/minecraft/unmapped/C_3499589__2	net/minecraft/unmapped/C_3499589__4
+c	net/minecraft/unmapped/C_9895803	net/minecraft/world/level/block/Block__1	net/minecraft/world/level/block/Block__2
+c	net/minecraft/unmapped/C_3326540	net/minecraft/stats/Stat__2	net/minecraft/stats/Stat__1
+c	net/minecraft/unmapped/C_7673115	net/minecraft/stats/Stat__1	net/minecraft/stats/Stat__2
+c	net/minecraft/unmapped/C_1323041	net/minecraft/server/MinecraftServer__1	net/minecraft/server/MinecraftServer__4

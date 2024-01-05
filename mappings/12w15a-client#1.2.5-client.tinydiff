@@ -681,7 +681,7 @@ c	net/minecraft/unmapped/C_6791197	net/minecraft/unmapped/C_6791197
 		p	1		p_1	
 	m	()Ljava/lang/String;	m_9160803	m_9160803	
 	m	()Ljava/lang/Object;	call	call	
-c	net/minecraft/unmapped/C_6812394
+c	net/minecraft/unmapped/C_6812394	net/minecraft/unmapped/C_6812394	net/minecraft/client/MinecraftApplet__1
 	m	(Lnet/minecraft/unmapped/C_2975244;)V	m_2432776	m_2432776	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_9672678;)V	m_2432776		m_2432776
@@ -795,7 +795,7 @@ c	net/minecraft/unmapped/C_7952195
 c	net/minecraft/unmapped/C_8042654
 	m	()V	m_9583207		m_9583207
 	m	()I	m_4255923		m_4255923
-c	net/minecraft/unmapped/C_8053256
+c	net/minecraft/unmapped/C_8053256	net/minecraft/unmapped/C_8053256	net/minecraft/client/Minecraft__5
 	m	(Lnet/minecraft/unmapped/C_2975244;)V	m_2432776	m_2432776	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_9672678;)V	m_2432776		m_2432776
@@ -1006,3 +1006,74 @@ c	net/minecraft/unmapped/C_9672678		net/minecraft/unmapped/C_9672678
 	m	(Ljava/lang/String;Ljava/lang/Throwable;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
+c	net/minecraft/unmapped/C_0107612	net/minecraft/unmapped/C_0107612	net/minecraft/unmapped/C_1390297__1
+c	net/minecraft/unmapped/C_0160606	net/minecraft/unmapped/C_0160606	net/minecraft/world/inventory/EnchantmentMenu__2
+c	net/minecraft/unmapped/C_0341503	net/minecraft/unmapped/C_0341503	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345__C_0341503
+c	net/minecraft/unmapped/C_0564609	net/minecraft/unmapped/C_0564609	net/minecraft/unmapped/C_8313918__3
+c	net/minecraft/unmapped/C_0627383	net/minecraft/world/level/saveddata/maps/MapDecoration	net/minecraft/world/level/saveddata/maps/MapItemSavedData__MapDecoration
+c	net/minecraft/unmapped/C_0940100	net/minecraft/unmapped/C_0940100	net/minecraft/client/gui/screens/ChatScreen__1
+c	net/minecraft/unmapped/C_0992838	net/minecraft/unmapped/C_0992838	net/minecraft/world/item/enchantment/EnchantmentHelper__1
+c	net/minecraft/unmapped/C_1274722	net/minecraft/unmapped/C_1274722	net/minecraft/unmapped/C_1390297__3
+c	net/minecraft/unmapped/C_1390609	net/minecraft/unmapped/C_1390609	net/minecraft/unmapped/C_1726165__2
+c	net/minecraft/unmapped/C_1577640	net/minecraft/unmapped/C_1577640	net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen__C_1577640
+c	net/minecraft/unmapped/C_1678345	net/minecraft/unmapped/C_1678345	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345
+c	net/minecraft/unmapped/C_2039980	net/minecraft/unmapped/C_2039980	net/minecraft/unmapped/C_1431328__C_2039980
+c	net/minecraft/unmapped/C_2085240	net/minecraft/unmapped/C_2085240	net/minecraft/world/level/chunk/storage/RegionFile__C_2085240
+c	net/minecraft/unmapped/C_2357457	net/minecraft/unmapped/C_2357457	net/minecraft/unmapped/C_1726165__1
+c	net/minecraft/unmapped/C_2430465	net/minecraft/unmapped/C_2430465	net/minecraft/stats/Stat__3
+c	net/minecraft/unmapped/C_2451641	net/minecraft/unmapped/C_2451641	net/minecraft/util/profiling/ActiveProfiler__C_2451641
+c	net/minecraft/unmapped/C_2452333	net/minecraft/unmapped/C_2452333	net/minecraft/unmapped/C_0632194__4
+c	net/minecraft/unmapped/C_2640824	net/minecraft/unmapped/C_2640824	net/minecraft/stats/Stat__2
+c	net/minecraft/unmapped/C_3014809	net/minecraft/unmapped/C_3014809	net/minecraft/world/entity/ai/goal/target/NearestAttackableTargetGoal__C_3014809
+c	net/minecraft/unmapped/C_3167010	net/minecraft/unmapped/C_3167010	net/minecraft/world/entity/player/Player__C_3167010
+c	net/minecraft/unmapped/C_3450330	net/minecraft/unmapped/C_3450330	net/minecraft/world/level/block/PressurePlateBlock__C_3450330
+c	net/minecraft/unmapped/C_3694892	net/minecraft/unmapped/C_3694892	net/minecraft/unmapped/C_9193667__C_3694892
+c	net/minecraft/unmapped/C_4323228	net/minecraft/unmapped/C_4323228	net/minecraft/unmapped/C_0632194__3
+c	net/minecraft/unmapped/C_4553622	net/minecraft/unmapped/C_4553622	net/minecraft/unmapped/C_3499589__4
+c	net/minecraft/unmapped/C_4580495	net/minecraft/unmapped/C_4580495	net/minecraft/world/item/Item__C_4580495
+c	net/minecraft/unmapped/C_4680316	net/minecraft/unmapped/C_4680316	net/minecraft/world/item/ArmorItem__C_4680316
+c	net/minecraft/unmapped/C_4871765	net/minecraft/unmapped/C_4871765	net/minecraft/unmapped/C_0739569__C_4871765
+c	net/minecraft/unmapped/C_4961793	net/minecraft/unmapped/C_4961793	net/minecraft/client/gui/screens/achievement/StatsScreen__C_4961793
+c	net/minecraft/unmapped/C_4976859	net/minecraft/unmapped/C_4976859	net/minecraft/world/level/material/Material__1
+c	net/minecraft/unmapped/C_5034308	net/minecraft/unmapped/C_5034308	net/minecraft/client/gui/screens/ConnectScreen__1
+c	net/minecraft/unmapped/C_5226733	net/minecraft/unmapped/C_5226733	net/minecraft/client/gui/screens/achievement/StatsScreen__C_9522851__1
+c	net/minecraft/unmapped/C_5266053	net/minecraft/unmapped/C_5266053	net/minecraft/world/phys/HitResult__C_5266053
+c	net/minecraft/unmapped/C_5423347	net/minecraft/unmapped/C_5423347	net/minecraft/world/entity/decoration/Painting__C_5423347
+c	net/minecraft/unmapped/C_5510478	net/minecraft/unmapped/C_5510478	net/minecraft/unmapped/C_3499589__3
+c	net/minecraft/unmapped/C_5565947	net/minecraft/unmapped/C_5565947	net/minecraft/stats/Stat__1
+c	net/minecraft/unmapped/C_5702023	net/minecraft/unmapped/C_5702023	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345__1
+c	net/minecraft/unmapped/C_5870653	net/minecraft/unmapped/C_5870653	net/minecraft/unmapped/C_9017637__1
+c	net/minecraft/unmapped/C_6065941	net/minecraft/unmapped/C_6065941	net/minecraft/unmapped/C_8313918__1
+c	net/minecraft/unmapped/C_6529692	net/minecraft/unmapped/C_6529692	net/minecraft/unmapped/C_3499589__1
+c	net/minecraft/unmapped/C_6626902	net/minecraft/unmapped/C_6626902	net/minecraft/world/inventory/InventoryMenu__1
+c	net/minecraft/unmapped/C_7079515	net/minecraft/unmapped/C_7079515	net/minecraft/world/level/storage/McRegionUpgrader__1
+c	net/minecraft/unmapped/C_7092633	net/minecraft/unmapped/C_7092633	net/minecraft/client/gui/screens/achievement/StatsScreen__C_4961793__1
+c	net/minecraft/unmapped/C_7199680	net/minecraft/unmapped/C_7199680	net/minecraft/world/inventory/EnchantmentMenu__1
+c	net/minecraft/unmapped/C_7605319	net/minecraft/unmapped/C_7605319	net/minecraft/client/renderer/texture/HttpTexture__1
+c	net/minecraft/unmapped/C_7961705	net/minecraft/unmapped/C_7961705	net/minecraft/world/level/block/Block__2
+c	net/minecraft/unmapped/C_8163995	net/minecraft/unmapped/C_8163995	net/minecraft/world/item/crafting/RecipeManager__1
+c	net/minecraft/unmapped/C_8179293	net/minecraft/unmapped/C_8179293	net/minecraft/unmapped/C_0632194__2
+c	net/minecraft/unmapped/C_8269353	net/minecraft/unmapped/C_8269353	net/minecraft/unmapped/C_8313918__2
+c	net/minecraft/unmapped/C_8455444	net/minecraft/unmapped/C_8455444	net/minecraft/world/level/levelgen/structure/StrongholdPieces__2
+c	net/minecraft/unmapped/C_8644429	net/minecraft/unmapped/C_8644429	net/minecraft/unmapped/C_0632194__5
+c	net/minecraft/unmapped/C_9126296	net/minecraft/unmapped/C_9126296	net/minecraft/unmapped/C_9199292__C_9126296
+c	net/minecraft/unmapped/C_9324725	net/minecraft/unmapped/C_9324725	net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen__C_1577640__1
+c	net/minecraft/unmapped/C_9344203	net/minecraft/unmapped/C_9344203	net/minecraft/unmapped/C_1390297__2
+c	net/minecraft/unmapped/C_9418795	net/minecraft/unmapped/C_9418795	net/minecraft/unmapped/C_0632194__1
+c	net/minecraft/unmapped/C_9522851	net/minecraft/unmapped/C_9522851	net/minecraft/client/gui/screens/achievement/StatsScreen__C_9522851
+c	net/minecraft/unmapped/C_9755172	net/minecraft/unmapped/C_9755172	net/minecraft/unmapped/C_3499589__2
+c	net/minecraft/unmapped/C_9895803	net/minecraft/unmapped/C_9895803	net/minecraft/world/level/block/Block__1
+c	net/minecraft/unmapped/C_9955391	net/minecraft/unmapped/C_9955391	net/minecraft/unmapped/C_7458519__1
+c	net/minecraft/unmapped/C_9971267	net/minecraft/unmapped/C_9971267	net/minecraft/world/level/levelgen/structure/StrongholdPieces__1
+c	net/minecraft/unmapped/C_9994818	net/minecraft/unmapped/C_9994818	net/minecraft/unmapped/C_9199292__1
+c	net/minecraft/unmapped/C_0915802	net/minecraft/unmapped/C_0915802	net/minecraft/unmapped/C_1331819__C_0915802
+c	net/minecraft/unmapped/C_2950556	net/minecraft/unmapped/C_2950556	net/minecraft/client/MinecraftApplet__2
+c	net/minecraft/unmapped/C_3987516	net/minecraft/unmapped/C_3987516	net/minecraft/client/Minecraft__1
+c	net/minecraft/unmapped/C_6839628	net/minecraft/unmapped/C_6839628	net/minecraft/client/Minecraft__6
+c	net/minecraft/unmapped/C_7007471	net/minecraft/unmapped/C_7007471	net/minecraft/unmapped/C_6406257__C_7007471
+c	net/minecraft/unmapped/C_8814675	net/minecraft/unmapped/C_8814675	net/minecraft/client/Minecraft__2
+c	net/minecraft/unmapped/C_8975022	net/minecraft/unmapped/C_8975022	net/minecraft/unmapped/C_1331819__1
+c	net/minecraft/unmapped/C_5767905	net/minecraft/unmapped/C_5767905	net/minecraft/client/Minecraft__4
+c	net/minecraft/unmapped/C_2611543	net/minecraft/unmapped/C_2611543	net/minecraft/client/Minecraft__3
+c	net/minecraft/unmapped/C_3957734	net/minecraft/unmapped/C_3957734	net/minecraft/world/Snooper__1
+c	net/minecraft/unmapped/C_4853392	net/minecraft/unmapped/C_4853392	net/minecraft/unmapped/C_1834285__1

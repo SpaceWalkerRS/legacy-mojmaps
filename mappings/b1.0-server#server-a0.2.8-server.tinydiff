@@ -457,7 +457,7 @@ c	net/minecraft/unmapped/C_6306298	net/minecraft/world/inventory/AbstractContain
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_9590849;)Z	m_3822211	stillValid	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_6626902	net/minecraft/unmapped/C_6626902	
+c	net/minecraft/unmapped/C_6626902	net/minecraft/world/inventory/InventoryMenu__1	
 	f	I	f_6911632	f_6911632	
 	f	Lnet/minecraft/unmapped/C_9482064;	f_8658192	f_8658192	
 	m	(Lnet/minecraft/unmapped/C_9482064;Lnet/minecraft/unmapped/C_5818647;IIII)V	<init>	<init>	
@@ -539,7 +539,7 @@ c	net/minecraft/unmapped/C_8100953	net/minecraft/network/protocol/game/Clientbou
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666	m_7216666	
 		p	1		p_1	
 	m	()I	m_4040470	m_4040470	
-c	net/minecraft/unmapped/C_8163995	net/minecraft/unmapped/C_8163995	
+c	net/minecraft/unmapped/C_8163995	net/minecraft/world/item/crafting/RecipeManager__1	
 	f	Lnet/minecraft/unmapped/C_7585705;	f_9662701	f_9662701	
 	m	(Lnet/minecraft/unmapped/C_7585705;)V	<init>	<init>	
 		p	1		p_1	
@@ -754,3 +754,24 @@ c	net/minecraft/unmapped/C_8834749		net/minecraft/unmapped/C_8834749
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666		m_7216666
 		p	1			p_1
 	m	()I	m_4040470		m_4040470
+c	net/minecraft/unmapped/C_0760609	net/minecraft/unmapped/C_5971432__1	net/minecraft/unmapped/C_0760609
+c	net/minecraft/unmapped/C_1484193	net/minecraft/server/MinecraftServer__2	net/minecraft/unmapped/C_1484193
+c	net/minecraft/unmapped/C_1739936	net/minecraft/server/MinecraftServer__3	net/minecraft/unmapped/C_1739936
+c	net/minecraft/unmapped/C_2039980	net/minecraft/unmapped/C_1431328__C_2039980	net/minecraft/unmapped/C_2039980
+c	net/minecraft/unmapped/C_2784775	net/minecraft/server/gui/MinecraftServerGui__2	net/minecraft/unmapped/C_2784775
+c	net/minecraft/unmapped/C_3450330	net/minecraft/world/level/block/PressurePlateBlock__C_3450330	net/minecraft/unmapped/C_3450330
+c	net/minecraft/unmapped/C_4553622	net/minecraft/unmapped/C_3499589__4	net/minecraft/unmapped/C_4553622
+c	net/minecraft/unmapped/C_4702006	net/minecraft/server/gui/StatsComponent__1	net/minecraft/unmapped/C_4702006
+c	net/minecraft/unmapped/C_4871765	net/minecraft/unmapped/C_0739569__C_4871765	net/minecraft/unmapped/C_4871765
+c	net/minecraft/unmapped/C_5158551	net/minecraft/server/network/ServerLoginPacketListenerImpl__1	net/minecraft/unmapped/C_5158551
+c	net/minecraft/unmapped/C_5423347	net/minecraft/world/entity/decoration/Painting__C_5423347	net/minecraft/unmapped/C_5423347
+c	net/minecraft/unmapped/C_5510478	net/minecraft/unmapped/C_3499589__3	net/minecraft/unmapped/C_5510478
+c	net/minecraft/unmapped/C_6057554	net/minecraft/server/gui/MinecraftServerGui__3	net/minecraft/unmapped/C_6057554
+c	net/minecraft/unmapped/C_6529692	net/minecraft/unmapped/C_3499589__1	net/minecraft/unmapped/C_6529692
+c	net/minecraft/unmapped/C_7961705	net/minecraft/world/level/block/Block__2	net/minecraft/unmapped/C_7961705
+c	net/minecraft/unmapped/C_8050545	net/minecraft/server/gui/MinecraftServerGui__1	net/minecraft/unmapped/C_8050545
+c	net/minecraft/unmapped/C_9755172	net/minecraft/unmapped/C_3499589__2	net/minecraft/unmapped/C_9755172
+c	net/minecraft/unmapped/C_9895803	net/minecraft/world/level/block/Block__1	net/minecraft/unmapped/C_9895803
+c	net/minecraft/unmapped/C_1323041	net/minecraft/server/MinecraftServer__1	net/minecraft/unmapped/C_1323041
+c	net/minecraft/unmapped/C_1859937	net/minecraft/unmapped/C_3236374__C_1859937	net/minecraft/unmapped/C_1859937
+c	net/minecraft/unmapped/C_1715929	net/minecraft/unmapped/C_0563666__1	net/minecraft/unmapped/C_1715929

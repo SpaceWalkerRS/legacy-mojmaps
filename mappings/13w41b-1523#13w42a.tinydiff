@@ -291,7 +291,7 @@ c	net/minecraft/unmapped/C_4787932
 c	net/minecraft/unmapped/C_4976084
 	m	(I)I	m_5366581		log2
 		p	0			p_0
-c	net/minecraft/unmapped/C_5160525
+c	net/minecraft/unmapped/C_5160525	net/minecraft/unmapped/C_0256098__1	net/minecraft/client/sounds/SoundEngine__2
 	f	Lnet/minecraft/unmapped/C_0256098;	f_6857229	f_6857229	
 	f	Lnet/minecraft/unmapped/C_0561170;	f_9887617		f_9887617
 	m	(Lnet/minecraft/unmapped/C_0256098;)V	<init>	<init>	
@@ -528,7 +528,7 @@ c	net/minecraft/unmapped/C_8716218
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5819357;)V	m_1301911		m_1301911
 		p	1			p_1
-c	net/minecraft/unmapped/C_8790747
+c	net/minecraft/unmapped/C_8790747	net/minecraft/unmapped/C_0256098__1__1	net/minecraft/client/sounds/SoundEngine__2__1
 	f	Lnet/minecraft/unmapped/C_0561170;	f_0171038	f_0171038	
 	f	Lnet/minecraft/unmapped/C_0256098;	f_3773095	f_3773095	
 	f	Lnet/minecraft/unmapped/C_5160525;	f_1800332		f_1800332
@@ -568,7 +568,7 @@ c	net/minecraft/unmapped/C_8843167
 		p	0			p_0
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_8982047	net/minecraft/unmapped/C_8982047	
+c	net/minecraft/unmapped/C_8982047	net/minecraft/unmapped/C_5681355__C_1129365__1	
 	f	Lnet/minecraft/unmapped/C_5794148;	f_3727164	f_3727164	
 	f	Lnet/minecraft/unmapped/C_1129365;	f_6230815	f_6230815	
 	m	(Lnet/minecraft/unmapped/C_1129365;Ljava/lang/String;Lnet/minecraft/unmapped/C_5794148;)V	<init>	<init>	
@@ -720,7 +720,7 @@ c	net/minecraft/unmapped/C_1835862		net/minecraft/client/resources/sounds/Abstra
 	m	(Lnet/minecraft/unmapped/C_0561170;)V	<init>		<init>
 		p	1			p_1
 	m	()Z	m_9762792		m_9762792
-c	net/minecraft/unmapped/C_1935729		net/minecraft/unmapped/C_1935729
+c	net/minecraft/unmapped/C_1935729		net/minecraft/client/sounds/SoundManager__2
 	f	Lnet/minecraft/unmapped/C_0561170;	f_5975290		f_5975290
 	f	Ljava/lang/String;	f_2327974		f_2327974
 	f	Lnet/minecraft/unmapped/C_3245228;	f_0985036		f_0985036
@@ -732,14 +732,14 @@ c	net/minecraft/unmapped/C_1935729		net/minecraft/unmapped/C_1935729
 	m	()I	m_6696247		m_6696247
 	m	()Lnet/minecraft/unmapped/C_7721249;	m_8197829		m_8197829
 	m	()Ljava/lang/Object;	m_2156688		m_2156688
-c	net/minecraft/unmapped/C_2115497		net/minecraft/unmapped/C_2115497
+c	net/minecraft/unmapped/C_2115497		net/minecraft/unmapped/C_8114007__1
 	f	Lnet/minecraft/unmapped/C_7628181;	f_5873640		f_5873640
 	f	Lnet/minecraft/unmapped/C_8114007;	f_4550442		f_4550442
 	m	(Lnet/minecraft/unmapped/C_8114007;Lnet/minecraft/unmapped/C_7628181;)V	<init>		<init>
 		p	1			p_1
 		p	2			p_2
 	m	()V	run		run
-c	net/minecraft/unmapped/C_3245228		net/minecraft/unmapped/C_3245228
+c	net/minecraft/unmapped/C_3245228		net/minecraft/unmapped/C_8435332__C_3245228
 	f	Ljava/lang/String;	f_4828422		f_4828422
 	f	F	f_7912517		f_7912517
 	f	F	f_7341312		f_7341312
@@ -765,7 +765,7 @@ c	net/minecraft/unmapped/C_3245228		net/minecraft/unmapped/C_3245228
 	m	()Z	m_7720122		m_7720122
 	m	(Z)V	m_6309905		m_6309905
 		p	1			p_1
-c	net/minecraft/unmapped/C_3352951		net/minecraft/unmapped/C_3352951
+c	net/minecraft/unmapped/C_3352951		net/minecraft/unmapped/C_3906726__1
 	f	Z	f_8915524		f_8915524
 	f	Lnet/minecraft/unmapped/C_5794148;	f_5560157		f_5560157
 	f	Lnet/minecraft/unmapped/C_4354908;	f_0931902		f_0931902
@@ -805,7 +805,7 @@ c	net/minecraft/unmapped/C_3812967		net/minecraft/client/resources/sounds/Abstra
 	m	()F	m_2281053		m_2281053
 	m	()F	m_7315234		m_7315234
 	m	()Lnet/minecraft/unmapped/C_5494184;	m_8357159		m_8357159
-c	net/minecraft/unmapped/C_3843211		net/minecraft/unmapped/C_3843211
+c	net/minecraft/unmapped/C_3843211		net/minecraft/client/sounds/SoundManager__1
 	m	()V	<init>		<init>
 	m	()[Ljava/lang/reflect/Type;	getActualTypeArguments		getActualTypeArguments
 	m	()Ljava/lang/reflect/Type;	getRawType		getRawType
@@ -819,7 +819,7 @@ c	net/minecraft/unmapped/C_3906726		net/minecraft/unmapped/C_3906726
 	m	()V	m_9026303		m_9026303
 	m	()Lorg/apache/logging/log4j/Logger;	m_3419568		m_3419568
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_4396536		net/minecraft/unmapped/C_4396536
+c	net/minecraft/unmapped/C_4396536		net/minecraft/client/sounds/SoundManager__3
 	f	[I	f_1514544		f_1514544
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_4435278		net/minecraft/client/resources/sounds/RidingMinecartSoundInstance
@@ -848,7 +848,7 @@ c	net/minecraft/unmapped/C_5194278		net/minecraft/client/sounds/WeighedSoundEven
 	m	()Lnet/minecraft/unmapped/C_0561170;	m_4321999		m_4321999
 	m	()Lnet/minecraft/unmapped/C_7541710;	m_2423568		m_2423568
 	m	()Ljava/lang/Object;	m_2156688		m_2156688
-c	net/minecraft/unmapped/C_5494184		net/minecraft/unmapped/C_5494184
+c	net/minecraft/unmapped/C_5494184		net/minecraft/client/resources/sounds/SoundInstance__C_5494184
 	f	Lnet/minecraft/unmapped/C_5494184;	f_1654820		f_1654820
 	f	Lnet/minecraft/unmapped/C_5494184;	f_2560191		f_2560191
 	f	I	f_2455504		f_2455504
@@ -862,7 +862,7 @@ c	net/minecraft/unmapped/C_5494184		net/minecraft/unmapped/C_5494184
 		p	3			p_3
 	m	()I	m_5611047		m_5611047
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5507527		net/minecraft/unmapped/C_5507527
+c	net/minecraft/unmapped/C_5507527		net/minecraft/unmapped/C_8435332__C_3245228__C_5507527
 	f	Lnet/minecraft/unmapped/C_5507527;	f_6283358		f_6283358
 	f	Lnet/minecraft/unmapped/C_5507527;	f_4913333		f_4913333
 	f	Ljava/lang/String;	f_0763053		f_0763053
@@ -985,7 +985,7 @@ c	net/minecraft/unmapped/C_8114007		net/minecraft/unmapped/C_8114007
 		p	1			p_1
 	m	()Lorg/apache/logging/log4j/Logger;	m_4989255		m_4989255
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_8230050		net/minecraft/unmapped/C_8230050
+c	net/minecraft/unmapped/C_8230050		net/minecraft/server/gui/MinecraftServerGui__5
 	f	Ljavax/swing/JTextArea;	f_3557043		f_3557043
 	f	Ljavax/swing/JScrollPane;	f_7009871		f_7009871
 	f	Ljava/lang/String;	f_1304160		f_1304160
@@ -996,7 +996,7 @@ c	net/minecraft/unmapped/C_8230050		net/minecraft/unmapped/C_8230050
 		p	3			p_3
 		p	4			p_4
 	m	()V	run		run
-c	net/minecraft/unmapped/C_8368400		net/minecraft/unmapped/C_8368400
+c	net/minecraft/unmapped/C_8368400		net/minecraft/server/gui/MinecraftServerGui__4
 	f	Ljavax/swing/JTextArea;	f_0814072		f_0814072
 	f	Ljavax/swing/JScrollPane;	f_6188584		f_6188584
 	f	Lnet/minecraft/unmapped/C_0674995;	f_6169315		f_6169315
@@ -1005,7 +1005,7 @@ c	net/minecraft/unmapped/C_8368400		net/minecraft/unmapped/C_8368400
 		p	2			p_2
 		p	3			p_3
 	m	()V	run		run
-c	net/minecraft/unmapped/C_8371858		net/minecraft/unmapped/C_8371858
+c	net/minecraft/unmapped/C_8371858		net/minecraft/unmapped/C_5681355__C_1129365__1
 	f	Lnet/minecraft/unmapped/C_5794148;	f_8725928		f_8725928
 	f	Lnet/minecraft/unmapped/C_1129365;	f_1653438		f_1653438
 	m	(Lnet/minecraft/unmapped/C_1129365;Lnet/minecraft/unmapped/C_5794148;)V	<init>		<init>
@@ -1027,7 +1027,7 @@ c	net/minecraft/unmapped/C_8435332		net/minecraft/unmapped/C_8435332
 	m	()Lnet/minecraft/unmapped/C_7541710;	m_3049416		m_3049416
 	m	(Lnet/minecraft/unmapped/C_7541710;)V	m_1613035		m_1613035
 		p	1			p_1
-c	net/minecraft/unmapped/C_8871607		net/minecraft/unmapped/C_8871607
+c	net/minecraft/unmapped/C_8871607		net/minecraft/client/sounds/SoundEngine__C_8871607
 	f	Lnet/minecraft/unmapped/C_1872000;	f_9952090		f_9952090
 	m	(Lnet/minecraft/unmapped/C_1872000;)V	<init>		<init>
 		p	1			p_1

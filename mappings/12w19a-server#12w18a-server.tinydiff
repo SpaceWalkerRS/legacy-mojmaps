@@ -383,7 +383,7 @@ c	net/minecraft/unmapped/C_3428392	net/minecraft/unmapped/C_3428392
 		p	1		p_1	
 		p	2		p_2	
 	m	()V	m_8657539	m_8657539	
-c	net/minecraft/unmapped/C_3674509	net/minecraft/unmapped/C_3674509	
+c	net/minecraft/unmapped/C_3674509	net/minecraft/unmapped/C_3109340__1	
 	f	Lnet/minecraft/unmapped/C_3109340;	f_5313465	f_5313465	
 	m	(Lnet/minecraft/unmapped/C_3109340;)V	<init>	<init>	
 		p	1		p_1	

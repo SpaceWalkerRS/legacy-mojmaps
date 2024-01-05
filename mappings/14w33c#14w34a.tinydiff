@@ -157,7 +157,7 @@ c	net/minecraft/unmapped/C_5977466		net/minecraft/unmapped/C_5977466
 	f	I	f_3950745		f_3950745
 	m	(I)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_6033763		net/minecraft/unmapped/C_6033763
+c	net/minecraft/unmapped/C_6033763		net/minecraft/world/entity/animal/Wolf__1
 	f	Lnet/minecraft/unmapped/C_7019121;	f_5423448		f_5423448
 	m	(Lnet/minecraft/unmapped/C_7019121;)V	<init>		<init>
 		p	1			p_1

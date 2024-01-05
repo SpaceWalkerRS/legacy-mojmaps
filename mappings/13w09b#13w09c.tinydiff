@@ -138,7 +138,7 @@ c	net/minecraft/unmapped/C_3121632		net/minecraft/network/protocol/game/Clientbo
 	m	(Lnet/minecraft/unmapped/C_7250084;)V	m_7216666		m_7216666
 		p	1			p_1
 	m	()I	m_4040470		m_4040470
-c	net/minecraft/unmapped/C_6799394		net/minecraft/unmapped/C_6799394
+c	net/minecraft/unmapped/C_6799394		net/minecraft/server/network/ServerGamePacketListenerImpl__1
 	f	Lnet/minecraft/unmapped/C_5385258;	f_2207046		f_2207046
 	f	Lnet/minecraft/unmapped/C_1567607;	f_5965949		f_5965949
 	m	(Lnet/minecraft/unmapped/C_1567607;Lnet/minecraft/unmapped/C_5385258;)V	<init>		<init>
@@ -146,7 +146,7 @@ c	net/minecraft/unmapped/C_6799394		net/minecraft/unmapped/C_6799394
 		p	2			p_2
 	m	()Ljava/lang/String;	m_1429439		m_1429439
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9222712		net/minecraft/unmapped/C_9222712
+c	net/minecraft/unmapped/C_9222712		net/minecraft/server/network/ServerGamePacketListenerImpl__2
 	f	Lnet/minecraft/unmapped/C_5385258;	f_0698659		f_0698659
 	f	Lnet/minecraft/unmapped/C_1567607;	f_2092401		f_2092401
 	m	(Lnet/minecraft/unmapped/C_1567607;Lnet/minecraft/unmapped/C_5385258;)V	<init>		<init>
@@ -154,3 +154,4 @@ c	net/minecraft/unmapped/C_9222712		net/minecraft/unmapped/C_9222712
 		p	2			p_2
 	m	()Ljava/lang/String;	m_9446402		m_9446402
 	m	()Ljava/lang/Object;	call		call
+c	net/minecraft/unmapped/C_2515472	aff__1	afi__1

@@ -328,7 +328,7 @@ c	net/minecraft/unmapped/C_3865296
 c	net/minecraft/unmapped/C_3961659
 	m	(Lnet/minecraft/unmapped/C_0539808;)Z	m_0668108		m_0668108
 		p	1			p_1
-c	net/minecraft/unmapped/C_4445819
+c	net/minecraft/unmapped/C_4445819	net/minecraft/server/MinecraftServer__7	net/minecraft/server/dedicated/DedicatedServer__3
 	f	Lnet/minecraft/server/MinecraftServer;	f_8603226	f_8603226	
 	f	Lnet/minecraft/unmapped/C_1555023;	f_8603226		f_8603226
 	m	(Lnet/minecraft/server/MinecraftServer;)V	<init>	<init>	
@@ -471,7 +471,7 @@ c	net/minecraft/unmapped/C_6607881
 	m	()I	m_2005873		getArrowCount
 	m	(I)V	m_0632722		setArrowCount
 		p	1			p_1
-c	net/minecraft/unmapped/C_6791197	net/minecraft/unmapped/C_6791197	
+c	net/minecraft/unmapped/C_6791197	net/minecraft/world/level/Level__2	
 	f	Lnet/minecraft/unmapped/C_5553933;	f_5000756	f_5000756	
 	m	(Lnet/minecraft/unmapped/C_5553933;)V	<init>	<init>	
 		p	1		p_1	
@@ -718,31 +718,31 @@ c	net/minecraft/unmapped/C_9890847
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_0836412		net/minecraft/unmapped/C_0836412
+c	net/minecraft/unmapped/C_0836412		net/minecraft/world/level/levelgen/feature/StructureFeature__3
 	f	Lnet/minecraft/unmapped/C_9470286;	f_6210607		f_6210607
 	m	(Lnet/minecraft/unmapped/C_9470286;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_0902748		m_0902748
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_1159255		net/minecraft/unmapped/C_1159255
+c	net/minecraft/unmapped/C_1159255		net/minecraft/world/level/storage/LevelData__3
 	f	Lnet/minecraft/unmapped/C_6152184;	f_4704852		f_4704852
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_6893785		m_6893785
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_1421793		net/minecraft/unmapped/C_1421793
+c	net/minecraft/unmapped/C_1421793		net/minecraft/world/level/storage/LevelData__2
 	f	Lnet/minecraft/unmapped/C_6152184;	f_1187124		f_1187124
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_9081794		m_9081794
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_1944834		net/minecraft/unmapped/C_1944834
+c	net/minecraft/unmapped/C_1944834		net/minecraft/world/level/storage/LevelData__8
 	f	Lnet/minecraft/unmapped/C_6152184;	f_9415933		f_9415933
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_1891555		m_1891555
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_2898326		net/minecraft/unmapped/C_2898326
+c	net/minecraft/unmapped/C_2898326		net/minecraft/CrashReportCategory__3
 	f	I	f_2009317		f_2009317
 	f	I	f_3495653		f_3495653
 	f	I	f_1818586		f_1818586
@@ -752,31 +752,31 @@ c	net/minecraft/unmapped/C_2898326		net/minecraft/unmapped/C_2898326
 		p	3			p_3
 	m	()Ljava/lang/String;	m_3797845		m_3797845
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_3121119		net/minecraft/unmapped/C_3121119
+c	net/minecraft/unmapped/C_3121119		net/minecraft/world/level/block/entity/BlockEntity__1
 	f	Lnet/minecraft/unmapped/C_3622326;	f_4265458		f_4265458
 	m	(Lnet/minecraft/unmapped/C_3622326;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_0293627		m_0293627
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_3210066		net/minecraft/unmapped/C_3210066
+c	net/minecraft/unmapped/C_3210066		net/minecraft/CrashReport__8
 	f	Lnet/minecraft/unmapped/C_2975244;	f_8124903		f_8124903
 	m	(Lnet/minecraft/unmapped/C_2975244;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_1386895		m_1386895
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_3222331		net/minecraft/unmapped/C_3222331
+c	net/minecraft/unmapped/C_3222331		net/minecraft/world/level/storage/LevelData__4
 	f	Lnet/minecraft/unmapped/C_6152184;	f_0520197		f_0520197
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_6333178		m_6333178
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_3727036		net/minecraft/unmapped/C_3727036
+c	net/minecraft/unmapped/C_3727036		net/minecraft/world/level/storage/LevelData__1
 	f	Lnet/minecraft/unmapped/C_6152184;	f_8225648		f_8225648
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_7557576		m_7557576
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_4154336		net/minecraft/unmapped/C_4154336
+c	net/minecraft/unmapped/C_4154336		net/minecraft/world/level/Level__1
 	f	I	f_6952302		f_6952302
 	f	Lnet/minecraft/unmapped/C_5553933;	f_7970756		f_7970756
 	m	(Lnet/minecraft/unmapped/C_5553933;I)V	<init>		<init>
@@ -784,13 +784,13 @@ c	net/minecraft/unmapped/C_4154336		net/minecraft/unmapped/C_4154336
 		p	2			p_2
 	m	()Ljava/lang/String;	m_0338763		m_0338763
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_4176750		net/minecraft/unmapped/C_4176750
+c	net/minecraft/unmapped/C_4176750		net/minecraft/CrashReportCategory__1
 	f	I	f_1448012		f_1448012
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_1248932		m_1248932
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_4750885		net/minecraft/unmapped/C_4750885
+c	net/minecraft/unmapped/C_4750885		net/minecraft/world/level/storage/LevelData__5
 	f	Lnet/minecraft/unmapped/C_6152184;	f_2517827		f_2517827
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
@@ -804,7 +804,7 @@ c	net/minecraft/unmapped/C_4910525		net/minecraft/unmapped/C_4910525
 		p	2			p_2
 	m	()Ljava/lang/String;	m_9438177		m_9438177
 	m	()Ljava/lang/String;	m_7490250		m_7490250
-c	net/minecraft/unmapped/C_4950665		net/minecraft/unmapped/C_4950665
+c	net/minecraft/unmapped/C_4950665		net/minecraft/client/renderer/LevelRenderer__1
 	f	D	f_8173000		f_8173000
 	f	D	f_6915605		f_6915605
 	f	D	f_1518796		f_1518796
@@ -816,7 +816,7 @@ c	net/minecraft/unmapped/C_4950665		net/minecraft/unmapped/C_4950665
 		p	6			p_6
 	m	()Ljava/lang/String;	m_4577672		m_4577672
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_5607403		net/minecraft/unmapped/C_5607403
+c	net/minecraft/unmapped/C_5607403		net/minecraft/CrashReport__8__1
 	f	Lnet/minecraft/unmapped/C_3210066;	f_8507087		f_8507087
 	m	(Lnet/minecraft/unmapped/C_3210066;)V	<init>		<init>
 		p	1			p_1
@@ -826,7 +826,7 @@ c	net/minecraft/unmapped/C_5607403		net/minecraft/unmapped/C_5607403
 	m	(Ljava/lang/Object;Ljava/lang/Object;)I	compare		compare
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_6076957		net/minecraft/unmapped/C_6076957
+c	net/minecraft/unmapped/C_6076957		net/minecraft/world/level/storage/LevelData__9
 	f	Lnet/minecraft/unmapped/C_6152184;	f_5575627		f_5575627
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
@@ -873,13 +873,13 @@ c	net/minecraft/unmapped/C_6517019		net/minecraft/CrashReportCategory
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_6923842		net/minecraft/unmapped/C_6923842
+c	net/minecraft/unmapped/C_6923842		net/minecraft/CrashReport__9
 	f	Lnet/minecraft/unmapped/C_2975244;	f_2327396		f_2327396
 	m	(Lnet/minecraft/unmapped/C_2975244;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_0455126		m_0455126
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_6984456		net/minecraft/unmapped/C_6984456
+c	net/minecraft/unmapped/C_6984456		net/minecraft/world/level/storage/LevelData__6
 	f	Lnet/minecraft/unmapped/C_6152184;	f_8717834		f_8717834
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
@@ -899,13 +899,13 @@ c	net/minecraft/unmapped/C_7265478		net/minecraft/unmapped/C_7265478
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_8253973;)I	m_4679473		m_4679473
 		p	1			p_1
-c	net/minecraft/unmapped/C_7846441		net/minecraft/unmapped/C_7846441
+c	net/minecraft/unmapped/C_7846441		net/minecraft/world/entity/Entity__1
 	f	Lnet/minecraft/unmapped/C_0539808;	f_1921924		f_1921924
 	m	(Lnet/minecraft/unmapped/C_0539808;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_1877321		m_1877321
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_8171201		net/minecraft/unmapped/C_8171201
+c	net/minecraft/unmapped/C_8171201		net/minecraft/unmapped/C_7265478__1
 	f	Lnet/minecraft/unmapped/C_7265478;	f_0577109		f_0577109
 	m	(Lnet/minecraft/unmapped/C_7265478;)V	<init>		<init>
 		p	1			p_1
@@ -920,13 +920,13 @@ c	net/minecraft/unmapped/C_8954344		net/minecraft/unmapped/C_8954344
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_9064673		net/minecraft/unmapped/C_9064673
+c	net/minecraft/unmapped/C_9064673		net/minecraft/CrashReportCategory__2
 	f	I	f_1697749		f_1697749
 	m	(I)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_5257513		m_5257513
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9309945		net/minecraft/unmapped/C_9309945
+c	net/minecraft/unmapped/C_9309945		net/minecraft/world/level/levelgen/feature/StructureFeature__1
 	f	I	f_7690556		f_7690556
 	f	I	f_4009534		f_4009534
 	f	Lnet/minecraft/unmapped/C_9470286;	f_9525810		f_9525810
@@ -936,13 +936,13 @@ c	net/minecraft/unmapped/C_9309945		net/minecraft/unmapped/C_9309945
 		p	3			p_3
 	m	()Ljava/lang/String;	m_1732933		m_1732933
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9375948		net/minecraft/unmapped/C_9375948
+c	net/minecraft/unmapped/C_9375948		net/minecraft/world/level/storage/LevelData__7
 	f	Lnet/minecraft/unmapped/C_6152184;	f_5184448		f_5184448
 	m	(Lnet/minecraft/unmapped/C_6152184;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_8566560		m_8566560
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_9961123		net/minecraft/unmapped/C_9961123
+c	net/minecraft/unmapped/C_9961123		net/minecraft/world/level/levelgen/feature/StructureFeature__2
 	f	I	f_5308447		f_5308447
 	f	I	f_9415151		f_9415151
 	f	Lnet/minecraft/unmapped/C_9470286;	f_7374407		f_7374407
@@ -952,3 +952,19 @@ c	net/minecraft/unmapped/C_9961123		net/minecraft/unmapped/C_9961123
 		p	3			p_3
 	m	()Ljava/lang/String;	m_2989061		m_2989061
 	m	()Ljava/lang/Object;	call		call
+c	net/minecraft/unmapped/C_0695783	net/minecraft/server/dedicated/DedicatedServer__3	net/minecraft/server/dedicated/DedicatedServer__4
+c	net/minecraft/unmapped/C_1156048	net/minecraft/world/entity/Entity__1	net/minecraft/world/entity/Entity__2
+c	net/minecraft/unmapped/C_2515472	acs__1	adk__1
+c	net/minecraft/unmapped/C_7368789	net/minecraft/world/level/Level__1	net/minecraft/world/level/Level__2
+c	net/minecraft/unmapped/C_0780899	net/minecraft/server/MinecraftServer__8	net/minecraft/server/MinecraftServer__7
+c	net/minecraft/unmapped/C_6199829	net/minecraft/server/MinecraftServer__10	net/minecraft/server/MinecraftServer__9
+c	net/minecraft/unmapped/C_1736773	net/minecraft/server/MinecraftServer__12	net/minecraft/server/MinecraftServer__11
+c	net/minecraft/unmapped/C_4440484	net/minecraft/server/MinecraftServer__11	net/minecraft/server/MinecraftServer__10
+c	net/minecraft/unmapped/C_4999413	net/minecraft/server/MinecraftServer__16	net/minecraft/server/MinecraftServer__15
+c	net/minecraft/unmapped/C_5994497	net/minecraft/server/MinecraftServer__18	net/minecraft/server/MinecraftServer__17
+c	net/minecraft/unmapped/C_6289161	net/minecraft/server/MinecraftServer__13	net/minecraft/server/MinecraftServer__12
+c	net/minecraft/unmapped/C_6886603	net/minecraft/server/MinecraftServer__15	net/minecraft/server/MinecraftServer__14
+c	net/minecraft/unmapped/C_7123234	net/minecraft/server/MinecraftServer__17	net/minecraft/server/MinecraftServer__16
+c	net/minecraft/unmapped/C_7525977	net/minecraft/server/MinecraftServer__14	net/minecraft/server/MinecraftServer__13
+c	net/minecraft/unmapped/C_9473488	net/minecraft/server/MinecraftServer__14__1	net/minecraft/server/MinecraftServer__13__1
+c	net/minecraft/unmapped/C_7989828	net/minecraft/server/MinecraftServer__9	net/minecraft/server/MinecraftServer__8

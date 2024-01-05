@@ -110,7 +110,7 @@ c	net/minecraft/unmapped/C_3292284
 	m	(Ljava/lang/String;Ljava/lang/String;)V	m_1496454		sendTexturePack
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_3426620	net/minecraft/unmapped/C_3426620	
+c	net/minecraft/unmapped/C_3426620	net/minecraft/client/resources/ClientPackSource__2	
 	f	Lnet/minecraft/unmapped/C_2983776;	f_5797005	f_5797005	
 	m	(Lnet/minecraft/unmapped/C_2983776;)V	<init>	<init>	
 		p	1		p_1	
@@ -253,7 +253,7 @@ c	net/minecraft/unmapped/C_7240405
 c	net/minecraft/unmapped/C_7250084
 	m	(Lnet/minecraft/unmapped/C_8585851;)V	m_6142017		handleResourcePack
 		p	1			p_1
-c	net/minecraft/unmapped/C_7484650	net/minecraft/unmapped/C_7484650	
+c	net/minecraft/unmapped/C_7484650	net/minecraft/client/multiplayer/ClientPacketListener__1	
 	f	Ljava/lang/String;	f_2481949	f_2481949	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_5967342	f_5967342	
 	m	(Lnet/minecraft/unmapped/C_5722573;Ljava/lang/String;)V	<init>	<init>	
@@ -394,7 +394,7 @@ c	net/minecraft/unmapped/C_9549422
 	m	()Lnet/minecraft/unmapped/C_0539808;	m_6120785	m_6120785	
 c	net/minecraft/unmapped/C_9590849
 	m	()V	m_5135469		m_5135469
-c	net/minecraft/unmapped/C_0412608		net/minecraft/unmapped/C_0412608
+c	net/minecraft/unmapped/C_0412608		net/minecraft/world/entity/ai/navigation/PathNavigation__1
 	f	Lnet/minecraft/unmapped/C_0539808;	f_9297254		f_9297254
 	f	Lnet/minecraft/unmapped/C_9229053;	f_0063407		f_0063407
 	m	(Lnet/minecraft/unmapped/C_9229053;Lnet/minecraft/unmapped/C_0539808;)V	<init>		<init>
@@ -402,7 +402,7 @@ c	net/minecraft/unmapped/C_0412608		net/minecraft/unmapped/C_0412608
 		p	2			p_2
 	m	()Lnet/minecraft/unmapped/C_2306016;	m_2196893		m_2196893
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_0947588		net/minecraft/unmapped/C_0947588
+c	net/minecraft/unmapped/C_0947588		net/minecraft/client/resources/ClientPackSource__2
 	f	Lnet/minecraft/unmapped/C_8105098;	f_4146940		f_4146940
 	f	Lnet/minecraft/unmapped/C_1656849;	f_4001806		f_4001806
 	f	Lnet/minecraft/unmapped/C_2983776;	f_6662526		f_6662526
@@ -415,7 +415,7 @@ c	net/minecraft/unmapped/C_1482454		net/minecraft/unmapped/C_1482454
 	m	(Lnet/minecraft/unmapped/C_4281786;)V	<init>		<init>
 		p	1			p_1
 	m	()Z	m_9549250		m_9549250
-c	net/minecraft/unmapped/C_1990571		net/minecraft/unmapped/C_1990571
+c	net/minecraft/unmapped/C_1990571		net/minecraft/client/multiplayer/ClientPacketListener__3__1__1
 	f	Lnet/minecraft/unmapped/C_5205632;	f_2665823		f_2665823
 	m	(Lnet/minecraft/unmapped/C_5205632;)V	<init>		<init>
 		p	1			p_1
@@ -423,7 +423,7 @@ c	net/minecraft/unmapped/C_1990571		net/minecraft/unmapped/C_1990571
 		p	1			p_1
 	m	(Ljava/lang/Throwable;)V	onFailure		onFailure
 		p	1			p_1
-c	net/minecraft/unmapped/C_2992278		net/minecraft/unmapped/C_2992278
+c	net/minecraft/unmapped/C_2992278		net/minecraft/client/multiplayer/ClientPacketListener__1
 	f	Ljava/lang/String;	f_0473830		f_0473830
 	f	Lnet/minecraft/unmapped/C_5722573;	f_0095458		f_0095458
 	m	(Lnet/minecraft/unmapped/C_5722573;Ljava/lang/String;)V	<init>		<init>
@@ -433,14 +433,14 @@ c	net/minecraft/unmapped/C_2992278		net/minecraft/unmapped/C_2992278
 		p	1			p_1
 	m	(Ljava/lang/Throwable;)V	onFailure		onFailure
 		p	1			p_1
-c	net/minecraft/unmapped/C_5205632		net/minecraft/unmapped/C_5205632
+c	net/minecraft/unmapped/C_5205632		net/minecraft/client/multiplayer/ClientPacketListener__3__1
 	f	Lnet/minecraft/unmapped/C_5500616;	f_9127596		f_9127596
 	m	(Lnet/minecraft/unmapped/C_5500616;)V	<init>		<init>
 		p	1			p_1
 	m	(ZI)V	m_7743236		m_7743236
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_5500616		net/minecraft/unmapped/C_5500616
+c	net/minecraft/unmapped/C_5500616		net/minecraft/client/multiplayer/ClientPacketListener__3
 	f	Ljava/lang/String;	f_6463613		f_6463613
 	f	Ljava/lang/String;	f_8176466		f_8176466
 	f	Lnet/minecraft/unmapped/C_5722573;	f_4534087		f_4534087
@@ -449,7 +449,7 @@ c	net/minecraft/unmapped/C_5500616		net/minecraft/unmapped/C_5500616
 		p	2			p_2
 		p	3			p_3
 	m	()V	run		run
-c	net/minecraft/unmapped/C_6471106		net/minecraft/unmapped/C_6471106
+c	net/minecraft/unmapped/C_6471106		net/minecraft/client/multiplayer/ClientPacketListener__2
 	f	Ljava/lang/String;	f_0000202		f_0000202
 	f	Lnet/minecraft/unmapped/C_5722573;	f_2098683		f_2098683
 	m	(Lnet/minecraft/unmapped/C_5722573;Ljava/lang/String;)V	<init>		<init>
@@ -459,12 +459,12 @@ c	net/minecraft/unmapped/C_6471106		net/minecraft/unmapped/C_6471106
 		p	1			p_1
 	m	(Ljava/lang/Throwable;)V	onFailure		onFailure
 		p	1			p_1
-c	net/minecraft/unmapped/C_7330572		net/minecraft/unmapped/C_7330572
+c	net/minecraft/unmapped/C_7330572		net/minecraft/client/server/IntegratedServer__3
 	f	Lnet/minecraft/unmapped/C_4301088;	f_8442142		f_8442142
 	m	(Lnet/minecraft/unmapped/C_4301088;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
-c	net/minecraft/unmapped/C_7883884		net/minecraft/unmapped/C_7883884
+c	net/minecraft/unmapped/C_7883884		net/minecraft/network/protocol/game/ServerboundResourcePackPacket__C_7883884
 	f	Lnet/minecraft/unmapped/C_7883884;	f_7757311		f_7757311
 	f	Lnet/minecraft/unmapped/C_7883884;	f_9285647		f_9285647
 	f	Lnet/minecraft/unmapped/C_7883884;	f_3288623		f_3288623
@@ -494,7 +494,7 @@ c	net/minecraft/unmapped/C_8585851		net/minecraft/network/protocol/game/Clientbo
 	m	()Ljava/lang/String;	m_2247916		getHash
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
-c	net/minecraft/unmapped/C_8688216		net/minecraft/unmapped/C_8688216
+c	net/minecraft/unmapped/C_8688216		net/minecraft/world/entity/ai/navigation/PathNavigation__2
 	f	D	f_7479816		f_7479816
 	f	Lnet/minecraft/unmapped/C_9229053;	f_4210578		f_4210578
 	m	(Lnet/minecraft/unmapped/C_9229053;D)V	<init>		<init>
@@ -506,12 +506,12 @@ c	net/minecraft/unmapped/C_8688216		net/minecraft/unmapped/C_8688216
 		p	1			p_1
 	m	(Ljava/lang/Object;)V	onSuccess		onSuccess
 		p	1			p_1
-c	net/minecraft/unmapped/C_9009795		net/minecraft/unmapped/C_9009795
+c	net/minecraft/unmapped/C_9009795		net/minecraft/client/Minecraft__7
 	f	Lnet/minecraft/unmapped/C_8105098;	f_4966088		f_4966088
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
-c	net/minecraft/unmapped/C_9073908		net/minecraft/unmapped/C_9073908
+c	net/minecraft/unmapped/C_9073908		net/minecraft/client/resources/ClientPackSource__3
 	f	Ljava/io/File;	f_6467736		f_6467736
 	f	Lcom/google/common/util/concurrent/SettableFuture;	f_5862370		f_5862370
 	f	Lnet/minecraft/unmapped/C_2983776;	f_7751110		f_7751110
@@ -538,7 +538,7 @@ c	net/minecraft/unmapped/C_9153377		net/minecraft/network/protocol/game/Serverbo
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_5444260;)V	m_7216666		m_7216666
 		p	1			p_1
-c	net/minecraft/unmapped/C_9524162		net/minecraft/unmapped/C_9524162
+c	net/minecraft/unmapped/C_9524162		net/minecraft/world/level/GameRules__C_9524162
 	f	Lnet/minecraft/unmapped/C_9524162;	f_4268019		f_4268019
 	f	Lnet/minecraft/unmapped/C_9524162;	f_6288604		f_6288604
 	f	Lnet/minecraft/unmapped/C_9524162;	f_4522137		f_4522137
@@ -550,3 +550,14 @@ c	net/minecraft/unmapped/C_9524162		net/minecraft/unmapped/C_9524162
 		p	1			p_1
 		p	2			p_2
 	m	()V	<clinit>		<clinit>
+c	net/minecraft/unmapped/C_4394019	net/minecraft/client/Minecraft__12	net/minecraft/client/Minecraft__13
+c	net/minecraft/unmapped/C_4563671	net/minecraft/client/Minecraft__10	net/minecraft/client/Minecraft__11
+c	net/minecraft/unmapped/C_5100772	net/minecraft/client/Minecraft__14	net/minecraft/client/Minecraft__15
+c	net/minecraft/unmapped/C_5160100	net/minecraft/client/Minecraft__11	net/minecraft/client/Minecraft__12
+c	net/minecraft/unmapped/C_9216568	net/minecraft/client/Minecraft__13	net/minecraft/client/Minecraft__14
+c	net/minecraft/unmapped/C_9629381	net/minecraft/client/Minecraft__9	net/minecraft/client/Minecraft__10
+c	net/minecraft/unmapped/C_2388842	net/minecraft/client/Minecraft__8	net/minecraft/client/Minecraft__9
+c	net/minecraft/unmapped/C_8848365	net/minecraft/client/Minecraft__15	net/minecraft/client/Minecraft__16
+c	net/minecraft/unmapped/C_0984412	net/minecraft/client/Minecraft__7	net/minecraft/client/Minecraft__8
+c	net/minecraft/unmapped/C_6157247	net/minecraft/client/multiplayer/ClientPacketListener__2	net/minecraft/client/multiplayer/ClientPacketListener__4
+c	net/minecraft/unmapped/C_6380374	net/minecraft/client/Minecraft__16	net/minecraft/client/Minecraft__17

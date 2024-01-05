@@ -19,7 +19,7 @@ c	net/minecraft/unmapped/C_3541044
 		p	3			p_3
 	m	()Z	m_5597602		m_5597602
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5195890	net/minecraft/unmapped/C_5195890	
+c	net/minecraft/unmapped/C_5195890	net/minecraft/server/packs/FolderResourcePack__1	
 	m	()V	<init>	<init>	
 	m	(Ljava/io/File;)Z	accept	accept	
 		p	1		p_1	
@@ -156,3 +156,4 @@ c	net/minecraft/unmapped/C_9293005		net/minecraft/unmapped/C_9293005
 		p	3			p_3
 		p	4			p_4
 	m	()V	<clinit>		<clinit>
+c	net/minecraft/unmapped/C_2515472	ahd__1	ahe__1

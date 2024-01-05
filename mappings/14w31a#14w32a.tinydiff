@@ -1,5 +1,5 @@
 tiny	2	0
-c	net/minecraft/unmapped/C_0412608	net/minecraft/unmapped/C_0412608	
+c	net/minecraft/unmapped/C_0412608	net/minecraft/world/entity/ai/navigation/PathNavigation__1	
 	f	Lnet/minecraft/unmapped/C_0539808;	f_9297254	f_9297254	
 	f	Lnet/minecraft/unmapped/C_9229053;	f_0063407	f_0063407	
 	m	(Lnet/minecraft/unmapped/C_9229053;Lnet/minecraft/unmapped/C_0539808;)V	<init>	<init>	
@@ -70,7 +70,7 @@ c	net/minecraft/unmapped/C_8099772
 c	net/minecraft/unmapped/C_8651652
 	f	I	f_8240920		displayHealth
 	f	J	f_7957415		lastHealthTime
-c	net/minecraft/unmapped/C_8688216	net/minecraft/unmapped/C_8688216	
+c	net/minecraft/unmapped/C_8688216	net/minecraft/world/entity/ai/navigation/PathNavigation__2	
 	f	D	f_7479816	f_7479816	
 	f	Lnet/minecraft/unmapped/C_9229053;	f_4210578	f_4210578	
 	m	(Lnet/minecraft/unmapped/C_9229053;D)V	<init>	<init>	
@@ -96,7 +96,7 @@ c	net/minecraft/unmapped/C_9568451
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_1383407		net/minecraft/unmapped/C_1383407
+c	net/minecraft/unmapped/C_1383407		net/minecraft/server/dedicated/ServerWatchdog__1
 	f	Lnet/minecraft/unmapped/C_0855172;	f_5794204		f_5794204
 	m	(Lnet/minecraft/unmapped/C_0855172;)V	<init>		<init>
 		p	1			p_1
@@ -116,7 +116,7 @@ c	net/minecraft/unmapped/C_1587206		net/minecraft/unmapped/C_1587206
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_9264598;	m_3079613		m_3079613
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_2205374		net/minecraft/unmapped/C_2205374
+c	net/minecraft/unmapped/C_2205374		net/minecraft/client/renderer/block/BlockModelShaper__7
 	f	Lnet/minecraft/unmapped/C_8559585;	f_5101353		f_5101353
 	m	(Lnet/minecraft/unmapped/C_8559585;)V	<init>		<init>
 		p	1			p_1
@@ -257,7 +257,7 @@ c	net/minecraft/unmapped/C_3438842		net/minecraft/world/entity/decoration/ArmorS
 	m	()Lnet/minecraft/unmapped/C_6613924;	m_2237232		getLeftLegPose
 	m	()Lnet/minecraft/unmapped/C_6613924;	m_8763094		getRightLegPose
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_3553359		net/minecraft/unmapped/C_3553359
+c	net/minecraft/unmapped/C_3553359		net/minecraft/unmapped/C_4288942__C_3553359
 	f	Lnet/minecraft/unmapped/C_3553359;	f_9461816		f_9461816
 	f	[Lnet/minecraft/unmapped/C_3553359;	f_9125292		f_9125292
 	f	I	f_9253894		f_9253894
@@ -338,16 +338,16 @@ c	net/minecraft/unmapped/C_4542654		net/minecraft/client/model/ArmorStandModel
 		p	7			p_7
 	m	(F)V	m_1542224		m_1542224
 		p	1			p_1
-c	net/minecraft/unmapped/C_4893335		net/minecraft/unmapped/C_4893335
+c	net/minecraft/unmapped/C_4893335		net/minecraft/world/item/Item__9
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_2454309;)Ljava/lang/String;	m_5190968		m_5190968
 		p	1			p_1
 	m	(Ljava/lang/Object;)Ljava/lang/Object;	apply		apply
 		p	1			p_1
-c	net/minecraft/unmapped/C_5755803		net/minecraft/unmapped/C_5755803
+c	net/minecraft/unmapped/C_5755803		net/minecraft/world/item/HoeItem__1
 	f	[I	f_2677418		f_2677418
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6380809		net/minecraft/unmapped/C_6380809
+c	net/minecraft/unmapped/C_6380809		net/minecraft/unmapped/C_1587206__C_6380809
 	f	Lnet/minecraft/unmapped/C_6380809;	f_5686572		f_5686572
 	f	Lnet/minecraft/unmapped/C_6380809;	f_0183354		f_0183354
 	f	Lnet/minecraft/unmapped/C_6380809;	f_6149934		f_6149934
@@ -434,7 +434,7 @@ c	net/minecraft/unmapped/C_9130285		net/minecraft/client/renderer/entity/ArmorSt
 c	net/minecraft/unmapped/C_9233795		net/minecraft/unmapped/C_9233795
 	m	()V	<init>		<init>
 	m	()Z	m_6072645		m_6072645
-c	net/minecraft/unmapped/C_9565799		net/minecraft/unmapped/C_9565799
+c	net/minecraft/unmapped/C_9565799		net/minecraft/client/renderer/entity/ArmorStandRenderer__1
 	f	Lnet/minecraft/unmapped/C_9130285;	f_1400452		f_1400452
 	m	(Lnet/minecraft/unmapped/C_9130285;Lnet/minecraft/unmapped/C_7639596;)V	<init>		<init>
 		p	1			p_1
@@ -443,3 +443,12 @@ c	net/minecraft/unmapped/C_9565799		net/minecraft/unmapped/C_9565799
 c	net/minecraft/unmapped/C_9701270		net/minecraft/unmapped/C_9701270
 	m	()V	<init>		<init>
 	m	()Z	m_6072645		m_6072645
+c	net/minecraft/unmapped/C_1975916	net/minecraft/world/item/Item__11	net/minecraft/world/item/Item__12
+c	net/minecraft/unmapped/C_4149152	net/minecraft/world/item/Item__10	net/minecraft/world/item/Item__11
+c	net/minecraft/unmapped/C_6817482	net/minecraft/world/item/Item__9	net/minecraft/world/item/Item__10
+c	net/minecraft/unmapped/C_8593412	net/minecraft/world/item/Item__12	net/minecraft/world/item/Item__13
+c	net/minecraft/unmapped/C_5696352	net/minecraft/world/item/Item__13	net/minecraft/world/item/Item__14
+c	net/minecraft/unmapped/C_5801539	net/minecraft/world/item/Item__14	net/minecraft/world/item/Item__15
+c	net/minecraft/unmapped/C_3414609	net/minecraft/world/item/Item__16	net/minecraft/world/item/Item__17
+c	net/minecraft/unmapped/C_8291208	net/minecraft/world/item/Item__15	net/minecraft/world/item/Item__16
+c	net/minecraft/unmapped/C_2896181	net/minecraft/client/renderer/block/BlockModelShaper__7	net/minecraft/client/renderer/block/BlockModelShaper__8

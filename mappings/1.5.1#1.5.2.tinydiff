@@ -14,7 +14,7 @@ c	net/minecraft/unmapped/C_0330124
 	m	()V	m_8976600		m_8976600
 c	net/minecraft/unmapped/C_0487112
 	m	()V	m_8976600		m_8976600
-c	net/minecraft/unmapped/C_0843507	net/minecraft/unmapped/C_0843507	
+c	net/minecraft/unmapped/C_0843507	net/minecraft/unmapped/C_5024060__1	
 	f	Lnet/minecraft/unmapped/C_5024060;	f_8612975	f_8612975	
 	m	(Lnet/minecraft/unmapped/C_5024060;)V	<init>	<init>	
 		p	1		p_1	
@@ -403,8 +403,9 @@ c	net/minecraft/unmapped/C_4355676		net/minecraft/unmapped/C_4355676
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_9144445		net/minecraft/unmapped/C_9144445
+c	net/minecraft/unmapped/C_9144445		net/minecraft/client/gui/screens/TitleScreen__1
 	f	Lnet/minecraft/unmapped/C_8938952;	f_1262021		f_1262021
 	m	(Lnet/minecraft/unmapped/C_8938952;)V	<init>		<init>
 		p	1			p_1
 	m	()V	run		run
+c	net/minecraft/unmapped/C_0660843	net/minecraft/client/gui/screens/TitleScreen__1	net/minecraft/client/gui/screens/TitleScreen__2

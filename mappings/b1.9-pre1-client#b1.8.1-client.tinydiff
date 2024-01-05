@@ -485,7 +485,7 @@ c	net/minecraft/unmapped/C_4525887	net/minecraft/world/level/levelgen/structure/
 	m	()[Lnet/minecraft/unmapped/C_8746815;	m_9117737	m_9117737	
 	m	()[Lnet/minecraft/unmapped/C_8746815;	m_0785628	m_0785628	
 	m	()V	<clinit>	<clinit>	
-c	net/minecraft/unmapped/C_4680316	net/minecraft/unmapped/C_4680316	
+c	net/minecraft/unmapped/C_4680316	net/minecraft/world/item/ArmorItem__C_4680316	
 	f	Lnet/minecraft/unmapped/C_4680316;	f_2426734	f_2426734	
 	f	Lnet/minecraft/unmapped/C_4680316;	f_4811416	f_4811416	
 	f	Lnet/minecraft/unmapped/C_4680316;	f_0296974	f_0296974	

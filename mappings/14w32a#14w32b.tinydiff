@@ -80,7 +80,7 @@ c	net/minecraft/unmapped/C_9620653
 		p	2			p_2
 		p	4			p_4
 		p	6			p_6
-c	net/minecraft/unmapped/C_2149193		net/minecraft/unmapped/C_2149193
+c	net/minecraft/unmapped/C_2149193		net/minecraft/world/level/block/BeaconBlock__1__1
 	f	Lnet/minecraft/unmapped/C_3674802;	f_0766307		f_0766307
 	f	Lnet/minecraft/unmapped/C_7564364;	f_8844632		f_8844632
 	m	(Lnet/minecraft/unmapped/C_7564364;Lnet/minecraft/unmapped/C_3674802;)V	<init>		<init>
@@ -95,7 +95,7 @@ c	net/minecraft/unmapped/C_5797789		net/minecraft/unmapped/C_5797789
 	f	I	f_9137788		f_9137788
 	f	I	f_8349471		f_8349471
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_7564364		net/minecraft/unmapped/C_7564364
+c	net/minecraft/unmapped/C_7564364		net/minecraft/world/level/block/BeaconBlock__1
 	f	Lnet/minecraft/unmapped/C_5553933;	f_9399162		f_9399162
 	f	Lnet/minecraft/unmapped/C_3674802;	f_8060977		f_8060977
 	m	(Lnet/minecraft/unmapped/C_5553933;Lnet/minecraft/unmapped/C_3674802;)V	<init>		<init>

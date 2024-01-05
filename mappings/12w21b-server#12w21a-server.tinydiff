@@ -23,35 +23,35 @@ c	net/minecraft/unmapped/C_1241852
 	f	Lnet/minecraft/unmapped/C_0191817;	f_7106387	f_7106387	
 	m	(Lnet/minecraft/unmapped/C_0191817;)Lnet/minecraft/unmapped/C_1241852;	m_6866467	m_6866467	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1908400	net/minecraft/unmapped/C_1908400	
+c	net/minecraft/unmapped/C_1908400	net/minecraft/world/item/CreativeModeTab__12	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_1916373	net/minecraft/unmapped/C_1916373	
+c	net/minecraft/unmapped/C_1916373	net/minecraft/world/item/CreativeModeTab__6	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_2852598	net/minecraft/unmapped/C_2852598	
+c	net/minecraft/unmapped/C_2852598	net/minecraft/world/item/CreativeModeTab__11	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3038102	net/minecraft/unmapped/C_3038102	
+c	net/minecraft/unmapped/C_3038102	net/minecraft/world/item/CreativeModeTab__9	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3136790	net/minecraft/unmapped/C_3136790	
+c	net/minecraft/unmapped/C_3136790	net/minecraft/world/item/CreativeModeTab__3	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3440186	net/minecraft/unmapped/C_3440186	
+c	net/minecraft/unmapped/C_3440186	net/minecraft/world/item/CreativeModeTab__1	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3500928	net/minecraft/unmapped/C_3500928	
+c	net/minecraft/unmapped/C_3500928	net/minecraft/world/item/CreativeModeTab__7	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_3668474	net/minecraft/unmapped/C_3668474	
+c	net/minecraft/unmapped/C_3668474	net/minecraft/world/item/CreativeModeTab__10	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
@@ -59,19 +59,19 @@ c	net/minecraft/unmapped/C_3755722
 	f	Lnet/minecraft/unmapped/C_0191817;	f_8699915	category	
 	m	(Lnet/minecraft/unmapped/C_0191817;)Lnet/minecraft/unmapped/C_3755722;	m_3158674	m_3158674	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_5012870	net/minecraft/unmapped/C_5012870	
+c	net/minecraft/unmapped/C_5012870	net/minecraft/world/item/CreativeModeTab__2	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_6143572	net/minecraft/unmapped/C_6143572	
+c	net/minecraft/unmapped/C_6143572	net/minecraft/world/item/CreativeModeTab__5	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_6299435	net/minecraft/unmapped/C_6299435	
+c	net/minecraft/unmapped/C_6299435	net/minecraft/world/item/CreativeModeTab__4	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_9328003	net/minecraft/unmapped/C_9328003	
+c	net/minecraft/unmapped/C_9328003	net/minecraft/world/item/CreativeModeTab__8	
 	m	(ILjava/lang/String;)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

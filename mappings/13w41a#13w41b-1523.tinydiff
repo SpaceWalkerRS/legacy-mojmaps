@@ -283,7 +283,7 @@ c	net/minecraft/unmapped/C_6403501
 c	net/minecraft/unmapped/C_6465203
 	m	()I	m_5660781		getId
 	m	()I	m_7113811		getAction
-c	net/minecraft/unmapped/C_6530806
+c	net/minecraft/unmapped/C_6530806	net/minecraft/client/multiplayer/ClientPacketListener__2	net/minecraft/client/renderer/texture/TextureAtlas__3
 	f	Lnet/minecraft/unmapped/C_9550253;	f_4088389	f_4088389	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_9198106	f_9198106	
 	f	Lnet/minecraft/unmapped/C_4257480;	f_4088389		f_4088389
@@ -397,7 +397,7 @@ c	net/minecraft/unmapped/C_8731920
 	m	()I	m_3128706		getEntityId
 c	net/minecraft/unmapped/C_8915528
 	m	()I	m_7474125		getSlot
-c	net/minecraft/unmapped/C_9086718
+c	net/minecraft/unmapped/C_9086718	net/minecraft/client/multiplayer/ClientPacketListener__1	net/minecraft/client/renderer/texture/TextureAtlas__1
 	f	Lnet/minecraft/unmapped/C_0332750;	f_0696860	f_0696860	
 	f	Lnet/minecraft/unmapped/C_5722573;	f_0426376	f_0426376	
 	f	Lnet/minecraft/unmapped/C_4257480;	f_0696860		f_0696860
@@ -516,7 +516,7 @@ c	net/minecraft/unmapped/C_9959562
 	m	()I	m_6081548		getB1
 c	net/minecraft/unmapped/C_9985439
 	m	()I	m_7734823		getId
-c	net/minecraft/unmapped/C_1773920		net/minecraft/unmapped/C_1773920
+c	net/minecraft/unmapped/C_1773920		net/minecraft/client/renderer/texture/TextureAtlasSprite__1
 	f	[[I	f_7203578		f_7203578
 	f	Lnet/minecraft/unmapped/C_4257480;	f_6520502		f_6520502
 	m	(Lnet/minecraft/unmapped/C_4257480;[[I)V	<init>		<init>
@@ -524,13 +524,13 @@ c	net/minecraft/unmapped/C_1773920		net/minecraft/unmapped/C_1773920
 		p	2			p_2
 	m	()Ljava/lang/String;	m_8826304		m_8826304
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_3525592		net/minecraft/unmapped/C_3525592
+c	net/minecraft/unmapped/C_3525592		net/minecraft/client/Minecraft__6
 	f	Lnet/minecraft/unmapped/C_8105098;	f_8194127		f_8194127
 	m	(Lnet/minecraft/unmapped/C_8105098;)V	<init>		<init>
 		p	1			p_1
 	m	()Ljava/lang/String;	m_0186080		m_0186080
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_7056538		net/minecraft/unmapped/C_7056538
+c	net/minecraft/unmapped/C_7056538		net/minecraft/client/renderer/texture/TextureAtlas__2
 	f	Lnet/minecraft/unmapped/C_4257480;	f_4173684		f_4173684
 	f	Lnet/minecraft/unmapped/C_6088271;	f_2606771		f_2606771
 	m	(Lnet/minecraft/unmapped/C_6088271;Lnet/minecraft/unmapped/C_4257480;)V	<init>		<init>
@@ -538,3 +538,13 @@ c	net/minecraft/unmapped/C_7056538		net/minecraft/unmapped/C_7056538
 		p	2			p_2
 	m	()Ljava/lang/String;	m_1624694		m_1624694
 	m	()Ljava/lang/Object;	call		call
+c	net/minecraft/unmapped/C_2619780	net/minecraft/client/Minecraft__13	net/minecraft/client/Minecraft__14
+c	net/minecraft/unmapped/C_4394019	net/minecraft/client/Minecraft__10	net/minecraft/client/Minecraft__11
+c	net/minecraft/unmapped/C_4563671	net/minecraft/client/Minecraft__8	net/minecraft/client/Minecraft__9
+c	net/minecraft/unmapped/C_5100772	net/minecraft/client/Minecraft__12	net/minecraft/client/Minecraft__13
+c	net/minecraft/unmapped/C_5160100	net/minecraft/client/Minecraft__9	net/minecraft/client/Minecraft__10
+c	net/minecraft/unmapped/C_5362986	net/minecraft/client/Minecraft__7	net/minecraft/client/Minecraft__8
+c	net/minecraft/unmapped/C_8612369	net/minecraft/client/Minecraft__14	net/minecraft/client/Minecraft__15
+c	net/minecraft/unmapped/C_9216568	net/minecraft/client/Minecraft__11	net/minecraft/client/Minecraft__12
+c	net/minecraft/unmapped/C_7484650	net/minecraft/client/multiplayer/ClientPacketListener__3	net/minecraft/client/multiplayer/ClientPacketListener__1
+c	net/minecraft/unmapped/C_2388842	net/minecraft/client/Minecraft__6	net/minecraft/client/Minecraft__7

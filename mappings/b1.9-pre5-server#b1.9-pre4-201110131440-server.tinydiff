@@ -290,4 +290,4 @@ c	net/minecraft/unmapped/C_9932820
 	m	()I	m_2337713	m_2337713	
 c	net/minecraft/unmapped/C_9986135
 	m	()I	m_2337713	m_2337713	
-c	net/minecraft/unmapped/C_7143245		net/minecraft/unmapped/C_7143245
+c	net/minecraft/unmapped/C_7143245		net/minecraft/network/protocol/Packet__1

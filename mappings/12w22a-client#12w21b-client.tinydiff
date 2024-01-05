@@ -586,7 +586,7 @@ c	net/minecraft/unmapped/C_2485969
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_2515472	net/minecraft/unmapped/C_2515472	
+c	net/minecraft/unmapped/C_2515472	aur__1	
 c	net/minecraft/unmapped/C_2594473
 	m	()Z	m_0601517	m_0601517	
 c	net/minecraft/unmapped/C_2604451
@@ -848,7 +848,7 @@ c	net/minecraft/unmapped/C_4116648
 	m	(Z)V	m_3606976	setFlag	
 		p	1		p_1	
 	m	()Z	m_8950633	isCritArrow	
-c	net/minecraft/unmapped/C_4223822	net/minecraft/unmapped/C_4223822	
+c	net/minecraft/unmapped/C_4223822	net/minecraft/world/level/LevelSettings__C_4223822	
 	f	Lnet/minecraft/unmapped/C_4223822;	f_4274850	f_4274850	
 	f	Lnet/minecraft/unmapped/C_4223822;	f_4370396	f_4370396	
 	f	Lnet/minecraft/unmapped/C_4223822;	f_8884907	f_8884907	

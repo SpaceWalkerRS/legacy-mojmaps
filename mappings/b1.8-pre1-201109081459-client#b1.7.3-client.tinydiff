@@ -170,7 +170,7 @@ c	net/minecraft/unmapped/C_0330124
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_0341503	net/minecraft/unmapped/C_0341503	
+c	net/minecraft/unmapped/C_0341503	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345__C_0341503	
 	f	Lnet/minecraft/unmapped/C_0341503;	f_8036072	f_8036072	
 	f	Lnet/minecraft/unmapped/C_0341503;	f_4137662	f_4137662	
 	f	Lnet/minecraft/unmapped/C_0341503;	f_1102735	f_1102735	
@@ -819,7 +819,7 @@ c	net/minecraft/unmapped/C_1556410
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_8725814;	m_2757831	m_2757831	
 		p	1		p_1	
-c	net/minecraft/unmapped/C_1577640	net/minecraft/unmapped/C_1577640	
+c	net/minecraft/unmapped/C_1577640	net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen__C_1577640	
 	f	Lnet/minecraft/unmapped/C_2160183;	f_3225373	f_3225373	
 	m	(Lnet/minecraft/unmapped/C_2160183;)V	<init>	<init>	
 		p	1		p_1	
@@ -856,7 +856,7 @@ c	net/minecraft/unmapped/C_1582062
 	m	()V	m_6217589	m_6217589	
 	m	()V	m_7226012	m_7226012	
 	m	()V	m_5808262	m_5808262	
-c	net/minecraft/unmapped/C_1678345	net/minecraft/unmapped/C_1678345	
+c	net/minecraft/unmapped/C_1678345	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345	
 	m	(I)V	<init>	<init>	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_5553933;Ljava/util/Random;Lnet/minecraft/unmapped/C_7492943;Lnet/minecraft/unmapped/C_0341503;III)V	m_7750783	m_7750783	
@@ -1052,7 +1052,7 @@ c	net/minecraft/unmapped/C_1938274	net/minecraft/world/level/newbiome/layer/Smoo
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-c	net/minecraft/unmapped/C_2039980	net/minecraft/unmapped/C_2039980	
+c	net/minecraft/unmapped/C_2039980	net/minecraft/unmapped/C_1431328__C_2039980	
 	f	J	f_5787731	f_5787731	
 	f	Ljava/lang/Object;	f_3104026	f_3104026	
 	f	Lnet/minecraft/unmapped/C_2039980;	f_5697131	f_5697131	
@@ -2497,7 +2497,7 @@ c	net/minecraft/unmapped/C_4976084
 		p	0		p_0	
 		p	1		p_1	
 		p	2		p_2	
-c	net/minecraft/unmapped/C_4976859	net/minecraft/unmapped/C_4976859	
+c	net/minecraft/unmapped/C_4976859	net/minecraft/world/level/material/Material__1	
 	m	(Lnet/minecraft/unmapped/C_9335057;)V	<init>	<init>	
 		p	1		p_1	
 	m	()Z	m_9427296	m_9427296	
@@ -2855,7 +2855,7 @@ c	net/minecraft/unmapped/C_5660126	net/minecraft/world/level/block/FenceGateBloc
 		p	0		p_0	
 	m	(I)I	m_0447639	m_0447639	
 		p	0		p_0	
-c	net/minecraft/unmapped/C_5702023	net/minecraft/unmapped/C_5702023	
+c	net/minecraft/unmapped/C_5702023	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_1678345__1	
 	f	[I	f_7802547	f_7802547	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_5705147
@@ -4136,7 +4136,7 @@ c	net/minecraft/unmapped/C_9232485
 	f	I	f_1222376	gameType	
 	f	B	f_6478729	f_6478729	
 	f	B	f_2564764	f_2564764	
-c	net/minecraft/unmapped/C_9324725	net/minecraft/unmapped/C_9324725	
+c	net/minecraft/unmapped/C_9324725	net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen__C_1577640__1	
 	f	Lnet/minecraft/unmapped/C_1533205;	f_6610468	f_6610468	
 	f	Lnet/minecraft/unmapped/C_1577640;	f_7499062	f_7499062	
 	m	(Lnet/minecraft/unmapped/C_1577640;Lnet/minecraft/unmapped/C_1533205;)V	<init>	<init>	
@@ -4403,7 +4403,7 @@ c	net/minecraft/unmapped/C_9868114	net/minecraft/unmapped/C_9868114
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-c	net/minecraft/unmapped/C_9971267	net/minecraft/unmapped/C_9971267	
+c	net/minecraft/unmapped/C_9971267	net/minecraft/world/level/levelgen/structure/StrongholdPieces__1	
 	m	(Ljava/lang/Class;II)V	<init>	<init>	
 		p	1		p_1	
 		p	2		p_2	

@@ -554,7 +554,7 @@ c	net/minecraft/unmapped/C_1063627
 		p	2		p_2	
 	m	(Lnet/minecraft/unmapped/C_8949651;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_1089322	net/minecraft/unmapped/C_1089322	
+c	net/minecraft/unmapped/C_1089322	net/minecraft/unmapped/C_1726165__2	
 	f	Ljava/util/Map;	f_1753356	f_1753356	
 	f	Lnet/minecraft/unmapped/C_1726165;	f_1486309	f_1486309	
 	m	(Lnet/minecraft/unmapped/C_1726165;Ljava/util/Map;)V	<init>	<init>	
@@ -2021,7 +2021,7 @@ c	net/minecraft/unmapped/C_2501864
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_2514722	net/minecraft/unmapped/C_2514722	
+c	net/minecraft/unmapped/C_2514722	net/minecraft/unmapped/C_1726165__1	
 	f	Lnet/minecraft/unmapped/C_1726165;	f_7402497	f_7402497	
 	m	(Lnet/minecraft/unmapped/C_1726165;)V	<init>	<init>	
 		p	1		p_1	
@@ -7400,7 +7400,7 @@ c	net/minecraft/unmapped/C_0163020		net/minecraft/unmapped/C_0163020
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_0393216		net/minecraft/unmapped/C_0393216
+c	net/minecraft/unmapped/C_0393216		net/minecraft/client/renderer/entity/ItemRenderer__1
 	f	Lnet/minecraft/unmapped/C_2454309;	f_5052091		f_5052091
 	f	Lnet/minecraft/unmapped/C_6823239;	f_9535800		f_9535800
 	m	(Lnet/minecraft/unmapped/C_6823239;Lnet/minecraft/unmapped/C_2454309;)V	<init>		<init>
@@ -7408,8 +7408,8 @@ c	net/minecraft/unmapped/C_0393216		net/minecraft/unmapped/C_0393216
 		p	2			p_2
 	m	()Ljava/lang/String;	m_6409679		m_6409679
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_0659632		net/minecraft/unmapped/C_0659632
-c	net/minecraft/unmapped/C_0707254		net/minecraft/unmapped/C_0707254
+c	net/minecraft/unmapped/C_0659632		net/minecraft/client/gui/screens/controls/ControlList__1
+c	net/minecraft/unmapped/C_0707254		net/minecraft/network/chat/Style__C_0707254
 	m	()V	<init>		<init>
 	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/unmapped/C_6237110;	m_4298759		m_4298759
 		p	1			p_1
@@ -7427,7 +7427,7 @@ c	net/minecraft/unmapped/C_0707254		net/minecraft/unmapped/C_0707254
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-c	net/minecraft/unmapped/C_0898773		net/minecraft/unmapped/C_0898773
+c	net/minecraft/unmapped/C_0898773		net/minecraft/client/renderer/entity/ItemRenderer__4
 	f	Lnet/minecraft/unmapped/C_2454309;	f_0590318		f_0590318
 	f	Lnet/minecraft/unmapped/C_6823239;	f_9346380		f_9346380
 	m	(Lnet/minecraft/unmapped/C_6823239;Lnet/minecraft/unmapped/C_2454309;)V	<init>		<init>
@@ -7435,7 +7435,7 @@ c	net/minecraft/unmapped/C_0898773		net/minecraft/unmapped/C_0898773
 		p	2			p_2
 	m	()Ljava/lang/String;	m_3878301		m_3878301
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_0986787		net/minecraft/unmapped/C_0986787
+c	net/minecraft/unmapped/C_0986787		net/minecraft/unmapped/C_3998795__C_0986787
 	f	Lnet/minecraft/unmapped/C_0986787;	f_9432596		f_9432596
 	f	Lnet/minecraft/unmapped/C_0986787;	f_6001097		f_6001097
 	f	Lnet/minecraft/unmapped/C_0986787;	f_8685618		f_8685618
@@ -7486,7 +7486,7 @@ c	net/minecraft/unmapped/C_0986787		net/minecraft/unmapped/C_0986787
 	m	(Lnet/minecraft/unmapped/C_2454309;)Lnet/minecraft/unmapped/C_0986787;	m_3622237		m_3622237
 		p	0			p_0
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_1012733		net/minecraft/unmapped/C_1012733
+c	net/minecraft/unmapped/C_1012733		net/minecraft/util/HttpUtil__1
 	f	Lnet/minecraft/unmapped/C_3893367;	f_1173602		f_1173602
 	f	Ljava/lang/String;	f_5597504		f_5597504
 	f	Ljava/net/Proxy;	f_6915964		f_6915964
@@ -7503,7 +7503,7 @@ c	net/minecraft/unmapped/C_1012733		net/minecraft/unmapped/C_1012733
 		p	6			p_6
 		p	7			p_7
 	m	()V	run		run
-c	net/minecraft/unmapped/C_1033204		net/minecraft/unmapped/C_1033204
+c	net/minecraft/unmapped/C_1033204		net/minecraft/world/level/biome/ForestBiome__1
 	f	Lnet/minecraft/unmapped/C_4361568;	f_9839979		f_9839979
 	m	(Lnet/minecraft/unmapped/C_4361568;ILnet/minecraft/unmapped/C_6928498;)V	<init>		<init>
 		p	1			p_1
@@ -7586,7 +7586,7 @@ c	net/minecraft/unmapped/C_1317396		net/minecraft/unmapped/C_1317396
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_1365692		net/minecraft/unmapped/C_1365692
+c	net/minecraft/unmapped/C_1365692		net/minecraft/world/level/chunk/LevelChunk__1
 	f	I	f_6698240		f_6698240
 	f	I	f_8077980		f_8077980
 	f	I	f_6215485		f_6215485
@@ -7598,7 +7598,7 @@ c	net/minecraft/unmapped/C_1365692		net/minecraft/unmapped/C_1365692
 		p	4			p_4
 	m	()Ljava/lang/String;	m_0086331		m_0086331
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_1421942		net/minecraft/unmapped/C_1421942
+c	net/minecraft/unmapped/C_1421942		net/minecraft/client/Options__1
 	m	()V	<init>		<init>
 	m	()[Ljava/lang/reflect/Type;	getActualTypeArguments		getActualTypeArguments
 	m	()Ljava/lang/reflect/Type;	getRawType		getRawType
@@ -7704,7 +7704,7 @@ c	net/minecraft/unmapped/C_1658961		net/minecraft/unmapped/C_1658961
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_1668053		net/minecraft/unmapped/C_1668053
+c	net/minecraft/unmapped/C_1668053		net/minecraft/client/particle/ParticleEngine__1
 	f	Lnet/minecraft/unmapped/C_1350658;	f_7717137		f_7717137
 	f	Lnet/minecraft/unmapped/C_6559556;	f_0464976		f_0464976
 	m	(Lnet/minecraft/unmapped/C_6559556;Lnet/minecraft/unmapped/C_1350658;)V	<init>		<init>
@@ -7784,7 +7784,7 @@ c	net/minecraft/unmapped/C_2123477		net/minecraft/unmapped/C_2123477
 		p	5			p_5
 		p	6			p_6
 		p	7			p_7
-c	net/minecraft/unmapped/C_2314682		net/minecraft/unmapped/C_2314682
+c	net/minecraft/unmapped/C_2314682		net/minecraft/world/level/newbiome/layer/AddEdgeLayer__C_2314682
 	f	Lnet/minecraft/unmapped/C_2314682;	f_3294379		f_3294379
 	f	Lnet/minecraft/unmapped/C_2314682;	f_1391341		f_1391341
 	f	Lnet/minecraft/unmapped/C_2314682;	f_2795651		f_2795651
@@ -8288,13 +8288,13 @@ c	net/minecraft/unmapped/C_3420106		net/minecraft/world/level/levelgen/synth/Per
 		p	10			p_10
 		p	12			p_12
 		p	14			p_14
-c	net/minecraft/unmapped/C_3426620		net/minecraft/unmapped/C_3426620
+c	net/minecraft/unmapped/C_3426620		net/minecraft/client/resources/ClientPackSource__2
 	f	Lnet/minecraft/unmapped/C_2983776;	f_5797005		f_5797005
 	m	(Lnet/minecraft/unmapped/C_2983776;)V	<init>		<init>
 		p	1			p_1
 	m	(Ljava/io/File;)V	m_4828600		m_4828600
 		p	1			p_1
-c	net/minecraft/unmapped/C_3565574		net/minecraft/unmapped/C_3565574
+c	net/minecraft/unmapped/C_3565574		net/minecraft/client/renderer/entity/ItemRenderer__2
 	f	Lnet/minecraft/unmapped/C_2454309;	f_8473863		f_8473863
 	f	Lnet/minecraft/unmapped/C_6823239;	f_8225746		f_8225746
 	m	(Lnet/minecraft/unmapped/C_6823239;Lnet/minecraft/unmapped/C_2454309;)V	<init>		<init>
@@ -8640,7 +8640,7 @@ c	net/minecraft/unmapped/C_4728746		net/minecraft/world/level/newbiome/layer/Add
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_4848817		net/minecraft/unmapped/C_4848817
+c	net/minecraft/unmapped/C_4848817		net/minecraft/client/renderer/entity/ItemRenderer__3
 	f	Lnet/minecraft/unmapped/C_2454309;	f_9427943		f_9427943
 	f	Lnet/minecraft/unmapped/C_6823239;	f_8882856		f_8882856
 	m	(Lnet/minecraft/unmapped/C_6823239;Lnet/minecraft/unmapped/C_2454309;)V	<init>		<init>
@@ -8683,7 +8683,7 @@ c	net/minecraft/unmapped/C_4967125		net/minecraft/world/level/levelgen/feature/M
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-c	net/minecraft/unmapped/C_5003464		net/minecraft/unmapped/C_5003464
+c	net/minecraft/unmapped/C_5003464		net/minecraft/world/level/biome/Biome__C_5003464
 	f	Lnet/minecraft/unmapped/C_5003464;	f_8045691		f_8045691
 	f	Lnet/minecraft/unmapped/C_5003464;	f_8237907		f_8237907
 	f	Lnet/minecraft/unmapped/C_5003464;	f_7173412		f_7173412
@@ -8713,7 +8713,7 @@ c	net/minecraft/unmapped/C_5272627		net/minecraft/unmapped/C_5272627
 	m	(Ljava/lang/String;)V	<init>		<init>
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_3225627;	m_4369259		m_4369259
-c	net/minecraft/unmapped/C_5297362		net/minecraft/unmapped/C_5297362
+c	net/minecraft/unmapped/C_5297362		net/minecraft/client/particle/ParticleEngine__2
 	f	I	f_6035614		f_6035614
 	f	Lnet/minecraft/unmapped/C_6559556;	f_2493746		f_2493746
 	m	(Lnet/minecraft/unmapped/C_6559556;I)V	<init>		<init>
@@ -8938,7 +8938,7 @@ c	net/minecraft/unmapped/C_6237110		net/minecraft/network/chat/Style
 	m	(Lnet/minecraft/unmapped/C_6237110;)Lnet/minecraft/unmapped/C_1945050;	m_7530144		m_7530144
 		p	0			p_0
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_6340567		net/minecraft/unmapped/C_6340567
+c	net/minecraft/unmapped/C_6340567		net/minecraft/client/particle/ParticleEngine__4
 	f	I	f_8013433		f_8013433
 	f	Lnet/minecraft/unmapped/C_6559556;	f_8920022		f_8920022
 	m	(Lnet/minecraft/unmapped/C_6559556;I)V	<init>		<init>
@@ -8953,7 +8953,7 @@ c	net/minecraft/unmapped/C_6409556		net/minecraft/client/gui/screens/resourcepac
 		p	3			p_3
 		p	4			p_4
 	m	()Ljava/lang/String;	m_5500518		m_5500518
-c	net/minecraft/unmapped/C_6468173		net/minecraft/unmapped/C_6468173
+c	net/minecraft/unmapped/C_6468173		net/minecraft/network/chat/BaseComponent__1
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_9550253;)Ljava/util/Iterator;	m_1502543		m_1502543
 		p	1			p_1
@@ -9041,7 +9041,7 @@ c	net/minecraft/unmapped/C_6872172		net/minecraft/world/level/levelgen/feature/I
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
-c	net/minecraft/unmapped/C_6897118		net/minecraft/unmapped/C_6897118
+c	net/minecraft/unmapped/C_6897118		net/minecraft/client/particle/ParticleEngine__3
 	f	Lnet/minecraft/unmapped/C_1350658;	f_4639750		f_4639750
 	f	Lnet/minecraft/unmapped/C_6559556;	f_0424340		f_0424340
 	m	(Lnet/minecraft/unmapped/C_6559556;Lnet/minecraft/unmapped/C_1350658;)V	<init>		<init>
@@ -9049,7 +9049,7 @@ c	net/minecraft/unmapped/C_6897118		net/minecraft/unmapped/C_6897118
 		p	2			p_2
 	m	()Ljava/lang/String;	m_6330335		m_6330335
 	m	()Ljava/lang/Object;	call		call
-c	net/minecraft/unmapped/C_6936825		net/minecraft/unmapped/C_6936825
+c	net/minecraft/unmapped/C_6936825		net/minecraft/world/level/newbiome/layer/AddEdgeLayer__1
 	f	[I	f_2957904		f_2957904
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_6947656		net/minecraft/unmapped/C_6947656
@@ -9119,7 +9119,7 @@ c	net/minecraft/unmapped/C_7135514		net/minecraft/core/MappedRegistry
 	m	(I)Ljava/lang/Object;	m_9381448		m_9381448
 		p	1			p_1
 	m	()Ljava/util/List;	m_2142526		m_2142526
-c	net/minecraft/unmapped/C_7285129		net/minecraft/unmapped/C_7285129
+c	net/minecraft/unmapped/C_7285129		net/minecraft/world/level/biome/ForestBiome__2
 	f	Lnet/minecraft/unmapped/C_4361568;	f_5780305		f_5780305
 	m	(Lnet/minecraft/unmapped/C_4361568;ILnet/minecraft/unmapped/C_6928498;)V	<init>		<init>
 		p	1			p_1
@@ -9130,7 +9130,7 @@ c	net/minecraft/unmapped/C_7285129		net/minecraft/unmapped/C_7285129
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-c	net/minecraft/unmapped/C_7484650		net/minecraft/unmapped/C_7484650
+c	net/minecraft/unmapped/C_7484650		net/minecraft/client/multiplayer/ClientPacketListener__1
 	f	Ljava/lang/String;	f_2481949		f_2481949
 	f	Lnet/minecraft/unmapped/C_5722573;	f_5967342		f_5967342
 	m	(Lnet/minecraft/unmapped/C_5722573;Ljava/lang/String;)V	<init>		<init>
@@ -9193,7 +9193,7 @@ c	net/minecraft/unmapped/C_7724180		net/minecraft/world/level/biome/SavannaBiome
 		p	3			p_3
 		p	4			p_4
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_7938017		net/minecraft/unmapped/C_7938017
+c	net/minecraft/unmapped/C_7938017		net/minecraft/util/LowerCaseEnumTypeAdapterFactory__1
 	f	Ljava/util/Map;	f_5945013		f_5945013
 	f	Lnet/minecraft/unmapped/C_5988430;	f_2085917		f_2085917
 	m	(Lnet/minecraft/unmapped/C_5988430;Ljava/util/Map;)V	<init>		<init>
@@ -9373,7 +9373,7 @@ c	net/minecraft/unmapped/C_9296493		net/minecraft/unmapped/C_9296493
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-c	net/minecraft/unmapped/C_9513581		net/minecraft/unmapped/C_9513581
+c	net/minecraft/unmapped/C_9513581		net/minecraft/network/chat/Style__1
 	m	()V	<init>		<init>
 	m	()Lnet/minecraft/unmapped/C_1945050;	m_6072564		m_6072564
 	m	()Z	m_5350302		m_5350302
@@ -9410,3 +9410,5 @@ c	net/minecraft/unmapped/C_9808107		net/minecraft/unmapped/C_9808107
 		p	12			p_12
 		p	14			p_14
 		p	15			p_15
+c	net/minecraft/unmapped/C_2515472	ahi__1	ajb__1
+c	net/minecraft/unmapped/C_8210921	net/minecraft/client/Options__1	net/minecraft/client/Options__2

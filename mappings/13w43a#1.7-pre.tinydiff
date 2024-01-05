@@ -117,7 +117,7 @@ c	net/minecraft/unmapped/C_9992501
 	m	(Lnet/minecraft/unmapped/C_4354908;Lnet/minecraft/unmapped/C_3292284;)V	m_5606815		placeNewPlayer
 		p	1			p_1
 		p	2			p_2
-c	net/minecraft/unmapped/C_0438740		net/minecraft/unmapped/C_0438740
+c	net/minecraft/unmapped/C_0438740		net/minecraft/server/network/ServerGamePacketListenerImpl__1
 	f	Lnet/minecraft/unmapped/C_1716360;	f_0416840		f_0416840
 	f	Lnet/minecraft/unmapped/C_1567607;	f_9566684		f_9566684
 	m	(Lnet/minecraft/unmapped/C_1567607;Lnet/minecraft/unmapped/C_1716360;)V	<init>		<init>
@@ -125,7 +125,7 @@ c	net/minecraft/unmapped/C_0438740		net/minecraft/unmapped/C_0438740
 		p	2			p_2
 	m	(Lio/netty/util/concurrent/Future;)V	operationComplete		operationComplete
 		p	1			p_1
-c	net/minecraft/unmapped/C_5473550		net/minecraft/unmapped/C_5473550
+c	net/minecraft/unmapped/C_5473550		net/minecraft/client/multiplayer/ClientHandshakePacketListenerImpl__1
 	f	Ljavax/crypto/SecretKey;	f_2308456		f_2308456
 	f	Lnet/minecraft/unmapped/C_3649083;	f_0653339		f_0653339
 	m	(Lnet/minecraft/unmapped/C_3649083;Ljavax/crypto/SecretKey;)V	<init>		<init>
@@ -133,7 +133,7 @@ c	net/minecraft/unmapped/C_5473550		net/minecraft/unmapped/C_5473550
 		p	2			p_2
 	m	(Lio/netty/util/concurrent/Future;)V	operationComplete		operationComplete
 		p	1			p_1
-c	net/minecraft/unmapped/C_9218552		net/minecraft/unmapped/C_9218552
+c	net/minecraft/unmapped/C_9218552		net/minecraft/server/network/ServerConnectionListener__4
 	f	Lnet/minecraft/unmapped/C_4354908;	f_1938650		f_1938650
 	f	Lnet/minecraft/unmapped/C_1716360;	f_5408762		f_5408762
 	f	Lnet/minecraft/unmapped/C_8345387;	f_3395138		f_3395138
@@ -143,3 +143,5 @@ c	net/minecraft/unmapped/C_9218552		net/minecraft/unmapped/C_9218552
 		p	3			p_3
 	m	(Lio/netty/util/concurrent/Future;)V	operationComplete		operationComplete
 		p	1			p_1
+c	net/minecraft/unmapped/C_9222712	net/minecraft/server/network/ServerGamePacketListenerImpl__1	net/minecraft/server/network/ServerGamePacketListenerImpl__2
+c	net/minecraft/unmapped/C_2730187	net/minecraft/server/network/ServerGamePacketListenerImpl__2	net/minecraft/server/network/ServerGamePacketListenerImpl__3

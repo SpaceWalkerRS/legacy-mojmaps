@@ -151,7 +151,7 @@ c	net/minecraft/unmapped/C_0987157
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-c	net/minecraft/unmapped/C_0992838	net/minecraft/unmapped/C_0992838	
+c	net/minecraft/unmapped/C_0992838	net/minecraft/world/item/enchantment/EnchantmentHelper__1	
 c	net/minecraft/unmapped/C_1014639
 	m	(ILjava/util/Random;I)I	m_7534654	m_7534654	
 		p	1		p_1	
@@ -1599,7 +1599,7 @@ c	net/minecraft/unmapped/C_0963252		net/minecraft/unmapped/C_0963252
 	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_0908069		m_0908069
 		p	1			p_1
 	m	()F	m_9401628		m_9401628
-c	net/minecraft/unmapped/C_4878723		net/minecraft/unmapped/C_4878723
+c	net/minecraft/unmapped/C_4878723		net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_5272265__1
 	f	Lnet/minecraft/unmapped/C_5272265;	f_8458316		f_8458316
 	m	(Lnet/minecraft/unmapped/C_5272265;)V	<init>		<init>
 		p	1			p_1
@@ -1660,3 +1660,4 @@ c	net/minecraft/unmapped/C_6721637		net/minecraft/unmapped/C_6721637
 c	net/minecraft/unmapped/C_9914709		net/minecraft/unmapped/C_9914709
 	f	Lnet/minecraft/unmapped/C_0230498;	f_7220664		f_7220664
 	f	I	f_8054441		f_8054441
+c	net/minecraft/unmapped/C_5272265	net/minecraft/unmapped/C_5272265	net/minecraft/world/level/levelgen/structure/StrongholdPieces__C_5272265

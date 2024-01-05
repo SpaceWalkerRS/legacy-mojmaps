@@ -13,7 +13,7 @@ c	net/minecraft/server/MinecraftServer
 		p	2		p_2	
 	m	()V	m_7640190		saveAllChunks
 	m	()Ljava/lang/String;	m_3739797		publishServer
-c	net/minecraft/unmapped/C_0241277	net/minecraft/unmapped/C_0241277	
+c	net/minecraft/unmapped/C_0241277	net/minecraft/world/phys/AABB__1	
 	m	()V	<init>	<init>	
 	m	()Lnet/minecraft/unmapped/C_9704214;	m_6986081	m_6986081	
 	m	()Ljava/lang/Object;	initialValue	initialValue	
@@ -80,7 +80,7 @@ c	net/minecraft/unmapped/C_1555023
 		p	1		p_1	
 		p	2		p_2	
 	m	()Ljava/lang/String;	m_3739797		m_3739797
-c	net/minecraft/unmapped/C_1984964	net/minecraft/unmapped/C_1984964	
+c	net/minecraft/unmapped/C_1984964	net/minecraft/world/phys/Vec3__1	
 	m	()V	<init>	<init>	
 	m	()Lnet/minecraft/unmapped/C_0413198;	m_5145398	m_5145398	
 	m	()Ljava/lang/Object;	initialValue	initialValue	
@@ -264,19 +264,19 @@ c	net/minecraft/unmapped/C_9992501
 		p	2		p_2	
 		p	3		p_3	
 	m	()V	m_9197741	m_9197741	
-c	net/minecraft/unmapped/C_2935475		net/minecraft/unmapped/C_2935475
+c	net/minecraft/unmapped/C_2935475		net/minecraft/world/phys/Vec3__2
 	m	()V	<init>		<init>
 	m	()Ljava/lang/Integer;	m_7589333		m_7589333
 	m	()Ljava/lang/Object;	initialValue		initialValue
-c	net/minecraft/unmapped/C_3811161		net/minecraft/unmapped/C_3811161
+c	net/minecraft/unmapped/C_3811161		net/minecraft/world/phys/AABB__2
 	m	()V	<init>		<init>
 	m	()Ljava/util/List;	m_0523529		m_0523529
 	m	()Ljava/lang/Object;	initialValue		initialValue
-c	net/minecraft/unmapped/C_5073472		net/minecraft/unmapped/C_5073472
+c	net/minecraft/unmapped/C_5073472		net/minecraft/world/phys/AABB__1
 	m	()V	<init>		<init>
 	m	()Ljava/lang/Integer;	m_9429513		m_9429513
 	m	()Ljava/lang/Object;	initialValue		initialValue
-c	net/minecraft/unmapped/C_8215583		net/minecraft/unmapped/C_8215583
+c	net/minecraft/unmapped/C_8215583		net/minecraft/world/phys/Vec3__1
 	m	()V	<init>		<init>
 	m	()Ljava/util/List;	m_4294624		m_4294624
 	m	()Ljava/lang/Object;	initialValue		initialValue

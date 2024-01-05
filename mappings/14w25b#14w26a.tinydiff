@@ -1450,7 +1450,7 @@ c	net/minecraft/unmapped/C_8070146
 		p	3		p_3	
 	m	(I)Lnet/minecraft/unmapped/C_2441996;	m_7685061		m_7685061
 		p	1			p_1
-c	net/minecraft/unmapped/C_8097830	net/minecraft/unmapped/C_8097830	
+c	net/minecraft/unmapped/C_8097830	net/minecraft/unmapped/C_2400640__1	
 	f	[I	f_9110051	f_9110051	
 	f	[I	f_2149587	f_2149587	
 	m	()V	<clinit>	<clinit>	
@@ -1503,7 +1503,7 @@ c	net/minecraft/unmapped/C_8414608
 		p	1			p_1
 	m	(I)Lnet/minecraft/unmapped/C_2441996;	m_7685061		m_7685061
 		p	1			p_1
-c	net/minecraft/unmapped/C_8627415	net/minecraft/unmapped/C_8627415	
+c	net/minecraft/unmapped/C_8627415	net/minecraft/client/renderer/block/model/FaceBakery__1	
 	f	[I	f_7600292	f_7600292	
 	m	()V	<clinit>	<clinit>	
 c	net/minecraft/unmapped/C_8657554
@@ -1806,7 +1806,7 @@ c	net/minecraft/unmapped/C_0833799		net/minecraft/server/commands/ReplaceItemCom
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_2372819		net/minecraft/util/StringRepresentable
 	m	()Ljava/lang/String;	m_7063224		getSerializedName
-c	net/minecraft/unmapped/C_2424534		net/minecraft/unmapped/C_2424534
+c	net/minecraft/unmapped/C_2424534		net/minecraft/client/renderer/block/BlockRenderDispatcher__3
 	f	Lnet/minecraft/unmapped/C_6695579;	f_6458960		f_6458960
 	m	(Lnet/minecraft/unmapped/C_6695579;)V	<init>		<init>
 		p	1			p_1
@@ -1831,7 +1831,7 @@ c	net/minecraft/unmapped/C_2831109		net/minecraft/client/renderer/block/model/Bl
 		p	1			p_1
 	m	([F)V	m_9920155		setMissingUv
 		p	1			p_1
-c	net/minecraft/unmapped/C_2927833		net/minecraft/unmapped/C_2927833
+c	net/minecraft/unmapped/C_2927833		net/minecraft/client/renderer/block/BlockRenderDispatcher__1
 	f	Lnet/minecraft/unmapped/C_6695579;	f_7353029		f_7353029
 	m	(Lnet/minecraft/unmapped/C_6695579;)V	<init>		<init>
 		p	1			p_1
@@ -1923,7 +1923,7 @@ c	net/minecraft/unmapped/C_4382529		net/minecraft/unmapped/C_4382529
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_5162947;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_4506969		net/minecraft/unmapped/C_4506969
+c	net/minecraft/unmapped/C_4506969		net/minecraft/client/renderer/block/BlockRenderDispatcher__2
 	f	Lnet/minecraft/unmapped/C_6695579;	f_9067979		f_9067979
 	m	(Lnet/minecraft/unmapped/C_6695579;)V	<init>		<init>
 		p	1			p_1
@@ -1948,11 +1948,11 @@ c	net/minecraft/unmapped/C_4886447		net/minecraft/unmapped/C_4886447
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_5162947;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_5085818		net/minecraft/unmapped/C_5085818
+c	net/minecraft/unmapped/C_5085818		net/minecraft/client/renderer/block/model/BreakingQuad__1
 	f	[I	f_2090585		f_2090585
 	m	()V	<clinit>		<clinit>
-c	net/minecraft/unmapped/C_5162947		net/minecraft/unmapped/C_5162947
-c	net/minecraft/unmapped/C_5193635		net/minecraft/unmapped/C_5193635
+c	net/minecraft/unmapped/C_5162947		net/minecraft/unmapped/C_3754158__1
+c	net/minecraft/unmapped/C_5193635		net/minecraft/client/renderer/block/model/BlockElement__1
 	f	[I	f_7386376		f_7386376
 	m	()V	<clinit>		<clinit>
 c	net/minecraft/unmapped/C_5247151		net/minecraft/unmapped/C_5247151
@@ -1961,7 +1961,7 @@ c	net/minecraft/unmapped/C_5247151		net/minecraft/unmapped/C_5247151
 	m	()V	<init>		<init>
 	m	(Lnet/minecraft/unmapped/C_5162947;)V	<init>		<init>
 		p	1			p_1
-c	net/minecraft/unmapped/C_5289704		net/minecraft/unmapped/C_5289704
+c	net/minecraft/unmapped/C_5289704		net/minecraft/client/renderer/block/model/BlockFaceUV__C_5289704
 	m	()V	<init>		<init>
 	m	(Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/unmapped/C_2831109;	m_2982446		m_2982446
 		p	1			p_1
@@ -2093,7 +2093,22 @@ c	net/minecraft/unmapped/C_8796143		net/minecraft/unmapped/C_8796143
 	m	()V	m_0191435		m_0191435
 	m	(Z)V	m_3245758		m_3245758
 		p	1			p_1
-c	net/minecraft/unmapped/C_9162616		net/minecraft/unmapped/C_9162616
+c	net/minecraft/unmapped/C_9162616		net/minecraft/client/renderer/block/model/FaceBakery__1
 	f	[I	f_1687543		f_1687543
 	f	[I	f_6289283		f_6289283
 	m	()V	<clinit>		<clinit>
+c	net/minecraft/unmapped/C_1975916	net/minecraft/world/item/Item__4	net/minecraft/world/item/Item__11
+c	net/minecraft/unmapped/C_4149152	net/minecraft/world/item/Item__13	net/minecraft/world/item/Item__10
+c	net/minecraft/unmapped/C_8593412	net/minecraft/world/item/Item__10	net/minecraft/world/item/Item__12
+c	net/minecraft/unmapped/C_3660075	net/minecraft/world/item/Item__8	net/minecraft/world/item/Item__7
+c	net/minecraft/unmapped/C_3751852	net/minecraft/world/item/Item__5	net/minecraft/world/item/Item__2
+c	net/minecraft/unmapped/C_4631290	net/minecraft/world/item/Item__6	net/minecraft/world/item/Item__3
+c	net/minecraft/unmapped/C_5696352	net/minecraft/world/item/Item__11	net/minecraft/world/item/Item__13
+c	net/minecraft/unmapped/C_5801539	net/minecraft/world/item/Item__12	net/minecraft/world/item/Item__14
+c	net/minecraft/unmapped/C_7147130	net/minecraft/client/renderer/block/BlockRenderDispatcher__1	net/minecraft/client/renderer/block/BlockRenderDispatcher__4
+c	net/minecraft/unmapped/C_7246727	net/minecraft/world/item/Item__15	net/minecraft/world/item/Item__5
+c	net/minecraft/unmapped/C_7719052	net/minecraft/world/item/Item__14	net/minecraft/world/item/Item__4
+c	net/minecraft/unmapped/C_8388163	net/minecraft/world/item/Item__7	net/minecraft/world/item/Item__6
+c	net/minecraft/unmapped/C_8960578	net/minecraft/world/item/Item__16	net/minecraft/world/item/Item__8
+c	net/minecraft/unmapped/C_3414609	net/minecraft/world/item/Item__2	net/minecraft/world/item/Item__16
+c	net/minecraft/unmapped/C_8291208	net/minecraft/world/item/Item__3	net/minecraft/world/item/Item__15

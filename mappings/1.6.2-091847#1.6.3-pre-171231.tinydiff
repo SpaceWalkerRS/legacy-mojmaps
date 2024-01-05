@@ -67,7 +67,7 @@ c	net/minecraft/unmapped/C_2065165
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_2018497;)V	m_8808362		m_8808362
 		p	1			p_1
-c	net/minecraft/unmapped/C_2129018
+c	net/minecraft/unmapped/C_2129018	net/minecraft/unmapped/C_2129018	net/minecraft/world/level/biome/Biome__C_2129018
 	m	()Ljava/lang/String;	toString		toString
 c	net/minecraft/unmapped/C_2381425
 	m	()V	<init>		<init>
@@ -392,3 +392,4 @@ c	net/minecraft/unmapped/C_9259654		net/minecraft/unmapped/C_9259654
 		p	0			p_0
 		p	1			p_1
 	m	()V	<clinit>		<clinit>
+c	net/minecraft/unmapped/C_2515472	ahi__1	net/minecraft/unmapped/C_8295091__1
