@@ -54,7 +54,7 @@ c	net/minecraft/unmapped/C_8252988
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(ILnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0368657	m_0368657	
+	m	(ILnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0368657	create	
 		p	0		p_0	
 		p	1		p_1	
 	m	(Ljava/lang/Class;Ljava/lang/String;I)V	m_0930588		register

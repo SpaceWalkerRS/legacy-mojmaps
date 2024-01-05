@@ -2769,10 +2769,10 @@ c	net/minecraft/unmapped/C_8252988
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1081250	create	
 		p	0		p_0	
 		p	1		p_1	
-	m	(ILnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0368657	m_0368657	
+	m	(ILnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_0368657	create	
 		p	0		p_0	
 		p	1		p_1	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621	create	
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621	m_1977621	
 		p	0		p_0	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_0539808;)I	m_9775641	m_9775641	

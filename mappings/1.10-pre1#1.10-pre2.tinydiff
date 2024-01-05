@@ -86,7 +86,7 @@ c	net/minecraft/unmapped/C_8252988
 		p	4		p_4	
 	m	(Z)Ljava/util/List;	m_8648524	m_8648524	
 		p	0		p_0	
-	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621		create
+	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_5553933;)Lnet/minecraft/unmapped/C_0539808;	m_1977621		m_1977621
 		p	0			p_0
 		p	1			p_1
 	m	(I)Ljava/lang/Class;	m_5736692		m_5736692
