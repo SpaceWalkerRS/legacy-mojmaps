@@ -169,7 +169,7 @@ c	net/minecraft/unmapped/C_4311389	net/minecraft/world/level/block/BaseRailBlock
 		p	4		p_4	
 c	net/minecraft/unmapped/C_5553933
 	f	Z	f_3155823	f_3155823	
-	m	(IIIII)Z	m_6769014	m_6769014	
+	m	(IIIII)Z	m_6769014	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -183,7 +183,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(IIII)Z	m_6769014		m_6769014
+	m	(IIII)Z	m_6769014		setBlockAndData
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3

@@ -19453,20 +19453,20 @@ c	net/minecraft/unmapped/C_5553933	net/minecraft/world/level/Level
 	m	(II)Lnet/minecraft/unmapped/C_6849228;	m_0750002	m_0750002
 		p	1		p_1
 		p	2		p_2
-	m	(IIIII)Z	m_6776816	m_6776816
+	m	(IIIII)Z	m_6776816	setBlockAndUpdate
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
 		p	4		p_4
 		p	5		p_5
-	m	(IIIIIZ)Z	m_6769014	m_6769014
+	m	(IIIIIZ)Z	m_6769014	setBlockAndData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
 		p	4		p_4
 		p	5		p_5
 		p	6		p_6
-	m	(IIII)Z	m_4155590	m_4155590
+	m	(IIII)Z	m_4155590	setBlockData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -23866,11 +23866,11 @@ c	net/minecraft/unmapped/C_6849228	net/minecraft/world/level/chunk/LevelChunk
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(III)I	m_6686868	m_6686868
+	m	(III)I	m_6686868	getBlock
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(III)I	m_2950326	m_2950326
+	m	(III)I	m_2950326	getBlockData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -23879,13 +23879,13 @@ c	net/minecraft/unmapped/C_6849228	net/minecraft/world/level/chunk/LevelChunk
 		p	2		p_2
 		p	3		p_3
 		p	4		p_4
-	m	(IIIII)Z	m_1178212	m_1178212
+	m	(IIIII)Z	m_1178212	setBlockAndData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
 		p	4		p_4
 		p	5		p_5
-	m	(IIII)Z	m_0222822	m_0222822
+	m	(IIII)Z	m_0222822	setBlockData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -27747,7 +27747,7 @@ c	net/minecraft/unmapped/C_8025543	net/minecraft/unmapped/C_8025543
 		p	1		p_1
 	m	()Ljava/lang/String;	toString	toString
 c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141
-	m	(III)I	m_9893076	m_9893076
+	m	(III)I	m_9893076	getBlock
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -27769,7 +27769,7 @@ c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(III)I	m_5024208	m_5024208
+	m	(III)I	m_5024208	getBlockData
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
@@ -27789,7 +27789,7 @@ c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	m_4932347
+	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	getBiome
 		p	1		p_1
 		p	2		p_2
 	m	()Lnet/minecraft/unmapped/C_7235516;	m_0161628	m_0161628
@@ -27810,29 +27810,29 @@ c	net/minecraft/unmapped/C_8042654	net/minecraft/world/level/chunk/LevelChunkSec
 	f	I	f_6552507	tickingFluidCount
 	f	[B	f_4591773	states
 	f	Lnet/minecraft/unmapped/C_2986085;	f_2388658	f_2388658
-	f	Lnet/minecraft/unmapped/C_2986085;	f_6888872	f_6888872
+	f	Lnet/minecraft/unmapped/C_2986085;	f_6888872	blockData
 	f	Lnet/minecraft/unmapped/C_2986085;	f_4017909	f_4017909
 	f	Lnet/minecraft/unmapped/C_2986085;	f_2431114	f_2431114
 	m	(I)V	<init>	<init>
 		p	1		p_1
-	m	(III)I	m_6414036	m_6414036
+	m	(III)I	m_6414036	getBlock
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
-	m	(IIII)V	m_9014765	setBlockState
-		p	1		p_1
-		p	2		p_2
-		p	3		p_3
-		p	4		p_4
-	m	(III)I	m_4778374	m_4778374
-		p	1		p_1
-		p	2		p_2
-		p	3		p_3
-	m	(IIII)V	m_3524325	m_3524325
+	m	(IIII)V	m_9014765	setBlock
 		p	1		p_1
 		p	2		p_2
 		p	3		p_3
 		p	4		p_4
+	m	(III)I	m_4778374	getBlockData
+		p	1		x
+		p	2		y
+		p	3		z
+	m	(IIII)V	m_3524325	setBlockData
+		p	1		x
+		p	2		y
+		p	3		z
+		p	4		data
 	m	()Z	m_8323966	isEmpty
 	m	()Z	m_5666479	isRandomlyTickingFluids
 	m	()I	m_5978921	m_5978921

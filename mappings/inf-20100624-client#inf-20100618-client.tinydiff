@@ -629,7 +629,7 @@ c	net/minecraft/unmapped/C_7948993
 		p	4			p_4
 		p	5			p_5
 c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141	
-	m	(III)I	m_9893076	m_9893076	
+	m	(III)I	m_9893076	getBlock	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -641,7 +641,7 @@ c	net/minecraft/unmapped/C_8030141	net/minecraft/unmapped/C_8030141
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(III)I	m_5024208	m_5024208	
+	m	(III)I	m_5024208	getBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

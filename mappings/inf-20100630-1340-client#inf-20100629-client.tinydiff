@@ -995,7 +995,7 @@ c	net/minecraft/unmapped/C_6823239
 		p	4			p_4
 c	net/minecraft/unmapped/C_6849228
 	m	()V	m_7569302	m_7569302	
-	m	(IIIII)Z	m_1178212	m_1178212	
+	m	(IIIII)Z	m_1178212	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -1006,7 +1006,7 @@ c	net/minecraft/unmapped/C_6849228
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIII)V	m_0222822	m_0222822	
+	m	(IIII)V	m_0222822	setBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

@@ -10517,7 +10517,7 @@ c	net/minecraft/unmapped/C_8030141
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	m_4932347	
+	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	getBiome	
 		p	1		p_1	
 		p	2		p_2	
 	m	()Lnet/minecraft/unmapped/C_7235516;	m_0161628	m_0161628	

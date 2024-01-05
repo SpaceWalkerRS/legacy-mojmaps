@@ -199,7 +199,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIII)V	m_6769014	m_6769014	
+	m	(IIII)V	m_6769014	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -331,7 +331,7 @@ c	net/minecraft/unmapped/C_6849228	net/minecraft/world/level/chunk/LevelChunk
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(III)I	m_6686868	m_6686868	
+	m	(III)I	m_6686868	getBlock	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -340,7 +340,7 @@ c	net/minecraft/unmapped/C_6849228	net/minecraft/world/level/chunk/LevelChunk
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(III)I	m_2950326	m_2950326	
+	m	(III)I	m_2950326	getBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	

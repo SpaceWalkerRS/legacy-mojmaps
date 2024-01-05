@@ -357,12 +357,12 @@ c	net/minecraft/unmapped/C_6823239
 		p	1		p_1	
 		p	2		p_2	
 c	net/minecraft/unmapped/C_6849228
-	m	(IIII)Z	m_0222822	m_0222822	
+	m	(IIII)Z	m_0222822	setBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIII)V	m_0222822		m_0222822
+	m	(IIII)V	m_0222822		setBlockData
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3

@@ -7463,7 +7463,7 @@ c	net/minecraft/unmapped/C_6849228
 		p	2		p_2	
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_9345141	getRawBrightness	
-		p	1		p_1	
+		p	1		pos	
 	m	(Lnet/minecraft/unmapped/C_2891045;Lnet/minecraft/unmapped/C_3674802;)I	m_7384565	m_7384565	
 		p	1		p_1	
 		p	2		p_2	
@@ -8941,8 +8941,8 @@ c	net/minecraft/unmapped/C_8030141
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_4919395	m_4919395	
 		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6928498;	m_4932347	m_4932347	
-		p	1		p_1	
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6928498;	m_4932347	getBiome	
+		p	1		pos	
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)I	m_6919678	m_6919678	
 		p	1		p_1	
 		p	2		p_2	

@@ -283,20 +283,20 @@ c	net/minecraft/unmapped/C_5537602
 	f	I	f_2421702	f_2421702	
 c	net/minecraft/unmapped/C_5553933
 	f	Z	f_3155823	f_3155823	
-	m	(IIIII)Z	m_6776816	m_6776816	
+	m	(IIIII)Z	m_6776816	setBlockAndUpdate	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(IIIIIZ)Z	m_6769014	m_6769014	
+	m	(IIIIIZ)Z	m_6769014	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
 		p	6		p_6	
-	m	(IIII)Z	m_4155590	m_4155590	
+	m	(IIII)Z	m_4155590	setBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -338,14 +338,14 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIIIII)Z	m_6769014		m_6769014
+	m	(IIIIII)Z	m_6769014		setBlockAndData
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
 		p	5			p_5
 		p	6			p_6
-	m	(IIIII)Z	m_4155590		m_4155590
+	m	(IIIII)Z	m_4155590		setBlockData
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -360,7 +360,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(IIII)Z	m_6776816		m_6776816
+	m	(IIII)Z	m_6776816		setBlockAndUpdate
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3

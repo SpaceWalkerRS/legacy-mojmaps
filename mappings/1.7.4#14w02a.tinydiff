@@ -7602,7 +7602,7 @@ c	net/minecraft/unmapped/C_5553933
 	m	(II)Lnet/minecraft/unmapped/C_6849228;	m_4745553	getChunkAt	
 		p	1		p_1	
 		p	2		p_2	
-	m	(IIILnet/minecraft/unmapped/C_1241852;II)Z	m_6769014	m_6769014	
+	m	(IIILnet/minecraft/unmapped/C_1241852;II)Z	m_6769014	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -7613,7 +7613,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIIII)Z	m_4155590	m_4155590	
+	m	(IIIII)Z	m_4155590	setBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -7628,7 +7628,7 @@ c	net/minecraft/unmapped/C_5553933
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(IIILnet/minecraft/unmapped/C_1241852;)Z	m_6776816	m_6776816	
+	m	(IIILnet/minecraft/unmapped/C_1241852;)Z	m_6776816	setBlockAndUpdate	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -7933,9 +7933,9 @@ c	net/minecraft/unmapped/C_5553933
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6928498;	m_4932347		m_4932347
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_9064162		getTopBlockState
-		p	1			p_1
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_5573949		isInWorldBounds
-		p	1			p_1
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_9893076		m_9893076
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_6918486		m_6918486
@@ -7950,25 +7950,25 @@ c	net/minecraft/unmapped/C_5553933
 		p	2			p_2
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6849228;	m_4745553		getChunkAt
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;II)Z	m_6769014		m_6769014
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-		p	4			p_4
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;II)Z	m_6769014		setBlockAndData
+		p	1			pos
+		p	2			block
+		p	3			data
+		p	4			flags
 	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_5024208		m_5024208
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;II)Z	m_4155590		m_4155590
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
+	m	(Lnet/minecraft/unmapped/C_3674802;II)Z	m_4155590		setBlockData
+		p	1			pos
+		p	2			data
+		p	3			flags
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_5112577		m_5112577
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;Z)Z	m_0089190		m_0089190
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;)Z	m_6776816		m_6776816
-		p	1			p_1
-		p	2			p_2
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;)Z	m_6776816		setBlockAndUpdate
+		p	1			pos
+		p	2			block
 	m	(Lnet/minecraft/unmapped/C_3674802;)V	m_0384893		sendBlockUpdated
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;)V	m_5170064		m_5170064
@@ -9513,21 +9513,21 @@ c	net/minecraft/unmapped/C_6823216
 c	net/minecraft/unmapped/C_6849228
 	f	Z	f_1655030	f_1655030	
 	f	Z	f_8322671	f_8322671	
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_6686868	m_6686868	
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_6686868	getBlock	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(III)I	m_2950326	m_2950326	
+	m	(III)I	m_2950326	getBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(IIILnet/minecraft/unmapped/C_1241852;I)Z	m_1178212	m_1178212	
+	m	(IIILnet/minecraft/unmapped/C_1241852;I)Z	m_1178212	setBlockAndData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
 		p	5		p_5	
-	m	(IIII)Z	m_0222822	m_0222822	
+	m	(IIII)Z	m_0222822	setBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -9573,34 +9573,34 @@ c	net/minecraft/unmapped/C_6849228
 		p	2		p_2	
 		p	3		p_3	
 	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_9345141		getRawBrightness
-		p	1			p_1
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_8688406		m_8688406
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9894770		m_9894770
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_6686868		m_6686868
-		p	1			p_1
-	m	(III)I	m_0051654		m_0051654
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(III)I	m_6685267		m_6685267
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_2950326		m_2950326
-		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;I)Z	m_1178212		m_1178212
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_3674802;I)Z	m_0222822		m_0222822
-		p	1			p_1
-		p	2			p_2
+		p	1			pos
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_8688406		getBlockAt
+		p	1			localX
+		p	2			y
+		p	3			localZ
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9894770		getBlock
+		p	1			x
+		p	2			y
+		p	3			z
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_6686868		getBlock
+		p	1			pos
+	m	(III)I	m_0051654		getBlockDataAt
+		p	1			localX
+		p	2			y
+		p	3			localZ
+	m	(III)I	m_6685267		getBlockData
+		p	1			x
+		p	2			y
+		p	3			z
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_2950326		getBlockData
+		p	1			pos
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;I)Z	m_1178212		setBlockAndData
+		p	1			pos
+		p	2			block
+		p	3			data
+	m	(Lnet/minecraft/unmapped/C_3674802;I)Z	m_0222822		setBlockData
+		p	1			pos
+		p	2			data
 	m	(Lnet/minecraft/unmapped/C_2891045;Lnet/minecraft/unmapped/C_3674802;)I	m_7384565		m_7384565
 		p	1			p_1
 		p	2			p_2
@@ -9614,7 +9614,7 @@ c	net/minecraft/unmapped/C_6849228
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_3357022		m_3357022
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_1451349		getBlockEntity
-		p	1			p_1
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3622326;)V	m_8176130		m_8176130
 		p	1			p_1
 		p	2			p_2
@@ -11766,7 +11766,7 @@ c	net/minecraft/unmapped/C_8018164
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_8030141
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9893076	m_9893076	
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9893076	getBlock	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -11779,7 +11779,7 @@ c	net/minecraft/unmapped/C_8030141
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(III)I	m_5024208	m_5024208	
+	m	(III)I	m_5024208	getBlockData	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
@@ -11787,7 +11787,7 @@ c	net/minecraft/unmapped/C_8030141
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	m_4932347	
+	m	(II)Lnet/minecraft/unmapped/C_6928498;	m_4932347	getBiome	
 		p	1		p_1	
 		p	2		p_2	
 	m	()Lnet/minecraft/unmapped/C_0413198;	m_2942424	m_2942424	
@@ -11796,19 +11796,19 @@ c	net/minecraft/unmapped/C_8030141
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_9893076		m_9893076
-		p	1			p_1
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_9893076		getBlock
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3622326;	m_8048103		m_8048103
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_3674802;I)I	m_3646886		m_3646886
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_5024208		m_5024208
-		p	1			p_1
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_5024208		getBlockData
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;)Z	m_6918486		m_6918486
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6928498;	m_4932347		m_4932347
-		p	1			p_1
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_6928498;	m_4932347		getBiome
+		p	1			pos
 	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_3544601;)I	m_6919678		m_6919678
 		p	1			p_1
 		p	2			p_2

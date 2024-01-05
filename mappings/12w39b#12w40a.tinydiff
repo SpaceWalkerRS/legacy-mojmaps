@@ -347,10 +347,10 @@ c	net/minecraft/unmapped/C_6849228
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(III)I	m_8823776		m_8823776
-		p	1			p_1
-		p	2			p_2
-		p	3			p_3
+	m	(III)I	m_8823776		getRawBrightnessAt
+		p	1			localX
+		p	2			y
+		p	3			localZ
 	m	()V	m_8729732		m_8729732
 c	net/minecraft/unmapped/C_6878131
 	f	D	f_2968118		f_2968118

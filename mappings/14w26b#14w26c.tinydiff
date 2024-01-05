@@ -89,10 +89,10 @@ c	net/minecraft/unmapped/C_6823239
 		p	2			p_2
 		p	3			p_3
 c	net/minecraft/unmapped/C_6849228
-	m	(III)I	m_6685267	m_6685267	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+	m	(III)I	m_6685267	getBlockData	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 c	net/minecraft/unmapped/C_7141926
 	m	(III)Lnet/minecraft/unmapped/C_3674802;	m_3268208		getBlockAt
 		p	1			p_1
@@ -119,11 +119,11 @@ c	net/minecraft/unmapped/C_7873567
 		p	1			p_1
 		p	2			p_2
 c	net/minecraft/unmapped/C_8042654
-	m	(IIILnet/minecraft/unmapped/C_1241852;)V	m_9735876	m_9735876	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-		p	4		p_4	
+	m	(IIILnet/minecraft/unmapped/C_1241852;)V	m_9735876	setBlock	
+		p	1		x	
+		p	2		y	
+		p	3		z	
+		p	4		block	
 c	net/minecraft/unmapped/C_8891094
 	f	[Lnet/minecraft/unmapped/C_1241852;	f_7549197	f_7549197	
 	f	[B	f_2025366	f_2025366	

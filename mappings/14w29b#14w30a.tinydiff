@@ -321,9 +321,9 @@ c	net/minecraft/unmapped/C_5291991
 c	net/minecraft/unmapped/C_5362195
 	m	()Z	m_6319368		m_6319368
 c	net/minecraft/unmapped/C_5553933
-	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;)Z	m_6776816	m_6776816	
-		p	1		p_1	
-		p	2		p_2	
+	m	(Lnet/minecraft/unmapped/C_3674802;Lnet/minecraft/unmapped/C_1241852;)Z	m_6776816	setBlockAndUpdate	
+		p	1		pos	
+		p	2		block	
 	m	()V	m_5291384	m_5291384	
 	m	(DDDD)Z	m_6453306		m_6453306
 		p	1			p_1

@@ -2059,7 +2059,7 @@ c	net/minecraft/unmapped/C_5547501
 		p	4			p_4
 c	net/minecraft/unmapped/C_5553933
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_9064162	getTopBlockState	
-		p	1		p_1	
+		p	1		pos	
 	m	(Ljava/lang/String;Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_3674802;	m_2563899	m_2563899	
 		p	1		p_1	
 		p	2		p_2	
@@ -2463,32 +2463,32 @@ c	net/minecraft/unmapped/C_6804573
 	m	(Lnet/minecraft/unmapped/C_2441996;)Z	m_6174711		m_6174711
 		p	1			p_1
 c	net/minecraft/unmapped/C_6849228
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_8688406	m_8688406	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9894770	m_9894770	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_6686868	m_6686868	
-		p	1		p_1	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_9971171	m_9971171	
-		p	1		p_1	
-	m	(III)I	m_0051654	m_0051654	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_2950326	m_2950326	
-		p	1		p_1	
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_8688406	getBlockAt	
+		p	1		localX	
+		p	2		y	
+		p	3		localZ	
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_9894770	getBlock	
+		p	1		x	
+		p	2		y	
+		p	3		z	
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_1241852;	m_6686868	getBlock	
+		p	1		pos	
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_9971171	getBlockState	
+		p	1		pos	
+	m	(III)I	m_0051654	getBlockDataAt	
+		p	1		localX	
+		p	2		y	
+		p	3		localZ	
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_2950326	getBlockData	
+		p	1		pos	
 	m	(Lnet/minecraft/unmapped/C_9848147;Lnet/minecraft/unmapped/C_9848147;II)V	m_3676242	m_3676242	
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
 		p	4		p_4	
-	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_6686868		m_6686868
+	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_6686868		getBlock
 		p	1			p_1
-	m	(III)Lnet/minecraft/unmapped/C_2441996;	m_9971171		m_9971171
+	m	(III)Lnet/minecraft/unmapped/C_2441996;	m_9971171		getBlockState
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
@@ -2994,14 +2994,14 @@ c	net/minecraft/unmapped/C_7948993
 		p	3			p_3
 		p	4			p_4
 c	net/minecraft/unmapped/C_8042654
-	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_6414036	m_6414036	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
-	m	(III)I	m_4778374	m_4778374	
-		p	1		p_1	
-		p	2		p_2	
-		p	3		p_3	
+	m	(III)Lnet/minecraft/unmapped/C_1241852;	m_6414036	getBlock	
+		p	1		x	
+		p	2		y	
+		p	3		z	
+	m	(III)I	m_4778374	getBlockData	
+		p	1		x	
+		p	2		y	
+		p	3		z	
 c	net/minecraft/unmapped/C_8048208
 	f	I	f_4264013	pushReaction	
 	f	Lnet/minecraft/unmapped/C_0646374;	f_4264013		pushReaction
