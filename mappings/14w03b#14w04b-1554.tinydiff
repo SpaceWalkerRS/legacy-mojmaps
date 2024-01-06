@@ -2240,7 +2240,7 @@ c	net/minecraft/unmapped/C_7564305		net/minecraft/unmapped/C_7564305
 c	net/minecraft/unmapped/C_7715246		net/minecraft/client/renderer/entity/PigZombieRenderer
 	f	Lnet/minecraft/unmapped/C_0561170;	f_6591718		ZOMBIE_PIGMAN_LOCATION
 	m	()V	<init>		<init>
-	m	(Lnet/minecraft/unmapped/C_4281786;)Lnet/minecraft/unmapped/C_0561170;	m_6905630		m_6905630
+	m	(Lnet/minecraft/unmapped/C_4281786;)Lnet/minecraft/unmapped/C_0561170;	m_6905630		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_8099772;)Lnet/minecraft/unmapped/C_0561170;	m_5158387		m_5158387
 		p	1			p_1

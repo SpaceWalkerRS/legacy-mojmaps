@@ -11536,7 +11536,7 @@ c	net/minecraft/unmapped/C_6955767		net/minecraft/client/renderer/entity/ItemEnt
 		p	6			p_6
 		p	8			p_8
 		p	9			p_9
-	m	(Lnet/minecraft/unmapped/C_8300121;)Lnet/minecraft/unmapped/C_0561170;	m_1715729		m_1715729
+	m	(Lnet/minecraft/unmapped/C_8300121;)Lnet/minecraft/unmapped/C_0561170;	m_1715729		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_0561170;	m_7036687		m_7036687
 		p	1			p_1
@@ -11603,7 +11603,7 @@ c	net/minecraft/unmapped/C_6992467		net/minecraft/client/renderer/entity/Guardia
 	m	(Lnet/minecraft/unmapped/C_8365102;F)V	m_7743688		m_7743688
 		p	1			p_1
 		p	2			p_2
-	m	(Lnet/minecraft/unmapped/C_8365102;)Lnet/minecraft/unmapped/C_0561170;	m_8660873		m_8660873
+	m	(Lnet/minecraft/unmapped/C_8365102;)Lnet/minecraft/unmapped/C_0561170;	m_8660873		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_8099772;DDDFF)V	m_7474863		m_7474863
 		p	1			p_1

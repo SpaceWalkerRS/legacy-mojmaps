@@ -777,7 +777,7 @@ c	net/minecraft/unmapped/C_9017637$1	1
 	m	(Ljava/lang/Iterable;)V	<init>	<init>	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_9139005
-	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_0201981		m_0201981
+	m	(Lnet/minecraft/unmapped/C_9590849;)V	m_0201981		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6607881;)V	m_7036687		m_7036687
 		p	1			p_1

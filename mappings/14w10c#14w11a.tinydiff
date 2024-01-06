@@ -940,7 +940,7 @@ c	net/minecraft/unmapped/C_3147100		net/minecraft/client/renderer/entity/Endermi
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_4649460;)F	m_2374444		m_2374444
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_4649460;)Lnet/minecraft/unmapped/C_0561170;	m_6029400		m_6029400
+	m	(Lnet/minecraft/unmapped/C_4649460;)Lnet/minecraft/unmapped/C_0561170;	m_6029400		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_6607881;)F	m_8081418		m_8081418
 		p	1			p_1

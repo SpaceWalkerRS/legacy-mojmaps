@@ -179,7 +179,7 @@ c	net/minecraft/unmapped/C_3338601
 		p	6		p_6	
 		p	8		p_8	
 		p	9		p_9	
-	m	(Lnet/minecraft/unmapped/C_4116648;)Lnet/minecraft/unmapped/C_0561170;	m_0934673	m_0934673	
+	m	(Lnet/minecraft/unmapped/C_4116648;)Lnet/minecraft/unmapped/C_0561170;	m_0934673	getTextureLocation	
 		p	1		p_1	
 	m	(Lnet/minecraft/unmapped/C_0539808;DDDFF)V	m_8727966	m_8727966	
 		p	1		p_1	
@@ -190,7 +190,7 @@ c	net/minecraft/unmapped/C_3338601
 		p	9		p_9	
 	m	(Lnet/minecraft/unmapped/C_3362006;)V	<init>		<init>
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_9881691;)Lnet/minecraft/unmapped/C_0561170;	m_0934673		m_0934673
+	m	(Lnet/minecraft/unmapped/C_9881691;)Lnet/minecraft/unmapped/C_0561170;	m_0934673		getTextureLocation
 		p	1			p_1
 c	net/minecraft/unmapped/C_3543146
 	f	Lnet/minecraft/unmapped/C_0561170;	f_4249894	f_4249894	

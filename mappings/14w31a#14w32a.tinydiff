@@ -408,7 +408,7 @@ c	net/minecraft/unmapped/C_9130285		net/minecraft/client/renderer/entity/ArmorSt
 	f	Lnet/minecraft/unmapped/C_0561170;	f_6169233		DEFAULT_SKIN_LOCATION
 	m	(Lnet/minecraft/unmapped/C_3362006;)V	<init>		<init>
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3438842;)Lnet/minecraft/unmapped/C_0561170;	m_9736212		m_9736212
+	m	(Lnet/minecraft/unmapped/C_3438842;)Lnet/minecraft/unmapped/C_0561170;	m_9736212		getTextureLocation
 		p	1			p_1
 	m	()Lnet/minecraft/unmapped/C_4542654;	m_4194979		m_4194979
 	m	(Lnet/minecraft/unmapped/C_3438842;FFF)V	m_1674576		m_1674576

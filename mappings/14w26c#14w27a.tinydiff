@@ -1754,7 +1754,7 @@ c	net/minecraft/unmapped/C_3625072		net/minecraft/client/renderer/entity/RabbitR
 		p	1			p_1
 		p	2			p_2
 		p	3			p_3
-	m	(Lnet/minecraft/unmapped/C_3828683;)Lnet/minecraft/unmapped/C_0561170;	m_3606706		m_3606706
+	m	(Lnet/minecraft/unmapped/C_3828683;)Lnet/minecraft/unmapped/C_0561170;	m_3606706		getTextureLocation
 		p	1			p_1
 	m	(Lnet/minecraft/unmapped/C_0539808;)Lnet/minecraft/unmapped/C_0561170;	m_7036687		m_7036687
 		p	1			p_1
