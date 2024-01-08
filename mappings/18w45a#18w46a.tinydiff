@@ -3890,13 +3890,13 @@ c	net/minecraft/unmapped/C_6849228
 		p	1		p_1	
 		p	2		p_2	
 		p	3		p_3	
-	m	(III)I	m_8823776	getRawBrightnessAt	
+	m	(III)I	m_8823776	getLightEmission	
 		p	1		localX	
 		p	2		y	
 		p	3		localZ	
 	m	(Lnet/minecraft/unmapped/C_3674802;)Lnet/minecraft/unmapped/C_2441996;	m_2431061		m_2431061
 		p	1			p_1
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_8823776		getRawBrightnessAt
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_8823776		getLightEmission
 		p	1			p_1
 c	net/minecraft/unmapped/C_6856979
 	f	Lnet/minecraft/unmapped/C_0037941;	f_7517635	f_7517635	

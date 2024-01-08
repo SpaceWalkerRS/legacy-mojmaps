@@ -569,7 +569,7 @@ c	net/minecraft/unmapped/C_6559556
 		p	5			p_5
 		p	6			p_6
 c	net/minecraft/unmapped/C_6849228
-	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_8823776	getRawBrightnessAt	
+	m	(Lnet/minecraft/unmapped/C_3674802;)I	m_8823776	getLightEmission	
 		p	1		p_1	
 c	net/minecraft/unmapped/C_6863048
 	m	(Ljava/io/File;)V	<init>	<init>	

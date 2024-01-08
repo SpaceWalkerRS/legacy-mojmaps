@@ -347,7 +347,7 @@ c	net/minecraft/unmapped/C_6849228
 		p	2			p_2
 		p	3			p_3
 		p	4			p_4
-	m	(III)I	m_8823776		getRawBrightnessAt
+	m	(III)I	m_8823776		getLightEmission
 		p	1			localX
 		p	2			y
 		p	3			localZ
